@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-slate-700;
+  }
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Domine', serif;
+    font-weight: 600;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  .glass-dark {
+    @apply bg-slate-900/60 backdrop-blur-md border border-slate-700/50;
+  }
+  .neon-glow {
+    @apply shadow-lg;
+    box-shadow: 0 0 5px theme('colors.neon.cyan'), 0 0 10px theme('colors.neon.cyan'), 0 0 15px theme('colors.neon.cyan'), 0 4px 20px rgba(0, 255, 255, 0.3);
+  }
+  .nebula-bg {
+    background: radial-gradient(ellipse at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%), radial-gradient(ellipse at 40% 80%, rgba(120, 198, 198, 0.3) 0%, transparent 50%), linear-gradient(135deg, #0f0c29 0%, #302b63 35%, #24243e 100%);
+  }
+}
+
+/* DNA Helix Animation */
+@keyframes dna-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.dna-helix {
+  animation: dna-rotate 20s linear infinite;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.8);
+}

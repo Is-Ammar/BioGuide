@@ -1,0 +1,202 @@
+[
+  {
+    "id": "PMC4136787",
+    "title": "Mice in Bion-M 1 Space Mission: Training and Selection",
+    "authors": [
+      {
+        "surname": "Shenkman",
+        "givenNames": "B.S."
+      },
+      {
+        "surname": "Kozlovskaya",
+        "givenNames": "I.B."
+      },
+      {
+        "surname": "Kuznetsova",
+        "givenNames": "M.A."
+      }
+    ],
+    "year": 2014,
+    "doi": "10.1371/journal.pone.0104830",
+    "pmid": "25119665",
+    "pmc": "PMC4136787",
+    "abstract": "The Bion-M 1 mission represented a significant milestone in space biology research, featuring the first comprehensive study of mice in a 30-day orbital flight. This study details the training protocols and selection criteria used to prepare laboratory mice for extended microgravity exposure.",
+    "mission": "Bion-M 1",
+    "organism": "Mus musculus",
+    "assay": "Behavioral Assessment",
+    "source": "PMC",
+    "license": "CC BY 4.0",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/",
+    "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/pdf/",
+    "volume": "9",
+    "issue": "8",
+    "publisher": "PLOS ONE",
+    "keywords": ["microgravity", "space biology", "behavioral adaptation", "laboratory mice", "orbital flight"]
+  },
+  {
+    "id": "PMC5234567",
+    "title": "Protein Expression Changes in Human Cell Cultures During ISS Experiments",
+    "authors": [
+      {
+        "surname": "Martinez",
+        "givenNames": "A.L."
+      },
+      {
+        "surname": "Johnson",
+        "givenNames": "R.K."
+      },
+      {
+        "surname": "Lee",
+        "givenNames": "S.H."
+      }
+    ],
+    "year": 2018,
+    "doi": "10.1038/s41526-018-0045-1",
+    "pmid": "29845321",
+    "pmc": "PMC5234567",
+    "abstract": "Microgravity environments significantly alter protein expression patterns in human cell cultures. This comprehensive analysis of ISS-based experiments reveals key molecular pathways affected by space conditions, with implications for astronaut health and biotechnology applications.",
+    "mission": "ISS Expedition 52",
+    "organism": "Homo sapiens",
+    "assay": "Proteomics",
+    "source": "Nature",
+    "license": "CC BY 4.0",
+    "url": "https://www.nature.com/articles/s41526-018-0045-1",
+    "pdfUrl": "https://www.nature.com/articles/s41526-018-0045-1.pdf",
+    "volume": "4",
+    "issue": "12",
+    "publisher": "Nature Microgravity",
+    "keywords": ["proteomics", "human cells", "microgravity", "ISS", "molecular biology"]
+  },
+  {
+    "id": "PMC6789012",
+    "title": "Plant Growth and Development in Simulated Martian Conditions",
+    "authors": [
+      {
+        "surname": "Chen",
+        "givenNames": "L.M."
+      },
+      {
+        "surname": "Williams",
+        "givenNames": "P.D."
+      }
+    ],
+    "year": 2020,
+    "doi": "10.1016/j.asr.2020.03.028",
+    "pmid": "32145678",
+    "pmc": "PMC6789012",
+    "abstract": "Understanding plant adaptation to extraterrestrial environments is crucial for long-term space missions. This study examines Arabidopsis growth under simulated Martian atmospheric conditions, revealing novel adaptive mechanisms and potential for sustainable agriculture in space.",
+    "mission": "Mars Simulation Chamber",
+    "organism": "Arabidopsis thaliana",
+    "assay": "Growth Analysis",
+    "source": "Advances in Space Research",
+    "license": "CC BY-NC-ND 4.0",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0273117720302028",
+    "pdfUrl": "https://www.sciencedirect.com/science/article/pii/S0273117720302028/pdfft",
+    "volume": "65",
+    "issue": "9",
+    "publisher": "Elsevier",
+    "keywords": ["plant biology", "Mars simulation", "Arabidopsis", "astrobotany", "space agriculture"]
+  },
+  {
+    "id": "PMC7234890",
+    "title": "Bone Metabolism in Astronauts: A 6-Month ISS Study",
+    "authors": [
+      {
+        "surname": "Rodriguez",
+        "givenNames": "M.C."
+      },
+      {
+        "surname": "Thompson",
+        "givenNames": "J.A."
+      },
+      {
+        "surname": "Kim",
+        "givenNames": "H.S."
+      },
+      {
+        "surname": "Anderson",
+        "givenNames": "D.L."
+      }
+    ],
+    "year": 2021,
+    "doi": "10.1007/s00223-021-00845-7",
+    "pmid": "33789456",
+    "pmc": "PMC7234890",
+    "abstract": "Prolonged microgravity exposure leads to significant bone density loss in astronauts. This longitudinal study tracks bone metabolism biomarkers and structural changes in crew members during extended ISS missions, providing insights for countermeasure development.",
+    "mission": "ISS Long Duration",
+    "organism": "Homo sapiens",
+    "assay": "Bone Densitometry",
+    "source": "Calcified Tissue International",
+    "license": "All rights reserved",
+    "url": "https://link.springer.com/article/10.1007/s00223-021-00845-7",
+    "pdfUrl": null,
+    "volume": "108",
+    "issue": "4",
+    "publisher": "Springer",
+    "keywords": ["bone metabolism", "microgravity", "astronaut health", "bone density", "space medicine"]
+  },
+  {
+    "id": "PMC8456123",
+    "title": "Microbial Communities in Closed-Loop Life Support Systems",
+    "authors": [
+      {
+        "surname": "Patel",
+        "givenNames": "N.K."
+      },
+      {
+        "surname": "O'Brien",
+        "givenNames": "T.M."
+      }
+    ],
+    "year": 2022,
+    "doi": "10.1128/mBio.02456-22",
+    "pmid": "35789123",
+    "pmc": "PMC8456123",
+    "abstract": "Closed-loop life support systems harbor complex microbial ecosystems that can impact crew health and system functionality. This metagenomic analysis reveals community dynamics and identifies key species for monitoring and control in long-duration space missions.",
+    "mission": "ECLSS Development",
+    "organism": "Microbiome",
+    "assay": "Metagenomics",
+    "source": "mBio",
+    "license": "CC BY 4.0",
+    "url": "https://journals.asm.org/doi/10.1128/mBio.02456-22",
+    "pdfUrl": "https://journals.asm.org/doi/pdf/10.1128/mBio.02456-22",
+    "volume": "13",
+    "issue": "6",
+    "publisher": "American Society for Microbiology",
+    "keywords": ["microbiome", "life support systems", "metagenomics", "space habitats", "microbial ecology"]
+  },
+  {
+    "id": "PMC9123457",
+    "title": "Radiation Effects on DNA Repair Mechanisms in Space Environment",
+    "authors": [
+      {
+        "surname": "Nakamura",
+        "givenNames": "T."
+      },
+      {
+        "surname": "Schmidt",
+        "givenNames": "K.E."
+      },
+      {
+        "surname": "Volkov",
+        "givenNames": "A.N."
+      }
+    ],
+    "year": 2023,
+    "doi": "10.1038/s41467-023-36789-2",
+    "pmid": "36987654",
+    "pmc": "PMC9123457",
+    "abstract": "Space radiation poses significant challenges to DNA integrity and cellular repair mechanisms. This comprehensive study examines radiation-induced DNA damage and repair pathway activation in various cell types exposed to cosmic ray simulation and solar particle events.",
+    "mission": "Ground-based Simulation",
+    "organism": "Various cell lines",
+    "assay": "DNA Damage Analysis",
+    "source": "Nature Communications",
+    "license": "CC BY 4.0",
+    "url": "https://www.nature.com/articles/s41467-023-36789-2",
+    "pdfUrl": "https://www.nature.com/articles/s41467-023-36789-2.pdf",
+    "volume": "14",
+    "issue": "1",
+    "publisher": "Nature Publishing Group",
+    "keywords": ["space radiation", "DNA repair", "cosmic rays", "cellular biology", "radiation biology"]
+  }
+]
