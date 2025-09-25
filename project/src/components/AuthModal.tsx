@@ -172,13 +172,6 @@ const AuthModal = () => {
                 </button>
               </p>
             </div>
-
-            {/* Demo hint */}
-            <div className="mt-6 p-4 bg-slate-800/30 rounded-lg border border-slate-700/50">
-              <p className="text-xs text-slate-400 text-center">
-                <strong>Demo:</strong> Use any email and password (6+ chars)
-              </p>
-            </div>
           </motion.div>
         </motion.div>
       )}

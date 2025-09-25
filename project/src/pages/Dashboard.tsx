@@ -23,6 +23,26 @@ const Dashboard = () => {
   const [savedViews, setSavedViews] = useState<Record<string, SearchQuery>>({});
   const searchInputRef = useRef<HTMLInputElement>(null);
 
+  // Chatbot state
+  const [isChatbotOpen, setIsChatbotOpen] = useState(true);
+  const [chatMessages, setChatMessages] = useState<Array<{
+    id: string;
+    content: string;
+    role: 'user' | 'assistant';
+    timestamp: Date;
+    isLoading?: boolean;
+  }>>([
+    {
+      id: '1',
+      content: "Hello! I'm your BioGuide assistant. I can help you search publications, explain research concepts, and analyze data. What would you like to know?",
+      role: 'assistant',
+      timestamp: new Date()
+    }
+  ]);
+  const [chatInput, setChatInput] = useState('');
+  const [isChatLoading, setIsChatLoading] = useState(false);
+  const chatMessagesRef = useRef<HTMLDivElement>(null);
+
   // Load publications on mount
   useEffect(() => {
     const fetchPublications = async () => {
@@ -67,9 +87,108 @@ const Dashboard = () => {
     }
   }, []);
 
+  // Chatbot functions
+  const sendChatMessage = useCallback(async () => {
+    if (!chatInput.trim() || isChatLoading) return;
+
+    const userMessage = {
+      id: Date.now().toString(),
+      content: chatInput.trim(),
+      role: 'user' as const,
+      timestamp: new Date()
+    };
+
+    setChatMessages(prev => [...prev, userMessage]);
+    setChatInput('');
+    setIsChatLoading(true);
+
+    // Add loading message
+    const loadingMessage = {
+      id: `loading-${Date.now()}`,
+      content: '',
+      role: 'assistant' as const,
+      timestamp: new Date(),
+      isLoading: true
+    };
+    setChatMessages(prev => [...prev, loadingMessage]);
+
+    try {
+      // TODO: Replace with actual API call
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: userMessage.content,
+          context: {
+            currentQuery: parsedQuery,
+            selectedPublication: selectedPublication?.id,
+            searchResults: searchResults?.total
+          }
+        })
+      });
+
+      if (!response.ok) throw new Error('Failed to get response');
+
+      const data = await response.json();
+      
+      // Remove loading message and add response
+      setChatMessages(prev => {
+        const filtered = prev.filter(msg => msg.id !== loadingMessage.id);
+        return [...filtered, {
+          id: Date.now().toString(),
+          content: data.message || 'Sorry, I encountered an error processing your request.',
+          role: 'assistant' as const,
+          timestamp: new Date()
+        }];
+      });
+    } catch (error) {
+      console.error('Chat error:', error);
+      
+      // Remove loading message and add error response
+      setChatMessages(prev => {
+        const filtered = prev.filter(msg => msg.id !== loadingMessage.id);
+        return [...filtered, {
+          id: Date.now().toString(),
+          content: 'Sorry, I\'m having trouble connecting right now. Please try again later.',
+          role: 'assistant' as const,
+          timestamp: new Date()
+        }];
+      });
+    } finally {
+      setIsChatLoading(false);
+    }
+  }, [chatInput, isChatLoading, parsedQuery, selectedPublication, searchResults]);
+
+  const clearChatHistory = useCallback(() => {
+    setChatMessages([{
+      id: '1',
+      content: "Hello! I'm your BioGuide assistant. I can help you search publications, explain research concepts, and analyze data. What would you like to know?",
+      role: 'assistant',
+      timestamp: new Date()
+    }]);
+  }, []);
+
+  // Auto-scroll chat to bottom
+  useEffect(() => {
+    if (chatMessagesRef.current) {
+      chatMessagesRef.current.scrollTop = chatMessagesRef.current.scrollHeight;
+    }
+  }, [chatMessages]);
+
   // Keyboard navigation
   useEffect(() => {
     const handleKeydown = (e: KeyboardEvent) => {
+      // Don't interfere with chat input
+      if (e.target instanceof HTMLInputElement && e.target.placeholder?.includes('Ask me')) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          sendChatMessage();
+        }
+        return;
+      }
+
       if (!searchResults?.publications.length) return;
 
       switch (e.key) {
@@ -108,7 +227,7 @@ const Dashboard = () => {
 
     window.addEventListener('keydown', handleKeydown);
     return () => window.removeEventListener('keydown', handleKeydown);
-  }, [searchResults, selectedIndex, isInspectorOpen]);
+  }, [searchResults, selectedIndex, isInspectorOpen, sendChatMessage]);
 
   const saveView = useCallback((name: string) => {
     const newSavedViews = { ...savedViews, [name]: parsedQuery };
@@ -343,12 +462,117 @@ const Dashboard = () => {
         />
       </div>
 
-      {/* Keyboard Help */}
-      <div className="fixed bottom-4 right-4 text-xs text-slate-500">
-        <div className="glass-dark p-3 rounded-lg space-y-1">
-          <div>↑↓ Navigate • Enter Open • / Search • Esc Close</div>
+      {/* AI Chatbot */}
+      {isChatbotOpen && (
+        <div className="fixed bottom-4 right-4 w-80">
+          <div className="glass-dark rounded-lg border border-slate-700/50 shadow-2xl">
+            {/* Chatbot Header */}
+            <div className="flex items-center justify-between p-4 border-b border-slate-700/50">
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 bg-gradient-to-br from-cosmic-500 to-bio-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">AI</span>
+                </div>
+                <div>
+                  <h3 className="text-white text-sm font-medium">BioGuide Assistant</h3>
+                  <p className="text-slate-400 text-xs">
+                    {isChatLoading ? 'Thinking...' : 'Online'}
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <button 
+                  onClick={clearChatHistory}
+                  className="text-slate-400 hover:text-white transition-colors p-1"
+                  title="Clear chat"
+                >
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                  </svg>
+                </button>
+                <button 
+                  onClick={() => setIsChatbotOpen(false)}
+                  className="text-slate-400 hover:text-white transition-colors"
+                  title="Close chat"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+            
+            {/* Chat Messages */}
+            <div 
+              ref={chatMessagesRef}
+              className="h-64 p-4 overflow-y-auto space-y-3"
+            >
+              {chatMessages.map((message) => (
+                <div key={message.id} className={`flex ${message.role === 'user' ? 'justify-end' : 'items-start gap-3'}`}>
+                  {message.role === 'assistant' && (
+                    <div className="w-6 h-6 bg-gradient-to-br from-cosmic-500 to-bio-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">AI</span>
+                    </div>
+                  )}
+                  <div className={`rounded-lg p-3 max-w-[220px] ${
+                    message.role === 'user' 
+                      ? 'bg-cosmic-500/20' 
+                      : 'bg-slate-800/50'
+                  }`}>
+                    {message.isLoading ? (
+                      <div className="flex items-center gap-2">
+                        <div className="flex space-x-1">
+                          <div className="w-2 h-2 bg-cosmic-400 rounded-full animate-bounce"></div>
+                          <div className="w-2 h-2 bg-cosmic-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+                          <div className="w-2 h-2 bg-cosmic-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+                        </div>
+                      </div>
+                    ) : (
+                      <p className="text-slate-300 text-sm whitespace-pre-wrap">
+                        {message.content}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+            
+            {/* Chat Input */}
+            <div className="p-4 border-t border-slate-700/50">
+              <div className="flex items-center gap-2">
+                <input
+                  type="text"
+                  value={chatInput}
+                  onChange={(e) => setChatInput(e.target.value)}
+                  onKeyPress={(e) => e.key === 'Enter' && sendChatMessage()}
+                  placeholder="Ask me anything about biology research..."
+                  className="flex-1 bg-slate-800/50 border border-slate-600/50 rounded-lg px-3 py-2 text-white placeholder-slate-400 text-sm focus:border-cosmic-400 focus:ring-1 focus:ring-cosmic-400/20 transition-colors"
+                  disabled={isChatLoading}
+                />
+                <button 
+                  onClick={sendChatMessage}
+                  disabled={!chatInput.trim() || isChatLoading}
+                  className="bg-cosmic-500 hover:bg-cosmic-600 disabled:bg-slate-600 disabled:cursor-not-allowed text-white p-2 rounded-lg transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
+
+      {/* Chatbot Toggle Button */}
+      {!isChatbotOpen && (
+        <button
+          onClick={() => setIsChatbotOpen(true)}
+          className="fixed bottom-4 right-4 w-14 h-14 bg-gradient-to-br from-cosmic-500 to-bio-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group"
+          title="Open AI Assistant"
+        >
+          <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+            <span className="text-white text-sm font-bold">AI</span>
+          </div>
+        </button>
+      )}
     </div>
   );
 };

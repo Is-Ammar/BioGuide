@@ -20,7 +20,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 group">
             <motion.div
-              className="text-2xl font-black bg-gradient-to-r from-cosmic-400 to-neon-cyan bg-clip-text text-transparent"
+              className="text-2xl font-black text-slate-900"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
