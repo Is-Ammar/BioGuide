@@ -39,17 +39,6 @@
   }
 }
 
-/* DNA Helix Animation */
-@keyframes dna-rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.dna-helix {
-  animation: dna-rotate 20s linear infinite;
-}
-
-/* Smooth transitions */
 * {
   transition: all 0.2s ease-in-out;
 }
@@ -72,12 +61,11 @@
   background: rgba(168, 85, 247, 0.8);
 }
 
-/* Additional text color safety */
+
 * {
-  @apply text-gray-100; /* Ensure all elements have light text by default */
+  @apply text-gray-100;
 }
 
-/* Override for any potential dark text elements */
 .text-slate-900, .text-slate-800, .text-slate-700,
 .text-black, .text-gray-900 {
   @apply text-gray-100 !important;

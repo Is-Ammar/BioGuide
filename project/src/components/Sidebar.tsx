@@ -3,6 +3,19 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Filter, Save, Trash2, Plus } from 'lucide-react';
 import { type SearchResult, type SearchQuery } from '../lib/searchEngine';
 
+// Smooth minimal variants (slower)
+const sidebarVariants = {
+  hidden: { x: -56, opacity: 0 },
+  show: { x: 0, opacity: 1, transition: { duration: 0.55, ease: 'easeOut' } },
+  exit: { x: -48, opacity: 0, transition: { duration: 0.4, ease: 'easeIn' } }
+};
+
+const collapseVariants = {
+  hidden: { opacity: 0, height: 0 },
+  show: { opacity: 1, height: 'auto', transition: { duration: 0.45, ease: 'easeOut' } },
+  exit: { opacity: 0, height: 0, transition: { duration: 0.35, ease: 'easeIn' } }
+};
+
 interface SidebarProps {
   isOpen: boolean;
   onToggle: () => void;
@@ -43,22 +56,22 @@ const Sidebar: React.FC<SidebarProps> = ({
     facetType: string;
   }) => {
     const sortedFacets = Object.entries(facets).sort(([,a], [,b]) => b - a);
-    
     return (
       <div className="mb-6">
         <h3 className="text-sm font-semibold text-slate-300 mb-3">{title}</h3>
         <div className="space-y-2">
-          {sortedFacets.slice(0, 8).map(([value, count]) => (
-            <button
+          {sortedFacets.slice(0, 8).map(([value, count], i) => (
+            <motion.button
               key={value}
               onClick={() => onFacetSelect(facetType, value)}
               className="flex items-center justify-between w-full p-2 text-left text-sm text-slate-400 hover:text-white hover:bg-slate-700/30 rounded-lg transition-colors group"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut', delay: 0.05 * i } }}
+              exit={{ opacity: 0, y: -6, transition: { duration: 0.3 } }}
             >
               <span className="truncate flex-1 group-hover:text-cosmic-300">{value}</span>
-              <span className="ml-2 px-2 py-0.5 bg-slate-700/50 text-slate-400 rounded text-xs font-mono">
-                {count}
-              </span>
-            </button>
+              <span className="ml-2 px-2 py-0.5 bg-slate-700/50 text-slate-400 rounded text-xs font-mono">{count}</span>
+            </motion.button>
           ))}
         </div>
       </div>
@@ -80,14 +93,14 @@ const Sidebar: React.FC<SidebarProps> = ({
         {isOpen && (
           <motion.div
             className="w-80 glass-dark border-r border-slate-700/50 overflow-y-auto"
-            initial={{ x: -320 }}
-            animate={{ x: 0 }}
-            exit={{ x: -320 }}
-            transition={{ type: 'spring', damping: 20, stiffness: 100 }}
+            variants={sidebarVariants}
+            initial="hidden"
+            animate="show"
+            exit="exit"
           >
             <div className="p-6">
               {/* Header */}
-              <div className="flex items-center gap-2 mb-6">
+              <div className="flex items-center gap-2 mb-7 ml-9">
                 <Filter className="w-5 h-5 text-cosmic-400" />
                 <h2 className="text-lg font-semibold text-white">Filters & Views</h2>
               </div>
@@ -104,13 +117,14 @@ const Sidebar: React.FC<SidebarProps> = ({
                   </button>
                 </div>
 
-                <AnimatePresence>
+                <AnimatePresence initial={false}>
                   {showSaveInput && (
                     <motion.div
                       className="mb-3"
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: 'auto' }}
-                      exit={{ opacity: 0, height: 0 }}
+                      variants={collapseVariants}
+                      initial="hidden"
+                      animate="show"
+                      exit="exit"
                     >
                       <div className="flex gap-2">
                         <input
@@ -141,10 +155,13 @@ const Sidebar: React.FC<SidebarProps> = ({
                 </AnimatePresence>
 
                 <div className="space-y-2">
-                  {Object.entries(savedViews).map(([name, query]) => (
-                    <div
+                  {Object.entries(savedViews).map(([name, query], i) => (
+                    <motion.div
                       key={name}
                       className="flex items-center justify-between p-2 bg-slate-800/30 rounded-lg group"
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut', delay: 0.04 * i } }}
+                      exit={{ opacity: 0, y: -6, transition: { duration: 0.3 } }}
                     >
                       <button
                         onClick={() => onLoadView(query)}
@@ -157,15 +174,13 @@ const Sidebar: React.FC<SidebarProps> = ({
                           const updatedViews = { ...savedViews };
                           delete updatedViews[name];
                           localStorage.setItem('FF BioGuide_saved_views', JSON.stringify(updatedViews));
-                          // Note: This won't trigger a re-render. In a real app, you'd want to lift this state up.
                         }}
                         className="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-red-400 transition-all"
                       >
                         <Trash2 className="w-3 h-3" />
                       </button>
-                    </div>
+                    </motion.div>
                   ))}
-                  
                   {Object.keys(savedViews).length === 0 && (
                     <p className="text-slate-500 text-xs italic">No saved views yet</p>
                   )}
@@ -195,26 +210,25 @@ const Sidebar: React.FC<SidebarProps> = ({
                     facets={searchResults.facets.sources} 
                     facetType="source"
                   />
-
-                  {/* Year Range */}
                   <div className="mb-6">
                     <h3 className="text-sm font-semibold text-slate-300 mb-3">Years</h3>
                     <div className="space-y-2">
                       {Object.entries(searchResults.facets.years)
                         .sort(([a], [b]) => parseInt(b) - parseInt(a))
                         .slice(0, 8)
-                        .map(([year, count]) => (
-                        <button
-                          key={year}
-                          onClick={() => onFacetSelect('year', year)}
-                          className="flex items-center justify-between w-full p-2 text-left text-sm text-slate-400 hover:text-white hover:bg-slate-700/30 rounded-lg transition-colors group"
-                        >
-                          <span className="group-hover:text-cosmic-300">{year}</span>
-                          <span className="ml-2 px-2 py-0.5 bg-slate-700/50 text-slate-400 rounded text-xs font-mono">
-                            {count}
-                          </span>
-                        </button>
-                      ))}
+                        .map(([year, count], i) => (
+                          <motion.button
+                            key={year}
+                            onClick={() => onFacetSelect('year', year)}
+                            className="flex items-center justify-between w-full p-2 text-left text-sm text-slate-400 hover:text-white hover:bg-slate-700/30 rounded-lg transition-colors group"
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut', delay: 0.05 * i } }}
+                            exit={{ opacity: 0, y: -6, transition: { duration: 0.3 } }}
+                          >
+                            <span className="group-hover:text-cosmic-300">{year}</span>
+                            <span className="ml-2 px-2 py-0.5 bg-slate-700/50 text-slate-400 rounded text-xs font-mono">{count}</span>
+                          </motion.button>
+                        ))}
                     </div>
                   </div>
                 </div>

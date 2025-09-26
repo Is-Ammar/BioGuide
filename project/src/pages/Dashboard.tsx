@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Filter, Grid, List, BarChart3, Eye, Bookmark, Download, Star, X, ChevronDown } from 'lucide-react';
+import { Search, Grid, List, X } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import ResultCard from '../components/ResultCard';
 import Inspector from '../components/Inspector';
@@ -24,7 +24,8 @@ const Dashboard = () => {
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   // Chatbot state
-  const [isChatbotOpen, setIsChatbotOpen] = useState(true);
+  // Start with chatbot closed on initial dashboard load
+  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
   const [chatMessages, setChatMessages] = useState<Array<{
     id: string;
     content: string;

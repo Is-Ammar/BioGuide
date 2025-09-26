@@ -11,6 +11,19 @@ interface InspectorProps {
   onClose: () => void;
 }
 
+// Smooth professional animation variants
+const PANEL_EASE = [0.22, 1, 0.36, 1] as const;
+const backdropVariants = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { duration: 0.25 } },
+  exit: { opacity: 0, transition: { duration: 0.2 } }
+};
+const panelVariants = {
+  hidden: { x: 40, opacity: 0, filter: 'blur(6px)' },
+  show: { x: 0, opacity: 1, filter: 'blur(0px)', transition: { duration: 0.45, ease: PANEL_EASE } },
+  exit: { x: 32, opacity: 0, filter: 'blur(6px)', transition: { duration: 0.3, ease: PANEL_EASE } }
+};
+
 const Inspector: React.FC<InspectorProps> = ({ isOpen, publication, onClose }) => {
   const { user, toggleFavorite, savePublication, openAuthModal } = useAuth();
   const navigate = useNavigate();
@@ -69,19 +82,20 @@ const Inspector: React.FC<InspectorProps> = ({ isOpen, publication, onClose }) =
           {/* Backdrop */}
           <motion.div
             className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            variants={backdropVariants}
+            initial="hidden"
+            animate="show"
+            exit="exit"
             onClick={onClose}
           />
 
           {/* Inspector Panel */}
           <motion.div
             className="fixed right-0 top-0 bottom-0 w-full max-w-2xl glass-dark border-l border-slate-700/50 z-50 overflow-y-auto"
-            initial={{ x: '100%' }}
-            animate={{ x: 0 }}
-            exit={{ x: '100%' }}
-            transition={{ type: 'spring', damping: 20, stiffness: 100 }}
+            variants={panelVariants}
+            initial="hidden"
+            animate="show"
+            exit="exit"
           >
             <div className="p-6">
               {/* Header */}

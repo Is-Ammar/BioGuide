@@ -6,6 +6,43 @@ import Navigation from '../components/Navigation';
 import { loadPublications, type Publication } from '../lib/searchEngine';
 import { useAuth } from '../lib/auth';
 
+const EASE_OUT = [0.22, 1, 0.36, 1] as const;
+
+// Page level spawn animation
+const pageIntro = {
+  hidden: { opacity: 0, filter: 'blur(10px)' },
+  show: { opacity: 1, filter: 'blur(0px)', transition: { duration: 0.55, ease: EASE_OUT, when: 'beforeChildren', staggerChildren: 0.07 } }
+};
+
+// Replaces previous fadeUp with a cleaner item fade
+const itemFade = {
+  hidden: { opacity: 0, y: 14, filter: 'blur(6px)' },
+  show: { opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.5, ease: EASE_OUT } }
+};
+
+// Restored variants used later
+const staggerParent = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.09, delayChildren: 0.06 } }
+};
+
+const listStagger = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.08 } }
+};
+
+const relatedItem = {
+  hidden: { opacity: 0, y: 14, scale: 0.995 },
+  show: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.45, ease: EASE_OUT } },
+  exit: { opacity: 0, y: -8, transition: { duration: 0.3, ease: 'easeIn' } }
+};
+
+// A smoother, simpler variant for sidebar panels
+const subtlePanel = {
+  hidden: { opacity: 0, y: 8 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.4, ease: EASE_OUT } }
+};
+
 const PublicationDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
@@ -123,7 +160,7 @@ const PublicationDetail = () => {
   ).join(', ');
 
   return (
-    <div className="min-h-screen bg-slate-950">
+    <motion.div className="min-h-screen bg-slate-950" variants={pageIntro} initial="hidden" animate="show">
       <Navigation />
       
       <div className="pt-16">
@@ -139,9 +176,7 @@ const PublicationDetail = () => {
             </button>
 
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              variants={itemFade}
             >
               <h1 className="text-3xl font-bold text-white mb-4 leading-tight">
                 {publication.title}
@@ -232,15 +267,11 @@ const PublicationDetail = () => {
 
         {/* Content */}
         <div className="max-w-4xl mx-auto px-6 py-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <motion.div className="grid grid-cols-1 lg:grid-cols-3 gap-8" variants={staggerParent} initial="hidden" animate="show">
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-8">
               {/* Abstract */}
-              <motion.section
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-              >
+              <motion.section variants={itemFade}>
                 <h2 className="text-xl font-semibold text-white mb-4">Abstract</h2>
                 <p className="text-slate-300 leading-relaxed">
                   {publication.abstract}
@@ -249,20 +280,18 @@ const PublicationDetail = () => {
 
               {/* Keywords */}
               {publication.keywords && publication.keywords.length > 0 && (
-                <motion.section
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                >
+                <motion.section variants={itemFade}>
                   <h2 className="text-xl font-semibold text-white mb-4">Keywords</h2>
                   <div className="flex flex-wrap gap-2">
                     {publication.keywords.map((keyword, index) => (
-                      <span
+                      <motion.span
                         key={index}
                         className="px-3 py-1 bg-slate-700/50 text-slate-300 rounded-lg text-sm hover:bg-slate-600/50 transition-colors"
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0, transition: { duration: 0.35, ease: 'easeOut', delay: 0.03 * index } }}
                       >
                         {keyword}
-                      </span>
+                      </motion.span>
                     ))}
                   </div>
                 </motion.section>
@@ -270,38 +299,35 @@ const PublicationDetail = () => {
 
               {/* Related Publications */}
               {relatedPublications.length > 0 && (
-                <motion.section
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.3 }}
-                >
+                <motion.section variants={itemFade}>
                   <h2 className="text-xl font-semibold text-white mb-4">Related Publications</h2>
-                  <div className="space-y-4">
+                  <motion.div className="space-y-4" variants={listStagger} initial="hidden" animate="show">
                     {relatedPublications.map((related) => (
-                      <Link
-                        key={related.id}
-                        to={`/publication/${related.id}`}
-                        className="block glass-dark p-4 rounded-lg hover:border-cosmic-400/50 transition-all duration-200 group"
-                      >
-                        <h3 className="font-inter text-white mb-2 group-hover:text-cosmic-300 transition-colors line-clamp-2">
-                          {related.title}
-                        </h3>
-                        <p className="text-slate-400 text-sm mb-2">
-                          {related.authors.slice(0, 2).map(author => 
-                            `${author.givenNames} ${author.surname}`
-                          ).join(', ')} • {related.year}
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          <span className="px-2 py-1 bg-bio-500/20 text-bio-300 rounded text-xs">
-                            {related.organism}
-                          </span>
-                          <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">
-                            {related.assay}
-                          </span>
-                        </div>
-                      </Link>
+                      <motion.div key={related.id} variants={relatedItem}>
+                        <Link
+                          to={`/publication/${related.id}`}
+                          className="block glass-dark p-4 rounded-lg hover:border-cosmic-400/50 transition-colors duration-300 group border border-transparent"
+                        >
+                          <h3 className="font-inter text-white mb-2 group-hover:text-cosmic-300 transition-colors line-clamp-2">
+                            {related.title}
+                          </h3>
+                          <p className="text-slate-400 text-sm mb-2">
+                            {related.authors.slice(0, 2).map(author => 
+                              `${author.givenNames} ${author.surname}`
+                            ).join(', ')} • {related.year}
+                          </p>
+                          <div className="flex flex-wrap gap-2">
+                            <span className="px-2 py-1 bg-bio-500/20 text-bio-300 rounded text-xs">
+                              {related.organism}
+                            </span>
+                            <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">
+                              {related.assay}
+                            </span>
+                          </div>
+                        </Link>
+                      </motion.div>
                     ))}
-                  </div>
+                  </motion.div>
                 </motion.section>
               )}
             </div>
@@ -311,9 +337,9 @@ const PublicationDetail = () => {
               {/* Publication Details */}
               <motion.div
                 className="glass-dark p-6 rounded-xl"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
+                variants={subtlePanel}
+                initial="hidden"
+                animate="show"
               >
                 <h3 className="text-lg font-semibold text-white mb-4">Publication Details</h3>
                 <div className="space-y-3 text-sm">
@@ -379,9 +405,9 @@ const PublicationDetail = () => {
               {/* Research Context */}
               <motion.div
                 className="glass-dark p-6 rounded-xl"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
+                variants={subtlePanel}
+                initial="hidden"
+                animate="show"
               >
                 <h3 className="text-lg font-semibold text-white mb-4">Research Context</h3>
                 <div className="space-y-4">
@@ -411,10 +437,10 @@ const PublicationDetail = () => {
                 </div>
               </motion.div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
