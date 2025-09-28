@@ -59,8 +59,7 @@ const PublicationDetail = () => {
         
         if (found) {
           setPublication(found);
-          
-          // Find related publications based on shared facets
+
           const related = publications
             .filter(pub => 
               pub.id !== found.id && (
@@ -120,8 +119,8 @@ const PublicationDetail = () => {
     );
   }
 
-  const isFavorited = user?.favoritePublications.includes(publication.id) ?? false;
-  const isSaved = user?.savedPublications.includes(publication.id) ?? false;
+  const isFavorited = false;
+  const isSaved = false;
 
   const handleFavorite = () => {
     if (!user) {

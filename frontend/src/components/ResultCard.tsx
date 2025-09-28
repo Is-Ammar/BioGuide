@@ -18,11 +18,11 @@ const ResultCard: React.FC<ResultCardProps> = ({
   viewMode,
   onSelect 
 }) => {
-  const { user, toggleFavorite, savePublication, openAuthModal } = useAuth();
+  const { user, openAuthModal } = useAuth();
   const navigate = useNavigate();
 
-  const isFavorited = user?.favoritePublications.includes(publication.id) ?? false;
-  const isSaved = user?.savedPublications.includes(publication.id) ?? false;
+  const isFavorited = false;
+  const isSaved = false;
 
   const handleFavorite = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -30,7 +30,6 @@ const ResultCard: React.FC<ResultCardProps> = ({
       openAuthModal();
       return;
     }
-    toggleFavorite(publication.id);
   };
 
   const handleSave = (e: React.MouseEvent) => {
@@ -39,7 +38,6 @@ const ResultCard: React.FC<ResultCardProps> = ({
       openAuthModal();
       return;
     }
-    savePublication(publication.id);
   };
 
   const handleDownload = (e: React.MouseEvent) => {

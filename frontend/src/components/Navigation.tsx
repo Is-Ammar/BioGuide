@@ -97,7 +97,7 @@ const Navigation = () => {
 									className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
 								>
 									<User className="w-4 h-4 text-purple-300 group-hover:text-emerald-300 transition-colors" />
-									<span className="hidden sm:inline text-xs font-medium truncate max-w-[140px]">{user.email}</span>
+									<span className="hidden sm:inline text-xs font-medium truncate max-w-[140px]">{user.first_name} {user.last_name}</span>
 								</Link>
 								<motion.button
 									onClick={logout}

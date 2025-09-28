@@ -44,7 +44,6 @@ const Dashboard = () => {
   const [isChatLoading, setIsChatLoading] = useState(false);
   const chatMessagesRef = useRef<HTMLDivElement>(null);
 
-  // Load publications on mount
   useEffect(() => {
     const fetchPublications = async () => {
       try {
@@ -80,7 +79,6 @@ const Dashboard = () => {
     setCurrentPage(1); // Reset to first page when query changes
   }, [searchQuery]);
 
-  // Load saved views from localStorage
   useEffect(() => {
     const saved = localStorage.getItem('FF BioGuide_saved_views');
     if (saved) {
@@ -114,7 +112,6 @@ const Dashboard = () => {
     setChatMessages(prev => [...prev, loadingMessage]);
 
     try {
-      // TODO: Replace with actual API call
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {

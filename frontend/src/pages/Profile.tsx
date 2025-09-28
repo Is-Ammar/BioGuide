@@ -13,24 +13,14 @@ const Profile = () => {
   const [activeTab, setActiveTab] = useState<'saved' | 'favorites'>('saved');
   const [isLoading, setIsLoading] = useState(false);
 
-  // Load publications when component mounts
   React.useEffect(() => {
     const loadUserPublications = async () => {
       if (!user) return;
       
       setIsLoading(true);
       try {
-        const allPublications = await loadPublications();
-        
-        const saved = allPublications.filter(pub => 
-          user.savedPublications.includes(pub.id)
-        );
-        const favorites = allPublications.filter(pub => 
-          user.favoritePublications.includes(pub.id)
-        );
-        
-        setSavedPublications(saved);
-        setFavoritePublications(favorites);
+        setSavedPublications([]);
+        setFavoritePublications([]);
       } catch (error) {
         console.error('Failed to load user publications:', error);
       } finally {
@@ -107,7 +97,7 @@ const Profile = () => {
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <h1 className="text-3xl font-bold text-white mb-2">Your Profile</h1>
+                  <h1 className="text-3xl font-bold text-white mb-2">{user.first_name} {user.last_name}</h1>
                   <p className="text-slate-400">{user.email}</p>
                 </div>
                 <div className="flex gap-3">
@@ -147,7 +137,7 @@ const Profile = () => {
                 <h3 className="text-lg font-semibold text-white">Saved Publications</h3>
               </div>
               <p className="text-3xl font-bold text-blue-400 mb-1">
-                {user.savedPublications.length}
+                {0}
               </p>
               <p className="text-slate-400 text-sm">publications in your library</p>
             </div>
@@ -158,7 +148,7 @@ const Profile = () => {
                 <h3 className="text-lg font-semibold text-white">Favorites</h3>
               </div>
               <p className="text-3xl font-bold text-yellow-400 mb-1">
-                {user.favoritePublications.length}
+                {0}
               </p>
               <p className="text-slate-400 text-sm">starred publications</p>
             </div>
@@ -180,7 +170,7 @@ const Profile = () => {
                     : 'text-slate-400 border-transparent hover:text-white'
                 }`}
               >
-                Saved Publications ({user.savedPublications.length})
+                Saved Publications ({0})
               </button>
               <button
                 onClick={() => setActiveTab('favorites')}
@@ -190,7 +180,7 @@ const Profile = () => {
                     : 'text-slate-400 border-transparent hover:text-white'
                 }`}
               >
-                Favorites ({user.favoritePublications.length})
+                Favorites ({0})
               </button>
             </div>
           </motion.div>
@@ -252,12 +242,10 @@ const Profile = () => {
                             </div>
                             <button
                               onClick={() => {
-                                // Remove from saved
                                 const updatedUser = {
                                   ...user,
                                   savedPublications: user.savedPublications.filter(id => id !== publication.id)
                                 };
-                                // Update localStorage directly for demo
                                 localStorage.setItem('FF BioGuide_user', JSON.stringify(updatedUser));
                                 setSavedPublications(prev => prev.filter(p => p.id !== publication.id));
                               }}
@@ -317,12 +305,10 @@ const Profile = () => {
                             </div>
                             <button
                               onClick={() => {
-                                // Remove from favorites
                                 const updatedUser = {
                                   ...user,
                                   favoritePublications: user.favoritePublications.filter(id => id !== publication.id)
                                 };
-                                // Update localStorage directly for demo
                                 localStorage.setItem('FF BioGuide_user', JSON.stringify(updatedUser));
                                 setFavoritePublications(prev => prev.filter(p => p.id !== publication.id));
                               }}

@@ -25,21 +25,20 @@ const panelVariants = {
 };
 
 const Inspector: React.FC<InspectorProps> = ({ isOpen, publication, onClose }) => {
-  const { user, toggleFavorite, savePublication, openAuthModal } = useAuth();
+  const { user, openAuthModal } = useAuth();
   const navigate = useNavigate();
   const [confidenceScore, setConfidenceScore] = useState(0.85);
 
   if (!publication) return null;
 
-  const isFavorited = user?.favoritePublications.includes(publication.id) ?? false;
-  const isSaved = user?.savedPublications.includes(publication.id) ?? false;
+  const isFavorited = false;
+  const isSaved = false;
 
   const handleFavorite = () => {
     if (!user) {
       openAuthModal();
       return;
     }
-    toggleFavorite(publication.id);
   };
 
   const handleSave = () => {
@@ -47,7 +46,6 @@ const Inspector: React.FC<InspectorProps> = ({ isOpen, publication, onClose }) =
       openAuthModal();
       return;
     }
-    savePublication(publication.id);
   };
 
   const handleDownload = () => {
