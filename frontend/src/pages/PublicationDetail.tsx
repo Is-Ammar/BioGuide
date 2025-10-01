@@ -20,7 +20,6 @@ const itemFade = {
   show: { opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.5, ease: EASE_OUT } }
 };
 
-// Restored variants used later
 const staggerParent = {
   hidden: {},
   show: { transition: { staggerChildren: 0.09, delayChildren: 0.06 } }
@@ -50,6 +49,9 @@ const PublicationDetail = () => {
   const [publication, setPublication] = useState<Publication | null>(null);
   const [relatedPublications, setRelatedPublications] = useState<Publication[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [viewMode, setViewMode] = useState<'abstract' | 'pdf'>('abstract');
+  const [pdfLoaded, setPdfLoaded] = useState(false);
+  const [pdfError, setPdfError] = useState(false);
 
   useEffect(() => {
     const fetchPublication = async () => {
@@ -83,6 +85,15 @@ const PublicationDetail = () => {
       fetchPublication();
     }
   }, [id]);
+
+  useEffect(() => {
+    // when publication changes decide default tab
+    if (publication?.pdfUrl) {
+      setViewMode('pdf');
+    } else {
+      setViewMode('abstract');
+    }
+  }, [publication?.pdfUrl]);
 
   if (isLoading) {
     return (
@@ -269,12 +280,92 @@ const PublicationDetail = () => {
           <motion.div className="grid grid-cols-1 lg:grid-cols-3 gap-8" variants={staggerParent} initial="hidden" animate="show">
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-8">
-              {/* Abstract */}
+              {/* Abstract + PDF (Tabbed) */}
               <motion.section variants={itemFade}>
-                <h2 className="text-xl font-semibold text-white mb-4">Abstract</h2>
-                <p className="text-slate-300 leading-relaxed">
-                  {publication.abstract}
-                </p>
+                {(publication.abstract || publication.pdfUrl) && (
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    {publication.pdfUrl && (
+                      <button
+                        onClick={() => setViewMode('pdf')}
+                        className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors border ${viewMode === 'pdf' ? 'bg-cosmic-500/20 border-cosmic-500 text-cosmic-300' : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-700/60'}`}
+                      >
+                        PDF
+                      </button>
+                    )}
+                    {publication.abstract && (
+                      <button
+                        onClick={() => setViewMode('abstract')}
+                        className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors border ${viewMode === 'abstract' ? 'bg-cosmic-500/20 border-cosmic-500 text-cosmic-300' : 'bg-slate-800/60 border-slate-700 text-slate-300 hover:bg-slate-700/60'}`}
+                      >
+                        Abstract
+                      </button>
+                    )}
+                  </div>
+                )}
+
+                {viewMode === 'abstract' && (
+                  <div>
+                    <h2 className="text-xl font-semibold text-white mb-4">Abstract</h2>
+                    <p className="text-slate-300 leading-relaxed">{publication.abstract}</p>
+                  </div>
+                )}
+
+                {viewMode === 'pdf' && publication.pdfUrl && (
+                  <div>
+                    <h2 className="text-xl font-semibold text-white mb-4">Full Text PDF</h2>
+                    <div className="relative w-full h-[75vh] rounded-xl overflow-hidden border border-slate-700/60 bg-gradient-to-b from-slate-900/80 to-slate-900/40 backdrop-blur-sm">
+                      {!pdfLoaded && !pdfError && (
+                        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                          <div className="w-12 h-12 border-4 border-cosmic-400/40 border-t-transparent rounded-full animate-spin" />
+                          <p className="text-xs tracking-wide text-slate-400">Loading PDF…</p>
+                        </div>
+                      )}
+                      {pdfError && (
+                        <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center gap-3">
+                          <p className="text-sm text-slate-300">This PDF cannot be embedded (provider blocks framing).</p>
+                          <a
+                            href={publication.pdfUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cosmic-500/20 text-cosmic-300 hover:bg-cosmic-500/30 transition-colors text-sm"
+                          >
+                            Open in new tab
+                          </a>
+                        </div>
+                      )}
+                      {!pdfError && (
+                        <iframe
+                          title={`PDF ${publication.id}`}
+                          src={`${publication.pdfUrl}${publication.pdfUrl.includes('#') ? '' : '#view=FitH'}`}
+                          className={`w-full h-full transition-opacity duration-500 ${pdfLoaded ? 'opacity-100' : 'opacity-0'}`}
+                          onLoad={() => setPdfLoaded(true)}
+                          onError={() => setPdfError(true)}
+                        />
+                      )}
+                      {/* Top overlay bar */}
+                      <div className="absolute top-0 inset-x-0 h-10 bg-slate-950/60 backdrop-blur-md flex items-center justify-between px-3 border-b border-slate-700/60">
+                        <span className="text-xs font-medium tracking-wide text-slate-300">Embedded PDF Viewer</span>
+                        <div className="flex items-center gap-2">
+                          <a
+                            href={publication.pdfUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs px-3 py-1 rounded-md bg-slate-800/60 hover:bg-slate-700/60 text-slate-300 transition-colors"
+                          >
+                            Open Tab
+                          </a>
+                          <button
+                            onClick={handleDownload}
+                            className="text-xs px-3 py-1 rounded-md bg-cosmic-500/20 hover:bg-cosmic-500/30 text-cosmic-300 transition-colors"
+                          >
+                            Download
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="mt-2 text-[11px] text-slate-500 leading-snug">If the PDF does not display, it may be restricted from embedding. Use the Open Tab button above.</p>
+                  </div>
+                )}
               </motion.section>
 
               {/* Keywords */}

@@ -1,11 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Grid, List, X } from 'lucide-react';
+import { Search, Grid, List } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import ResultCard from '../components/ResultCard';
 import Inspector from '../components/Inspector';
 import Sidebar from '../components/Sidebar';
+import ChatPanel from '../components/ChatPanel';
 import { loadPublications, searchPublications, parseAdvancedQuery, type Publication, type SearchQuery, type SearchResult } from '../lib/searchEngine';
+
+const API_BASE = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace(/\/$/, '') : '';
 
 const Dashboard = () => {
   const [publications, setPublications] = useState<Publication[]>([]);
@@ -23,8 +26,6 @@ const Dashboard = () => {
   const [savedViews, setSavedViews] = useState<Record<string, SearchQuery>>({});
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  // Chatbot state
-  // Start with chatbot closed on initial dashboard load
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
   const [chatMessages, setChatMessages] = useState<Array<{
     id: string;
@@ -40,17 +41,20 @@ const Dashboard = () => {
       timestamp: new Date()
     }
   ]);
+  const [conversationId, setConversationId] = useState(() => (crypto?.randomUUID?.() || Math.random().toString(36).slice(2)));
   const [chatInput, setChatInput] = useState('');
   const [isChatLoading, setIsChatLoading] = useState(false);
+  const [chatErrorDetail, setChatErrorDetail] = useState<string | null>(null);
   const chatMessagesRef = useRef<HTMLDivElement>(null);
+  const chatRequestControllerRef = useRef<AbortController | null>(null);
+  const loadingMessageIdRef = useRef<string | null>(null);
 
   useEffect(() => {
     const fetchPublications = async () => {
       try {
         const data = await loadPublications();
         setPublications(data);
-        
-        // Initial search with empty query to show all results
+
         const results = searchPublications(data, {}, 1, resultsPerPage);
         setSearchResults(results);
       } catch (error) {
@@ -63,20 +67,18 @@ const Dashboard = () => {
     fetchPublications();
   }, [resultsPerPage]);
 
-  // Update search results when query or pagination changes
   useEffect(() => {
     if (publications.length > 0) {
       const results = searchPublications(publications, parsedQuery, currentPage, resultsPerPage);
       setSearchResults(results);
-      setSelectedIndex(0); // Reset selection when search changes
+      setSelectedIndex(0);
     }
   }, [publications, parsedQuery, currentPage, resultsPerPage]);
 
-  // Parse search query
   useEffect(() => {
     const parsed = parseAdvancedQuery(searchQuery);
     setParsedQuery(parsed);
-    setCurrentPage(1); // Reset to first page when query changes
+    setCurrentPage(1);
   }, [searchQuery]);
 
   useEffect(() => {
@@ -86,9 +88,42 @@ const Dashboard = () => {
     }
   }, []);
 
-  // Chatbot functions
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('BioGuide_chat_history');
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed?.messages && Array.isArray(parsed.messages)) {
+          const restored = parsed.messages.map((m: any) => ({
+            ...m,
+            timestamp: new Date(m.timestamp)
+          }));
+          if (restored.length) setChatMessages(restored);
+        }
+        if (parsed?.conversationId) setConversationId(parsed.conversationId);
+      }
+    } catch (_) {}
+  }, []);
+
+  useEffect(() => {
+    try {
+      const storable = chatMessages
+        .filter(m => !(m as any).isLoading)
+        .map(m => ({ id: m.id, role: m.role, content: m.content, timestamp: m.timestamp.toISOString() }));
+      localStorage.setItem('BioGuide_chat_history', JSON.stringify({ conversationId, messages: storable }));
+    } catch (_) {}
+  }, [chatMessages, conversationId]);
+
   const sendChatMessage = useCallback(async () => {
     if (!chatInput.trim() || isChatLoading) return;
+
+    setChatErrorDetail(null);
+
+    if (chatRequestControllerRef.current) {
+      chatRequestControllerRef.current.abort();
+    }
+    const controller = new AbortController();
+    chatRequestControllerRef.current = controller;
 
     const userMessage = {
       id: Date.now().toString(),
@@ -97,67 +132,95 @@ const Dashboard = () => {
       timestamp: new Date()
     };
 
-    setChatMessages(prev => [...prev, userMessage]);
+    const loadingId = `loading-${Date.now()}`;
+    loadingMessageIdRef.current = loadingId;
+
+    setChatMessages(prev => [
+      ...prev,
+      userMessage,
+      {
+        id: loadingId,
+        content: '',
+        role: 'assistant' as const,
+        timestamp: new Date(),
+        isLoading: true
+      }
+    ]);
+
     setChatInput('');
     setIsChatLoading(true);
 
-    // Add loading message
-    const loadingMessage = {
-      id: `loading-${Date.now()}`,
-      content: '',
-      role: 'assistant' as const,
-      timestamp: new Date(),
-      isLoading: true
-    };
-    setChatMessages(prev => [...prev, loadingMessage]);
+    const historyMessages = [...chatMessages, userMessage]
+      .filter(m => !(m as any).isLoading);
+    const DELIMITER = '\n<|BIOGUIDE_DIALOG_DELIM|>\n';
+    const historyCombined = historyMessages
+      .map(m => `${m.role === 'user' ? 'USER' : 'ASSISTANT'}: ${m.content}`)
+      .join(DELIMITER);
+
+    const timeoutMs = 100000;
+    const timeoutPromise = new Promise<never>((_, reject) => {
+      const t = setTimeout(() => {
+        clearTimeout(t);
+        reject(new Error('Request timed out'));
+      }, timeoutMs);
+    });
 
     try {
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message: userMessage.content,
-          context: {
-            currentQuery: parsedQuery,
-            selectedPublication: selectedPublication?.id,
-            searchResults: searchResults?.total
-          }
-        })
-      });
+      const response = await Promise.race([
+        fetch(`${API_BASE}/api/chat`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question: userMessage.content,
+            conversationId,
+            history: historyMessages.map(m => ({ role: m.role, content: m.content })),
+            historyCombined,
+            delimiter: DELIMITER
+          }),
+          signal: controller.signal,
+          mode: 'cors'
+        }),
+        timeoutPromise
+      ]);
 
-      if (!response.ok) throw new Error('Failed to get response');
+      if (!(response instanceof Response)) throw new Error('Unexpected response type');
 
-      const data = await response.json();
-      
-      // Remove loading message and add response
-      setChatMessages(prev => {
-        const filtered = prev.filter(msg => msg.id !== loadingMessage.id);
-        return [...filtered, {
-          id: Date.now().toString(),
-          content: data.message || 'Sorry, I encountered an error processing your request.',
-          role: 'assistant' as const,
-          timestamp: new Date()
-        }];
-      });
-    } catch (error) {
-      console.error('Chat error:', error);
-      
-      // Remove loading message and add error response
-      setChatMessages(prev => {
-        const filtered = prev.filter(msg => msg.id !== loadingMessage.id);
-        return [...filtered, {
-          id: Date.now().toString(),
-          content: 'Sorry, I\'m having trouble connecting right now. Please try again later.',
-          role: 'assistant' as const,
-          timestamp: new Date()
-        }];
-      });
+      if (!response.ok) {
+        const text = await response.text().catch(() => '');
+        throw new Error(`HTTP ${response.status} ${response.statusText} ${text}`);
+      }
+
+      const data = await response.json().catch(() => ({ answer: '' }));
+      const answer = data.answer || data.message || 'Sorry, I encountered an error processing your request.';
+
+      setChatMessages(prev => prev.map(m => m.id === loadingId ? {
+        id: Date.now().toString(),
+        content: answer,
+        role: 'assistant',
+        timestamp: new Date()
+      } : m));
+    } catch (error: any) {
+      let userFacing = 'Connection issue. Please try again.';
+      if (error?.name === 'AbortError') {
+        userFacing = 'Request cancelled.';
+      } else if (error?.message?.includes('timed out')) {
+        userFacing = 'The model is taking too long. Try rephrasing or resubmitting.';
+      } else if (error?.message?.includes('Failed to fetch')) {
+        userFacing = 'Network/CORS error. Check server CORS headers.';
+      }
+      setChatErrorDetail(error?.message || String(error));
+      setChatMessages(prev => prev.map(m => m.id === loadingId ? {
+        id: Date.now().toString(),
+        content: userFacing,
+        role: 'assistant',
+        timestamp: new Date()
+      } : m));
     } finally {
       setIsChatLoading(false);
+      loadingMessageIdRef.current = null;
+      chatRequestControllerRef.current = null;
     }
-  }, [chatInput, isChatLoading, parsedQuery, selectedPublication, searchResults]);
+  }, [chatInput, isChatLoading, chatMessages, conversationId, parsedQuery, selectedPublication, searchResults]);
 
   const clearChatHistory = useCallback(() => {
     setChatMessages([{
@@ -166,19 +229,18 @@ const Dashboard = () => {
       role: 'assistant',
       timestamp: new Date()
     }]);
+    localStorage.removeItem('BioGuide_chat_history');
+    setConversationId(crypto?.randomUUID?.() || Math.random().toString(36).slice(2));
   }, []);
 
-  // Auto-scroll chat to bottom
   useEffect(() => {
     if (chatMessagesRef.current) {
       chatMessagesRef.current.scrollTop = chatMessagesRef.current.scrollHeight;
     }
   }, [chatMessages]);
 
-  // Keyboard navigation
   useEffect(() => {
     const handleKeydown = (e: KeyboardEvent) => {
-      // Don't interfere with chat input
       if (e.target instanceof HTMLInputElement && e.target.placeholder?.includes('Ask me')) {
         if (e.key === 'Enter') {
           e.preventDefault();
@@ -199,15 +261,6 @@ const Dashboard = () => {
         case 'ArrowUp':
           e.preventDefault();
           setSelectedIndex(prev => Math.max(prev - 1, 0));
-          break;
-        case 'Enter':
-          if (e.target === searchInputRef.current) return;
-          e.preventDefault();
-          const selected = searchResults.publications[selectedIndex];
-          if (selected) {
-            setSelectedPublication(selected);
-            setIsInspectorOpen(true);
-          }
           break;
         case '/':
           e.preventDefault();
@@ -234,7 +287,6 @@ const Dashboard = () => {
   }, [savedViews, parsedQuery]);
 
   const loadView = useCallback((query: SearchQuery) => {
-    // Convert query back to search string
     const queryParts: string[] = [];
     
     if (query.text) queryParts.push(query.text);
@@ -264,7 +316,6 @@ const Dashboard = () => {
       <Navigation />
       
       <div className="flex h-screen pt-16">
-        {/* Sidebar */}
         <Sidebar
           isOpen={isSidebarOpen}
           onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -283,12 +334,9 @@ const Dashboard = () => {
           }}
         />
 
-        {/* Main Content */}
         <div className="flex-1 flex flex-col overflow-hidden">
-          {/* Search Header */}
           <div className="glass-dark border-b border-slate-700/50 p-6">
             <div className="max-w-4xl mx-auto">
-              {/* Search Bar */}
               <div className="relative mb-4">
                 <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                 <input
@@ -301,7 +349,6 @@ const Dashboard = () => {
                 />
               </div>
 
-              {/* Query Visualization */}
               {Object.keys(parsedQuery).length > 0 && (
                 <div className="flex flex-wrap gap-2 mb-4">
                   {parsedQuery.text && (
@@ -338,7 +385,6 @@ const Dashboard = () => {
                 </div>
               )}
 
-              {/* Controls */}
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
                   <span className="text-slate-400 text-sm">
@@ -423,7 +469,6 @@ const Dashboard = () => {
                     ))}
                   </motion.div>
 
-                  {/* Pagination */}
                   {searchResults && searchResults.total > resultsPerPage && (
                     <div className="mt-8 flex justify-center">
                       <div className="flex items-center gap-2">
@@ -460,106 +505,19 @@ const Dashboard = () => {
         />
       </div>
 
-      {/* AI Chatbot */}
-      {isChatbotOpen && (
-        <div className="fixed bottom-4 right-4 w-80">
-          <div className="glass-dark rounded-lg border border-slate-700/50 shadow-2xl">
-            {/* Chatbot Header */}
-            <div className="flex items-center justify-between p-4 border-b border-slate-700/50">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-gradient-to-br from-cosmic-500 to-bio-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm font-bold">AI</span>
-                </div>
-                <div>
-                  <h3 className="text-white text-sm font-medium">BioGuide Assistant</h3>
-                  <p className="text-slate-400 text-xs">
-                    {isChatLoading ? 'Thinking...' : 'Online'}
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <button 
-                  onClick={clearChatHistory}
-                  className="text-slate-400 hover:text-white transition-colors p-1"
-                  title="Clear chat"
-                >
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                  </svg>
-                </button>
-                <button 
-                  onClick={() => setIsChatbotOpen(false)}
-                  className="text-slate-400 hover:text-white transition-colors"
-                  title="Close chat"
-                >
-                  <X className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
-            
-            {/* Chat Messages */}
-            <div 
-              ref={chatMessagesRef}
-              className="h-64 p-4 overflow-y-auto space-y-3"
-            >
-              {chatMessages.map((message) => (
-                <div key={message.id} className={`flex ${message.role === 'user' ? 'justify-end' : 'items-start gap-3'}`}>
-                  {message.role === 'assistant' && (
-                    <div className="w-6 h-6 bg-gradient-to-br from-cosmic-500 to-bio-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <span className="text-white text-xs font-bold">AI</span>
-                    </div>
-                  )}
-                  <div className={`rounded-lg p-3 max-w-[220px] ${
-                    message.role === 'user' 
-                      ? 'bg-cosmic-500/20' 
-                      : 'bg-slate-800/50'
-                  }`}>
-                    {message.isLoading ? (
-                      <div className="flex items-center gap-2">
-                        <div className="flex space-x-1">
-                          <div className="w-2 h-2 bg-cosmic-400 rounded-full animate-bounce"></div>
-                          <div className="w-2 h-2 bg-cosmic-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-                          <div className="w-2 h-2 bg-cosmic-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
-                        </div>
-                      </div>
-                    ) : (
-                      <p className="text-slate-300 text-sm whitespace-pre-wrap">
-                        {message.content}
-                      </p>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-            {/* Chat Input */}
-            <div className="p-4 border-t border-slate-700/50">
-              <div className="flex items-center gap-2">
-                <input
-                  type="text"
-                  value={chatInput}
-                  onChange={(e) => setChatInput(e.target.value)}
-                  onKeyPress={(e) => e.key === 'Enter' && sendChatMessage()}
-                  placeholder="Ask me anything about biology research..."
-                  className="flex-1 bg-slate-800/50 border border-slate-600/50 rounded-lg px-3 py-2 text-white placeholder-slate-400 text-sm focus:border-cosmic-400 focus:ring-1 focus:ring-cosmic-400/20 transition-colors"
-                  disabled={isChatLoading}
-                />
-                <button 
-                  onClick={sendChatMessage}
-                  disabled={!chatInput.trim() || isChatLoading}
-                  className="bg-cosmic-500 hover:bg-cosmic-600 disabled:bg-slate-600 disabled:cursor-not-allowed text-white p-2 rounded-lg transition-colors"
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      <ChatPanel
+        isOpen={isChatbotOpen}
+        messages={chatMessages}
+        input={chatInput}
+        onInputChange={setChatInput}
+        onSend={sendChatMessage}
+        onClose={() => setIsChatbotOpen(false)}
+        onClear={clearChatHistory}
+        isLoading={isChatLoading}
+        errorDetail={chatErrorDetail}
+        messagesRef={chatMessagesRef}
+      />
 
-      {/* Chatbot Toggle Button */}
       {!isChatbotOpen && (
         <button
           onClick={() => setIsChatbotOpen(true)}
