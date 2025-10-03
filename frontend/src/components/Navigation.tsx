@@ -111,15 +111,15 @@ const Navigation = () => {
 								</motion.button>
 							</div>
 						) : (
-							<motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
-								<Link
-									to="/login"
-									className="relative inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-500 via-fuchsia-500 to-emerald-500 bg-[length:200%_auto] animate-[gradient-move_8s_linear_infinite] shadow-[0_0_15px_-3px_rgba(168,85,247,0.4)] hover:shadow-[0_0_22px_-3px_rgba(52,211,153,0.5)] transition-all"
-								>
-									<LogIn className="w-4 h-4" />
-									<span>Login</span>
-								</Link>
-							</motion.div>
+												<motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+													<Link
+														to="/login"
+														className="relative inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-500 via-fuchsia-500 to-emerald-500 bg-[length:200%_auto] animate-[gradient-move_8s_linear_infinite] shadow-[0_0_15px_-3px_rgba(168,85,247,0.4)] hover:shadow-[0_0_22px_-3px_rgba(52,211,153,0.5)] transition-all"
+													>
+														<LogIn className="w-4 h-4" />
+														<span>Login</span>
+													</Link>
+												</motion.div>
 						)}
 					</div>
 				</div>

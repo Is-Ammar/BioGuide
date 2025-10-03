@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { apiService } from './api';
 
 export interface User {
@@ -27,6 +27,11 @@ interface AuthContextType {
   closeAuthModal: () => void;
   isAuthModalOpen: boolean;
   loading: boolean;
+  initializing: boolean;
+  savedIds: string[];
+  favoriteIds: string[];
+  toggleSave: (publicationId: string) => Promise<void>;
+  toggleFavorite: (publicationId: string) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -43,20 +48,60 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [initializing, setInitializing] = useState(true); // Track initial auth check
+  const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
 
+  // Load user and fetch their publications
   useEffect(() => {
-    const savedUser = localStorage.getItem('FF_BioGuide_user');
-    const token = localStorage.getItem('FF_BioGuide_token');
-    
-    if (savedUser && token) {
-      try {
-        setUser(JSON.parse(savedUser));
-      } catch (error) {
-        localStorage.removeItem('FF_BioGuide_user');
-        localStorage.removeItem('FF_BioGuide_token');
+    const load = async () => {
+      const tokenStored = localStorage.getItem('FF_BioGuide_token');
+      const userStored = localStorage.getItem('FF_BioGuide_user');
+      if (userStored && tokenStored) {
+        try {
+          setUser(JSON.parse(userStored));
+        } catch (error) {
+          localStorage.removeItem('FF_BioGuide_user');
+        }
+      } else if (tokenStored && !userStored) {
+        try {
+          const resp = await apiService.getCurrentUser();
+            if (resp.success && resp.user) {
+              setUser(resp.user);
+              localStorage.setItem('FF_BioGuide_user', JSON.stringify(resp.user));
+            } else {
+              localStorage.removeItem('FF_BioGuide_token');
+            }
+        } catch (err) {
+          localStorage.removeItem('FF_BioGuide_token');
+        }
       }
-    }
+      setInitializing(false);
+    };
+    load();
   }, []);
+
+  // Fetch user publications when user is available
+  useEffect(() => {
+    if (user) {
+      fetchUserPublications();
+    } else {
+      setSavedIds([]);
+      setFavoriteIds([]);
+    }
+  }, [user]);
+
+  const fetchUserPublications = async () => {
+    try {
+      const response = await apiService.getUserPublications();
+      if (response.success) {
+        setSavedIds(response.savedPublications || []);
+        setFavoriteIds(response.favoritePublications || []);
+      }
+    } catch (error) {
+      console.error('Failed to fetch user publications:', error);
+    }
+  };
 
   const login = async (email: string, password: string): Promise<boolean> => {
     setLoading(true);
@@ -114,9 +159,35 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       console.error('Logout failed:', error);
     } finally {
       setUser(null);
+      setSavedIds([]);
+      setFavoriteIds([]);
       localStorage.removeItem('FF_BioGuide_user');
       localStorage.removeItem('FF_BioGuide_token');
       setLoading(false);
+    }
+  };
+
+  const toggleSave = async (publicationId: string) => {
+    try {
+      const response = await apiService.toggleSavedPublication(publicationId);
+      if (response.success) {
+        setSavedIds(response.savedPublications || []);
+        setFavoriteIds(response.favoritePublications || []);
+      }
+    } catch (error) {
+      console.error('Failed to toggle save:', error);
+    }
+  };
+
+  const toggleFavorite = async (publicationId: string) => {
+    try {
+      const response = await apiService.toggleFavoritePublication(publicationId);
+      if (response.success) {
+        setSavedIds(response.savedPublications || []);
+        setFavoriteIds(response.favoritePublications || []);
+      }
+    } catch (error) {
+      console.error('Failed to toggle favorite:', error);
     }
   };
 
@@ -138,7 +209,12 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         openAuthModal,
         closeAuthModal,
         isAuthModalOpen,
-        loading
+        loading,
+        initializing,
+        savedIds,
+        favoriteIds,
+        toggleSave,
+        toggleFavorite
       }}
     >
       {children}

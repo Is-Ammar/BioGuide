@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Mail, Lock, UserPlus, User, Phone, MapPin } from 'lucide-react';
+import { X, Mail, Lock, UserPlus, User, Phone } from 'lucide-react';
+import CountrySelect from './CountrySelect';
 import { useAuth } from '../lib/auth';
 
 const AuthModal = () => {
@@ -271,17 +272,7 @@ const AuthModal = () => {
                     <label className="block text-sm font-medium text-slate-300 mb-2">
                       Country
                     </label>
-                    <div className="relative">
-                      <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
-                      <input
-                        type="text"
-                        value={country}
-                        onChange={(e) => setCountry(e.target.value)}
-                        className="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-slate-400 focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 transition-colors"
-                        placeholder="United States"
-                        required
-                      />
-                    </div>
+                    <CountrySelect value={country} onChange={setCountry} />
                   </div>
                 </>
               )}

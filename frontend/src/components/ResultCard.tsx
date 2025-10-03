@@ -18,26 +18,28 @@ const ResultCard: React.FC<ResultCardProps> = ({
   viewMode,
   onSelect 
 }) => {
-  const { user, openAuthModal } = useAuth();
+  const { user, openAuthModal, toggleSave, toggleFavorite, savedIds, favoriteIds } = useAuth();
   const navigate = useNavigate();
 
-  const isFavorited = false;
-  const isSaved = false;
+  const isFavorited = favoriteIds?.includes(publication.id);
+  const isSaved = savedIds?.includes(publication.id);
 
-  const handleFavorite = (e: React.MouseEvent) => {
+  const handleFavorite = async (e: React.MouseEvent) => {
     e.stopPropagation();
     if (!user) {
       openAuthModal();
       return;
     }
+    await toggleFavorite(publication.id);
   };
 
-  const handleSave = (e: React.MouseEvent) => {
+  const handleSave = async (e: React.MouseEvent) => {
     e.stopPropagation();
     if (!user) {
       openAuthModal();
       return;
     }
+    await toggleSave(publication.id);
   };
 
   const handleDownload = (e: React.MouseEvent) => {

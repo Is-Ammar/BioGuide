@@ -1,39 +1,57 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { User, Star, Bookmark, Download, Trash2, Settings } from 'lucide-react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
+import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
+import { User as UserIcon, Star, Bookmark, BookMarked } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import { useAuth } from '../lib/auth';
 import { loadPublications, type Publication } from '../lib/searchEngine';
+import ProfileHero from '../components/profile/ProfileHero';
+import StatCard from '../components/profile/StatCard';
+import TabNav from '../components/profile/TabNav';
+import PublicationCard from '../components/profile/PublicationCard';
+import { PublicationSkeleton, StatSkeletons } from '../components/profile/Skeletons';
+import EmptyState from '../components/profile/EmptyState';
+import ConfirmDialog from '../components/profile/ConfirmDialog';
+import BackgroundStars from '../components/BackgroundStars';
 
 const Profile = () => {
-  const { user, logout } = useAuth();
+  const { user, logout, savedIds, favoriteIds, toggleSave, toggleFavorite } = useAuth() as any;
   const [savedPublications, setSavedPublications] = useState<Publication[]>([]);
   const [favoritePublications, setFavoritePublications] = useState<Publication[]>([]);
   const [activeTab, setActiveTab] = useState<'saved' | 'favorites'>('saved');
   const [isLoading, setIsLoading] = useState(false);
+  const [confirmOpen, setConfirmOpen] = useState(false);
+  const [pendingDeleteId, setPendingDeleteId] = useState<string | null>(null);
+  const [exportState, setExportState] = useState<'idle' | 'exporting' | 'done'>('idle');
+  const [allPublications, setAllPublications] = useState<Publication[]>([]);
 
-  React.useEffect(() => {
-    const loadUserPublications = async () => {
-      if (!user) return;
-      
-      setIsLoading(true);
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
       try {
-        setSavedPublications([]);
-        setFavoritePublications([]);
-      } catch (error) {
-        console.error('Failed to load user publications:', error);
-      } finally {
-        setIsLoading(false);
+        const pubs = await loadPublications();
+        if (mounted) setAllPublications(pubs);
+      } catch (e) {
+        console.error(e);
       }
+    })();
+    return () => { mounted = false; };
+  }, []);
+
+  useEffect(() => {
+    if (!user) return;
+    setIsLoading(true);
+    const mapPublications = () => {
+      setSavedPublications(allPublications.filter(p => savedIds?.includes(p.id)));
+      setFavoritePublications(allPublications.filter(p => favoriteIds?.includes(p.id)));
+      setIsLoading(false);
     };
+    mapPublications();
+  }, [user, savedIds, favoriteIds, allPublications]);
 
-    loadUserPublications();
-  }, [user]);
-
-  const handleExportSaved = () => {
-    if (savedPublications.length === 0) return;
-    
+  const handleExportSaved = useCallback(() => {
+    if (savedPublications.length === 0 || exportState === 'exporting') return;
+    setExportState('exporting');
     const exportData = {
       exportDate: new Date().toISOString(),
       user: user?.email,
@@ -46,288 +64,184 @@ const Profile = () => {
         url: pub.url
       }))
     };
-
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], {
-      type: 'application/json'
-    });
-    
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `FF BioGuide-saved-${new Date().toISOString().split('T')[0]}.json`;
+    link.download = `FF_BioGuide-saved-${new Date().toISOString().split('T')[0]}.json`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
-  };
+    setTimeout(() => setExportState('done'), 300);
+    setTimeout(() => setExportState('idle'), 2400);
+  }, [savedPublications, exportState, user]);
+
+  const requestDelete = useCallback((id: string) => {
+    setPendingDeleteId(id);
+    setConfirmOpen(true);
+  }, []);
+
+  const confirmDelete = useCallback(async () => {
+    if (!pendingDeleteId) return;
+
+    if (activeTab === 'saved') {
+      await toggleSave(pendingDeleteId);
+      setSavedPublications(prev => prev.filter(p => p.id !== pendingDeleteId));
+    } else {
+      await toggleFavorite(pendingDeleteId);
+      setFavoritePublications(prev => prev.filter(p => p.id !== pendingDeleteId));
+    }
+    
+    setPendingDeleteId(null);
+    setConfirmOpen(false);
+  }, [pendingDeleteId, activeTab, toggleSave, toggleFavorite]);
+
+  const stats = useMemo(() => ({
+    saved: savedPublications.length,
+    favorites: favoritePublications.length
+  }), [savedPublications.length, favoritePublications.length]);
 
   if (!user) {
     return (
-      <div className="min-h-screen bg-slate-950">
+      <div
+        className="min-h-screen bg-gray-950 overflow-hidden relative"
+        style={{
+          backgroundImage: 'url(https://i.imgur.com/4fFEQts.png)',
+          backgroundSize: '25px',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '15% 15%',
+          filter: 'brightness(0.9)'
+        }}
+      >
+        <BackgroundStars count={30} variant="subtle" blur />
         <Navigation />
-        <div className="pt-16 flex items-center justify-center min-h-screen">
-          <div className="text-center">
-            <User className="w-16 h-16 text-slate-600 mx-auto mb-4" />
-            <h1 className="text-2xl font-bold text-white mb-4">Please Sign In</h1>
-            <p className="text-slate-400 mb-6">You need to be signed in to view your profile.</p>
-            <Link
-              to="/login"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-cosmic-500 text-white rounded-lg hover:bg-cosmic-600 transition-colors"
-            >
+        <div className="pt-24 flex items-center justify-center min-h-[60vh] px-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center max-w-md">
+            <UserIcon className="w-20 h-20 text-slate-600 mx-auto mb-6" />
+            <h1 className="text-3xl font-bold tracking-tight mb-4">Please Sign In</h1>
+            <p className="text-slate-400 mb-8 leading-relaxed">Sign in to access your personalized research profile, saved publications, favorites, and more.</p>
+            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-br from-cosmic-500 to-cosmic-600 hover:from-cosmic-400 hover:to-cosmic-500 px-8 py-3 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmic-400/60">
               Sign In
             </Link>
-          </div>
+          </motion.div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-slate-950">
+    <div
+      className="min-h-screen bg-gray-950 overflow-hidden relative"
+      style={{
+        backgroundImage: 'url(https://i.imgur.com/4fFEQts.png)',
+        backgroundSize: '25px',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: '15% 15%',
+        filter: 'brightness(0.9)'
+      }}
+    >
+      <BackgroundStars count={100} variant="default" />
       <Navigation />
-      
-      <div className="pt-16">
-        {/* Header */}
-        <div className="glass-dark border-b border-slate-700/50">
-          <div className="max-w-4xl mx-auto px-6 py-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="flex items-center justify-between">
-                <div>
-                  <h1 className="text-3xl font-bold text-white mb-2">{user.first_name} {user.last_name}</h1>
-                  <p className="text-slate-400">{user.email}</p>
-                </div>
-                <div className="flex gap-3">
-                  <button
-                    onClick={handleExportSaved}
-                    disabled={savedPublications.length === 0}
-                    className="flex items-center gap-2 px-4 py-2 glass text-slate-300 hover:text-white hover:neon-glow transition-all duration-300 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    <Download className="w-4 h-4" />
-                    <span>Export Saved</span>
-                  </button>
-                  <button
-                    onClick={logout}
-                    className="flex items-center gap-2 px-4 py-2 bg-red-500/20 text-red-300 hover:bg-red-500/30 rounded-lg transition-colors"
-                  >
-                    <Settings className="w-4 h-4" />
-                    <span>Sign Out</span>
-                  </button>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
+      <div className="pt-24 pb-24 relative">
+        <div className="max-w-6xl mx-auto px-6 space-y-12">
+          <ProfileHero
+            user={user}
+            onExport={handleExportSaved}
+            onSignOut={logout}
+            exportDisabled={savedPublications.length === 0}
+            stats={stats}
+          />
 
-        {/* Content */}
-        <div className="max-w-4xl mx-auto px-6 py-8">
-          {/* Stats */}
-          <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-          >
-            <div className="glass-dark p-6 rounded-xl">
-              <div className="flex items-center gap-3 mb-2">
-                <Bookmark className="w-5 h-5 text-blue-400" />
-                <h3 className="text-lg font-semibold text-white">Saved Publications</h3>
-              </div>
-              <p className="text-3xl font-bold text-blue-400 mb-1">
-                {0}
-              </p>
-              <p className="text-slate-400 text-sm">publications in your library</p>
+          {/* Stat Section */}
+          {isLoading ? (
+            <StatSkeletons />
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+              <StatCard icon={<Bookmark className="w-5 h-5 text-cosmic-300" />} label="Saved" value={stats.saved} accent="cosmic" delay={0.05} />
+              <StatCard icon={<Star className="w-5 h-5 text-yellow-300" />} label="Favorites" value={stats.favorites} accent="yellow" delay={0.1} />
+              <StatCard icon={<BookMarked className="w-5 h-5 text-bio-300" />} label="Publications" value={allPublications.length} accent="bio" delay={0.15} />
+              <StatCard icon={<UserIcon className="w-5 h-5 text-purple-300" />} label="Member" value={new Date(user.createdAt).getFullYear()} accent="purple" delay={0.2} />
             </div>
-
-            <div className="glass-dark p-6 rounded-xl">
-              <div className="flex items-center gap-3 mb-2">
-                <Star className="w-5 h-5 text-yellow-400" />
-                <h3 className="text-lg font-semibold text-white">Favorites</h3>
-              </div>
-              <p className="text-3xl font-bold text-yellow-400 mb-1">
-                {0}
-              </p>
-              <p className="text-slate-400 text-sm">starred publications</p>
-            </div>
-          </motion.div>
+          )}
 
           {/* Tabs */}
-          <motion.div
-            className="mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <div className="flex gap-4 border-b border-slate-700">
-              <button
-                onClick={() => setActiveTab('saved')}
-                className={`px-4 py-2 font-medium transition-colors border-b-2 ${
-                  activeTab === 'saved'
-                    ? 'text-blue-400 border-blue-400'
-                    : 'text-slate-400 border-transparent hover:text-white'
-                }`}
+          <div className="flex items-center justify-between flex-wrap gap-4">
+            <TabNav
+              tabs={[
+                { id: 'saved', label: 'Saved', count: stats.saved },
+                { id: 'favorites', label: 'Favorites', count: stats.favorites }
+              ]}
+              active={activeTab}
+              onChange={(id) => setActiveTab(id as 'saved' | 'favorites')}
+            />
+            {exportState !== 'idle' && (
+              <motion.div
+                initial={{ opacity: 0, y: -6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -6 }}
+                className={`text-xs font-medium px-3 py-1 rounded-full border backdrop-blur bg-slate-800/70 ${exportState==='done' ? 'border-bio-400/50 text-bio-300' : 'border-cosmic-400/50 text-cosmic-300'} shadow`}
               >
-                Saved Publications ({0})
-              </button>
-              <button
-                onClick={() => setActiveTab('favorites')}
-                className={`px-4 py-2 font-medium transition-colors border-b-2 ${
-                  activeTab === 'favorites'
-                    ? 'text-yellow-400 border-yellow-400'
-                    : 'text-slate-400 border-transparent hover:text-white'
-                }`}
-              >
-                Favorites ({0})
-              </button>
-            </div>
-          </motion.div>
+                {exportState === 'exporting' ? 'Exporting…' : 'Export Complete'}
+              </motion.div>
+            )}
+          </div>
 
           {/* Publication Lists */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            {isLoading ? (
-              <div className="text-center py-12">
-                <div className="w-8 h-8 border-4 border-cosmic-400 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-                <p className="text-slate-400">Loading publications...</p>
-              </div>
-            ) : (
-              <>
-                {activeTab === 'saved' && (
-                  <div className="space-y-4">
-                    {savedPublications.length === 0 ? (
-                      <div className="text-center py-12">
-                        <Bookmark className="w-16 h-16 text-slate-600 mx-auto mb-4" />
-                        <h3 className="text-xl font-semibold text-slate-400 mb-2">No saved publications</h3>
-                        <p className="text-slate-500 mb-6">Start building your research library</p>
-                        <Link
-                          to="/dashboard"
-                          className="inline-flex items-center gap-2 px-6 py-3 bg-cosmic-500 text-white rounded-lg hover:bg-cosmic-600 transition-colors"
-                        >
-                          Explore Publications
-                        </Link>
-                      </div>
-                    ) : (
-                      savedPublications.map(publication => (
-                        <div key={publication.id} className="glass-dark p-6 rounded-xl">
-                          <div className="flex justify-between items-start mb-4">
-                            <div className="flex-1">
-                              <Link
-                                to={`/publication/${publication.id}`}
-                                className="text-lg font-semibold text-white hover:text-cosmic-300 transition-colors mb-2 block"
-                              >
-                                {publication.title}
-                              </Link>
-                              <p className="text-slate-400 text-sm mb-2">
-                                {publication.authors.slice(0, 3).map(author => 
-                                  `${author.givenNames} ${author.surname}`
-                                ).join(', ')} • {publication.year}
-                              </p>
-                              <div className="flex flex-wrap gap-2">
-                                <span className="px-2 py-1 bg-bio-500/20 text-bio-300 rounded text-xs">
-                                  {publication.organism}
-                                </span>
-                                <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">
-                                  {publication.assay}
-                                </span>
-                                <span className="px-2 py-1 bg-cosmic-500/20 text-cosmic-300 rounded text-xs">
-                                  {publication.mission}
-                                </span>
-                              </div>
-                            </div>
-                            <button
-                              onClick={() => {
-                                const updatedUser = {
-                                  ...user,
-                                  savedPublications: user.savedPublications.filter(id => id !== publication.id)
-                                };
-                                localStorage.setItem('FF BioGuide_user', JSON.stringify(updatedUser));
-                                setSavedPublications(prev => prev.filter(p => p.id !== publication.id));
-                              }}
-                              className="p-2 text-slate-400 hover:text-red-400 transition-colors"
-                              title="Remove from saved"
-                            >
-                              <Trash2 className="w-4 h-4" />
-                            </button>
-                          </div>
-                        </div>
-                      ))
-                    )}
-                  </div>
-                )}
-
-                {activeTab === 'favorites' && (
-                  <div className="space-y-4">
-                    {favoritePublications.length === 0 ? (
-                      <div className="text-center py-12">
-                        <Star className="w-16 h-16 text-slate-600 mx-auto mb-4" />
-                        <h3 className="text-xl font-semibold text-slate-400 mb-2">No favorite publications</h3>
-                        <p className="text-slate-500 mb-6">Star publications to add them to your favorites</p>
-                        <Link
-                          to="/dashboard"
-                          className="inline-flex items-center gap-2 px-6 py-3 bg-cosmic-500 text-white rounded-lg hover:bg-cosmic-600 transition-colors"
-                        >
-                          Explore Publications
-                        </Link>
-                      </div>
-                    ) : (
-                      favoritePublications.map(publication => (
-                        <div key={publication.id} className="glass-dark p-6 rounded-xl">
-                          <div className="flex justify-between items-start mb-4">
-                            <div className="flex-1">
-                              <Link
-                                to={`/publication/${publication.id}`}
-                                className="text-lg font-semibold text-white hover:text-cosmic-300 transition-colors mb-2 block"
-                              >
-                                {publication.title}
-                              </Link>
-                              <p className="text-slate-400 text-sm mb-2">
-                                {publication.authors.slice(0, 3).map(author => 
-                                  `${author.givenNames} ${author.surname}`
-                                ).join(', ')} • {publication.year}
-                              </p>
-                              <div className="flex flex-wrap gap-2">
-                                <span className="px-2 py-1 bg-bio-500/20 text-bio-300 rounded text-xs">
-                                  {publication.organism}
-                                </span>
-                                <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">
-                                  {publication.assay}
-                                </span>
-                                <span className="px-2 py-1 bg-cosmic-500/20 text-cosmic-300 rounded text-xs">
-                                  {publication.mission}
-                                </span>
-                              </div>
-                            </div>
-                            <button
-                              onClick={() => {
-                                const updatedUser = {
-                                  ...user,
-                                  favoritePublications: user.favoritePublications.filter(id => id !== publication.id)
-                                };
-                                localStorage.setItem('FF BioGuide_user', JSON.stringify(updatedUser));
-                                setFavoritePublications(prev => prev.filter(p => p.id !== publication.id));
-                              }}
-                              className="p-2 text-slate-400 hover:text-red-400 transition-colors"
-                              title="Remove from favorites"
-                            >
-                              <Trash2 className="w-4 h-4" />
-                            </button>
-                          </div>
-                        </div>
-                      ))
-                    )}
-                  </div>
-                )}
-              </>
-            )}
-          </motion.div>
+          <LayoutGroup>
+            <div className="relative min-h-[200px]">
+              {isLoading ? (
+                <PublicationSkeleton count={4} />
+              ) : (
+                <AnimatePresence mode="wait">
+                  {activeTab === 'saved' ? (
+                    <motion.div
+                      key="saved"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.35 }}
+                      className="space-y-4"
+                    >
+                      {savedPublications.length === 0 ? (
+                        <EmptyState type="saved" />
+                      ) : (
+                        savedPublications.map((pub, i) => (
+                          <PublicationCard key={pub.id} publication={pub} onRemove={() => requestDelete(pub.id)} index={i} />
+                        ))
+                      )}
+                    </motion.div>
+                  ) : (
+                    <motion.div
+                      key="favorites"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.35 }}
+                      className="space-y-4"
+                    >
+                      {favoritePublications.length === 0 ? (
+                        <EmptyState type="favorites" />
+                      ) : (
+                        favoritePublications.map((pub, i) => (
+                          <PublicationCard key={pub.id} publication={pub} onRemove={() => requestDelete(pub.id)} index={i} />
+                        ))
+                      )}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              )}
+            </div>
+          </LayoutGroup>
         </div>
       </div>
+      <ConfirmDialog
+        open={confirmOpen}
+        title="Remove publication?"
+        description="This will remove the publication from your list. You can re-add it later from the dashboard."
+        onCancel={() => { setConfirmOpen(false); setPendingDeleteId(null); }}
+        onConfirm={confirmDelete}
+      />
     </div>
   );
 };

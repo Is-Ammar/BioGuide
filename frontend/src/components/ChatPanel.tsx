@@ -142,7 +142,7 @@ const ChatPanel: React.FC<ChatPanelProps> = ({
                 </div>
               ))}
               {errorDetail && (
-                <div className="text-[10px] text-red-400 opacity-70 break-words">Debug: {errorDetail}</div>
+                <div className="text-[10px] text-red-400 opacity-70 break-words">Debug: error server</div>
               )}
             </div>
 

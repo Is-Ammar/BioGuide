@@ -4,26 +4,106 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import session from 'express-session';
+import passport from 'passport';
+import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
 
 import authRouter from './routes/authRouter.js';
+import { requireAuth } from './middlewares/auth.js';
+import User from './models/userModel.js';
+import jwt from 'jsonwebtoken';
+
+// Load environment variables FIRST
+dotenv.config();
 
 const UPSTREAM_CHAT_URL = 'https://eve-paracusic-lorenza.ngrok-free.dev/ask';
+const PORT = process.env.PORT || 3000;
+const MONGOURL = process.env.MONGO_URL;
 
 const app = express();
-// app.use(express.urlencoded({ extended: true }));
-// app.use(helmet());
+
+// Middleware setup - order matters!
 app.use(cors({
     origin: ['http://localhost:5173', 'http://localhost:5174'],
     credentials: true
 }));
 app.use(cookieParser());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET || "your-secret-key-change-in-production",
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      maxAge: 24 * 60 * 60 * 1000 // 24 hours
+    }
+  })
+);
 
-dotenv.config();
-const PORT = process.env.PORT || 4000;
-const MONGOURL = process.env.MONGO_URL;
+app.use(passport.initialize());
+app.use(passport.session());
 
+if (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET) {
+  passport.use(
+    new GoogleStrategy(
+      {
+        clientID: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+        callbackURL: `http://localhost:${PORT}/api/auth/google/callback`,
+      },
+      async (accessToken, refreshToken, profile, done) => {
+        try {
+          // Check if user already exists
+          let user = await User.findOne({ email: profile.emails[0].value });
+          
+          if (!user) {
+            // Create new user from Google profile
+            user = new User({
+              first_name: profile.name.givenName || profile.displayName,
+              last_name: profile.name.familyName || '',
+              email: profile.emails[0].value,
+              password: 'google-oauth-' + profile.id, // Placeholder, won't be used for login
+              phone_number: '', // Optional field
+              country: '', // Optional field
+              googleId: profile.id
+            });
+            await user.save();
+          } else if (!user.googleId) {
+            // Link Google account to existing user
+            user.googleId = profile.id;
+            await user.save();
+          }
+          
+          return done(null, user);
+        } catch (error) {
+          return done(error, null);
+        }
+      }
+    )
+  );
+
+  passport.serializeUser((user, done) => {
+    done(null, user._id);
+  });
+
+  passport.deserializeUser(async (id, done) => {
+    try {
+      const user = await User.findById(id);
+      done(null, user);
+    } catch (error) {
+      done(error, null);
+    }
+  });
+  
+  console.log('✅ Google OAuth configured');
+} else {
+  console.log('⚠️  Google OAuth not configured - missing GOOGLE_CLIENT_ID or GOOGLE_CLIENT_SECRET');
+  console.log('   Add these to your .env file to enable Google login');
+}
+
+// Connect to MongoDB and start server
 mongoose.connect(MONGOURL).then(()=>{
     app.listen(PORT,() => {
         console.log(`✅ Server is running on ${PORT}`)
@@ -32,9 +112,10 @@ mongoose.connect(MONGOURL).then(()=>{
     console.log("❌ Mongo connection failed:", error);
 });
 
-app.use("/api/auth",authRouter)
-
-app.post('/api/chat', async (req, res) => {
+// Routes
+app.use("/api/auth", authRouter);
+    
+app.post('/api/chat', requireAuth, async (req, res) => {
 
     try {
         const { question } = req.body || {};
@@ -57,8 +138,7 @@ app.post('/api/chat', async (req, res) => {
     }
 });
 
-app.get('/',(req,res)=>
-{
-    res.send("hello i am an api check /api/auth/(signin,signup,logout,fetch)");
-})
+app.get('/',(req,res)=> {
+    res.send("hello i am an api check /api/auth/(signin,signup,logout,fetch) - chat protected");
+});
 

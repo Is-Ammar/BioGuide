@@ -10,7 +10,7 @@ export const signupSchema = Joi.object({
     .required(),
   password: Joi.string()
     .min(6)
-    // Uncomment for stronger password
+
     // .pattern(new RegExp('^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$'))
     .required(),
   phone_number: Joi.string()
@@ -28,7 +28,6 @@ export const signinSchema = Joi.object({
     .required(),
   password: Joi.string()
     .min(6)
-    // Uncomment for stronger password
     // .pattern(new RegExp('^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$'))
     .required(),
 });

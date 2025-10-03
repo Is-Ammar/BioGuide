@@ -21,6 +21,8 @@ interface ApiResponse {
   token?: string;
   user?: any;
   result?: any;
+  savedPublications?: string[];
+  favoritePublications?: string[];
 }
 
 class ApiService {
@@ -82,6 +84,82 @@ class ApiService {
       return await response.json();
     } catch (error) {
       console.error('Logout error:', error);
+      throw error;
+    }
+  }
+
+  async toggleSavedPublication(publicationId: string): Promise<ApiResponse> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/toggle-saved`, {
+        method: 'POST',
+        headers: this.getAuthHeaders(),
+        body: JSON.stringify({ publicationId })
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to toggle saved');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Toggle saved error:', error);
+      throw error;
+    }
+  }
+
+  async toggleFavoritePublication(publicationId: string): Promise<ApiResponse> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/toggle-favorite`, {
+        method: 'POST',
+        headers: this.getAuthHeaders(),
+        body: JSON.stringify({ publicationId })
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to toggle favorite');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Toggle favorite error:', error);
+      throw error;
+    }
+  }
+
+  async getUserPublications(): Promise<ApiResponse> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/user-publications`, {
+        method: 'GET',
+        headers: this.getAuthHeaders()
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to fetch user publications');
+      }
+
+      return await response.json();
+    } catch (error) {
+      console.error('Get user publications error:', error);
+      throw error;
+    }
+  }
+
+  async getCurrentUser(): Promise<ApiResponse> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/me`, {
+        method: 'GET',
+        headers: this.getAuthHeaders()
+      });
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Failed to fetch current user');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Get current user error:', error);
       throw error;
     }
   }

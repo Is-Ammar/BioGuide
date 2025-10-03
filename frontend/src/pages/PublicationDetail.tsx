@@ -8,13 +8,10 @@ import { useAuth } from '../lib/auth';
 
 const EASE_OUT = [0.22, 1, 0.36, 1] as const;
 
-// Page level spawn animation
 const pageIntro = {
   hidden: { opacity: 0, filter: 'blur(10px)' },
   show: { opacity: 1, filter: 'blur(0px)', transition: { duration: 0.55, ease: EASE_OUT, when: 'beforeChildren', staggerChildren: 0.07 } }
 };
-
-// Replaces previous fadeUp with a cleaner item fade
 const itemFade = {
   hidden: { opacity: 0, y: 14, filter: 'blur(6px)' },
   show: { opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.5, ease: EASE_OUT } }
@@ -36,7 +33,6 @@ const relatedItem = {
   exit: { opacity: 0, y: -8, transition: { duration: 0.3, ease: 'easeIn' } }
 };
 
-// A smoother, simpler variant for sidebar panels
 const subtlePanel = {
   hidden: { opacity: 0, y: 8 },
   show: { opacity: 1, y: 0, transition: { duration: 0.4, ease: EASE_OUT } }
@@ -45,7 +41,7 @@ const subtlePanel = {
 const PublicationDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { user, toggleFavorite, savePublication, openAuthModal } = useAuth();
+  const { user, toggleFavorite, toggleSave, openAuthModal, favoriteIds, savedIds } = useAuth() as any;
   const [publication, setPublication] = useState<Publication | null>(null);
   const [relatedPublications, setRelatedPublications] = useState<Publication[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -87,7 +83,6 @@ const PublicationDetail = () => {
   }, [id]);
 
   useEffect(() => {
-    // when publication changes decide default tab
     if (publication?.pdfUrl) {
       setViewMode('pdf');
     } else {
@@ -130,8 +125,8 @@ const PublicationDetail = () => {
     );
   }
 
-  const isFavorited = false;
-  const isSaved = false;
+  const isFavorited = !!favoriteIds?.includes(publication.id);
+  const isSaved = !!savedIds?.includes(publication.id);
 
   const handleFavorite = () => {
     if (!user) {
@@ -146,7 +141,7 @@ const PublicationDetail = () => {
       openAuthModal();
       return;
     }
-    savePublication(publication.id);
+    toggleSave(publication.id);
   };
 
   const handleDownload = () => {

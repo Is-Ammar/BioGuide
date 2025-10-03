@@ -11,7 +11,6 @@ interface InspectorProps {
   onClose: () => void;
 }
 
-// Smooth professional animation variants
 const PANEL_EASE = [0.22, 1, 0.36, 1] as const;
 const backdropVariants = {
   hidden: { opacity: 0 },
@@ -25,27 +24,29 @@ const panelVariants = {
 };
 
 const Inspector: React.FC<InspectorProps> = ({ isOpen, publication, onClose }) => {
-  const { user, openAuthModal } = useAuth();
+  const { user, openAuthModal, toggleSave, toggleFavorite, savedIds, favoriteIds } = useAuth();
   const navigate = useNavigate();
   const [confidenceScore, setConfidenceScore] = useState(0.85);
 
   if (!publication) return null;
 
-  const isFavorited = false;
-  const isSaved = false;
+  const isFavorited = favoriteIds?.includes(publication.id);
+  const isSaved = savedIds?.includes(publication.id);
 
-  const handleFavorite = () => {
+  const handleFavorite = async () => {
     if (!user) {
       openAuthModal();
       return;
     }
+    await toggleFavorite(publication.id);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (!user) {
       openAuthModal();
       return;
     }
+    await toggleSave(publication.id);
   };
 
   const handleDownload = () => {

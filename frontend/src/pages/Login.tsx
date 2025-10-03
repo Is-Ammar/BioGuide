@@ -1,28 +1,63 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Link, useNavigate } from 'react-router-dom';
-import { Mail, Lock, UserPlus, ArrowLeft, User, Phone, MapPin } from 'lucide-react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Mail, Lock, UserPlus, ArrowLeft, User, Phone } from 'lucide-react';
+import CountrySelect from '../components/CountrySelect';
+import { countries } from '../data/countries';
 import { useAuth } from '../lib/auth';
 
 const Login = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { login, register } = useAuth();
   const [isLogin, setIsLogin] = useState(true);
   
-  // Login fields
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   
-  // Registration fields
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [regEmail, setRegEmail] = useState('');
   const [regPassword, setRegPassword] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [country, setCountry] = useState('');
+
+  const selectedCountry = countries.find(c => c.name === country);
+
+  const phonePlaceholder = React.useMemo(() => {
+    if (!selectedCountry) return 'Select country first';
+    const dial = `+${selectedCountry.dialCode}`;
+    if (selectedCountry.phoneNumberFormat) {
+      const fmt = selectedCountry.phoneNumberFormat.format;
+      const digitsExample = fmt.replace(/x/g, '0');
+      return `${dial} ${digitsExample}`.trim();
+    }
+    return `${dial} 1234567890`;
+  }, [selectedCountry]);
   
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
+  // Handle error from Google OAuth redirect
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const errorParam = params.get('error');
+
+    if (errorParam) {
+      if (errorParam === 'auth_failed') {
+        setError('Google authentication failed. Please try again.');
+      } else if (errorParam === 'no_user') {
+        setError('Unable to retrieve user information. Please try again.');
+      } else {
+        setError('An error occurred during authentication.');
+      }
+    }
+  }, [location]);
+
+  const handleGoogleLogin = () => {
+    // Backend is running on port 3000
+    window.location.href = 'http://localhost:3000/api/auth/google';
+  };
 
   const resetForm = () => {
     setEmail('');
@@ -50,7 +85,6 @@ const Login = () => {
           setError('Invalid email or password. Please check your credentials.');
         }
       } else {
-        // Registration
         if (!firstName || !lastName || !regEmail || !regPassword || !phoneNumber || !country) {
           setError('Please fill in all required fields.');
           setIsLoading(false);
@@ -84,7 +118,6 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-slate-950 flex items-center justify-center px-4">
-      {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -inset-10 opacity-50">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cosmic-500/20 rounded-full blur-3xl"></div>
@@ -98,7 +131,6 @@ const Login = () => {
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ type: "spring", duration: 0.6 }}
       >
-        {/* Back Link */}
         <Link
           to="/"
           className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-6"
@@ -107,7 +139,6 @@ const Login = () => {
           Back to FF BioGuide
         </Link>
 
-        {/* Header */}
         <div className="text-center mb-8">
           <motion.div
             className="text-3xl font-black bg-gradient-to-r from-cosmic-400 to-neon-cyan bg-clip-text text-transparent mb-4"
@@ -128,12 +159,9 @@ const Login = () => {
           </p>
         </div>
 
-        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-6">
           {isLogin ? (
             <>
-              {/* Login Form */}
-              {/* Email */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Email
@@ -151,7 +179,6 @@ const Login = () => {
                 </div>
               </div>
 
-              {/* Password */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Password
@@ -172,8 +199,6 @@ const Login = () => {
             </>
           ) : (
             <>
-              {/* Registration Form */}
-              {/* First Name & Last Name */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-slate-300 mb-2">
@@ -211,7 +236,6 @@ const Login = () => {
                 </div>
               </div>
 
-              {/* Email */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Email
@@ -229,7 +253,6 @@ const Login = () => {
                 </div>
               </div>
 
-              {/* Password */}
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Password
@@ -248,7 +271,13 @@ const Login = () => {
                 </div>
               </div>
 
-              {/* Phone Number */}
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-2">
+                  Country
+                </label>
+                <CountrySelect value={country} onChange={setCountry} />
+              </div>
+
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Phone Number
@@ -260,33 +289,15 @@ const Login = () => {
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     className="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-slate-400 focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 transition-colors"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder={phonePlaceholder}
                     required
-                  />
-                </div>
-              </div>
-
-              {/* Country */}
-              <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">
-                  Country
-                </label>
-                <div className="relative">
-                  <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
-                  <input
-                    type="text"
-                    value={country}
-                    onChange={(e) => setCountry(e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-slate-400 focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 transition-colors"
-                    placeholder="United States"
-                    required
+                    disabled={!country}
                   />
                 </div>
               </div>
             </>
           )}
 
-          {/* Error message */}
           {error && (
             <motion.div
               className="text-red-400 text-sm text-center p-3 bg-red-400/10 border border-red-400/20 rounded-lg"
@@ -297,7 +308,6 @@ const Login = () => {
             </motion.div>
           )}
 
-          {/* Submit button */}
           <motion.button
             type="submit"
             disabled={isLoading}
@@ -314,9 +324,45 @@ const Login = () => {
               </>
             )}
           </motion.button>
+
+          <div className="relative my-6">
+            <div className="absolute inset-0 flex items-center">
+              <div className="w-full border-t border-slate-600/50"></div>
+            </div>
+            <div className="relative flex justify-center text-sm">
+              <span className="px-2 bg-slate-900 text-slate-400">Or continue with</span>
+            </div>
+          </div>
+
+<motion.button
+  type="button"
+  aria-label="Continue with Google"
+  onClick={handleGoogleLogin}
+  disabled={isLoading}
+  className="relative group w-full overflow-hidden rounded-lg border border-slate-600/60 bg-slate-800/40 px-4 py-3 font-medium text-slate-200 backdrop-blur-sm flex items-center justify-center gap-3 transition-all
+             hover:border-cosmic-400/70 hover:bg-slate-800/60 focus:outline-none focus:ring-2 focus:ring-cosmic-400/30 disabled:opacity-50 disabled:cursor-not-allowed"
+  whileHover={{ scale: 1.02 }}
+  whileTap={{ scale: 0.98 }}
+>
+  <span className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+    <span className="absolute -inset-[1px] bg-gradient-to-r from-cosmic-500/15 via-neon-cyan/15 to-bio-500/15 blur-xl" />
+  </span>
+  <span className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/5 to-transparent" />
+  <span className="relative flex items-center gap-3">
+    <span className="flex h-8 w-8 items-center justify-center rounded-md bg-white">
+      <svg className="w-5 h-5" viewBox="0 0 24 24">
+        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
+        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
+      </svg>
+    </span>
+    <span className="relative tracking-wide">Continue with Google</span>
+  </span>
+</motion.button>
+
         </form>
 
-        {/* Toggle */}
         <div className="text-center mt-6">
           <p className="text-slate-400">
             {isLogin ? "Don't have an account?" : "Already have an account?"}

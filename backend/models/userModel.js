@@ -21,23 +21,37 @@ const  userSchema = mongoose.Schema({
     },
     password: {
         type: String,
-        required: true,
+        required: function() {
+            // Password not required if user signed up with Google
+            return !this.googleId;
+        },
         minlength: 6
     },
     phone_number:{
         type:String,
-        required:true,
+        required: false, // Optional for Google OAuth users
     },
     country:{
         type:String,
-        required:true,
+        required: false, // Optional for Google OAuth users
     },
-    agreement:{
-        type:Boolean,
+    googleId: {
+        type: String,
+        unique: true,
+        sparse: true // Allows null values while maintaining uniqueness
     },
     createdAt: {
         type: Date,
         default: Date.now
+    },
+  
+    savedPublications: {
+        type: [String],
+        default: []
+    },
+    favoritePublications: {
+        type: [String],
+        default: []
     }
 });
 

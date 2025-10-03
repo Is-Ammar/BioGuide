@@ -5,10 +5,8 @@ import Navigation from '../components/Navigation';
 import ResultCard from '../components/ResultCard';
 import Inspector from '../components/Inspector';
 import Sidebar from '../components/Sidebar';
-import ChatPanel from '../components/ChatPanel';
 import { loadPublications, searchPublications, parseAdvancedQuery, type Publication, type SearchQuery, type SearchResult } from '../lib/searchEngine';
 
-const API_BASE = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace(/\/$/, '') : '';
 
 const Dashboard = () => {
   const [publications, setPublications] = useState<Publication[]>([]);
@@ -25,30 +23,6 @@ const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [savedViews, setSavedViews] = useState<Record<string, SearchQuery>>({});
   const searchInputRef = useRef<HTMLInputElement>(null);
-
-  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
-  const [chatMessages, setChatMessages] = useState<Array<{
-    id: string;
-    content: string;
-    role: 'user' | 'assistant';
-    timestamp: Date;
-    isLoading?: boolean;
-  }>>([
-    {
-      id: '1',
-      content: "Hello! I'm your BioGuide assistant. I can help you search publications, explain research concepts, and analyze data. What would you like to know?",
-      role: 'assistant',
-      timestamp: new Date()
-    }
-  ]);
-  const [conversationId, setConversationId] = useState(() => (crypto?.randomUUID?.() || Math.random().toString(36).slice(2)));
-  const [chatInput, setChatInput] = useState('');
-  const [isChatLoading, setIsChatLoading] = useState(false);
-  const [chatErrorDetail, setChatErrorDetail] = useState<string | null>(null);
-  const chatMessagesRef = useRef<HTMLDivElement>(null);
-  const chatRequestControllerRef = useRef<AbortController | null>(null);
-  const loadingMessageIdRef = useRef<string | null>(null);
-
   useEffect(() => {
     const fetchPublications = async () => {
       try {
@@ -88,164 +62,11 @@ const Dashboard = () => {
     }
   }, []);
 
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem('BioGuide_chat_history');
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        if (parsed?.messages && Array.isArray(parsed.messages)) {
-          const restored = parsed.messages.map((m: any) => ({
-            ...m,
-            timestamp: new Date(m.timestamp)
-          }));
-          if (restored.length) setChatMessages(restored);
-        }
-        if (parsed?.conversationId) setConversationId(parsed.conversationId);
-      }
-    } catch (_) {}
-  }, []);
-
-  useEffect(() => {
-    try {
-      const storable = chatMessages
-        .filter(m => !(m as any).isLoading)
-        .map(m => ({ id: m.id, role: m.role, content: m.content, timestamp: m.timestamp.toISOString() }));
-      localStorage.setItem('BioGuide_chat_history', JSON.stringify({ conversationId, messages: storable }));
-    } catch (_) {}
-  }, [chatMessages, conversationId]);
-
-  const sendChatMessage = useCallback(async () => {
-    if (!chatInput.trim() || isChatLoading) return;
-
-    setChatErrorDetail(null);
-
-    if (chatRequestControllerRef.current) {
-      chatRequestControllerRef.current.abort();
-    }
-    const controller = new AbortController();
-    chatRequestControllerRef.current = controller;
-
-    const userMessage = {
-      id: Date.now().toString(),
-      content: chatInput.trim(),
-      role: 'user' as const,
-      timestamp: new Date()
-    };
-
-    const loadingId = `loading-${Date.now()}`;
-    loadingMessageIdRef.current = loadingId;
-
-    setChatMessages(prev => [
-      ...prev,
-      userMessage,
-      {
-        id: loadingId,
-        content: '',
-        role: 'assistant' as const,
-        timestamp: new Date(),
-        isLoading: true
-      }
-    ]);
-
-    setChatInput('');
-    setIsChatLoading(true);
-
-    const historyMessages = [...chatMessages, userMessage]
-      .filter(m => !(m as any).isLoading);
-    const DELIMITER = '\n<|BIOGUIDE_DIALOG_DELIM|>\n';
-    const historyCombined = historyMessages
-      .map(m => `${m.role === 'user' ? 'USER' : 'ASSISTANT'}: ${m.content}`)
-      .join(DELIMITER);
-
-    const timeoutMs = 100000;
-    const timeoutPromise = new Promise<never>((_, reject) => {
-      const t = setTimeout(() => {
-        clearTimeout(t);
-        reject(new Error('Request timed out'));
-      }, timeoutMs);
-    });
-
-    try {
-      const response = await Promise.race([
-        fetch(`${API_BASE}/api/chat`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            question: userMessage.content,
-            conversationId,
-            history: historyMessages.map(m => ({ role: m.role, content: m.content })),
-            historyCombined,
-            delimiter: DELIMITER
-          }),
-          signal: controller.signal,
-          mode: 'cors'
-        }),
-        timeoutPromise
-      ]);
-
-      if (!(response instanceof Response)) throw new Error('Unexpected response type');
-
-      if (!response.ok) {
-        const text = await response.text().catch(() => '');
-        throw new Error(`HTTP ${response.status} ${response.statusText} ${text}`);
-      }
-
-      const data = await response.json().catch(() => ({ answer: '' }));
-      const answer = data.answer || data.message || 'Sorry, I encountered an error processing your request.';
-
-      setChatMessages(prev => prev.map(m => m.id === loadingId ? {
-        id: Date.now().toString(),
-        content: answer,
-        role: 'assistant',
-        timestamp: new Date()
-      } : m));
-    } catch (error: any) {
-      let userFacing = 'Connection issue. Please try again.';
-      if (error?.name === 'AbortError') {
-        userFacing = 'Request cancelled.';
-      } else if (error?.message?.includes('timed out')) {
-        userFacing = 'The model is taking too long. Try rephrasing or resubmitting.';
-      } else if (error?.message?.includes('Failed to fetch')) {
-        userFacing = 'Network/CORS error. Check server CORS headers.';
-      }
-      setChatErrorDetail(error?.message || String(error));
-      setChatMessages(prev => prev.map(m => m.id === loadingId ? {
-        id: Date.now().toString(),
-        content: userFacing,
-        role: 'assistant',
-        timestamp: new Date()
-      } : m));
-    } finally {
-      setIsChatLoading(false);
-      loadingMessageIdRef.current = null;
-      chatRequestControllerRef.current = null;
-    }
-  }, [chatInput, isChatLoading, chatMessages, conversationId, parsedQuery, selectedPublication, searchResults]);
-
-  const clearChatHistory = useCallback(() => {
-    setChatMessages([{
-      id: '1',
-      content: "Hello! I'm your BioGuide assistant. I can help you search publications, explain research concepts, and analyze data. What would you like to know?",
-      role: 'assistant',
-      timestamp: new Date()
-    }]);
-    localStorage.removeItem('BioGuide_chat_history');
-    setConversationId(crypto?.randomUUID?.() || Math.random().toString(36).slice(2));
-  }, []);
-
-  useEffect(() => {
-    if (chatMessagesRef.current) {
-      chatMessagesRef.current.scrollTop = chatMessagesRef.current.scrollHeight;
-    }
-  }, [chatMessages]);
 
   useEffect(() => {
     const handleKeydown = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement && e.target.placeholder?.includes('Ask me')) {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          sendChatMessage();
-        }
+        if (e.key === 'Enter') e.preventDefault();
         return;
       }
 
@@ -278,7 +99,7 @@ const Dashboard = () => {
 
     window.addEventListener('keydown', handleKeydown);
     return () => window.removeEventListener('keydown', handleKeydown);
-  }, [searchResults, selectedIndex, isInspectorOpen, sendChatMessage]);
+  }, [searchResults, selectedIndex, isInspectorOpen]);
 
   const saveView = useCallback((name: string) => {
     const newSavedViews = { ...savedViews, [name]: parsedQuery };
@@ -505,30 +326,7 @@ const Dashboard = () => {
         />
       </div>
 
-      <ChatPanel
-        isOpen={isChatbotOpen}
-        messages={chatMessages}
-        input={chatInput}
-        onInputChange={setChatInput}
-        onSend={sendChatMessage}
-        onClose={() => setIsChatbotOpen(false)}
-        onClear={clearChatHistory}
-        isLoading={isChatLoading}
-        errorDetail={chatErrorDetail}
-        messagesRef={chatMessagesRef}
-      />
-
-      {!isChatbotOpen && (
-        <button
-          onClick={() => setIsChatbotOpen(true)}
-          className="fixed bottom-4 right-4 w-14 h-14 bg-gradient-to-br from-cosmic-500 to-bio-500 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group"
-          title="Open AI Assistant"
-        >
-          <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-            <span className="text-white text-sm font-bold">AI</span>
-          </div>
-        </button>
-      )}
+      {/* Global chat handled in App */}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Dna, Rocket, Database } from 'lucide-react';
 import Navigation from '../components/Navigation';
