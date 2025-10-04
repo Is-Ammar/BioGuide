@@ -1,5 +1,7 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { apiService } from './api';
+import { useNavigate } from 'react-router-dom';
+import { showToast } from './useToast';
 
 export interface User {
   _id: string;
@@ -22,7 +24,7 @@ interface AuthContextType {
     phone_number: string;
     country: string;
   }) => Promise<boolean>;
-  logout: () => void;
+  logout: () => Promise<void>;
   openAuthModal: () => void;
   closeAuthModal: () => void;
   isAuthModalOpen: boolean;
@@ -32,6 +34,7 @@ interface AuthContextType {
   favoriteIds: string[];
   toggleSave: (publicationId: string) => Promise<void>;
   toggleFavorite: (publicationId: string) => Promise<void>;
+  setUserFromToken: (user: User) => void;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -51,6 +54,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [initializing, setInitializing] = useState(true); // Track initial auth check
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
+  const navigate = useNavigate();
 
   // Load user and fetch their publications
   useEffect(() => {
@@ -109,10 +113,18 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       const response = await apiService.signin({ email, password });
       
       if (response.success && response.user && response.token) {
+        const isNew = localStorage.getItem('FF_BioGuide_account_created');
         setUser(response.user);
         localStorage.setItem('FF_BioGuide_user', JSON.stringify(response.user));
         localStorage.setItem('FF_BioGuide_token', response.token);
         setIsAuthModalOpen(false);
+        // Show login success toast (5s handled by utility)
+        showToast('Login successful', 'success');
+        // If a new account flag exists, show one-time toast and then remove flag so it never repeats
+        if (isNew === '1') {
+          showToast('Account created successfully', 'success');
+          localStorage.removeItem('FF_BioGuide_account_created');
+        }
         return true;
       }
       return false;
@@ -140,6 +152,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       });
       
       if (response.success) {
+        // mark new account so after auto-login we can show one-time toast
+        localStorage.setItem('FF_BioGuide_account_created', '1');
         return await login(userData.email, userData.password);
       }
       return false;
@@ -164,6 +178,10 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       localStorage.removeItem('FF_BioGuide_user');
       localStorage.removeItem('FF_BioGuide_token');
       setLoading(false);
+      // Always navigate to landing page gracefully (client-side) even if already there
+      if (window.location.pathname !== '/') {
+        navigate('/', { replace: true });
+      }
     }
   };
 
@@ -199,6 +217,10 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     setIsAuthModalOpen(false);
   };
 
+  const setUserFromToken = (userData: User) => {
+    setUser(userData);
+  };
+
   return (
     <AuthContext.Provider
       value={{
@@ -214,7 +236,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         savedIds,
         favoriteIds,
         toggleSave,
-        toggleFavorite
+        toggleFavorite,
+        setUserFromToken
       }}
     >
       {children}

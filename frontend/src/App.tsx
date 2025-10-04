@@ -6,6 +6,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 import ChatPanel from './components/ChatPanel';
 import ChatButton from './components/ChatButton';
 import RequireAuth from './components/RequireAuth';
+import ToastViewport from './components/ToastViewport';
 
 const Landing = React.lazy(() => import('./pages/Landing'));
 const Dashboard = React.lazy(() => import('./pages/Dashboard'));
@@ -243,6 +244,8 @@ function InnerApp() {
 function App() {
   return (
     <AuthProvider>
+      {/* Toasts */}
+      <ToastViewport />
       <InnerApp />
     </AuthProvider>
   );

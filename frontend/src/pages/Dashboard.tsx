@@ -6,6 +6,7 @@ import ResultCard from '../components/ResultCard';
 import Inspector from '../components/Inspector';
 import Sidebar from '../components/Sidebar';
 import { loadPublications, searchPublications, parseAdvancedQuery, type Publication, type SearchQuery, type SearchResult } from '../lib/searchEngine';
+import { apiService } from '../lib/api';
 
 
 const Dashboard = () => {
@@ -26,11 +27,13 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchPublications = async () => {
       try {
+        // load publications from backend aware loader
         const data = await loadPublications();
         setPublications(data);
-
         const results = searchPublications(data, {}, 1, resultsPerPage);
         setSearchResults(results);
+        // Preload dashboard metrics for potential charts
+        apiService.getDashboardData().catch(()=>{});
       } catch (error) {
         console.error('Failed to load publications:', error);
       } finally {

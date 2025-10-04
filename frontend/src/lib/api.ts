@@ -1,4 +1,5 @@
 const API_BASE_URL = 'http://localhost:3000/api';
+export { API_BASE_URL }; // export for other modules
 
 interface SignupData {
   first_name: string;
@@ -162,6 +163,35 @@ class ApiService {
       console.error('Get current user error:', error);
       throw error;
     }
+  }
+
+  // ---- New Data Endpoints ----
+  async getDashboardData() {
+    const resp = await fetch(`${API_BASE_URL}/dashboard`);
+    if (!resp.ok) throw new Error('Failed to fetch dashboard data');
+    return resp.json();
+  }
+  async getInspectorData() {
+    const resp = await fetch(`${API_BASE_URL}/inspector`);
+    if (!resp.ok) throw new Error('Failed to fetch inspector data');
+    return resp.json();
+  }
+  async getInspectorRecord(id: string) {
+    const resp = await fetch(`${API_BASE_URL}/inspector/${encodeURIComponent(id)}`);
+    if (resp.status === 404) return null;
+    if (!resp.ok) throw new Error('Failed to fetch inspector record');
+    return resp.json();
+  }
+  async getPublications() {
+    const resp = await fetch(`${API_BASE_URL}/publications`);
+    if (!resp.ok) throw new Error('Failed to fetch publications');
+    return resp.json(); // { publications: [...] }
+  }
+  async getPublication(pubId: string) {
+    const resp = await fetch(`${API_BASE_URL}/publications/${encodeURIComponent(pubId)}`);
+    if (resp.status === 404) return null;
+    if (!resp.ok) throw new Error('Failed to fetch publication');
+    return resp.json(); // { publication: {...} }
   }
 }
 

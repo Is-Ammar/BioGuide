@@ -52,12 +52,80 @@ const PublicationDetail = () => {
   useEffect(() => {
     const fetchPublication = async () => {
       try {
+        // Try backend endpoint first for single publication for richer data (related list already in object)
+        const singleResp = await fetch(`http://localhost:3000/api/publications/${id}`);
+        if (singleResp.ok) {
+          const pData = await singleResp.json(); // { publication }
+          if (pData?.publication) {
+            const p = pData.publication;
+            const mapped: Publication = {
+              id: p.id,
+              title: p.title || '',
+              authors: (p.authors || []).map((full: string) => {
+                const parts = full.split(' ');
+                return { givenNames: parts.slice(0, -1).join(' ') || '', surname: parts.slice(-1)[0] || '' };
+              }),
+              year: Number(p.year) || 0,
+              abstract: p.abstract || '',
+              mission: '',
+              organism: '',
+              assay: '',
+              source: p.journal || p.file || 'Unknown',
+              license: '',
+              url: '',
+              publisher: p.journal || 'Unknown',
+              keywords: [],
+              volume: undefined,
+              issue: undefined,
+              pmc: p.id,
+              pmid: undefined,
+              doi: undefined,
+              pdfUrl: null
+            };
+            setPublication(mapped);
+            if (Array.isArray(p.related) && p.related.length) {
+              // Fetch related publications batch
+              const relResp = await fetch('http://localhost:3000/api/publications');
+              if (relResp.ok) {
+                const relData = await relResp.json();
+                if (Array.isArray(relData.publications)) {
+                  const relMapped: Publication[] = relData.publications.filter((r: any) => p.related.includes(r.id)).slice(0,3).map((r: any) => ({
+                    id: r.id,
+                    title: r.title || '',
+                    authors: (r.authors || []).map((full: string) => {
+                      const parts = full.split(' ');
+                      return { givenNames: parts.slice(0, -1).join(' ') || '', surname: parts.slice(-1)[0] || '' };
+                    }),
+                    year: Number(r.year) || 0,
+                    abstract: r.abstract || '',
+                    mission: '',
+                    organism: '',
+                    assay: '',
+                    source: r.journal || r.file || 'Unknown',
+                    license: '',
+                    url: '',
+                    publisher: r.journal || 'Unknown',
+                    keywords: [],
+                    volume: undefined,
+                    issue: undefined,
+                    pmc: r.id,
+                    pmid: undefined,
+                    doi: undefined,
+                    pdfUrl: null
+                  }));
+                  setRelatedPublications(relMapped);
+                }
+              }
+              setIsLoading(false);
+              return;
+            }
+          }
+        }
+        // Fallback existing logic
         const publications = await loadPublications();
         const found = publications.find(pub => pub.id === id);
-        
         if (found) {
           setPublication(found);
-
           const related = publications
             .filter(pub => 
               pub.id !== found.id && (
@@ -67,7 +135,6 @@ const PublicationDetail = () => {
               )
             )
             .slice(0, 3);
-          
           setRelatedPublications(related);
         }
       } catch (error) {
