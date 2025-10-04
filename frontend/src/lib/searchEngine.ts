@@ -1,7 +1,7 @@
 export interface Publication {
   id: string;
   title: string;
-  authors: Array<{ surname: string; givenNames: string; }>;
+  authors: Array<{ surname: string; givenNames: string; }>; // legacy local shape
   year: number;
   doi?: string;
   pmid?: string;
@@ -172,6 +172,42 @@ export function searchPublications(
 
 export async function loadPublications(): Promise<Publication[]> {
   try {
+    // Prefer backend dynamic publications endpoint
+    const resp = await fetch('http://localhost:3000/api/publications');
+    if (resp.ok) {
+      const data = await resp.json(); // { publications: [...] }
+      if (Array.isArray(data.publications)) {
+        // Map backend minimal pub objects to local Publication interface (best-effort)
+        return data.publications.map((p: any) => ({
+          id: p.id,
+            title: p.title || '',
+            authors: (p.authors || []).map((full: string) => {
+              const parts = full.split(' ');
+              return { givenNames: parts.slice(0, -1).join(' ') || '', surname: parts.slice(-1)[0] || '' };
+            }),
+            year: Number(p.year) || 0,
+            abstract: p.abstract || '',
+            mission: '',
+            organism: '',
+            assay: '',
+            source: p.journal || p.file || 'Unknown',
+            license: '',
+            url: '',
+            publisher: p.journal || 'Unknown',
+            keywords: [],
+            volume: undefined,
+            issue: undefined,
+            pmc: p.id,
+            pmid: undefined,
+            doi: undefined,
+            pdfUrl: null
+        }));
+      }
+    }
+  } catch (err) {
+    console.warn('Backend publications endpoint failed, falling back to static JSON.', err);
+  }
+  try {
     const response = await fetch('/src/data/publications.json');
     if (!response.ok) {
       throw new Error('Failed to load publications');
@@ -179,7 +215,6 @@ export async function loadPublications(): Promise<Publication[]> {
     return await response.json();
   } catch (error) {
     console.error('Error loading publications:', error);
-    // Fallback to empty array or default data
     return [];
   }
 }

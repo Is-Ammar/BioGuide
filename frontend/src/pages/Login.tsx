@@ -9,7 +9,7 @@ import { useAuth } from '../lib/auth';
 const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { login, register } = useAuth();
+  const { login, register, user, initializing } = useAuth();
   const [isLogin, setIsLogin] = useState(true);
   
   const [email, setEmail] = useState('');
@@ -38,10 +38,32 @@ const Login = () => {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  // Handle error from Google OAuth redirect
+  // Redirect if user is already logged in
+  useEffect(() => {
+    if (!initializing && user) {
+      const redirectTo = localStorage.getItem('FF_BioGuide_redirect_after_auth') || 
+                         new URLSearchParams(location.search).get('redirect');
+      
+      localStorage.removeItem('FF_BioGuide_redirect_after_auth');
+      
+      if (redirectTo === '/') {
+        navigate('/', { replace: true });
+      } else if (redirectTo) {
+        navigate(redirectTo, { replace: true });
+      } else {
+        navigate('/dashboard', { replace: true });
+      }
+    }
+  }, [user, initializing, navigate, location.search]);
+
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const errorParam = params.get('error');
+    const redirectTo = params.get('redirect');
+
+    if (redirectTo) {
+      localStorage.setItem('FF_BioGuide_redirect_after_auth', redirectTo);
+    }
 
     if (errorParam) {
       if (errorParam === 'auth_failed') {
@@ -55,7 +77,6 @@ const Login = () => {
   }, [location]);
 
   const handleGoogleLogin = () => {
-    // Backend is running on port 3000
     window.location.href = 'http://localhost:3000/api/auth/google';
   };
 
@@ -106,7 +127,14 @@ const Login = () => {
       }
 
       if (success) {
-        navigate('/dashboard');
+        const redirectTo = localStorage.getItem('FF_BioGuide_redirect_after_auth');
+        localStorage.removeItem('FF_BioGuide_redirect_after_auth');
+        
+        if (redirectTo === '/') {
+          navigate('/');
+        } else {
+          navigate('/dashboard');
+        }
       }
     } catch (err: any) {
       console.error('Auth error:', err);
