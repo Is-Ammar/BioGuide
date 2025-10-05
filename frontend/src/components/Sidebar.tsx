@@ -58,19 +58,19 @@ const Sidebar: React.FC<SidebarProps> = ({
     const sortedFacets = Object.entries(facets).sort(([,a], [,b]) => b - a);
     return (
       <div className="mb-6">
-        <h3 className="text-sm font-semibold text-slate-300 mb-3">{title}</h3>
+  <h3 className="text-sm font-semibold text-semantic-text-secondary mb-3 tracking-wide">{title}</h3>
         <div className="space-y-2">
           {sortedFacets.slice(0, 8).map(([value, count], i) => (
             <motion.button
               key={value}
               onClick={() => onFacetSelect(facetType, value)}
-              className="flex items-center justify-between w-full p-2 text-left text-sm text-slate-400 hover:text-white hover:bg-slate-700/30 rounded-lg transition-colors group"
+              className="flex items-center justify-between w-full p-2 text-left text-sm text-semantic-text-secondary hover:text-semantic-text-primary rounded-lg transition-colors group bg-semantic-surface-1/20 hover:bg-semantic-surface-2/40 border border-transparent hover:border-semantic-border-accent/40 backdrop-blur-sm"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut', delay: 0.05 * i } }}
               exit={{ opacity: 0, y: -6, transition: { duration: 0.3 } }}
             >
-              <span className="truncate flex-1 group-hover:text-cosmic-300">{value}</span>
-              <span className="ml-2 px-2 py-0.5 bg-slate-700/50 text-slate-400 rounded text-xs font-mono">{count}</span>
+              <span className="truncate flex-1 group-hover:text-accent">{value}</span>
+              <span className="ml-2 px-2 py-0.5 rounded text-xs font-mono bg-semantic-surface-2/60 text-semantic-text-dim border border-semantic-border-muted/40 group-hover:border-semantic-border-accent/40">{count}</span>
             </motion.button>
           ))}
         </div>
@@ -83,7 +83,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       {/* Toggle Button */}
       <button
         onClick={onToggle}
-        className="fixed left-4 top-20 z-40 p-2 glass-dark rounded-lg text-slate-400 hover:text-white transition-colors"
+        className="fixed left-4 top-20 z-40 p-2 rounded-xl text-semantic-text-secondary hover:text-semantic-text-primary transition-colors bg-semantic-surface-1/70 border border-semantic-border-muted hover:border-semantic-border-accent shadow-lg shadow-black/40 backdrop-blur-md"
       >
         {isOpen ? <ChevronLeft className="w-5 h-5" /> : <ChevronRight className="w-5 h-5" />}
       </button>
@@ -92,7 +92,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="w-80 glass-dark border-r border-slate-700/50 overflow-y-auto"
+            className="w-80 overflow-y-auto bg-gradient-to-br from-semantic-surface-1/90 via-semantic-surface-1/80 to-semantic-surface-2/90 border-r border-semantic-border-muted backdrop-blur-xl shadow-[0_0_0_1px_rgba(56,189,248,0.12),0_8px_40px_-10px_rgba(0,0,0,0.6)]"
             variants={sidebarVariants}
             initial="hidden"
             animate="show"
@@ -101,17 +101,17 @@ const Sidebar: React.FC<SidebarProps> = ({
             <div className="p-6">
               {/* Header */}
               <div className="flex items-center gap-2 mb-7 ml-9">
-                <Filter className="w-5 h-5 text-cosmic-400" />
-                <h2 className="text-lg font-semibold text-white">Filters & Views</h2>
+                <Filter className="w-5 h-5 text-accent" />
+                <h2 className="text-lg font-semibold text-semantic-text-primary tracking-wide">Filters & Views</h2>
               </div>
 
               {/* Saved Views */}
               <div className="mb-8">
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-sm font-semibold text-slate-300">Saved Views</h3>
+                  <h3 className="text-sm font-semibold text-semantic-text-secondary tracking-wide">Saved Views</h3>
                   <button
                     onClick={() => setShowSaveInput(!showSaveInput)}
-                    className="p-1 text-slate-400 hover:text-white transition-colors"
+                    className="p-1 text-semantic-text-secondary hover:text-semantic-text-primary transition-colors rounded-md hover:bg-semantic-surface-2/40"
                   >
                     <Plus className="w-4 h-4" />
                   </button>
@@ -132,7 +132,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                           value={newViewName}
                           onChange={(e) => setNewViewName(e.target.value)}
                           placeholder="View name..."
-                          className="flex-1 px-3 py-2 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-slate-400 text-sm focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20"
+                          className="flex-1 px-3 py-2 rounded-lg text-semantic-text-primary placeholder-semantic-text-dim text-sm bg-semantic-surface-2/70 border border-semantic-border-muted focus:border-semantic-border-accent focus:ring-2 focus:ring-[color:var(--color-ring-accent)] outline-none"
                           onKeyDown={(e) => {
                             if (e.key === 'Enter') {
                               handleSaveView();
@@ -145,7 +145,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                         />
                         <button
                           onClick={handleSaveView}
-                          className="px-3 py-2 bg-cosmic-500 text-white rounded-lg hover:bg-cosmic-600 transition-colors text-sm"
+                          className="px-3 py-2 rounded-lg text-sm font-medium text-semantic-text-primary bg-accent/20 hover:bg-accent/30 border border-semantic-border-accent shadow-inner shadow-cosmic-500/20 transition-colors"
                         >
                           <Save className="w-4 h-4" />
                         </button>
@@ -158,14 +158,14 @@ const Sidebar: React.FC<SidebarProps> = ({
                   {Object.entries(savedViews).map(([name, query], i) => (
                     <motion.div
                       key={name}
-                      className="flex items-center justify-between p-2 bg-slate-800/30 rounded-lg group"
+                      className="flex items-center justify-between p-2 rounded-lg group bg-semantic-surface-1/30 border border-transparent hover:border-semantic-border-accent/40 transition-colors"
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut', delay: 0.04 * i } }}
                       exit={{ opacity: 0, y: -6, transition: { duration: 0.3 } }}
                     >
                       <button
                         onClick={() => onLoadView(query)}
-                        className="flex-1 text-left text-sm text-slate-300 hover:text-white transition-colors"
+                        className="flex-1 text-left text-sm text-semantic-text-secondary hover:text-semantic-text-primary transition-colors"
                       >
                         {name}
                       </button>
@@ -175,14 +175,14 @@ const Sidebar: React.FC<SidebarProps> = ({
                           delete updatedViews[name];
                           localStorage.setItem('FF BioGuide_saved_views', JSON.stringify(updatedViews));
                         }}
-                        className="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-red-400 transition-all"
+                        className="opacity-0 group-hover:opacity-100 p-1 text-semantic-text-dim hover:text-danger transition-all"
                       >
                         <Trash2 className="w-3 h-3" />
                       </button>
                     </motion.div>
                   ))}
                   {Object.keys(savedViews).length === 0 && (
-                    <p className="text-slate-500 text-xs italic">No saved views yet</p>
+                    <p className="text-semantic-text-dim text-xs italic">No saved views yet</p>
                   )}
                 </div>
               </div>
@@ -191,27 +191,12 @@ const Sidebar: React.FC<SidebarProps> = ({
               {searchResults && (
                 <div className="space-y-6">
                   <FacetSection 
-                    title="Organisms" 
-                    facets={searchResults.facets.organisms} 
-                    facetType="organism"
-                  />
-                  <FacetSection 
-                    title="Assay Types" 
-                    facets={searchResults.facets.assays} 
-                    facetType="assay"
-                  />
-                  <FacetSection 
-                    title="Missions" 
-                    facets={searchResults.facets.missions} 
-                    facetType="mission"
-                  />
-                  <FacetSection 
                     title="Sources" 
                     facets={searchResults.facets.sources} 
                     facetType="source"
                   />
                   <div className="mb-6">
-                    <h3 className="text-sm font-semibold text-slate-300 mb-3">Years</h3>
+                    <h3 className="text-sm font-semibold text-semantic-text-secondary mb-3 tracking-wide">Years</h3>
                     <div className="space-y-2">
                       {Object.entries(searchResults.facets.years)
                         .sort(([a], [b]) => parseInt(b) - parseInt(a))
@@ -220,13 +205,13 @@ const Sidebar: React.FC<SidebarProps> = ({
                           <motion.button
                             key={year}
                             onClick={() => onFacetSelect('year', year)}
-                            className="flex items-center justify-between w-full p-2 text-left text-sm text-slate-400 hover:text-white hover:bg-slate-700/30 rounded-lg transition-colors group"
+                            className="flex items-center justify-between w-full p-2 text-left text-sm text-semantic-text-secondary hover:text-semantic-text-primary rounded-lg transition-colors group bg-semantic-surface-1/20 hover:bg-semantic-surface-2/40 border border-transparent hover:border-semantic-border-accent/40 backdrop-blur-sm"
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut', delay: 0.05 * i } }}
                             exit={{ opacity: 0, y: -6, transition: { duration: 0.3 } }}
                           >
-                            <span className="group-hover:text-cosmic-300">{year}</span>
-                            <span className="ml-2 px-2 py-0.5 bg-slate-700/50 text-slate-400 rounded text-xs font-mono">{count}</span>
+                            <span className="group-hover:text-accent">{year}</span>
+                            <span className="ml-2 px-2 py-0.5 rounded text-xs font-mono bg-semantic-surface-2/60 text-semantic-text-dim border border-semantic-border-muted/40 group-hover:border-semantic-border-accent/40">{count}</span>
                           </motion.button>
                         ))}
                     </div>

@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Search, Grid, List } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -6,10 +7,12 @@ import ResultCard from '../components/ResultCard';
 import Inspector from '../components/Inspector';
 import Sidebar from '../components/Sidebar';
 import { loadPublications, searchPublications, parseAdvancedQuery, type Publication, type SearchQuery, type SearchResult } from '../lib/searchEngine';
+import usePointerGlow from '../lib/usePointerGlow';
 import { apiService } from '../lib/api';
 
 
 const Dashboard = () => {
+  const location = useLocation();
   const [publications, setPublications] = useState<Publication[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [parsedQuery, setParsedQuery] = useState<SearchQuery>({});
@@ -24,6 +27,8 @@ const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [savedViews, setSavedViews] = useState<Record<string, SearchQuery>>({});
   const searchInputRef = useRef<HTMLInputElement>(null);
+  // activate pointer glow updates (status currently unused but could drive intensity)
+  usePointerGlow();
   useEffect(() => {
     const fetchPublications = async () => {
       try {
@@ -57,6 +62,21 @@ const Dashboard = () => {
     setParsedQuery(parsed);
     setCurrentPage(1);
   }, [searchQuery]);
+
+  // Read mode from URL ?mode=explore|search and apply behaviors
+  const modeParams = new URLSearchParams(location.search);
+  const mode = modeParams.get('mode') === 'search' ? 'search' : 'explore';
+
+  // Auto-focus input when entering search mode; clear query when entering explore mode
+  useEffect(() => {
+    if (mode === 'search') {
+      // Delay slightly to ensure element present
+      setTimeout(() => searchInputRef.current?.focus(), 20);
+    } else if (mode === 'explore') {
+      setSearchQuery('');
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode]);
 
   useEffect(() => {
     const saved = localStorage.getItem('FF BioGuide_saved_views');
@@ -126,20 +146,25 @@ const Dashboard = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-950">
+      <div className="min-h-screen flex items-center justify-center bg-semantic-surface-0">
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-cosmic-400 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-slate-400">Loading publications...</p>
+          <div className="w-16 h-16 border-4 border-accent border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-semantic-text-secondary">Loading publications...</p>
         </div>
       </div>
     );
   }
 
+  const focusMode = mode === 'search' && searchQuery.trim().length > 0; // only in search mode
+
   return (
-    <div className="min-h-screen bg-slate-950">
+    <div className="min-h-screen bg-semantic-surface-0 relative">
       <Navigation />
       
-      <div className="flex h-screen pt-16">
+      <div className="flex h-screen pt-16 relative">
+        {focusMode && (
+          <div className="pointer-events-none absolute inset-0 z-10 transition-opacity duration-300 opacity-100 bg-[radial-gradient(circle_at_50%_20%,rgba(0,0,0,0.25),rgba(0,0,0,0.55))] mix-blend-normal" aria-hidden />
+        )}
         <Sidebar
           isOpen={isSidebarOpen}
           onToggle={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -158,81 +183,63 @@ const Dashboard = () => {
           }}
         />
 
-        <div className="flex-1 flex flex-col overflow-hidden">
-          <div className="glass-dark border-b border-slate-700/50 p-6">
+        <div className={`flex-1 flex flex-col overflow-hidden ${focusMode ? 'relative z-20' : ''}`}> 
+          <div className={`p-6 border-b border-semantic-border-muted bg-gradient-to-b from-semantic-surface-1/80 via-semantic-surface-1/60 to-semantic-surface-0/40 backdrop-blur-xl ${focusMode ? 'backdrop-blur-0 bg-semantic-surface-0/85 border-b border-semantic-border-muted/60 shadow-none' : ''}`}>
             <div className="max-w-4xl mx-auto">
               <div className="relative mb-4">
-                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-semantic-text-dim" />
                 <input
                   ref={searchInputRef}
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Search publications... Try: organism:mice assay:proteomics year>=2020"
-                  className="w-full pl-12 pr-4 py-4 bg-slate-800/50 border border-slate-600/50 rounded-xl text-white placeholder-slate-400 focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 text-lg transition-colors"
+                  className={`w-full pl-12 pr-4 py-4 rounded-xl text-semantic-text-primary placeholder-semantic-text-dim text-lg transition-colors relative z-30
+                    bg-[var(--color-field-bg)] hover:bg-[var(--color-field-bg-hover)] focus:bg-[var(--color-field-bg-focus)]
+                    border border-[color:var(--color-field-border)] focus:border-[color:var(--color-field-border-focus)]
+                    focus:ring-2 focus:ring-[color:var(--color-ring-accent)] outline-none shadow-sm ${focusMode ? 'ring-2 ring-[color:var(--color-ring-accent)] border-[color:var(--color-field-border-focus)]' : ''}`}
                 />
               </div>
 
               {Object.keys(parsedQuery).length > 0 && (
                 <div className="flex flex-wrap gap-2 mb-4">
                   {parsedQuery.text && (
-                    <span className="px-3 py-1 bg-slate-700/50 text-slate-300 rounded-lg text-sm">
-                      Text: "{parsedQuery.text}"
-                    </span>
+                    <span className="px-3 py-1 rounded-lg text-xs font-medium tracking-wide bg-semantic-surface-2/60 text-semantic-text-secondary border border-semantic-border-muted/40">Text: "{parsedQuery.text}"</span>
                   )}
                   {parsedQuery.organism && (
-                    <span className="px-3 py-1 bg-bio-500/20 text-bio-300 rounded-lg text-sm">
-                      Organism: {parsedQuery.organism}
-                    </span>
+                    <span className="px-3 py-1 rounded-lg text-xs font-medium tracking-wide bg-gradient-to-r from-cosmic-400/10 to-bio-400/10 text-accent border border-semantic-border-accent/40">Organism: {parsedQuery.organism}</span>
                   )}
                   {parsedQuery.assay && (
-                    <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-lg text-sm">
-                      Assay: {parsedQuery.assay}
-                    </span>
+                    <span className="px-3 py-1 rounded-lg text-xs font-medium tracking-wide bg-gradient-to-r from-cosmic-400/10 to-bio-400/10 text-accent border border-semantic-border-accent/40">Assay: {parsedQuery.assay}</span>
                   )}
                   {parsedQuery.mission && (
-                    <span className="px-3 py-1 bg-cosmic-500/20 text-cosmic-300 rounded-lg text-sm">
-                      Mission: {parsedQuery.mission}
-                    </span>
+                    <span className="px-3 py-1 rounded-lg text-xs font-medium tracking-wide bg-gradient-to-r from-cosmic-400/10 to-bio-400/10 text-accent border border-semantic-border-accent/40">Mission: {parsedQuery.mission}</span>
                   )}
                   {parsedQuery.source && (
-                    <span className="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-lg text-sm">
-                      Source: {parsedQuery.source}
-                    </span>
+                    <span className="px-3 py-1 rounded-lg text-xs font-medium tracking-wide bg-gradient-to-r from-cosmic-400/10 to-bio-400/10 text-accent border border-semantic-border-accent/40">Source: {parsedQuery.source}</span>
                   )}
                   {(parsedQuery.yearFrom || parsedQuery.yearTo) && (
-                    <span className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-lg text-sm">
-                      Year: {parsedQuery.yearFrom ? `${parsedQuery.yearFrom}+` : ''} 
-                      {parsedQuery.yearTo ? `≤${parsedQuery.yearTo}` : ''}
-                    </span>
+                    <span className="px-3 py-1 rounded-lg text-xs font-medium tracking-wide bg-semantic-surface-2/60 text-semantic-text-secondary border border-semantic-border-muted/40">Year: {parsedQuery.yearFrom ? `${parsedQuery.yearFrom}+` : ''}{parsedQuery.yearTo ? ` ≤${parsedQuery.yearTo}` : ''}</span>
                   )}
                 </div>
               )}
 
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                  <span className="text-slate-400 text-sm">
+                  <span className="text-semantic-text-secondary text-sm">
                     {searchResults?.total || 0} results
                   </span>
                   
                   <div className="flex items-center gap-2">
                     <button
                       onClick={() => setViewMode('grid')}
-                      className={`p-2 rounded-lg transition-colors ${
-                        viewMode === 'grid' 
-                          ? 'bg-cosmic-500 text-white' 
-                          : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
-                      }`}
+                      className={`p-2 rounded-lg transition-colors border ${viewMode === 'grid' ? 'bg-accent/20 text-accent border-semantic-border-accent' : 'text-semantic-text-secondary hover:text-semantic-text-primary border-transparent hover:bg-semantic-surface-2/40'}`}
                     >
                       <Grid className="w-4 h-4" />
                     </button>
                     <button
                       onClick={() => setViewMode('list')}
-                      className={`p-2 rounded-lg transition-colors ${
-                        viewMode === 'list' 
-                          ? 'bg-cosmic-500 text-white' 
-                          : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
-                      }`}
+                      className={`p-2 rounded-lg transition-colors border ${viewMode === 'list' ? 'bg-accent/20 text-accent border-semantic-border-accent' : 'text-semantic-text-secondary hover:text-semantic-text-primary border-transparent hover:bg-semantic-surface-2/40'}`}
                     >
                       <List className="w-4 h-4" />
                     </button>
@@ -241,11 +248,14 @@ const Dashboard = () => {
 
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-2">
-                    <span className="text-slate-400 text-sm">Show:</span>
+                    <span className="text-semantic-text-secondary text-sm">Show:</span>
                     <select
                       value={resultsPerPage}
                       onChange={(e) => setResultsPerPage(parseInt(e.target.value))}
-                      className="bg-slate-800/50 border border-slate-600/50 rounded-lg px-3 py-1 text-white text-sm"
+                      className="rounded-lg px-3 py-1.5 text-sm text-semantic-text-primary transition-colors cursor-pointer shadow-sm
+                        bg-[var(--color-field-bg)] hover:bg-[var(--color-field-bg-hover)] focus:bg-[var(--color-field-bg-focus)]
+                        border border-[color:var(--color-field-border)] focus:border-[color:var(--color-field-border-focus)]
+                        focus:ring-2 focus:ring-[color:var(--color-ring-accent)] outline-none"
                     >
                       <option value={10}>10</option>
                       <option value={25}>25</option>
@@ -257,14 +267,14 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Results */}
-          <div className="flex-1 overflow-auto">
-            <div className="max-w-7xl mx-auto p-6">
+          {/* Results (kept sharp, elevated above blur overlay) */}
+          <div className={`flex-1 overflow-auto transition-all duration-300 ${focusMode ? 'relative z-30' : ''}`}>
+            <div className={`max-w-7xl mx-auto p-6 transition-all duration-300 ${focusMode ? 'backdrop-blur-0' : ''}`}>
               {searchResults?.publications.length === 0 ? (
                 <div className="text-center py-12">
-                  <Search className="w-16 h-16 text-slate-600 mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-slate-400 mb-2">No results found</h3>
-                  <p className="text-slate-500">Try adjusting your search criteria</p>
+                  <Search className="w-16 h-16 text-semantic-text-dim mx-auto mb-4" />
+                  <h3 className="text-xl font-semibold text-semantic-text-secondary mb-2">No results found</h3>
+                  <p className="text-semantic-text-dim">Try adjusting your search criteria</p>
                 </div>
               ) : (
                 <>
@@ -278,19 +288,23 @@ const Dashboard = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.3 }}
                   >
-                    {searchResults?.publications.map((publication, index) => (
-                      <ResultCard
-                        key={publication.id}
-                        publication={publication}
-                        isSelected={index === selectedIndex}
-                        viewMode={viewMode}
-                        onSelect={() => {
-                          setSelectedIndex(index);
-                          setSelectedPublication(publication);
-                          setIsInspectorOpen(true);
-                        }}
-                      />
-                    ))}
+                    {searchResults?.publications.map((publication, index) => {
+                      const dim = focusMode && !publication.title.toLowerCase().includes(searchQuery.toLowerCase());
+                      return (
+                        <div key={publication.id} className={dim ? 'opacity-70 transition-opacity' : 'transition-opacity'}>
+                          <ResultCard
+                            publication={publication}
+                            isSelected={index === selectedIndex}
+                            viewMode={viewMode}
+                            onSelect={() => {
+                              setSelectedIndex(index);
+                              setSelectedPublication(publication);
+                              setIsInspectorOpen(true);
+                            }}
+                          />
+                        </div>
+                      );
+                    })}
                   </motion.div>
 
                   {searchResults && searchResults.total > resultsPerPage && (
@@ -303,11 +317,7 @@ const Dashboard = () => {
                           <button
                             key={page}
                             onClick={() => setCurrentPage(page)}
-                            className={`px-3 py-2 rounded-lg transition-colors ${
-                              currentPage === page
-                                ? 'bg-cosmic-500 text-white'
-                                : 'text-slate-400 hover:text-white hover:bg-slate-700/50'
-                            }`}
+                            className={`px-3 py-2 rounded-lg transition-colors border ${currentPage === page ? 'bg-accent/20 text-accent border-semantic-border-accent' : 'text-semantic-text-secondary hover:text-semantic-text-primary border-transparent hover:bg-semantic-surface-2/40'}`}
                           >
                             {page}
                           </button>

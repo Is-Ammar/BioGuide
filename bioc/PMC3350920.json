@@ -1,22 +1,20 @@
 [
   {
     "bioctype": "BioCCollection",
-    "source": "PMC",
     "date": "20250703",
-    "key": "pmc.key",
-    "version": "1.0",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
         "bioctype": "BioCDocument",
+        "full_text": "The 14-3-3 proteins of Arabidopsis regulate root growth and chloroplast development as components of the photosensory system\nThe 14-3-3 proteins specifically bind a number of client proteins to influence important pathways, including flowering timing via the photosensory system. For instance, 14-3-3 proteins influence the photosensory system through interactions with Constans (CO) protein. 14-3-3 associations with the photosensory system were further studied in this investigation using 14-3-3 T-DNA insertion mutants to study root and chloroplast development. The 14-3-3 μ T-DNA insertion mutant, 14-3-3μ-1, had shorter roots than the wild type and the difference in root length could be influenced by light intensity. The 14-3-3 ν T-DNA insertion mutants also had shorter roots, but only when grown under narrow-bandwidth red light. Five-day-old 14-3-3 T-DNA insertion and co mutants all had increased root greening compared with the wild type, which was influenced by light wavelength and intensity. However, beyond 10 d of growth, 14-3-3μ-1 roots did not increase in greening as much as wild-type roots. This study reveals new developmental roles of 14-3-3 proteins in roots and chloroplasts, probably via association with the photosensory system.\nIntroduction\nThe 14-3-3 proteins are predominantly known for their ability to bind certain phosphorylated proteins to complete phosphoregulation events. In plants, 14-3-3 protein binding activity includes the regulation of key metabolic enzymes, such as nitrate reductase and sucrose synthase, and also the activation of the plasma membrane H+-ATPase. Throughout eukaryotes, 14-3-3 proteins are known to bind a multitude of different proteins and, specifically, participate in a wide array of signal transduction regulatory events.\nMulticellular eukaryotes contain multiple 14-3-3 protein family members, or isoforms. The number of 14-3-3 isoforms can vary per organism, but Arabidopsis contains 13 expressed 14-3-3 genes. The 14-3-3 proteins throughout eukaryotes share sequence homology within the core region of the protein sequence, but sequences of individual isoforms diverge in the amino- and carboxy-terminal tails. The importance of multiple 14-3-3 isoforms per organism remains to be elucidated, however, reverse genetic studies analysing knockout or knock down mutants continue to identify specific roles of individual 14-3-3 isoforms.\nIn Arabidopsis, 14-3-3 T-DNA insertion mutants were utilized to find association of the 14-3-3 isoforms μ and υ with both light sensing during early development and time of transition to flowering. Red light-grown 14-3-3 T-DNA insertion mutants exhibit decreased hypocotyl elongation inhibition reminiscent of, but not identical to Phytochrome B (PHYB) mutants. The 14-3-3 T-DNA insertion mutants also flower later in long-day conditions (16 h of light), but not in short-day conditions (8 h of light). In rice, the opposite phenotype occurs when manipulating expression of the 14-3-3 isoform, GF14c. Over-expression of GF14c results in delayed flowering, while knockout results in early flowering. These 14-3-3 mutant phenotypes indicate a role in light-related signalling for these particular 14-3-3 isoforms. The relationship of 14-3-3 proteins with light signalling is further supported by the observation that 14-3-3 proteins bind the blue light photoreceptor Phototropin 1 (PHOT1) and the flowering timing regulation protein Constans (CO), as well as downstream targets such as Flowering Timing (FT) and Self-Pruning (SP).\nLight perception is broadly important for phototropic responses, time of flowering, and root development. For example, Red and far-red light influence the directional growth of roots. Roots of some plants, such as maize and rice, grow horizontally in the dark, but grow downward when the plants are irradiated with red or far-red light from above. In addition, there is copious expression of photoreceptors in the roots, suggesting a functional relevance for photoreceptors in root development. Root hair development is enhanced by light and mediated by phytochromes. Further, both Phytochrome A (PHYA) and PHYB regulate red-light-induced root hair development while far-red-induced root hair development is regulated by PHYA alone.\nPhotoreceptors also control chloroplast development in roots that are exposed to light. Prolonged exposure of plant roots to light stimulates the development of chloroplasts in the roots. Chloroplast development in the roots is stimulated by red and blue light, with cryptochrome 1 and 2 (CRY1 and CRY2) as the primary regulators of blue light-stimulated chloroplast development and PHYB as the primary regulator in red light.\nThis study utilizes the previously described T-DNA insertion mutants of 14-3-3 μ and υ to examine the roles of individual 14-3-3 isoforms in root elongation and chloroplast development, that are controlled by the photosensory system. A 14-3-3μ knockdown mutant containing a T-DNA insertion within the promoter of 14-3-3μ, 14-3-3μ-1, exhibited shorter roots whose lengths were influenced by various light intensities. The 14-3-3υ knockout T-DNA insertion mutants, 14-3-3υ-1 and 14-3-3υ-2, each contain a T-DNA insertion within the 14-3-3υ coding region and also had shorter roots than the wild type, but only when grown under narrow bandwidth red light. In addition, the roots of the 14-3-3 T-DNA insertion mutants and CO mutants (co) (co-1) exhibited an increase in chloroplast numbers after 5 d of growth.\nMaterials and methods\nGrowth conditions of Arabidopsis seedlings\nArabidopsis seeds were sterilized as previously described by. Thirty to forty seeds of each line were planted onto 0.5× MS vertical plates, which consisted of 0.22% MS salts, 0.025% MES buffer, 0.5% sucrose, 0.1% 1000× MS vitamins, and 0.8% agar. Nitrate-free media were prepared as above, except that the MS salt mix was substituted for nitrogen-free MS salt mix (Product #MSP007; Caisson Laboratories, Logan, UT), 1 mM ammonium citrate was added and the media was adjusted to a pH of 6.5. After planting, the seed-containing plates were incubated at 4 °C in the dark for 48 h. The plates were then placed under the appropriate light conditions. Constant-light-grown seedlings were grown under a light bank emitting 60–70 μmol m−2 s−1 of light (two Cool White Sylvania bulbs and two Gro-Lux bulbs). Constant red light (630 nm at 25 μmol m−2 s−1), blue light (470 nm at 40 μmol m−2 s−1) or dark-grown plants were exposed to white light for 1 h, after the 48 h cold treatment, and placed under Light Emitting Diodes (LEDs) or in the dark. Treatments included irradiation with specific fluence rates of red light (630 nm; Quantum Devices, Barneveld WI) or blue light (470 nm; Ledtronics Inc, Torrance CA), and a custom design used by.\nCharacterization of phyB mutants\nSeed stocks for the PHYB T-DNA insertion mutant lines Salk_022035 and Salk_069700 were obtained from the Arabidopsis Biological Resource Center. The seeds were planted on wet Fafard Fine-germinating Mix soil and incubated at 4 °C in the dark for 3 d. The seeds were exposed to light for 1 h to promote germination, then placed under ∼20 μmol m−2 s−1 of narrow-bandwidth red light for 4 d. All seedlings were cleared from the soil that did not exhibit reduced hypocotyl elongation inhibition. The remaining seedlings that did exhibit reduced hypocotyl elongation inhibition were later screened for homozygous T-DNA insertion using PCR. A left border T-DNA specific primer (LBb1) and two, T-DNA flanking, PHYB gene-specific primers were used to identify lines that were homozygous for T-DNA insertion into the respective 14-3-3 genes. It is important to add that 100% of the lines, from both Salk_022035 and Salk_069700, selected as exhibiting reduced hypocotyl elongation inhibition were identified as homozygous PHYB T-DNA insertion mutants.\nThe phenotypes exhibited by Salk_022035 and Salk_069700 in this study were comparable between the two separate lines. In order to make the data easier to convey, only the phenotypic data of Salk_022035 were included in the results and discussion of this study.\nRoot and chloroplast measurements\nDigital images of roots were captured using an Epson Perfection 3170 Photo scanner for further analysis. Root lengths were assessed by measuring root lengths of each Arabidopsis line of wild-type, Res-mu, and 14-3-3μ-1 with the University of Texas Health Science Center San Antonio Dental School (UTHSCSA) Image Tool software (http://ddsdx.uthscsa.edu/dig/itdesc.html). The root measurements collected were standardized and processed in Microsoft Excel.\nVisualization of Arabidopsis roots with a fluorescent microscope\nRoots were viewed with an Olympus BX51 fluorescent microscope coupled to an Evolution MP cooled charge-coupled device camera with Q-capture 2.60 software (Quantitative Imaging, Burnaby, British Columbia, Canada). Digital photos were taken through a 10× objective and captured with no binning. Regions identical in size were cropped from the digital images taken of roots from each Arabidopsis line. Slides were prepared by mounting the roots in water between a slide and cover slip.\nVisualization of Arabidopsis roots with a confocal microscope\nRoots from 5-d-old Arabidopsis seedlings were viewed with a confocal LSM5 Pascal Laser Scanning Microscope (Zeiss, Jena, Germany). The light source used was a helium neon laser emitting 543 nm light. The light emitted by the helium neon laser was filtered with a long pass filter resulting in a wavelength of 560 nm, similar to the conditions used to view rhodamine. Images were collected of the red fluorescing chloroplast, as well as Differential Interference Contrast (DIC) images to provide a reference for root size and shape.\nQuantification of the red tonal levels of Arabidopsis roots\nFour or more fluorescent microscope images of chloroplasts in root tissue were cropped in order to standardize the images to equal sizes using Adobe Photoshop. The standardized images were then processed with the RGB Measure Plus plug-in of Image J. Tonal levels recorded by the RGB Measure Plus plug-in were then processed with Microsoft Excel.\nResults\n14-3-3μ-1 has shorter roots than wild-type\nWild-type and 14-3-3μ-1 were grown on vertical MS media agar plates under constant light conditions and assayed for root lengths after 8 d of growth (Fig. 1). The roots of 14-3-3μ-1, co, and phyB were statistically shorter than wild-type levels (α=9.006×10−61, 0.0011, and 3.744×10−13, respectively). The 14-3-3μ-1 roots were only ∼25% of wild-type root length (Fig. 1A, B), although developmentally similar in the aerial tissue. Wild-type root length was restored by the reintroduction of 14-3-3μ in Res-mu, a 14-3-3μ-1 line that was complemented by the native 14-3-3 μ gene (Fig. 1B, C). Root lengths of 14-3-3υ-1 and 14-3-3υ-2 were also comparable with that of wild-type roots after 8 d of growth (Fig. 1B, C).\nShorter root lengths of 14-3-3μ-1 compared with wild-type root lengths. After 8 d of growth, 14-3-3μ-1 exhibited shorter roots than wild-type (A). The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates in constant light. The average root lengths after 8 d of growth were measured (B). The roots of 14-3-3μ-1 and phyB were ∼30% and ∼70% of the wild-type root length, while other lines were equal in root length to wild-type (B). Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared to wild-type using a t test (B). The root lengths of the 14-3-3 T-DNA insertion mutants and the wild type were measured daily in order to get a time-course of root lengths (C). 14-3-3μ-1 exhibited shorter roots that consistently increase in the deviation from wild-type root lengths through 8 d of growth. Error bars represent standard error (B, C).\nThe root growth results for 14-3-3μ-1 were in stark contrast to the results for 14-3-3υ insertion mutants. Two separate T-DNA insertion alleles for 14-3-3υ showed wild-type root lengths under constant light conditions. CO also exhibited wild-type root length, while phyB had a slightly decreased root length (Fig. 1B).\nThe time-course of root length was studied to determine if there was a particular time point that 14-3-3μ-1 root length begins to deviate from that of the wild type and Res-mu, or the two alleles of 14-3-3υ. Root lengths were measured daily over 8 d of growth (Fig. 1C). 14-3-3μ-1 exhibited an overall slower increase in root length throughout the entire 8 d compared with the wild type, with no particular day characterized as a specific point of separation of 14-3-3μ-1 from the wild-type root length. After day 2, when the difference in root length is measurable, the 14-3-3μ-1 root length begins to lag behind, and remain at a slower and constant growth rate, while wild type, Res-mu, and the 14-3-3μ alleles accelerate in growth rate.\nThe decrease in root length of 14-3-3μ-1 is not due to altered nitrate reductase activity\nThe 14-3-3 proteins interact with nitrate reductase (NR), as part of the NR inactivation process. In fact, of the 14-3-3 isoforms tested, 14-3-3υ is the third most effective at inactivating nitrate reductase (the 14-3-3μ isoform was not tested in the study). Because of the 14-3-3 protein association with nitrate reductase inactivation, it was possible that the loss of 14-3-3μ protein resulted in overactive nitrate reductase. Overactive nitrate reductase protein, in combination with nitrate-rich media, could have resulted in a reduced need for root elongation since the roots had adequate nitrate levels available. In order to factor out nitrate reductase activity as the cause of 14-3-3μ-1 decreased root length, plants were grown on nitrate-free media using ammonium-citrate as the only nitrogen source. The 14-3-3μ-1 root lengths were 40% of the wild type, when grown on nitrate-free media for 14 d (see Supplementary Fig. S1 at JXB online), indicating that increased nitrate reductase activity was not the major factor for shorter 14-3-3μ-1 roots.\nDifferential root length of 14-3-3μ-1 can be partly attributed to the photosensory pathway\nThe 14-3-3 T-DNA insertion mutants 14-3-3μ-1, 14-3-3υ-1, and 14-3-3υ-2 all exhibit reduced hypocotyl growth inhibition under narrow-bandwidth red light during early development, similar to PHYB and PHYB-associated protein mutants. In order to test if 14-3-3μ-1 exhibits light-dependent deviations in root length, as does phyB, the 14-3-3 T-DNA insertion mutants were grown alongside phyB and the wild type under three separate light intensities: full-light (60–70 μmol m−2 s−1), low-light (5 μmol m−2 s−1), and dark growth conditions. A CO mutant, co, was also included in all of the altered light condition experiments because CO is a binding partner of 14-3-3 proteins and is associated with 14-3-3-mediated red-light signalling. Seeds were planted on vertical plates and exposed to light for 1 h to promote germination, then transferred to full-light, low-light, or dark chambers. Root lengths were measured after 8 d (Fig. 2A, B). Under dark conditions, 14-3-3υ-1, 14-3-3υ-2, co, and phyB roots were similar in length to the wild-type roots. 14-3-3μ-1 roots were slightly shorter than wild-type roots when grown in dark and low light conditions. 14-3-3μ-1 roots were ∼80% and ∼68% of wild-type root length in darkness and low light, respectively. By contrast, 14-3-3μ-1 roots were ∼25% of wild-type root length when grown in full-light conditions. As light intensity growth conditions decreased, 14-3-3μ-1 and Res-mu root lengths became more comparable (Fig. 2C). Res-mu root lengths were comparable with the wild type in all three light conditions.\nThe influence of 14-3-3μ-1 root lengths by different light intensities. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates in dark (A) and low-light (B) conditions for 8 d and root lengths were measured. The roots of 14-3-3μ-1 were ∼77% and ∼68% of the wild-type roots in dark and low-light conditions, respectively. Root lengths of 14-3-3μ-1 and Res-mu were compared as a % of wild-type root lengths when grown in three conditions: full light, low light, and dark (C). Res-mu roots were equal to wild-type root lengths in all treatments. The roots of 14-3-3μ-1 were more comparable to wild-type lengths as the light conditions decreased in intensity. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test (A, B).\n14-3-3 T-DNA insertion and co mutant roots develop increased numbers of chloroplasts during early development\nRoots experiencing prolonged light exposure exhibit greening resulting from chloroplast development. PHYB is a positive regulator of chloroplast development in Arabidopsis roots. Due to similarities of 14-3-3μ-1 and phyB in the influence on root length by light intensity, the 14-3-3 T-DNA insertion mutants were assayed for root chloroplast development along with the wild type, Res-mu, co, and phyB. Plants were grown on vertical agar plates under constant light conditions for 5 d. Roots of the 5-d-old plants were viewed with a fluorescent microscope. The roots were illuminated with blue light (488 nm) and viewed through a long pass filter in order to view the red autofluorescence of chlorophyll.\nA large number of chloroplasts were visualized within the roots of the 14-3-3 T-DNA insertion mutants and co (Fig. 3A). Wild-type and Res-mu roots developed chloroplasts, but in smaller numbers compared with the 14-3-3 T-DNA insertion mutants and co. The roots of phyB did not develop any observable chloroplasts under white light. The roots of 14-3-3μ-1 had the most dramatic increase in chloroplast number. The co, 14-3-3υ-1, and 14-3-3υ-2 roots had slightly fewer chloroplasts than 14-3-3μ-1.\nIncreased numbers of chloroplasts in the roots of the 14-3-3 T-DNA insertion mutants and co after 5 d of growth. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates for 5 d under constant light. Roots were illuminated with a blue light and visualized through a GFP long pass filter with a fluorescent microscope (A). The roots of the 14-3-3 T-DNA insertion mutants and co contained more chloroplasts, which autofluoresce as a red colour. Pictures of roots from each line were cropped to equal sizes and the red tonal levels were measured with the RGB Measure Plus plug-in of the ImageJ program (B). The red tonal levels were higher for 14-3-3μ-1, 14-3-3υ1, 14-3-3υ-2 and co roots compared with the wild type. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test (B).\nThe red channel level within the frame of each photograph was also quantified (Fig. 3B). Photo frames of equal size, exposure, and colour adjustment were taken of 4–6 roots from each line. The red channel tonal levels of each photo frame were quantified using the RGB Measure Plus plug-in of the ImageJ software package. Quantification of the red light tonal levels showed that the average red tonal level for the 14-3-3 T-DNA insertion mutants and co were higher than the wild type or Res-mu. T-tests confirmed that red tonal levels of 14-3-3μ-1, 14-3-3υ-1, 14-3-3υ-2, and co root pictures were statistically higher than the wild-type levels (α=0.0000, 0.0067, 0.0127, and 0.0011, respectively). The photo frames of phyB roots contained statistically lower red tonal levels than the wild type, as confirmed by a t test (α=0.0253).\nThe dramatic increase in chloroplasts in 14-3-3μ-1 roots was also examined with confocal microscopy. Wild-type and 14-3-3μ-1 plants were vertically grown for 5 d under full light conditions (60–70 μmol m−2 s−1), and root sections were observed to determine the distribution of chloroplasts (Fig. 4). The DIC images illustrated that the roots were of the same developmental age, with cells of comparable size, in the wild-type and 14-3-3μ-1 plants (Fig. 4A, D). Fluorescent images of the wild type and 14-3-3μ-1 showed that while the plastid size is comparable for each plant, the quantity of plastids in the 14-3-3μ-1 roots is around 2-fold that of the wild type (Fig. 4B, E).\nConfocal microscopy of plastid distribution in the roots of wild-type (WT) and 14-3-3μ-1. The left hand panel shows an Arabidopsis seedling; the region of root presented in the right hand panels is indicated with a white box. (A, D) The fluorescing plastids merged with the corresponding DIC image. (B, E) The fluorescing plastids alone. (C, F) The overlay of images (A)+(B) and (D)+(E), respectively.\nNarrow-bandwidth red or blue light influence both root length and the numbers of chloroplasts in the roots\nRoot lengths were also assayed from plants grown on vertical agar plates for 8 d under narrow-bandwidth red (25 μmol m−2 s−1) or blue (50 μmol m−2 s−1) light (Fig. 5). The 14-3-3μ-1 roots were ∼65% or ∼60% of the length of wild-type roots in red or blue light conditions, respectively. 14-3-3υ-1 and 14-3-3υ-2 roots were similar in length to wild-type roots when grown under blue light, but shorter when grown under red light. The 14-3-3υ-1 and 14-3-3υ-2 roots were ∼83% and ∼86% of the length of wild-type roots, respectively. The differences in root lengths of red-light-grown 14-3-3υ-1 and 14-3-3υ-2 were confirmed to be statistically different by t test (αα=0.0003 and 0.0050, respectively).\nRoot lengths of the 14-3-3 T-DNA insertion mutants are influenced by red and blue light. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates under constant red or blue light conditions for 8 d and root lengths were measured. The roots of 14-3-3μ-1 were ∼65% and ∼59% of wild-type roots in red and blue light conditions, respectively. The roots of the 14-3-3 υ T-DNA insertion mutants were similar in length to wild-type roots when grown under blue light, but 14-3-3υ-1 and 14-3-3υ-2 were ∼83% and ∼86% of wild-type roots in red light conditions, respectively. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test.\nRoot chloroplast development can be influenced by growth under different wavelengths of light. When grown in dark or low light conditions, roots from none of the lines studied developed observable chloroplasts (data not shown). The 14-3-3 T-DNA insertion mutants, co, phyB, Res-mu, and the wild type were also grown under narrow-bandwidth red or blue light to test whether these wavelengths influence root chloroplast development differently among the lines. Plants were grown for 5 d under red or blue light and then the roots were assayed for chloroplasts (Fig. 6). As previously published, blue light stimulated more root chloroplast development than red light. Furthermore, blue light stimulated more chloroplast development in the roots than white light. The roots of blue-light-grown 14-3-3μ-1 developed a higher number of chloroplasts than any of the other lines (Fig. 6A). Quantification of red tonal levels confirmed that 14-3-3μ-1 roots contain higher red tonal levels than both the wild type and Res-mu (Fig. 6B). The red tonal level of blue light grown 14-3-3μ-1 roots was statistically higher than that of wild-type or Res-mu roots as confirmed by t test (α=0.0012 and 0.0323, respectively).\nRed and blue light influence the numbers of chloroplasts in the roots. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates for 5 d under constant red or blue light. Roots were illuminated with a blue light and visualized through a GFP long pass filter with a fluorescent microscope (A, C). All of the lines developed increased numbers of chloroplasts when grown under blue light compared with white light, but 14-3-3μ-1 roots contained higher numbers of chloroplasts than the other lines (A). When grown under red light, the roots of 14-3-3μ-1 and co were the only lines that developed high enough numbers of chloroplasts to be visualized with a fluorescent microscope (C). Pictures of roots from each line were cropped to equal sizes and the red tonal levels were measured with the RGB Measure Plus plug-in of the ImageJ program (B, D). When grown under blue light, the red tonal levels were higher for only 14-3-3μ-1 roots compared with the wild type (B). When grown under red light, the red tonal levels were equal for all lines measured (D). Although chloroplasts could only be visualized for 14-3-3μ-1 and co roots, the differences in tonal levels were not enough to be detected by the RGB Measure Plus program. Error bars represent standard error and asterices indicate lines with a significant difference in root length compared with the wild type using a t test (B, D).\nOut of the lines grown under red light, 14-3-3μ-1 and co were the only sets that developed noticeably visible chloroplasts in the roots (Fig. 6C). The small number of chloroplasts in the 14-3-3μ-1 and co roots was not enough to raise the red tonal level of either mutant to a significant difference from that of wild-type roots (Fig. 6D).\nDiscussion\nThis study characterizes several novel functions of 14-3-3 proteins in root growth and chloroplast development. The 14-3-3 μ T-DNA insertion mutants exhibited altered root lengths and chloroplast numbers in the roots. The phenotypes exhibited by the 14-3-3 μ T-DNA insertion mutants could all be influenced by growth conditions altered in light intensity or wavelength. The 14-3-3 υ T-DNA insertion mutants exhibited altered root lengths in red light and also had altered numbers of chloroplasts in the roots. Most of the root development phenotypes exhibited by these 14-3-3 T-DNA insertion mutants can be attributed to deficiencies in the photosensory system.\nThe roots of 14-3-3μ-1 were only ∼25% as long as the roots of the wild type after 8 d of growth under constant light (Fig. 1B). However, the roots of 14-3-3υ-1 and 14-3-3υ-2 are the same length as the wild type after 8 d under constant light. The 14-3-3 μ protein is therefore an important factor in root growth, while 14-3-3 υ does not have an observable effect on root length under constant white light.\nThe differences in root length in 14-3-3μ-1 are influenced by light intensity (Fig. 2). The root length of 14-3-3μ-1 was more comparable to wild-type roots when grown in the dark, compared with plants grown in full-light conditions (Fig. 2A). Under low-light conditions, the 14-3-3μ-1 root length percentage compared with the wild-type root length was intermediate between the root length percentages under full-light and dark conditions (Fig. 2B, C).\nAlong with reduced hypocotyl growth inhibition under narrow-bandwidth red light, phytochromes are implicated in root elongation and gravitropic response. The PHYB mutant, phyB, exhibits significantly reduced root elongation rates compared with the wild type when grown in light, but does not exhibit this same reduced root elongation rate when grown in the dark, which was also observed in this study (Figs 1, 2). The roots of 14-3-3μ-1 were not the same length as wild-type roots in dark grown conditions. Because the roots of 14-3-3μ-1 were still shorter than wild-type roots in dark conditions, the difference in 14-3-3μ-1 root length cannot be solely attributed to deficiencies in light signalling. Future studies will identify additional light-influenced and other developmental differences in 14-3-3μ-1 roots.\nFurther phenotypic similarity between the 14-3-3 T-DNA insertion mutants and phyB was noticeable under narrow-bandwidth red light conditions (Fig. 5). The roots of phyB grown under red light grow similarly to when they are grown in dark conditions as also seen in Figs 2 and 5. This similarity in root lengths under red light and dark conditions was also true for the 14-3-3 T-DNA insertion mutants. The root lengths of 14-3-3μ-1 were ∼8 mm after 8 d of growth in both red light and dark conditions. The root lengths of 14-3-3υ-1 and 14-3-3υ-2 were ∼10 mm after 8 d of growth in both red light and dark conditions. Further similarity to phyB, the root lengths of 14-3-3υ-1 and 14-3-3υ-2 were comparable with the wild type when grown in dark conditions, but shorter when grown under narrow-bandwidth red light.\nThe 14-3-3 T-DNA insertion mutants also exhibit reduced hypocotyl elongation inhibition under red light in the first 4 d of growth. 14-3-3υ-1 and 14-3-3υ-2 grown under narrow bandwidth red light also exhibit a more vertical directional growth habit than the wild type, similar to phyB.\nUnder blue light, 14-3-3υ-1 and 14-3-3υ-2 root lengths were comparable with wild-type, but 14-3-3μ-1 still exhibited shorter roots (Fig. 5). Wild-type root lengths were ∼36% longer when grown under blue light compared with dark conditions. 14-3-3μ-1 root lengths were ∼17% longer when grown under blue light in comparison to dark conditions. The difference in 14-3-3μ-1 root length when grown in the dark compared with blue light was less distinct than comparing the difference in root length of light- and dark-grown 14-3-3μ-1, indicating that 14-3-3μ-1 is slightly deficient in blue light signalling, a phenotype that is similar, but not as strong as in cry1 mutants.\nHypocotyl elongation inhibition is similar for 14-3-3μ-1 and wild-type plants grown under narrow bandwidth blue light. Although 14-3-3 μ was not found to be associated with blue light signalling in the hypocotyl during early development, these root length data indicate that 14-3-3 μ is associated with blue light signalling in the roots during early development. The association of 14-3-3 proteins with blue light has also been seen in broad bean, where the blue light photoreceptor, PHOT1, was identified as a client protein of 14-3-3s.\nThe roots of 14-3-3 T-DNA insertion mutants and co exhibit increased chloroplast numbers, or greening, after 5 d of growth on vertical agar plates, while phyB roots exhibit decreased chloroplast numbers (Fig. 3). The development of chloroplasts in the roots can be influenced by both light intensity and different wavelengths of light. Dark-grown plants do not develop enough chloroplasts for detectable levels of root greening, while higher numbers of chloroplasts are developed in the roots of plants grown under blue light than plants grown under red light. Low-light-grown plants of all lines studied also did not develop enough chloroplasts for visualization in the roots, indicating that a threshold level of light is required for chloroplast development in the roots.\nRoot greening under red light conditions is primarily induced by PHYB signalling, whereas, under blue light conditions, root greening is mainly induced by CRY1 and CRY2 signalling. However, phyAphyB mutants are deficient in blue-light-induced chloroplast development, indicating that phytochromes are also important for blue light induced chloroplast development in the roots. Under blue light, 14-3-3μ-1 exhibited a quantifiable increase in root greening (Fig. 6B), indicating that 14-3-3 μ regulation of chloroplast development in the roots is partly associated with blue light signalling. Differences seen in both root length and greening under blue light will be evaluated in future studies, especially in the potential for 14-3-3 association with CRY1 and its role in root length and greening.\nThe increased chloroplast numbers in the roots of the 14-3-3 T-DNA insertion mutants and co indicated that 14-3-3 proteins and CO are negative regulators of chloroplast development in the roots. No quantifiable difference in root greening was detected in the roots of any of the lines grown under red light (Fig. 6D), although 14-3-3μ-1 and co were the only lines to develop high enough numbers of chloroplasts to be visualized with a fluorescent microscope (Fig. 6C). Additional work is necessary to further characterize 14-3-3 μ or CO as co-regulators of chloroplast development in the roots via red-light signalling. In fact, this is the first report implicating CO with root development, however, CONSTANS-LIKE3 (COL3) is associated with root development.\nAlthough PHYB has not been identified as a protein binding partner of 14-3-3 proteins, phytochromes are regulated by phosphorylation, and the association of PHYB with several phosphorylation events presents many situations of possible 14-3-3 protein involvement. In addition, PHYB and PHYA induce phosphorylation of such proteins as PKS1 and PIF3.\nThis study presents novel roles of 14-3-3 proteins in root and chloroplast development, as well as new roles of CO in chloroplast development. Transcription levels of CO are increased in early development upon irradiance of 4-d-old dark-grown seedlings with a far-red light treatment, but a function for CO in early development has not been defined. In fact, the increase in chloroplast development in roots is the first reported phenotype for co in early development. The activity of CO in chloroplast development may only be as a component of the activity of CO and the COL proteins.\nThe present reverse-genetic study establishes novel, isoform-specific roles of 14-3-3 proteins in Arabidopsis root and chloroplast development. 14-3-3 proteins are increasingly recognized as a major node in the plant interactome, an interaction node that includes CO and other signalling molecules related to light responses. Further, the roles of 14-3-3 proteins in root and chloroplast development are controlled by light intensity or wavelength. 14-3-3 TDNA insertion mutants also exhibit reduced hypocotyl elongation and time to flowering, compared with the wild type. Both the hypocotyl elongation and flowering timing phenotypes are, in part, due to 14-3-3 binding/influence of CO. The study presented here also characterizes CO as a potential factor in root chloroplast development of Arabidopsis during early development. Further work will be necessary to understand the mechanism of 14-3-3 control of both root and chloroplast development and how the association of 14-3-3 proteins and CO factors into these processes.\nSupplementary data\nSupplementary data can be found at JXB online.\nSupplementary Fig. S1. Overactivity of nitrate reductase can not be attributed to the shorter root lengths of 14-3-3μμ-1.\nEvidence for network evolution in an Arabidopsis interactome map\nPhotoactivated phytochrome induces rapid PIF3 phosphorylation prior to proteasome-mediated degradation\n14-3-3 proteins associate with the regulatory phosphorylation site of spinach leaf nitrate reductase in an isoform-specific manner and reduce dephosphorylation of Ser-543 by endogenous protein phosphatases\nCryptochrome photoreceptors cry1 and cry2 antagonistically regulate primary root elongation in Arabidopsis thaliana\nPhytochromes play a role in phototropism and gravitropism in Arabidopsis roots\nThe roles of phytochromes in elongation and gravitropism of roots\nArabidopsis CONSTANS-LIKE3 is a positive regulator of red light signaling and root growth\nEffect of light on root hair formation in Arabidopsis thaliana phytochrome-deficient mutants\nEvidence of phytochrome mediation in the low-pH-induced root hair formation process in lettuce (Lactuca sativa L. cv. Grand Rapids) seedlings\nPKS1, a substrate phosphorylated by phytochrome that modulates light signaling in Arabidopsis\n14-3-3 Proteins and signal transduction\nDesign and fabrication of adjustable red-green-blue LED light arrays for plant research\nBinding of 14-3-3 protein to the plasma membrane H+-ATPase AHA2 involves the three C-terminal residues Tyr(946)-Thr-Val and requires phosphorylation of Thr(947)\nGIGANTEA is a nuclear protein involved in phytochrome signaling in Arabidopsis\nPhytochrome phosphorylation modulates light signaling by influencing the protein–protein interaction\nBlue-light- and phosphorylation-dependent binding of a 14-3-3 protein to phototropins in stomatal guard cells of broad bean\nGenetic control of light inhibited hypocotyl elongation in Arabidopsis thaliana (L.) Heynh\nA genetic and physiological analysis of late flowering mutants in Arabidopsis thaliana\nGenetic evidence that the red-absorbing form of phytochrome B modulates gravitropism in\nCharacterization of a calcium/calmodulin-dependent protein kinase homolog from maize roots showing light-regulated gravitropism\nThe 14-3-3 proteins mu and upsilon influence transition to flowering and early phytochrome response\nPhosphorylated nitrate reductase from spinach leaves is inhibited by 14-3-3 proteins and activated by fusicoccin\nA revised medium for rapid growth and bioassays with tobacco tissue cultures\nGenetic interactions between phytochrome A, phytochrome B, and cryptochrome 1 during Arabidopsis development\nA phosphothreonine residue at the C-terminal end of the plasma membrane H+-ATPase is protected by fusicoccin-induced 14-3-3 binding\nStructure of a 14-3-3 coordinated hexamer of the plant plasma membrane H+-ATPase by combining X-ray crystallography and electron cryomicroscopy\nTransgene expression patterns indicate that spaceflight affects stress signal perception and transduction in arabidopsis\nTomato SP-interacting proteins define a conserved signaling system that regulates shoot architecture and flowering\nThe light-induced reduction of the gravitropic growth-orientation of seedlings of Arabidopsis thaliana (L.) Heynh. is a photomorphogenic response mediated synergistically by the far-red-absorbing forms of phytochromes A and B\nPhytochrome distribution in etiolated grass seedlings as assayed by an indirect antibody-labelling method\nThe 14-3-3 protein GF14c acts as a negative regulator of flowering in rice by interacting with the florigen Hd3a\nSupervital mutants of Arabidopsis\nGenetic and transgenic evidence that phytochromes A and B act to modulate the gravitropic orientation of Arabidopsis thaliana hypocotyls\nData mining the Arabidopsis genome reveals fifteen 14-3-3 genes. Expression is demonstrated for two out of five novel genes\nExposed loop domains of complexed 14-3-3 proteins contribute to structural diversity and functional specificity\nTemporal and spatial expression patterns of PHYA and PHYB genes in Arabidopsis\nCell cycle roles for two 14-3-3 proteins during Drosophila development\nForced expression of antisense 14-3-3beta RNA suppresses tumor cell growth in vitro and\nPhosphorylation of Thr-948 at the C terminus of the plasma membrane H+-ATPase creates a binding site for the regulatory 14-3-3 protein\nIsolation and characterization of rice phytochrome A mutants\nMultiple transcription-factor genes are early targets of phytochrome A signaling\nSite-specific regulatory interaction between spinach leaf sucrose-phosphate synthase and 14-3-3 proteins\nCircadian clock-regulated expression of phytochrome and cryptochrome genes in Arabidopsis\nCryptochromes and phytochromes synergistically regulate Arabidopsis root greening under blue light\nThe ultrastructure of plastids in roots\nThe heterologous interactions among plant 14-3-3 proteins and identification of regions that are important for dimerization",
         "id": "PMC3350920",
         "infons": {
           "license": "CC BY-NC"
         },
         "passages": [
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 0,
             "infons": {
               "article-id_doi": "10.1093/jxb/ers022",
               "article-id_pmc": "PMC3350920",
@@ -34,794 +32,794 @@
               "volume": "63",
               "year": "2012"
             },
-            "text": "The 14-3-3 proteins of Arabidopsis regulate root growth and chloroplast development as components of the photosensory system",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The 14-3-3 proteins of Arabidopsis regulate root growth and chloroplast development as components of the photosensory system"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 125,
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "The 14-3-3 proteins specifically bind a number of client proteins to influence important pathways, including flowering timing via the photosensory system. For instance, 14-3-3 proteins influence the photosensory system through interactions with Constans (CO) protein. 14-3-3 associations with the photosensory system were further studied in this investigation using 14-3-3 T-DNA insertion mutants to study root and chloroplast development. The 14-3-3 μ T-DNA insertion mutant, 14-3-3μ-1, had shorter roots than the wild type and the difference in root length could be influenced by light intensity. The 14-3-3 ν T-DNA insertion mutants also had shorter roots, but only when grown under narrow-bandwidth red light. Five-day-old 14-3-3 T-DNA insertion and co mutants all had increased root greening compared with the wild type, which was influenced by light wavelength and intensity. However, beyond 10 d of growth, 14-3-3μ-1 roots did not increase in greening as much as wild-type roots. This study reveals new developmental roles of 14-3-3 proteins in roots and chloroplasts, probably via association with the photosensory system.",
+            "offset": 125,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The 14-3-3 proteins specifically bind a number of client proteins to influence important pathways, including flowering timing via the photosensory system. For instance, 14-3-3 proteins influence the photosensory system through interactions with Constans (CO) protein. 14-3-3 associations with the photosensory system were further studied in this investigation using 14-3-3 T-DNA insertion mutants to study root and chloroplast development. The 14-3-3 μ T-DNA insertion mutant, 14-3-3μ-1, had shorter roots than the wild type and the difference in root length could be influenced by light intensity. The 14-3-3 ν T-DNA insertion mutants also had shorter roots, but only when grown under narrow-bandwidth red light. Five-day-old 14-3-3 T-DNA insertion and co mutants all had increased root greening compared with the wild type, which was influenced by light wavelength and intensity. However, beyond 10 d of growth, 14-3-3μ-1 roots did not increase in greening as much as wild-type roots. This study reveals new developmental roles of 14-3-3 proteins in roots and chloroplasts, probably via association with the photosensory system."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "title_1"
+            },
             "offset": 1260,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "title_1"
-            },
-            "text": "Introduction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Introduction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 1273,
+            "relations": [],
+            "sentences": [],
+            "text": "The 14-3-3 proteins are predominantly known for their ability to bind certain phosphorylated proteins to complete phosphoregulation events. In plants, 14-3-3 protein binding activity includes the regulation of key metabolic enzymes, such as nitrate reductase and sucrose synthase, and also the activation of the plasma membrane H+-ATPase. Throughout eukaryotes, 14-3-3 proteins are known to bind a multitude of different proteins and, specifically, participate in a wide array of signal transduction regulatory events."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "The 14-3-3 proteins are predominantly known for their ability to bind certain phosphorylated proteins to complete phosphoregulation events. In plants, 14-3-3 protein binding activity includes the regulation of key metabolic enzymes, such as nitrate reductase and sucrose synthase, and also the activation of the plasma membrane H+-ATPase. Throughout eukaryotes, 14-3-3 proteins are known to bind a multitude of different proteins and, specifically, participate in a wide array of signal transduction regulatory events.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 1792,
+            "relations": [],
+            "sentences": [],
+            "text": "Multicellular eukaryotes contain multiple 14-3-3 protein family members, or isoforms. The number of 14-3-3 isoforms can vary per organism, but Arabidopsis contains 13 expressed 14-3-3 genes. The 14-3-3 proteins throughout eukaryotes share sequence homology within the core region of the protein sequence, but sequences of individual isoforms diverge in the amino- and carboxy-terminal tails. The importance of multiple 14-3-3 isoforms per organism remains to be elucidated, however, reverse genetic studies analysing knockout or knock down mutants continue to identify specific roles of individual 14-3-3 isoforms."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Multicellular eukaryotes contain multiple 14-3-3 protein family members, or isoforms. The number of 14-3-3 isoforms can vary per organism, but Arabidopsis contains 13 expressed 14-3-3 genes. The 14-3-3 proteins throughout eukaryotes share sequence homology within the core region of the protein sequence, but sequences of individual isoforms diverge in the amino- and carboxy-terminal tails. The importance of multiple 14-3-3 isoforms per organism remains to be elucidated, however, reverse genetic studies analysing knockout or knock down mutants continue to identify specific roles of individual 14-3-3 isoforms.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 2407,
+            "relations": [],
+            "sentences": [],
+            "text": "In Arabidopsis, 14-3-3 T-DNA insertion mutants were utilized to find association of the 14-3-3 isoforms μ and υ with both light sensing during early development and time of transition to flowering. Red light-grown 14-3-3 T-DNA insertion mutants exhibit decreased hypocotyl elongation inhibition reminiscent of, but not identical to Phytochrome B (PHYB) mutants. The 14-3-3 T-DNA insertion mutants also flower later in long-day conditions (16 h of light), but not in short-day conditions (8 h of light). In rice, the opposite phenotype occurs when manipulating expression of the 14-3-3 isoform, GF14c. Over-expression of GF14c results in delayed flowering, while knockout results in early flowering. These 14-3-3 mutant phenotypes indicate a role in light-related signalling for these particular 14-3-3 isoforms. The relationship of 14-3-3 proteins with light signalling is further supported by the observation that 14-3-3 proteins bind the blue light photoreceptor Phototropin 1 (PHOT1) and the flowering timing regulation protein Constans (CO), as well as downstream targets such as Flowering Timing (FT) and Self-Pruning (SP)."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "In Arabidopsis, 14-3-3 T-DNA insertion mutants were utilized to find association of the 14-3-3 isoforms μ and υ with both light sensing during early development and time of transition to flowering. Red light-grown 14-3-3 T-DNA insertion mutants exhibit decreased hypocotyl elongation inhibition reminiscent of, but not identical to Phytochrome B (PHYB) mutants. The 14-3-3 T-DNA insertion mutants also flower later in long-day conditions (16 h of light), but not in short-day conditions (8 h of light). In rice, the opposite phenotype occurs when manipulating expression of the 14-3-3 isoform, GF14c. Over-expression of GF14c results in delayed flowering, while knockout results in early flowering. These 14-3-3 mutant phenotypes indicate a role in light-related signalling for these particular 14-3-3 isoforms. The relationship of 14-3-3 proteins with light signalling is further supported by the observation that 14-3-3 proteins bind the blue light photoreceptor Phototropin 1 (PHOT1) and the flowering timing regulation protein Constans (CO), as well as downstream targets such as Flowering Timing (FT) and Self-Pruning (SP).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 3543,
+            "relations": [],
+            "sentences": [],
+            "text": "Light perception is broadly important for phototropic responses, time of flowering, and root development. For example, Red and far-red light influence the directional growth of roots. Roots of some plants, such as maize and rice, grow horizontally in the dark, but grow downward when the plants are irradiated with red or far-red light from above. In addition, there is copious expression of photoreceptors in the roots, suggesting a functional relevance for photoreceptors in root development. Root hair development is enhanced by light and mediated by phytochromes. Further, both Phytochrome A (PHYA) and PHYB regulate red-light-induced root hair development while far-red-induced root hair development is regulated by PHYA alone."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Light perception is broadly important for phototropic responses, time of flowering, and root development. For example, Red and far-red light influence the directional growth of roots. Roots of some plants, such as maize and rice, grow horizontally in the dark, but grow downward when the plants are irradiated with red or far-red light from above. In addition, there is copious expression of photoreceptors in the roots, suggesting a functional relevance for photoreceptors in root development. Root hair development is enhanced by light and mediated by phytochromes. Further, both Phytochrome A (PHYA) and PHYB regulate red-light-induced root hair development while far-red-induced root hair development is regulated by PHYA alone.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 4276,
+            "relations": [],
+            "sentences": [],
+            "text": "Photoreceptors also control chloroplast development in roots that are exposed to light. Prolonged exposure of plant roots to light stimulates the development of chloroplasts in the roots. Chloroplast development in the roots is stimulated by red and blue light, with cryptochrome 1 and 2 (CRY1 and CRY2) as the primary regulators of blue light-stimulated chloroplast development and PHYB as the primary regulator in red light."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Photoreceptors also control chloroplast development in roots that are exposed to light. Prolonged exposure of plant roots to light stimulates the development of chloroplasts in the roots. Chloroplast development in the roots is stimulated by red and blue light, with cryptochrome 1 and 2 (CRY1 and CRY2) as the primary regulators of blue light-stimulated chloroplast development and PHYB as the primary regulator in red light.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 4703,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "This study utilizes the previously described T-DNA insertion mutants of 14-3-3 μ and υ to examine the roles of individual 14-3-3 isoforms in root elongation and chloroplast development, that are controlled by the photosensory system. A 14-3-3μ knockdown mutant containing a T-DNA insertion within the promoter of 14-3-3μ, 14-3-3μ-1, exhibited shorter roots whose lengths were influenced by various light intensities. The 14-3-3υ knockout T-DNA insertion mutants, 14-3-3υ-1 and 14-3-3υ-2, each contain a T-DNA insertion within the 14-3-3υ coding region and also had shorter roots than the wild type, but only when grown under narrow bandwidth red light. In addition, the roots of the 14-3-3 T-DNA insertion mutants and CO mutants (co) (co-1) exhibited an increase in chloroplast numbers after 5 d of growth.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "This study utilizes the previously described T-DNA insertion mutants of 14-3-3 μ and υ to examine the roles of individual 14-3-3 isoforms in root elongation and chloroplast development, that are controlled by the photosensory system. A 14-3-3μ knockdown mutant containing a T-DNA insertion within the promoter of 14-3-3μ, 14-3-3μ-1, exhibited shorter roots whose lengths were influenced by various light intensities. The 14-3-3υ knockout T-DNA insertion mutants, 14-3-3υ-1 and 14-3-3υ-2, each contain a T-DNA insertion within the 14-3-3υ coding region and also had shorter roots than the wild type, but only when grown under narrow bandwidth red light. In addition, the roots of the 14-3-3 T-DNA insertion mutants and CO mutants (co) (co-1) exhibited an increase in chloroplast numbers after 5 d of growth."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_1"
+            },
             "offset": 5544,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_1"
-            },
-            "text": "Materials and methods",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Materials and methods"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 5566,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Growth conditions of Arabidopsis seedlings",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Growth conditions of Arabidopsis seedlings"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 5609,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Arabidopsis seeds were sterilized as previously described by. Thirty to forty seeds of each line were planted onto 0.5× MS vertical plates, which consisted of 0.22% MS salts, 0.025% MES buffer, 0.5% sucrose, 0.1% 1000× MS vitamins, and 0.8% agar. Nitrate-free media were prepared as above, except that the MS salt mix was substituted for nitrogen-free MS salt mix (Product #MSP007; Caisson Laboratories, Logan, UT), 1 mM ammonium citrate was added and the media was adjusted to a pH of 6.5. After planting, the seed-containing plates were incubated at 4 °C in the dark for 48 h. The plates were then placed under the appropriate light conditions. Constant-light-grown seedlings were grown under a light bank emitting 60–70 μmol m−2 s−1 of light (two Cool White Sylvania bulbs and two Gro-Lux bulbs). Constant red light (630 nm at 25 μmol m−2 s−1), blue light (470 nm at 40 μmol m−2 s−1) or dark-grown plants were exposed to white light for 1 h, after the 48 h cold treatment, and placed under Light Emitting Diodes (LEDs) or in the dark. Treatments included irradiation with specific fluence rates of red light (630 nm; Quantum Devices, Barneveld WI) or blue light (470 nm; Ledtronics Inc, Torrance CA), and a custom design used by.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Arabidopsis seeds were sterilized as previously described by. Thirty to forty seeds of each line were planted onto 0.5× MS vertical plates, which consisted of 0.22% MS salts, 0.025% MES buffer, 0.5% sucrose, 0.1% 1000× MS vitamins, and 0.8% agar. Nitrate-free media were prepared as above, except that the MS salt mix was substituted for nitrogen-free MS salt mix (Product #MSP007; Caisson Laboratories, Logan, UT), 1 mM ammonium citrate was added and the media was adjusted to a pH of 6.5. After planting, the seed-containing plates were incubated at 4 °C in the dark for 48 h. The plates were then placed under the appropriate light conditions. Constant-light-grown seedlings were grown under a light bank emitting 60–70 μmol m−2 s−1 of light (two Cool White Sylvania bulbs and two Gro-Lux bulbs). Constant red light (630 nm at 25 μmol m−2 s−1), blue light (470 nm at 40 μmol m−2 s−1) or dark-grown plants were exposed to white light for 1 h, after the 48 h cold treatment, and placed under Light Emitting Diodes (LEDs) or in the dark. Treatments included irradiation with specific fluence rates of red light (630 nm; Quantum Devices, Barneveld WI) or blue light (470 nm; Ledtronics Inc, Torrance CA), and a custom design used by."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 6862,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Characterization of phyB mutants",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Characterization of phyB mutants"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 6895,
+            "relations": [],
+            "sentences": [],
+            "text": "Seed stocks for the PHYB T-DNA insertion mutant lines Salk_022035 and Salk_069700 were obtained from the Arabidopsis Biological Resource Center. The seeds were planted on wet Fafard Fine-germinating Mix soil and incubated at 4 °C in the dark for 3 d. The seeds were exposed to light for 1 h to promote germination, then placed under ∼20 μmol m−2 s−1 of narrow-bandwidth red light for 4 d. All seedlings were cleared from the soil that did not exhibit reduced hypocotyl elongation inhibition. The remaining seedlings that did exhibit reduced hypocotyl elongation inhibition were later screened for homozygous T-DNA insertion using PCR. A left border T-DNA specific primer (LBb1) and two, T-DNA flanking, PHYB gene-specific primers were used to identify lines that were homozygous for T-DNA insertion into the respective 14-3-3 genes. It is important to add that 100% of the lines, from both Salk_022035 and Salk_069700, selected as exhibiting reduced hypocotyl elongation inhibition were identified as homozygous PHYB T-DNA insertion mutants."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Seed stocks for the PHYB T-DNA insertion mutant lines Salk_022035 and Salk_069700 were obtained from the Arabidopsis Biological Resource Center. The seeds were planted on wet Fafard Fine-germinating Mix soil and incubated at 4 °C in the dark for 3 d. The seeds were exposed to light for 1 h to promote germination, then placed under ∼20 μmol m−2 s−1 of narrow-bandwidth red light for 4 d. All seedlings were cleared from the soil that did not exhibit reduced hypocotyl elongation inhibition. The remaining seedlings that did exhibit reduced hypocotyl elongation inhibition were later screened for homozygous T-DNA insertion using PCR. A left border T-DNA specific primer (LBb1) and two, T-DNA flanking, PHYB gene-specific primers were used to identify lines that were homozygous for T-DNA insertion into the respective 14-3-3 genes. It is important to add that 100% of the lines, from both Salk_022035 and Salk_069700, selected as exhibiting reduced hypocotyl elongation inhibition were identified as homozygous PHYB T-DNA insertion mutants.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 7945,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "The phenotypes exhibited by Salk_022035 and Salk_069700 in this study were comparable between the two separate lines. In order to make the data easier to convey, only the phenotypic data of Salk_022035 were included in the results and discussion of this study.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The phenotypes exhibited by Salk_022035 and Salk_069700 in this study were comparable between the two separate lines. In order to make the data easier to convey, only the phenotypic data of Salk_022035 were included in the results and discussion of this study."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 8206,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Root and chloroplast measurements",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Root and chloroplast measurements"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 8240,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Digital images of roots were captured using an Epson Perfection 3170 Photo scanner for further analysis. Root lengths were assessed by measuring root lengths of each Arabidopsis line of wild-type, Res-mu, and 14-3-3μ-1 with the University of Texas Health Science Center San Antonio Dental School (UTHSCSA) Image Tool software (http://ddsdx.uthscsa.edu/dig/itdesc.html). The root measurements collected were standardized and processed in Microsoft Excel.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Digital images of roots were captured using an Epson Perfection 3170 Photo scanner for further analysis. Root lengths were assessed by measuring root lengths of each Arabidopsis line of wild-type, Res-mu, and 14-3-3μ-1 with the University of Texas Health Science Center San Antonio Dental School (UTHSCSA) Image Tool software (http://ddsdx.uthscsa.edu/dig/itdesc.html). The root measurements collected were standardized and processed in Microsoft Excel."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 8695,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Visualization of Arabidopsis roots with a fluorescent microscope",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Visualization of Arabidopsis roots with a fluorescent microscope"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 8760,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Roots were viewed with an Olympus BX51 fluorescent microscope coupled to an Evolution MP cooled charge-coupled device camera with Q-capture 2.60 software (Quantitative Imaging, Burnaby, British Columbia, Canada). Digital photos were taken through a 10× objective and captured with no binning. Regions identical in size were cropped from the digital images taken of roots from each Arabidopsis line. Slides were prepared by mounting the roots in water between a slide and cover slip.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Roots were viewed with an Olympus BX51 fluorescent microscope coupled to an Evolution MP cooled charge-coupled device camera with Q-capture 2.60 software (Quantitative Imaging, Burnaby, British Columbia, Canada). Digital photos were taken through a 10× objective and captured with no binning. Regions identical in size were cropped from the digital images taken of roots from each Arabidopsis line. Slides were prepared by mounting the roots in water between a slide and cover slip."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 9244,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Visualization of Arabidopsis roots with a confocal microscope",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Visualization of Arabidopsis roots with a confocal microscope"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 9306,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Roots from 5-d-old Arabidopsis seedlings were viewed with a confocal LSM5 Pascal Laser Scanning Microscope (Zeiss, Jena, Germany). The light source used was a helium neon laser emitting 543 nm light. The light emitted by the helium neon laser was filtered with a long pass filter resulting in a wavelength of 560 nm, similar to the conditions used to view rhodamine. Images were collected of the red fluorescing chloroplast, as well as Differential Interference Contrast (DIC) images to provide a reference for root size and shape.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Roots from 5-d-old Arabidopsis seedlings were viewed with a confocal LSM5 Pascal Laser Scanning Microscope (Zeiss, Jena, Germany). The light source used was a helium neon laser emitting 543 nm light. The light emitted by the helium neon laser was filtered with a long pass filter resulting in a wavelength of 560 nm, similar to the conditions used to view rhodamine. Images were collected of the red fluorescing chloroplast, as well as Differential Interference Contrast (DIC) images to provide a reference for root size and shape."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 9838,
             "infons": {
               "section_type": "METHODS",
               "type": "title_2"
             },
-            "text": "Quantification of the red tonal levels of Arabidopsis roots",
+            "offset": 9838,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Quantification of the red tonal levels of Arabidopsis roots"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 9898,
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Four or more fluorescent microscope images of chloroplasts in root tissue were cropped in order to standardize the images to equal sizes using Adobe Photoshop. The standardized images were then processed with the RGB Measure Plus plug-in of Image J. Tonal levels recorded by the RGB Measure Plus plug-in were then processed with Microsoft Excel.",
+            "offset": 9898,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Four or more fluorescent microscope images of chloroplasts in root tissue were cropped in order to standardize the images to equal sizes using Adobe Photoshop. The standardized images were then processed with the RGB Measure Plus plug-in of Image J. Tonal levels recorded by the RGB Measure Plus plug-in were then processed with Microsoft Excel."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 10244,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_1"
             },
-            "text": "Results",
+            "offset": 10244,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Results"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 10252,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "14-3-3μ-1 has shorter roots than wild-type",
+            "offset": 10252,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "14-3-3μ-1 has shorter roots than wild-type"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 10296,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Wild-type and 14-3-3μ-1 were grown on vertical MS media agar plates under constant light conditions and assayed for root lengths after 8 d of growth (Fig. 1). The roots of 14-3-3μ-1, co, and phyB were statistically shorter than wild-type levels (α=9.006×10−61, 0.0011, and 3.744×10−13, respectively). The 14-3-3μ-1 roots were only ∼25% of wild-type root length (Fig. 1A, B), although developmentally similar in the aerial tissue. Wild-type root length was restored by the reintroduction of 14-3-3μ in Res-mu, a 14-3-3μ-1 line that was complemented by the native 14-3-3 μ gene (Fig. 1B, C). Root lengths of 14-3-3υ-1 and 14-3-3υ-2 were also comparable with that of wild-type roots after 8 d of growth (Fig. 1B, C).",
+            "offset": 10296,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Wild-type and 14-3-3μ-1 were grown on vertical MS media agar plates under constant light conditions and assayed for root lengths after 8 d of growth (Fig. 1). The roots of 14-3-3μ-1, co, and phyB were statistically shorter than wild-type levels (α=9.006×10−61, 0.0011, and 3.744×10−13, respectively). The 14-3-3μ-1 roots were only ∼25% of wild-type root length (Fig. 1A, B), although developmentally similar in the aerial tissue. Wild-type root length was restored by the reintroduction of 14-3-3μ in Res-mu, a 14-3-3μ-1 line that was complemented by the native 14-3-3 μ gene (Fig. 1B, C). Root lengths of 14-3-3υ-1 and 14-3-3υ-2 were also comparable with that of wild-type roots after 8 d of growth (Fig. 1B, C)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 11032,
             "infons": {
               "file": "jexboters022f01_3c.jpg",
               "id": "fig1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Shorter root lengths of 14-3-3μ-1 compared with wild-type root lengths. After 8 d of growth, 14-3-3μ-1 exhibited shorter roots than wild-type (A). The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates in constant light. The average root lengths after 8 d of growth were measured (B). The roots of 14-3-3μ-1 and phyB were ∼30% and ∼70% of the wild-type root length, while other lines were equal in root length to wild-type (B). Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared to wild-type using a t test (B). The root lengths of the 14-3-3 T-DNA insertion mutants and the wild type were measured daily in order to get a time-course of root lengths (C). 14-3-3μ-1 exhibited shorter roots that consistently increase in the deviation from wild-type root lengths through 8 d of growth. Error bars represent standard error (B, C).",
+            "offset": 11032,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Shorter root lengths of 14-3-3μ-1 compared with wild-type root lengths. After 8 d of growth, 14-3-3μ-1 exhibited shorter roots than wild-type (A). The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates in constant light. The average root lengths after 8 d of growth were measured (B). The roots of 14-3-3μ-1 and phyB were ∼30% and ∼70% of the wild-type root length, while other lines were equal in root length to wild-type (B). Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared to wild-type using a t test (B). The root lengths of the 14-3-3 T-DNA insertion mutants and the wild type were measured daily in order to get a time-course of root lengths (C). 14-3-3μ-1 exhibited shorter roots that consistently increase in the deviation from wild-type root lengths through 8 d of growth. Error bars represent standard error (B, C)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 11989,
+            "relations": [],
+            "sentences": [],
+            "text": "The root growth results for 14-3-3μ-1 were in stark contrast to the results for 14-3-3υ insertion mutants. Two separate T-DNA insertion alleles for 14-3-3υ showed wild-type root lengths under constant light conditions. CO also exhibited wild-type root length, while phyB had a slightly decreased root length (Fig. 1B)."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The root growth results for 14-3-3μ-1 were in stark contrast to the results for 14-3-3υ insertion mutants. Two separate T-DNA insertion alleles for 14-3-3υ showed wild-type root lengths under constant light conditions. CO also exhibited wild-type root length, while phyB had a slightly decreased root length (Fig. 1B).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 12321,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "The time-course of root length was studied to determine if there was a particular time point that 14-3-3μ-1 root length begins to deviate from that of the wild type and Res-mu, or the two alleles of 14-3-3υ. Root lengths were measured daily over 8 d of growth (Fig. 1C). 14-3-3μ-1 exhibited an overall slower increase in root length throughout the entire 8 d compared with the wild type, with no particular day characterized as a specific point of separation of 14-3-3μ-1 from the wild-type root length. After day 2, when the difference in root length is measurable, the 14-3-3μ-1 root length begins to lag behind, and remain at a slower and constant growth rate, while wild type, Res-mu, and the 14-3-3μ alleles accelerate in growth rate.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The time-course of root length was studied to determine if there was a particular time point that 14-3-3μ-1 root length begins to deviate from that of the wild type and Res-mu, or the two alleles of 14-3-3υ. Root lengths were measured daily over 8 d of growth (Fig. 1C). 14-3-3μ-1 exhibited an overall slower increase in root length throughout the entire 8 d compared with the wild type, with no particular day characterized as a specific point of separation of 14-3-3μ-1 from the wild-type root length. After day 2, when the difference in root length is measurable, the 14-3-3μ-1 root length begins to lag behind, and remain at a slower and constant growth rate, while wild type, Res-mu, and the 14-3-3μ alleles accelerate in growth rate."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 13072,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "The decrease in root length of 14-3-3μ-1 is not due to altered nitrate reductase activity",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The decrease in root length of 14-3-3μ-1 is not due to altered nitrate reductase activity"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 13163,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "The 14-3-3 proteins interact with nitrate reductase (NR), as part of the NR inactivation process. In fact, of the 14-3-3 isoforms tested, 14-3-3υ is the third most effective at inactivating nitrate reductase (the 14-3-3μ isoform was not tested in the study). Because of the 14-3-3 protein association with nitrate reductase inactivation, it was possible that the loss of 14-3-3μ protein resulted in overactive nitrate reductase. Overactive nitrate reductase protein, in combination with nitrate-rich media, could have resulted in a reduced need for root elongation since the roots had adequate nitrate levels available. In order to factor out nitrate reductase activity as the cause of 14-3-3μ-1 decreased root length, plants were grown on nitrate-free media using ammonium-citrate as the only nitrogen source. The 14-3-3μ-1 root lengths were 40% of the wild type, when grown on nitrate-free media for 14 d (see Supplementary Fig. S1 at JXB online), indicating that increased nitrate reductase activity was not the major factor for shorter 14-3-3μ-1 roots.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The 14-3-3 proteins interact with nitrate reductase (NR), as part of the NR inactivation process. In fact, of the 14-3-3 isoforms tested, 14-3-3υ is the third most effective at inactivating nitrate reductase (the 14-3-3μ isoform was not tested in the study). Because of the 14-3-3 protein association with nitrate reductase inactivation, it was possible that the loss of 14-3-3μ protein resulted in overactive nitrate reductase. Overactive nitrate reductase protein, in combination with nitrate-rich media, could have resulted in a reduced need for root elongation since the roots had adequate nitrate levels available. In order to factor out nitrate reductase activity as the cause of 14-3-3μ-1 decreased root length, plants were grown on nitrate-free media using ammonium-citrate as the only nitrogen source. The 14-3-3μ-1 root lengths were 40% of the wild type, when grown on nitrate-free media for 14 d (see Supplementary Fig. S1 at JXB online), indicating that increased nitrate reductase activity was not the major factor for shorter 14-3-3μ-1 roots."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14231,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "Differential root length of 14-3-3μ-1 can be partly attributed to the photosensory pathway",
+            "offset": 14231,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Differential root length of 14-3-3μ-1 can be partly attributed to the photosensory pathway"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14323,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The 14-3-3 T-DNA insertion mutants 14-3-3μ-1, 14-3-3υ-1, and 14-3-3υ-2 all exhibit reduced hypocotyl growth inhibition under narrow-bandwidth red light during early development, similar to PHYB and PHYB-associated protein mutants. In order to test if 14-3-3μ-1 exhibits light-dependent deviations in root length, as does phyB, the 14-3-3 T-DNA insertion mutants were grown alongside phyB and the wild type under three separate light intensities: full-light (60–70 μmol m−2 s−1), low-light (5 μmol m−2 s−1), and dark growth conditions. A CO mutant, co, was also included in all of the altered light condition experiments because CO is a binding partner of 14-3-3 proteins and is associated with 14-3-3-mediated red-light signalling. Seeds were planted on vertical plates and exposed to light for 1 h to promote germination, then transferred to full-light, low-light, or dark chambers. Root lengths were measured after 8 d (Fig. 2A, B). Under dark conditions, 14-3-3υ-1, 14-3-3υ-2, co, and phyB roots were similar in length to the wild-type roots. 14-3-3μ-1 roots were slightly shorter than wild-type roots when grown in dark and low light conditions. 14-3-3μ-1 roots were ∼80% and ∼68% of wild-type root length in darkness and low light, respectively. By contrast, 14-3-3μ-1 roots were ∼25% of wild-type root length when grown in full-light conditions. As light intensity growth conditions decreased, 14-3-3μ-1 and Res-mu root lengths became more comparable (Fig. 2C). Res-mu root lengths were comparable with the wild type in all three light conditions.",
+            "offset": 14323,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The 14-3-3 T-DNA insertion mutants 14-3-3μ-1, 14-3-3υ-1, and 14-3-3υ-2 all exhibit reduced hypocotyl growth inhibition under narrow-bandwidth red light during early development, similar to PHYB and PHYB-associated protein mutants. In order to test if 14-3-3μ-1 exhibits light-dependent deviations in root length, as does phyB, the 14-3-3 T-DNA insertion mutants were grown alongside phyB and the wild type under three separate light intensities: full-light (60–70 μmol m−2 s−1), low-light (5 μmol m−2 s−1), and dark growth conditions. A CO mutant, co, was also included in all of the altered light condition experiments because CO is a binding partner of 14-3-3 proteins and is associated with 14-3-3-mediated red-light signalling. Seeds were planted on vertical plates and exposed to light for 1 h to promote germination, then transferred to full-light, low-light, or dark chambers. Root lengths were measured after 8 d (Fig. 2A, B). Under dark conditions, 14-3-3υ-1, 14-3-3υ-2, co, and phyB roots were similar in length to the wild-type roots. 14-3-3μ-1 roots were slightly shorter than wild-type roots when grown in dark and low light conditions. 14-3-3μ-1 roots were ∼80% and ∼68% of wild-type root length in darkness and low light, respectively. By contrast, 14-3-3μ-1 roots were ∼25% of wild-type root length when grown in full-light conditions. As light intensity growth conditions decreased, 14-3-3μ-1 and Res-mu root lengths became more comparable (Fig. 2C). Res-mu root lengths were comparable with the wild type in all three light conditions."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 15909,
             "infons": {
               "file": "jexboters022f02_ht.jpg",
               "id": "fig2",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "The influence of 14-3-3μ-1 root lengths by different light intensities. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates in dark (A) and low-light (B) conditions for 8 d and root lengths were measured. The roots of 14-3-3μ-1 were ∼77% and ∼68% of the wild-type roots in dark and low-light conditions, respectively. Root lengths of 14-3-3μ-1 and Res-mu were compared as a % of wild-type root lengths when grown in three conditions: full light, low light, and dark (C). Res-mu roots were equal to wild-type root lengths in all treatments. The roots of 14-3-3μ-1 were more comparable to wild-type lengths as the light conditions decreased in intensity. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test (A, B).",
+            "offset": 15909,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The influence of 14-3-3μ-1 root lengths by different light intensities. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates in dark (A) and low-light (B) conditions for 8 d and root lengths were measured. The roots of 14-3-3μ-1 were ∼77% and ∼68% of the wild-type roots in dark and low-light conditions, respectively. Root lengths of 14-3-3μ-1 and Res-mu were compared as a % of wild-type root lengths when grown in three conditions: full light, low light, and dark (C). Res-mu roots were equal to wild-type root lengths in all treatments. The roots of 14-3-3μ-1 were more comparable to wild-type lengths as the light conditions decreased in intensity. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test (A, B)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 16786,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "14-3-3 T-DNA insertion and co mutant roots develop increased numbers of chloroplasts during early development",
+            "offset": 16786,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "14-3-3 T-DNA insertion and co mutant roots develop increased numbers of chloroplasts during early development"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 16896,
+            "relations": [],
+            "sentences": [],
+            "text": "Roots experiencing prolonged light exposure exhibit greening resulting from chloroplast development. PHYB is a positive regulator of chloroplast development in Arabidopsis roots. Due to similarities of 14-3-3μ-1 and phyB in the influence on root length by light intensity, the 14-3-3 T-DNA insertion mutants were assayed for root chloroplast development along with the wild type, Res-mu, co, and phyB. Plants were grown on vertical agar plates under constant light conditions for 5 d. Roots of the 5-d-old plants were viewed with a fluorescent microscope. The roots were illuminated with blue light (488 nm) and viewed through a long pass filter in order to view the red autofluorescence of chlorophyll."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Roots experiencing prolonged light exposure exhibit greening resulting from chloroplast development. PHYB is a positive regulator of chloroplast development in Arabidopsis roots. Due to similarities of 14-3-3μ-1 and phyB in the influence on root length by light intensity, the 14-3-3 T-DNA insertion mutants were assayed for root chloroplast development along with the wild type, Res-mu, co, and phyB. Plants were grown on vertical agar plates under constant light conditions for 5 d. Roots of the 5-d-old plants were viewed with a fluorescent microscope. The roots were illuminated with blue light (488 nm) and viewed through a long pass filter in order to view the red autofluorescence of chlorophyll.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 17601,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "A large number of chloroplasts were visualized within the roots of the 14-3-3 T-DNA insertion mutants and co (Fig. 3A). Wild-type and Res-mu roots developed chloroplasts, but in smaller numbers compared with the 14-3-3 T-DNA insertion mutants and co. The roots of phyB did not develop any observable chloroplasts under white light. The roots of 14-3-3μ-1 had the most dramatic increase in chloroplast number. The co, 14-3-3υ-1, and 14-3-3υ-2 roots had slightly fewer chloroplasts than 14-3-3μ-1.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A large number of chloroplasts were visualized within the roots of the 14-3-3 T-DNA insertion mutants and co (Fig. 3A). Wild-type and Res-mu roots developed chloroplasts, but in smaller numbers compared with the 14-3-3 T-DNA insertion mutants and co. The roots of phyB did not develop any observable chloroplasts under white light. The roots of 14-3-3μ-1 had the most dramatic increase in chloroplast number. The co, 14-3-3υ-1, and 14-3-3υ-2 roots had slightly fewer chloroplasts than 14-3-3μ-1."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 18111,
             "infons": {
               "file": "jexboters022f03_3c.jpg",
               "id": "fig3",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Increased numbers of chloroplasts in the roots of the 14-3-3 T-DNA insertion mutants and co after 5 d of growth. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates for 5 d under constant light. Roots were illuminated with a blue light and visualized through a GFP long pass filter with a fluorescent microscope (A). The roots of the 14-3-3 T-DNA insertion mutants and co contained more chloroplasts, which autofluoresce as a red colour. Pictures of roots from each line were cropped to equal sizes and the red tonal levels were measured with the RGB Measure Plus plug-in of the ImageJ program (B). The red tonal levels were higher for 14-3-3μ-1, 14-3-3υ1, 14-3-3υ-2 and co roots compared with the wild type. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test (B).",
+            "offset": 18111,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Increased numbers of chloroplasts in the roots of the 14-3-3 T-DNA insertion mutants and co after 5 d of growth. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates for 5 d under constant light. Roots were illuminated with a blue light and visualized through a GFP long pass filter with a fluorescent microscope (A). The roots of the 14-3-3 T-DNA insertion mutants and co contained more chloroplasts, which autofluoresce as a red colour. Pictures of roots from each line were cropped to equal sizes and the red tonal levels were measured with the RGB Measure Plus plug-in of the ImageJ program (B). The red tonal levels were higher for 14-3-3μ-1, 14-3-3υ1, 14-3-3υ-2 and co roots compared with the wild type. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test (B)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 19046,
+            "relations": [],
+            "sentences": [],
+            "text": "The red channel level within the frame of each photograph was also quantified (Fig. 3B). Photo frames of equal size, exposure, and colour adjustment were taken of 4–6 roots from each line. The red channel tonal levels of each photo frame were quantified using the RGB Measure Plus plug-in of the ImageJ software package. Quantification of the red light tonal levels showed that the average red tonal level for the 14-3-3 T-DNA insertion mutants and co were higher than the wild type or Res-mu. T-tests confirmed that red tonal levels of 14-3-3μ-1, 14-3-3υ-1, 14-3-3υ-2, and co root pictures were statistically higher than the wild-type levels (α=0.0000, 0.0067, 0.0127, and 0.0011, respectively). The photo frames of phyB roots contained statistically lower red tonal levels than the wild type, as confirmed by a t test (α=0.0253)."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The red channel level within the frame of each photograph was also quantified (Fig. 3B). Photo frames of equal size, exposure, and colour adjustment were taken of 4–6 roots from each line. The red channel tonal levels of each photo frame were quantified using the RGB Measure Plus plug-in of the ImageJ software package. Quantification of the red light tonal levels showed that the average red tonal level for the 14-3-3 T-DNA insertion mutants and co were higher than the wild type or Res-mu. T-tests confirmed that red tonal levels of 14-3-3μ-1, 14-3-3υ-1, 14-3-3υ-2, and co root pictures were statistically higher than the wild-type levels (α=0.0000, 0.0067, 0.0127, and 0.0011, respectively). The photo frames of phyB roots contained statistically lower red tonal levels than the wild type, as confirmed by a t test (α=0.0253).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 19899,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "The dramatic increase in chloroplasts in 14-3-3μ-1 roots was also examined with confocal microscopy. Wild-type and 14-3-3μ-1 plants were vertically grown for 5 d under full light conditions (60–70 μmol m−2 s−1), and root sections were observed to determine the distribution of chloroplasts (Fig. 4). The DIC images illustrated that the roots were of the same developmental age, with cells of comparable size, in the wild-type and 14-3-3μ-1 plants (Fig. 4A, D). Fluorescent images of the wild type and 14-3-3μ-1 showed that while the plastid size is comparable for each plant, the quantity of plastids in the 14-3-3μ-1 roots is around 2-fold that of the wild type (Fig. 4B, E).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The dramatic increase in chloroplasts in 14-3-3μ-1 roots was also examined with confocal microscopy. Wild-type and 14-3-3μ-1 plants were vertically grown for 5 d under full light conditions (60–70 μmol m−2 s−1), and root sections were observed to determine the distribution of chloroplasts (Fig. 4). The DIC images illustrated that the roots were of the same developmental age, with cells of comparable size, in the wild-type and 14-3-3μ-1 plants (Fig. 4A, D). Fluorescent images of the wild type and 14-3-3μ-1 showed that while the plastid size is comparable for each plant, the quantity of plastids in the 14-3-3μ-1 roots is around 2-fold that of the wild type (Fig. 4B, E)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 20588,
             "infons": {
               "file": "jexboters022f04_3c.jpg",
               "id": "fig4",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Confocal microscopy of plastid distribution in the roots of wild-type (WT) and 14-3-3μ-1. The left hand panel shows an Arabidopsis seedling; the region of root presented in the right hand panels is indicated with a white box. (A, D) The fluorescing plastids merged with the corresponding DIC image. (B, E) The fluorescing plastids alone. (C, F) The overlay of images (A)+(B) and (D)+(E), respectively.",
+            "offset": 20588,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Confocal microscopy of plastid distribution in the roots of wild-type (WT) and 14-3-3μ-1. The left hand panel shows an Arabidopsis seedling; the region of root presented in the right hand panels is indicated with a white box. (A, D) The fluorescing plastids merged with the corresponding DIC image. (B, E) The fluorescing plastids alone. (C, F) The overlay of images (A)+(B) and (D)+(E), respectively."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 20991,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "Narrow-bandwidth red or blue light influence both root length and the numbers of chloroplasts in the roots",
+            "offset": 20991,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Narrow-bandwidth red or blue light influence both root length and the numbers of chloroplasts in the roots"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 21098,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Root lengths were also assayed from plants grown on vertical agar plates for 8 d under narrow-bandwidth red (25 μmol m−2 s−1) or blue (50 μmol m−2 s−1) light (Fig. 5). The 14-3-3μ-1 roots were ∼65% or ∼60% of the length of wild-type roots in red or blue light conditions, respectively. 14-3-3υ-1 and 14-3-3υ-2 roots were similar in length to wild-type roots when grown under blue light, but shorter when grown under red light. The 14-3-3υ-1 and 14-3-3υ-2 roots were ∼83% and ∼86% of the length of wild-type roots, respectively. The differences in root lengths of red-light-grown 14-3-3υ-1 and 14-3-3υ-2 were confirmed to be statistically different by t test (αα=0.0003 and 0.0050, respectively).",
+            "offset": 21098,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Root lengths were also assayed from plants grown on vertical agar plates for 8 d under narrow-bandwidth red (25 μmol m−2 s−1) or blue (50 μmol m−2 s−1) light (Fig. 5). The 14-3-3μ-1 roots were ∼65% or ∼60% of the length of wild-type roots in red or blue light conditions, respectively. 14-3-3υ-1 and 14-3-3υ-2 roots were similar in length to wild-type roots when grown under blue light, but shorter when grown under red light. The 14-3-3υ-1 and 14-3-3υ-2 roots were ∼83% and ∼86% of the length of wild-type roots, respectively. The differences in root lengths of red-light-grown 14-3-3υ-1 and 14-3-3υ-2 were confirmed to be statistically different by t test (αα=0.0003 and 0.0050, respectively)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 21841,
             "infons": {
               "file": "jexboters022f05_ht.jpg",
               "id": "fig5",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Root lengths of the 14-3-3 T-DNA insertion mutants are influenced by red and blue light. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates under constant red or blue light conditions for 8 d and root lengths were measured. The roots of 14-3-3μ-1 were ∼65% and ∼59% of wild-type roots in red and blue light conditions, respectively. The roots of the 14-3-3 υ T-DNA insertion mutants were similar in length to wild-type roots when grown under blue light, but 14-3-3υ-1 and 14-3-3υ-2 were ∼83% and ∼86% of wild-type roots in red light conditions, respectively. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test.",
+            "offset": 21841,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Root lengths of the 14-3-3 T-DNA insertion mutants are influenced by red and blue light. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates under constant red or blue light conditions for 8 d and root lengths were measured. The roots of 14-3-3μ-1 were ∼65% and ∼59% of wild-type roots in red and blue light conditions, respectively. The roots of the 14-3-3 υ T-DNA insertion mutants were similar in length to wild-type roots when grown under blue light, but 14-3-3υ-1 and 14-3-3υ-2 were ∼83% and ∼86% of wild-type roots in red light conditions, respectively. Error bars represent standard error and asterisks indicate lines with a significant difference in root length compared with the wild type using a t test."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 22629,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Root chloroplast development can be influenced by growth under different wavelengths of light. When grown in dark or low light conditions, roots from none of the lines studied developed observable chloroplasts (data not shown). The 14-3-3 T-DNA insertion mutants, co, phyB, Res-mu, and the wild type were also grown under narrow-bandwidth red or blue light to test whether these wavelengths influence root chloroplast development differently among the lines. Plants were grown for 5 d under red or blue light and then the roots were assayed for chloroplasts (Fig. 6). As previously published, blue light stimulated more root chloroplast development than red light. Furthermore, blue light stimulated more chloroplast development in the roots than white light. The roots of blue-light-grown 14-3-3μ-1 developed a higher number of chloroplasts than any of the other lines (Fig. 6A). Quantification of red tonal levels confirmed that 14-3-3μ-1 roots contain higher red tonal levels than both the wild type and Res-mu (Fig. 6B). The red tonal level of blue light grown 14-3-3μ-1 roots was statistically higher than that of wild-type or Res-mu roots as confirmed by t test (α=0.0012 and 0.0323, respectively).",
+            "offset": 22629,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Root chloroplast development can be influenced by growth under different wavelengths of light. When grown in dark or low light conditions, roots from none of the lines studied developed observable chloroplasts (data not shown). The 14-3-3 T-DNA insertion mutants, co, phyB, Res-mu, and the wild type were also grown under narrow-bandwidth red or blue light to test whether these wavelengths influence root chloroplast development differently among the lines. Plants were grown for 5 d under red or blue light and then the roots were assayed for chloroplasts (Fig. 6). As previously published, blue light stimulated more root chloroplast development than red light. Furthermore, blue light stimulated more chloroplast development in the roots than white light. The roots of blue-light-grown 14-3-3μ-1 developed a higher number of chloroplasts than any of the other lines (Fig. 6A). Quantification of red tonal levels confirmed that 14-3-3μ-1 roots contain higher red tonal levels than both the wild type and Res-mu (Fig. 6B). The red tonal level of blue light grown 14-3-3μ-1 roots was statistically higher than that of wild-type or Res-mu roots as confirmed by t test (α=0.0012 and 0.0323, respectively)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 23841,
             "infons": {
               "file": "jexboters022f06_3c.jpg",
               "id": "fig6",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Red and blue light influence the numbers of chloroplasts in the roots. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates for 5 d under constant red or blue light. Roots were illuminated with a blue light and visualized through a GFP long pass filter with a fluorescent microscope (A, C). All of the lines developed increased numbers of chloroplasts when grown under blue light compared with white light, but 14-3-3μ-1 roots contained higher numbers of chloroplasts than the other lines (A). When grown under red light, the roots of 14-3-3μ-1 and co were the only lines that developed high enough numbers of chloroplasts to be visualized with a fluorescent microscope (C). Pictures of roots from each line were cropped to equal sizes and the red tonal levels were measured with the RGB Measure Plus plug-in of the ImageJ program (B, D). When grown under blue light, the red tonal levels were higher for only 14-3-3μ-1 roots compared with the wild type (B). When grown under red light, the red tonal levels were equal for all lines measured (D). Although chloroplasts could only be visualized for 14-3-3μ-1 and co roots, the differences in tonal levels were not enough to be detected by the RGB Measure Plus program. Error bars represent standard error and asterices indicate lines with a significant difference in root length compared with the wild type using a t test (B, D).",
+            "offset": 23841,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Red and blue light influence the numbers of chloroplasts in the roots. The 14-3-3 T-DNA insertion mutants, Res-mu, co, phyB, and the wild type were grown on vertical agar plates for 5 d under constant red or blue light. Roots were illuminated with a blue light and visualized through a GFP long pass filter with a fluorescent microscope (A, C). All of the lines developed increased numbers of chloroplasts when grown under blue light compared with white light, but 14-3-3μ-1 roots contained higher numbers of chloroplasts than the other lines (A). When grown under red light, the roots of 14-3-3μ-1 and co were the only lines that developed high enough numbers of chloroplasts to be visualized with a fluorescent microscope (C). Pictures of roots from each line were cropped to equal sizes and the red tonal levels were measured with the RGB Measure Plus plug-in of the ImageJ program (B, D). When grown under blue light, the red tonal levels were higher for only 14-3-3μ-1 roots compared with the wild type (B). When grown under red light, the red tonal levels were equal for all lines measured (D). Although chloroplasts could only be visualized for 14-3-3μ-1 and co roots, the differences in tonal levels were not enough to be detected by the RGB Measure Plus program. Error bars represent standard error and asterices indicate lines with a significant difference in root length compared with the wild type using a t test (B, D)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25278,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Out of the lines grown under red light, 14-3-3μ-1 and co were the only sets that developed noticeably visible chloroplasts in the roots (Fig. 6C). The small number of chloroplasts in the 14-3-3μ-1 and co roots was not enough to raise the red tonal level of either mutant to a significant difference from that of wild-type roots (Fig. 6D).",
+            "offset": 25278,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Out of the lines grown under red light, 14-3-3μ-1 and co were the only sets that developed noticeably visible chloroplasts in the roots (Fig. 6C). The small number of chloroplasts in the 14-3-3μ-1 and co roots was not enough to raise the red tonal level of either mutant to a significant difference from that of wild-type roots (Fig. 6D)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "title_1"
+            },
             "offset": 25619,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "title_1"
-            },
-            "text": "Discussion",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Discussion"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 25630,
+            "relations": [],
+            "sentences": [],
+            "text": "This study characterizes several novel functions of 14-3-3 proteins in root growth and chloroplast development. The 14-3-3 μ T-DNA insertion mutants exhibited altered root lengths and chloroplast numbers in the roots. The phenotypes exhibited by the 14-3-3 μ T-DNA insertion mutants could all be influenced by growth conditions altered in light intensity or wavelength. The 14-3-3 υ T-DNA insertion mutants exhibited altered root lengths in red light and also had altered numbers of chloroplasts in the roots. Most of the root development phenotypes exhibited by these 14-3-3 T-DNA insertion mutants can be attributed to deficiencies in the photosensory system."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "This study characterizes several novel functions of 14-3-3 proteins in root growth and chloroplast development. The 14-3-3 μ T-DNA insertion mutants exhibited altered root lengths and chloroplast numbers in the roots. The phenotypes exhibited by the 14-3-3 μ T-DNA insertion mutants could all be influenced by growth conditions altered in light intensity or wavelength. The 14-3-3 υ T-DNA insertion mutants exhibited altered root lengths in red light and also had altered numbers of chloroplasts in the roots. Most of the root development phenotypes exhibited by these 14-3-3 T-DNA insertion mutants can be attributed to deficiencies in the photosensory system.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 26300,
+            "relations": [],
+            "sentences": [],
+            "text": "The roots of 14-3-3μ-1 were only ∼25% as long as the roots of the wild type after 8 d of growth under constant light (Fig. 1B). However, the roots of 14-3-3υ-1 and 14-3-3υ-2 are the same length as the wild type after 8 d under constant light. The 14-3-3 μ protein is therefore an important factor in root growth, while 14-3-3 υ does not have an observable effect on root length under constant white light."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The roots of 14-3-3μ-1 were only ∼25% as long as the roots of the wild type after 8 d of growth under constant light (Fig. 1B). However, the roots of 14-3-3υ-1 and 14-3-3υ-2 are the same length as the wild type after 8 d under constant light. The 14-3-3 μ protein is therefore an important factor in root growth, while 14-3-3 υ does not have an observable effect on root length under constant white light.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 26726,
+            "relations": [],
+            "sentences": [],
+            "text": "The differences in root length in 14-3-3μ-1 are influenced by light intensity (Fig. 2). The root length of 14-3-3μ-1 was more comparable to wild-type roots when grown in the dark, compared with plants grown in full-light conditions (Fig. 2A). Under low-light conditions, the 14-3-3μ-1 root length percentage compared with the wild-type root length was intermediate between the root length percentages under full-light and dark conditions (Fig. 2B, C)."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The differences in root length in 14-3-3μ-1 are influenced by light intensity (Fig. 2). The root length of 14-3-3μ-1 was more comparable to wild-type roots when grown in the dark, compared with plants grown in full-light conditions (Fig. 2A). Under low-light conditions, the 14-3-3μ-1 root length percentage compared with the wild-type root length was intermediate between the root length percentages under full-light and dark conditions (Fig. 2B, C).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 27181,
+            "relations": [],
+            "sentences": [],
+            "text": "Along with reduced hypocotyl growth inhibition under narrow-bandwidth red light, phytochromes are implicated in root elongation and gravitropic response. The PHYB mutant, phyB, exhibits significantly reduced root elongation rates compared with the wild type when grown in light, but does not exhibit this same reduced root elongation rate when grown in the dark, which was also observed in this study (Figs 1, 2). The roots of 14-3-3μ-1 were not the same length as wild-type roots in dark grown conditions. Because the roots of 14-3-3μ-1 were still shorter than wild-type roots in dark conditions, the difference in 14-3-3μ-1 root length cannot be solely attributed to deficiencies in light signalling. Future studies will identify additional light-influenced and other developmental differences in 14-3-3μ-1 roots."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Along with reduced hypocotyl growth inhibition under narrow-bandwidth red light, phytochromes are implicated in root elongation and gravitropic response. The PHYB mutant, phyB, exhibits significantly reduced root elongation rates compared with the wild type when grown in light, but does not exhibit this same reduced root elongation rate when grown in the dark, which was also observed in this study (Figs 1, 2). The roots of 14-3-3μ-1 were not the same length as wild-type roots in dark grown conditions. Because the roots of 14-3-3μ-1 were still shorter than wild-type roots in dark conditions, the difference in 14-3-3μ-1 root length cannot be solely attributed to deficiencies in light signalling. Future studies will identify additional light-influenced and other developmental differences in 14-3-3μ-1 roots.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 28001,
+            "relations": [],
+            "sentences": [],
+            "text": "Further phenotypic similarity between the 14-3-3 T-DNA insertion mutants and phyB was noticeable under narrow-bandwidth red light conditions (Fig. 5). The roots of phyB grown under red light grow similarly to when they are grown in dark conditions as also seen in Figs 2 and 5. This similarity in root lengths under red light and dark conditions was also true for the 14-3-3 T-DNA insertion mutants. The root lengths of 14-3-3μ-1 were ∼8 mm after 8 d of growth in both red light and dark conditions. The root lengths of 14-3-3υ-1 and 14-3-3υ-2 were ∼10 mm after 8 d of growth in both red light and dark conditions. Further similarity to phyB, the root lengths of 14-3-3υ-1 and 14-3-3υ-2 were comparable with the wild type when grown in dark conditions, but shorter when grown under narrow-bandwidth red light."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Further phenotypic similarity between the 14-3-3 T-DNA insertion mutants and phyB was noticeable under narrow-bandwidth red light conditions (Fig. 5). The roots of phyB grown under red light grow similarly to when they are grown in dark conditions as also seen in Figs 2 and 5. This similarity in root lengths under red light and dark conditions was also true for the 14-3-3 T-DNA insertion mutants. The root lengths of 14-3-3μ-1 were ∼8 mm after 8 d of growth in both red light and dark conditions. The root lengths of 14-3-3υ-1 and 14-3-3υ-2 were ∼10 mm after 8 d of growth in both red light and dark conditions. Further similarity to phyB, the root lengths of 14-3-3υ-1 and 14-3-3υ-2 were comparable with the wild type when grown in dark conditions, but shorter when grown under narrow-bandwidth red light.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 28836,
+            "relations": [],
+            "sentences": [],
+            "text": "The 14-3-3 T-DNA insertion mutants also exhibit reduced hypocotyl elongation inhibition under red light in the first 4 d of growth. 14-3-3υ-1 and 14-3-3υ-2 grown under narrow bandwidth red light also exhibit a more vertical directional growth habit than the wild type, similar to phyB."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The 14-3-3 T-DNA insertion mutants also exhibit reduced hypocotyl elongation inhibition under red light in the first 4 d of growth. 14-3-3υ-1 and 14-3-3υ-2 grown under narrow bandwidth red light also exhibit a more vertical directional growth habit than the wild type, similar to phyB.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 29134,
+            "relations": [],
+            "sentences": [],
+            "text": "Under blue light, 14-3-3υ-1 and 14-3-3υ-2 root lengths were comparable with wild-type, but 14-3-3μ-1 still exhibited shorter roots (Fig. 5). Wild-type root lengths were ∼36% longer when grown under blue light compared with dark conditions. 14-3-3μ-1 root lengths were ∼17% longer when grown under blue light in comparison to dark conditions. The difference in 14-3-3μ-1 root length when grown in the dark compared with blue light was less distinct than comparing the difference in root length of light- and dark-grown 14-3-3μ-1, indicating that 14-3-3μ-1 is slightly deficient in blue light signalling, a phenotype that is similar, but not as strong as in cry1 mutants."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Under blue light, 14-3-3υ-1 and 14-3-3υ-2 root lengths were comparable with wild-type, but 14-3-3μ-1 still exhibited shorter roots (Fig. 5). Wild-type root lengths were ∼36% longer when grown under blue light compared with dark conditions. 14-3-3μ-1 root lengths were ∼17% longer when grown under blue light in comparison to dark conditions. The difference in 14-3-3μ-1 root length when grown in the dark compared with blue light was less distinct than comparing the difference in root length of light- and dark-grown 14-3-3μ-1, indicating that 14-3-3μ-1 is slightly deficient in blue light signalling, a phenotype that is similar, but not as strong as in cry1 mutants.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 29821,
+            "relations": [],
+            "sentences": [],
+            "text": "Hypocotyl elongation inhibition is similar for 14-3-3μ-1 and wild-type plants grown under narrow bandwidth blue light. Although 14-3-3 μ was not found to be associated with blue light signalling in the hypocotyl during early development, these root length data indicate that 14-3-3 μ is associated with blue light signalling in the roots during early development. The association of 14-3-3 proteins with blue light has also been seen in broad bean, where the blue light photoreceptor, PHOT1, was identified as a client protein of 14-3-3s."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Hypocotyl elongation inhibition is similar for 14-3-3μ-1 and wild-type plants grown under narrow bandwidth blue light. Although 14-3-3 μ was not found to be associated with blue light signalling in the hypocotyl during early development, these root length data indicate that 14-3-3 μ is associated with blue light signalling in the roots during early development. The association of 14-3-3 proteins with blue light has also been seen in broad bean, where the blue light photoreceptor, PHOT1, was identified as a client protein of 14-3-3s.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 30363,
+            "relations": [],
+            "sentences": [],
+            "text": "The roots of 14-3-3 T-DNA insertion mutants and co exhibit increased chloroplast numbers, or greening, after 5 d of growth on vertical agar plates, while phyB roots exhibit decreased chloroplast numbers (Fig. 3). The development of chloroplasts in the roots can be influenced by both light intensity and different wavelengths of light. Dark-grown plants do not develop enough chloroplasts for detectable levels of root greening, while higher numbers of chloroplasts are developed in the roots of plants grown under blue light than plants grown under red light. Low-light-grown plants of all lines studied also did not develop enough chloroplasts for visualization in the roots, indicating that a threshold level of light is required for chloroplast development in the roots."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The roots of 14-3-3 T-DNA insertion mutants and co exhibit increased chloroplast numbers, or greening, after 5 d of growth on vertical agar plates, while phyB roots exhibit decreased chloroplast numbers (Fig. 3). The development of chloroplasts in the roots can be influenced by both light intensity and different wavelengths of light. Dark-grown plants do not develop enough chloroplasts for detectable levels of root greening, while higher numbers of chloroplasts are developed in the roots of plants grown under blue light than plants grown under red light. Low-light-grown plants of all lines studied also did not develop enough chloroplasts for visualization in the roots, indicating that a threshold level of light is required for chloroplast development in the roots.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 31138,
+            "relations": [],
+            "sentences": [],
+            "text": "Root greening under red light conditions is primarily induced by PHYB signalling, whereas, under blue light conditions, root greening is mainly induced by CRY1 and CRY2 signalling. However, phyAphyB mutants are deficient in blue-light-induced chloroplast development, indicating that phytochromes are also important for blue light induced chloroplast development in the roots. Under blue light, 14-3-3μ-1 exhibited a quantifiable increase in root greening (Fig. 6B), indicating that 14-3-3 μ regulation of chloroplast development in the roots is partly associated with blue light signalling. Differences seen in both root length and greening under blue light will be evaluated in future studies, especially in the potential for 14-3-3 association with CRY1 and its role in root length and greening."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Root greening under red light conditions is primarily induced by PHYB signalling, whereas, under blue light conditions, root greening is mainly induced by CRY1 and CRY2 signalling. However, phyAphyB mutants are deficient in blue-light-induced chloroplast development, indicating that phytochromes are also important for blue light induced chloroplast development in the roots. Under blue light, 14-3-3μ-1 exhibited a quantifiable increase in root greening (Fig. 6B), indicating that 14-3-3 μ regulation of chloroplast development in the roots is partly associated with blue light signalling. Differences seen in both root length and greening under blue light will be evaluated in future studies, especially in the potential for 14-3-3 association with CRY1 and its role in root length and greening.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 31939,
+            "relations": [],
+            "sentences": [],
+            "text": "The increased chloroplast numbers in the roots of the 14-3-3 T-DNA insertion mutants and co indicated that 14-3-3 proteins and CO are negative regulators of chloroplast development in the roots. No quantifiable difference in root greening was detected in the roots of any of the lines grown under red light (Fig. 6D), although 14-3-3μ-1 and co were the only lines to develop high enough numbers of chloroplasts to be visualized with a fluorescent microscope (Fig. 6C). Additional work is necessary to further characterize 14-3-3 μ or CO as co-regulators of chloroplast development in the roots via red-light signalling. In fact, this is the first report implicating CO with root development, however, CONSTANS-LIKE3 (COL3) is associated with root development."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The increased chloroplast numbers in the roots of the 14-3-3 T-DNA insertion mutants and co indicated that 14-3-3 proteins and CO are negative regulators of chloroplast development in the roots. No quantifiable difference in root greening was detected in the roots of any of the lines grown under red light (Fig. 6D), although 14-3-3μ-1 and co were the only lines to develop high enough numbers of chloroplasts to be visualized with a fluorescent microscope (Fig. 6C). Additional work is necessary to further characterize 14-3-3 μ or CO as co-regulators of chloroplast development in the roots via red-light signalling. In fact, this is the first report implicating CO with root development, however, CONSTANS-LIKE3 (COL3) is associated with root development.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 32701,
+            "relations": [],
+            "sentences": [],
+            "text": "Although PHYB has not been identified as a protein binding partner of 14-3-3 proteins, phytochromes are regulated by phosphorylation, and the association of PHYB with several phosphorylation events presents many situations of possible 14-3-3 protein involvement. In addition, PHYB and PHYA induce phosphorylation of such proteins as PKS1 and PIF3."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Although PHYB has not been identified as a protein binding partner of 14-3-3 proteins, phytochromes are regulated by phosphorylation, and the association of PHYB with several phosphorylation events presents many situations of possible 14-3-3 protein involvement. In addition, PHYB and PHYA induce phosphorylation of such proteins as PKS1 and PIF3.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 33049,
+            "relations": [],
+            "sentences": [],
+            "text": "This study presents novel roles of 14-3-3 proteins in root and chloroplast development, as well as new roles of CO in chloroplast development. Transcription levels of CO are increased in early development upon irradiance of 4-d-old dark-grown seedlings with a far-red light treatment, but a function for CO in early development has not been defined. In fact, the increase in chloroplast development in roots is the first reported phenotype for co in early development. The activity of CO in chloroplast development may only be as a component of the activity of CO and the COL proteins."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "This study presents novel roles of 14-3-3 proteins in root and chloroplast development, as well as new roles of CO in chloroplast development. Transcription levels of CO are increased in early development upon irradiance of 4-d-old dark-grown seedlings with a far-red light treatment, but a function for CO in early development has not been defined. In fact, the increase in chloroplast development in roots is the first reported phenotype for co in early development. The activity of CO in chloroplast development may only be as a component of the activity of CO and the COL proteins.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 33635,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "The present reverse-genetic study establishes novel, isoform-specific roles of 14-3-3 proteins in Arabidopsis root and chloroplast development. 14-3-3 proteins are increasingly recognized as a major node in the plant interactome, an interaction node that includes CO and other signalling molecules related to light responses. Further, the roles of 14-3-3 proteins in root and chloroplast development are controlled by light intensity or wavelength. 14-3-3 TDNA insertion mutants also exhibit reduced hypocotyl elongation and time to flowering, compared with the wild type. Both the hypocotyl elongation and flowering timing phenotypes are, in part, due to 14-3-3 binding/influence of CO. The study presented here also characterizes CO as a potential factor in root chloroplast development of Arabidopsis during early development. Further work will be necessary to understand the mechanism of 14-3-3 control of both root and chloroplast development and how the association of 14-3-3 proteins and CO factors into these processes.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The present reverse-genetic study establishes novel, isoform-specific roles of 14-3-3 proteins in Arabidopsis root and chloroplast development. 14-3-3 proteins are increasingly recognized as a major node in the plant interactome, an interaction node that includes CO and other signalling molecules related to light responses. Further, the roles of 14-3-3 proteins in root and chloroplast development are controlled by light intensity or wavelength. 14-3-3 TDNA insertion mutants also exhibit reduced hypocotyl elongation and time to flowering, compared with the wild type. Both the hypocotyl elongation and flowering timing phenotypes are, in part, due to 14-3-3 binding/influence of CO. The study presented here also characterizes CO as a potential factor in root chloroplast development of Arabidopsis during early development. Further work will be necessary to understand the mechanism of 14-3-3 control of both root and chloroplast development and how the association of 14-3-3 proteins and CO factors into these processes."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34663,
             "infons": {
               "section_type": "SUPPL",
               "type": "title_1"
             },
-            "text": "Supplementary data",
+            "offset": 34663,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Supplementary data"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "SUPPL",
+              "type": "paragraph"
+            },
             "offset": 34682,
+            "relations": [],
+            "sentences": [],
+            "text": "Supplementary data can be found at JXB online."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "SUPPL",
               "type": "paragraph"
             },
-            "text": "Supplementary data can be found at JXB online.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 34729,
-            "infons": {
-              "section_type": "SUPPL",
-              "type": "paragraph"
-            },
-            "text": "Supplementary Fig. S1. Overactivity of nitrate reductase can not be attributed to the shorter root lengths of 14-3-3μμ-1.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Supplementary Fig. S1. Overactivity of nitrate reductase can not be attributed to the shorter root lengths of 14-3-3μμ-1."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34853,
             "infons": {
               "fpage": "601",
               "lpage": "607",
@@ -832,14 +830,14 @@
               "volume": "333",
               "year": "2011"
             },
-            "text": "Evidence for network evolution in an Arabidopsis interactome map",
+            "offset": 34853,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Evidence for network evolution in an Arabidopsis interactome map"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34918,
             "infons": {
               "fpage": "439",
               "lpage": "446",
@@ -855,14 +853,14 @@
               "volume": "23",
               "year": "2006"
             },
-            "text": "Photoactivated phytochrome induces rapid PIF3 phosphorylation prior to proteasome-mediated degradation",
+            "offset": 34918,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Photoactivated phytochrome induces rapid PIF3 phosphorylation prior to proteasome-mediated degradation"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35021,
             "infons": {
               "fpage": "26",
               "lpage": "30",
@@ -879,14 +877,14 @@
               "volume": "398",
               "year": "1996"
             },
-            "text": "14-3-3 proteins associate with the regulatory phosphorylation site of spinach leaf nitrate reductase in an isoform-specific manner and reduce dephosphorylation of Ser-543 by endogenous protein phosphatases",
+            "offset": 35021,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "14-3-3 proteins associate with the regulatory phosphorylation site of spinach leaf nitrate reductase in an isoform-specific manner and reduce dephosphorylation of Ser-543 by endogenous protein phosphatases"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35227,
             "infons": {
               "fpage": "995",
               "lpage": "1003",
@@ -904,14 +902,14 @@
               "volume": "224",
               "year": "2006"
             },
-            "text": "Cryptochrome photoreceptors cry1 and cry2 antagonistically regulate primary root elongation in Arabidopsis thaliana",
+            "offset": 35227,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cryptochrome photoreceptors cry1 and cry2 antagonistically regulate primary root elongation in Arabidopsis thaliana"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35343,
             "infons": {
               "fpage": "2203",
               "lpage": "2210",
@@ -928,14 +926,14 @@
               "volume": "31",
               "year": "2003"
             },
-            "text": "Phytochromes play a role in phototropism and gravitropism in Arabidopsis roots",
+            "offset": 35343,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Phytochromes play a role in phototropism and gravitropism in Arabidopsis roots"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35422,
             "infons": {
               "fpage": "317",
               "lpage": "323",
@@ -948,14 +946,14 @@
               "volume": "46",
               "year": "2005"
             },
-            "text": "The roles of phytochromes in elongation and gravitropism of roots",
+            "offset": 35422,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The roles of phytochromes in elongation and gravitropism of roots"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35488,
             "infons": {
               "fpage": "70",
               "lpage": "84",
@@ -970,14 +968,14 @@
               "volume": "18",
               "year": "2006"
             },
-            "text": "Arabidopsis CONSTANS-LIKE3 is a positive regulator of red light signaling and root growth",
+            "offset": 35488,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Arabidopsis CONSTANS-LIKE3 is a positive regulator of red light signaling and root growth"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35578,
             "infons": {
               "fpage": "63",
               "lpage": "69",
@@ -990,14 +988,14 @@
               "volume": "113",
               "year": "2000a"
             },
-            "text": "Effect of light on root hair formation in Arabidopsis thaliana phytochrome-deficient mutants",
+            "offset": 35578,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effect of light on root hair formation in Arabidopsis thaliana phytochrome-deficient mutants"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35671,
             "infons": {
               "fpage": "45",
               "lpage": "53",
@@ -1012,14 +1010,14 @@
               "volume": "113",
               "year": "2000b"
             },
-            "text": "Evidence of phytochrome mediation in the low-pH-induced root hair formation process in lettuce (Lactuca sativa L. cv. Grand Rapids) seedlings",
+            "offset": 35671,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Evidence of phytochrome mediation in the low-pH-induced root hair formation process in lettuce (Lactuca sativa L. cv. Grand Rapids) seedlings"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35813,
             "infons": {
               "fpage": "1539",
               "lpage": "1541",
@@ -1036,14 +1034,14 @@
               "volume": "284",
               "year": "1999"
             },
-            "text": "PKS1, a substrate phosphorylated by phytochrome that modulates light signaling in Arabidopsis",
+            "offset": 35813,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "PKS1, a substrate phosphorylated by phytochrome that modulates light signaling in Arabidopsis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35907,
             "infons": {
               "fpage": "49",
               "lpage": "73",
@@ -1054,14 +1052,14 @@
               "volume": "47",
               "year": "1996"
             },
-            "text": "14-3-3 Proteins and signal transduction",
+            "offset": 35907,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "14-3-3 Proteins and signal transduction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35947,
             "infons": {
               "fpage": "17",
               "name_0": "surname:Folta;given-names:KM",
@@ -1078,14 +1076,14 @@
               "volume": "5",
               "year": "2005"
             },
-            "text": "Design and fabrication of adjustable red-green-blue LED light arrays for plant research",
+            "offset": 35947,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Design and fabrication of adjustable red-green-blue LED light arrays for plant research"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36035,
             "infons": {
               "fpage": "36774",
               "lpage": "36780",
@@ -1105,14 +1103,14 @@
               "volume": "274",
               "year": "1999"
             },
-            "text": "Binding of 14-3-3 protein to the plasma membrane H+-ATPase AHA2 involves the three C-terminal residues Tyr(946)-Thr-Val and requires phosphorylation of Thr(947)",
+            "offset": 36035,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Binding of 14-3-3 protein to the plasma membrane H+-ATPase AHA2 involves the three C-terminal residues Tyr(946)-Thr-Val and requires phosphorylation of Thr(947)"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36196,
             "infons": {
               "fpage": "9789",
               "lpage": "9794",
@@ -1125,14 +1123,14 @@
               "volume": "97",
               "year": "2000"
             },
-            "text": "GIGANTEA is a nuclear protein involved in phytochrome signaling in Arabidopsis",
+            "offset": 36196,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "GIGANTEA is a nuclear protein involved in phytochrome signaling in Arabidopsis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36275,
             "infons": {
               "fpage": "2629",
               "lpage": "2640",
@@ -1152,14 +1150,14 @@
               "volume": "16",
               "year": "2004"
             },
-            "text": "Phytochrome phosphorylation modulates light signaling by influencing the protein–protein interaction",
+            "offset": 36275,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Phytochrome phosphorylation modulates light signaling by influencing the protein–protein interaction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36378,
             "infons": {
               "fpage": "1453",
               "lpage": "1463",
@@ -1177,14 +1175,14 @@
               "volume": "133",
               "year": "2003"
             },
-            "text": "Blue-light- and phosphorylation-dependent binding of a 14-3-3 protein to phototropins in stomatal guard cells of broad bean",
+            "offset": 36378,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Blue-light- and phosphorylation-dependent binding of a 14-3-3 protein to phototropins in stomatal guard cells of broad bean"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36502,
             "infons": {
               "fpage": "147",
               "lpage": "160",
@@ -1197,14 +1195,14 @@
               "volume": "100",
               "year": "1980"
             },
-            "text": "Genetic control of light inhibited hypocotyl elongation in Arabidopsis thaliana (L.) Heynh",
+            "offset": 36502,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic control of light inhibited hypocotyl elongation in Arabidopsis thaliana (L.) Heynh"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36593,
             "infons": {
               "fpage": "57",
               "lpage": "66",
@@ -1218,14 +1216,14 @@
               "volume": "229",
               "year": "1991"
             },
-            "text": "A genetic and physiological analysis of late flowering mutants in Arabidopsis thaliana",
+            "offset": 36593,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A genetic and physiological analysis of late flowering mutants in Arabidopsis thaliana"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36680,
             "infons": {
               "fpage": "15",
               "lpage": "19",
@@ -1237,14 +1235,14 @@
               "volume": "103",
               "year": "1993"
             },
-            "text": "Genetic evidence that the red-absorbing form of phytochrome B modulates gravitropism in",
+            "offset": 36680,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic evidence that the red-absorbing form of phytochrome B modulates gravitropism in"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36768,
             "infons": {
               "fpage": "18",
               "lpage": "24",
@@ -1258,14 +1256,14 @@
               "volume": "199",
               "year": "1996"
             },
-            "text": "Characterization of a calcium/calmodulin-dependent protein kinase homolog from maize roots showing light-regulated gravitropism",
+            "offset": 36768,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Characterization of a calcium/calmodulin-dependent protein kinase homolog from maize roots showing light-regulated gravitropism"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36896,
             "infons": {
               "fpage": "1692",
               "lpage": "1702",
@@ -1280,14 +1278,14 @@
               "volume": "145",
               "year": "2007"
             },
-            "text": "The 14-3-3 proteins mu and upsilon influence transition to flowering and early phytochrome response",
+            "offset": 36896,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The 14-3-3 proteins mu and upsilon influence transition to flowering and early phytochrome response"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36996,
             "infons": {
               "fpage": "1104",
               "lpage": "1113",
@@ -1304,14 +1302,14 @@
               "volume": "6",
               "year": "1996"
             },
-            "text": "Phosphorylated nitrate reductase from spinach leaves is inhibited by 14-3-3 proteins and activated by fusicoccin",
+            "offset": 36996,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Phosphorylated nitrate reductase from spinach leaves is inhibited by 14-3-3 proteins and activated by fusicoccin"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37109,
             "infons": {
               "fpage": "473",
               "lpage": "497",
@@ -1323,14 +1321,14 @@
               "volume": "15",
               "year": "1962"
             },
-            "text": "A revised medium for rapid growth and bioassays with tobacco tissue cultures",
+            "offset": 37109,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A revised medium for rapid growth and bioassays with tobacco tissue cultures"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37186,
             "infons": {
               "fpage": "27",
               "lpage": "35",
@@ -1343,14 +1341,14 @@
               "volume": "118",
               "year": "1998"
             },
-            "text": "Genetic interactions between phytochrome A, phytochrome B, and cryptochrome 1 during Arabidopsis development",
+            "offset": 37186,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic interactions between phytochrome A, phytochrome B, and cryptochrome 1 during Arabidopsis development"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37295,
             "infons": {
               "fpage": "551",
               "lpage": "555",
@@ -1366,14 +1364,14 @@
               "volume": "118",
               "year": "1998"
             },
-            "text": "A phosphothreonine residue at the C-terminal end of the plasma membrane H+-ATPase is protected by fusicoccin-induced 14-3-3 binding",
+            "offset": 37295,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A phosphothreonine residue at the C-terminal end of the plasma membrane H+-ATPase is protected by fusicoccin-induced 14-3-3 binding"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37427,
             "infons": {
               "fpage": "427",
               "lpage": "440",
@@ -1387,14 +1385,14 @@
               "volume": "25",
               "year": "2007"
             },
-            "text": "Structure of a 14-3-3 coordinated hexamer of the plant plasma membrane H+-ATPase by combining X-ray crystallography and electron cryomicroscopy",
+            "offset": 37427,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Structure of a 14-3-3 coordinated hexamer of the plant plasma membrane H+-ATPase by combining X-ray crystallography and electron cryomicroscopy"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37571,
             "infons": {
               "fpage": "613",
               "lpage": "621",
@@ -1411,14 +1409,14 @@
               "volume": "126",
               "year": "2001"
             },
-            "text": "Transgene expression patterns indicate that spaceflight affects stress signal perception and transduction in arabidopsis",
+            "offset": 37571,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Transgene expression patterns indicate that spaceflight affects stress signal perception and transduction in arabidopsis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37692,
             "infons": {
               "fpage": "2687",
               "lpage": "2702",
@@ -1436,14 +1434,14 @@
               "volume": "13",
               "year": "2001"
             },
-            "text": "Tomato SP-interacting proteins define a conserved signaling system that regulates shoot architecture and flowering",
+            "offset": 37692,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tomato SP-interacting proteins define a conserved signaling system that regulates shoot architecture and flowering"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37807,
             "infons": {
               "fpage": "511",
               "lpage": "514",
@@ -1459,14 +1457,14 @@
               "volume": "199",
               "year": "1996"
             },
-            "text": "The light-induced reduction of the gravitropic growth-orientation of seedlings of Arabidopsis thaliana (L.) Heynh. is a photomorphogenic response mediated synergistically by the far-red-absorbing forms of phytochromes A and B",
+            "offset": 37807,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The light-induced reduction of the gravitropic growth-orientation of seedlings of Arabidopsis thaliana (L.) Heynh. is a photomorphogenic response mediated synergistically by the far-red-absorbing forms of phytochromes A and B"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38033,
             "infons": {
               "fpage": "195",
               "lpage": "202",
@@ -1478,14 +1476,14 @@
               "volume": "61",
               "year": "1974"
             },
-            "text": "Phytochrome distribution in etiolated grass seedlings as assayed by an indirect antibody-labelling method",
+            "offset": 38033,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Phytochrome distribution in etiolated grass seedlings as assayed by an indirect antibody-labelling method"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38139,
             "infons": {
               "fpage": "429",
               "lpage": "438",
@@ -1501,14 +1499,14 @@
               "volume": "50",
               "year": "2009"
             },
-            "text": "The 14-3-3 protein GF14c acts as a negative regulator of flowering in rice by interacting with the florigen Hd3a",
+            "offset": 38139,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The 14-3-3 protein GF14c acts as a negative regulator of flowering in rice by interacting with the florigen Hd3a"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38252,
             "infons": {
               "fpage": "443",
               "lpage": "460",
@@ -1520,14 +1518,14 @@
               "volume": "47",
               "year": "1962"
             },
-            "text": "Supervital mutants of Arabidopsis",
+            "offset": 38252,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Supervital mutants of Arabidopsis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38286,
             "infons": {
               "fpage": "211",
               "lpage": "216",
@@ -1540,14 +1538,14 @@
               "volume": "110",
               "year": "1996"
             },
-            "text": "Genetic and transgenic evidence that phytochromes A and B act to modulate the gravitropic orientation of Arabidopsis thaliana hypocotyls",
+            "offset": 38286,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic and transgenic evidence that phytochromes A and B act to modulate the gravitropic orientation of Arabidopsis thaliana hypocotyls"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38423,
             "infons": {
               "fpage": "142",
               "lpage": "149",
@@ -1562,14 +1560,14 @@
               "volume": "127",
               "year": "2001"
             },
-            "text": "Data mining the Arabidopsis genome reveals fifteen 14-3-3 genes. Expression is demonstrated for two out of five novel genes",
+            "offset": 38423,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Data mining the Arabidopsis genome reveals fifteen 14-3-3 genes. Expression is demonstrated for two out of five novel genes"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38547,
             "infons": {
               "fpage": "647",
               "lpage": "660",
@@ -1585,14 +1583,14 @@
               "volume": "140",
               "year": "2006"
             },
-            "text": "Exposed loop domains of complexed 14-3-3 proteins contribute to structural diversity and functional specificity",
+            "offset": 38547,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Exposed loop domains of complexed 14-3-3 proteins contribute to structural diversity and functional specificity"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38659,
             "infons": {
               "fpage": "413",
               "lpage": "427",
@@ -1605,14 +1603,14 @@
               "volume": "7",
               "year": "1995"
             },
-            "text": "Temporal and spatial expression patterns of PHYA and PHYB genes in Arabidopsis",
+            "offset": 38659,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Temporal and spatial expression patterns of PHYA and PHYB genes in Arabidopsis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38738,
             "infons": {
               "fpage": "3445",
               "lpage": "3454",
@@ -1629,14 +1627,14 @@
               "volume": "114",
               "year": "2001"
             },
-            "text": "Cell cycle roles for two 14-3-3 proteins during Drosophila development",
+            "offset": 38738,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cell cycle roles for two 14-3-3 proteins during Drosophila development"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38809,
             "infons": {
               "fpage": "1549",
               "lpage": "1559",
@@ -1655,14 +1653,14 @@
               "volume": "24",
               "year": "2003"
             },
-            "text": "Forced expression of antisense 14-3-3beta RNA suppresses tumor cell growth in vitro and",
+            "offset": 38809,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Forced expression of antisense 14-3-3beta RNA suppresses tumor cell growth in vitro and"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38897,
             "infons": {
               "fpage": "2379",
               "lpage": "2391",
@@ -1681,14 +1679,14 @@
               "volume": "11",
               "year": "1999"
             },
-            "text": "Phosphorylation of Thr-948 at the C terminus of the plasma membrane H+-ATPase creates a binding site for the regulatory 14-3-3 protein",
+            "offset": 38897,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Phosphorylation of Thr-948 at the C terminus of the plasma membrane H+-ATPase creates a binding site for the regulatory 14-3-3 protein"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39032,
             "infons": {
               "fpage": "521",
               "lpage": "534",
@@ -1705,14 +1703,14 @@
               "volume": "13",
               "year": "2001"
             },
-            "text": "Isolation and characterization of rice phytochrome A mutants",
+            "offset": 39032,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Isolation and characterization of rice phytochrome A mutants"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39093,
             "infons": {
               "fpage": "9437",
               "lpage": "9442",
@@ -1727,14 +1725,14 @@
               "volume": "98",
               "year": "2001"
             },
-            "text": "Multiple transcription-factor genes are early targets of phytochrome A signaling",
+            "offset": 39093,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Multiple transcription-factor genes are early targets of phytochrome A signaling"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39174,
             "infons": {
               "fpage": "110",
               "lpage": "114",
@@ -1748,14 +1746,14 @@
               "volume": "435",
               "year": "1998"
             },
-            "text": "Site-specific regulatory interaction between spinach leaf sucrose-phosphate synthase and 14-3-3 proteins",
+            "offset": 39174,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Site-specific regulatory interaction between spinach leaf sucrose-phosphate synthase and 14-3-3 proteins"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39279,
             "infons": {
               "fpage": "1607",
               "lpage": "1616",
@@ -1772,14 +1770,14 @@
               "volume": "127",
               "year": "2001"
             },
-            "text": "Circadian clock-regulated expression of phytochrome and cryptochrome genes in Arabidopsis",
+            "offset": 39279,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Circadian clock-regulated expression of phytochrome and cryptochrome genes in Arabidopsis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39369,
             "infons": {
               "fpage": "1798",
               "lpage": "1808",
@@ -1795,14 +1793,14 @@
               "volume": "45",
               "year": "2004"
             },
-            "text": "Cryptochromes and phytochromes synergistically regulate Arabidopsis root greening under blue light",
+            "offset": 39369,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cryptochromes and phytochromes synergistically regulate Arabidopsis root greening under blue light"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39468,
             "infons": {
               "fpage": "175",
               "lpage": "220",
@@ -1813,14 +1811,14 @@
               "volume": "85",
               "year": "1983"
             },
-            "text": "The ultrastructure of plastids in roots",
+            "offset": 39468,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The ultrastructure of plastids in roots"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 39508,
             "infons": {
               "fpage": "2",
               "lpage": "8",
@@ -1835,15 +1833,18 @@
               "volume": "339",
               "year": "1997"
             },
-            "text": "The heterologous interactions among plant 14-3-3 proteins and identification of regions that are important for dimerization",
+            "offset": 39508,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The heterologous interactions among plant 14-3-3 proteins and identification of regions that are important for dimerization"
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC",
+    "version": "1.0"
   }
 ]

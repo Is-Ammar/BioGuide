@@ -32,6 +32,21 @@ export default {
           cyan: '#00ffff',
           magenta: '#ff00ff',
           purple: '#8b5cf6',
+        },
+        semantic: {
+          'surface-0': 'var(--color-surface-0)',
+          'surface-1': 'var(--color-surface-1)',
+          'surface-2': 'var(--color-surface-2)',
+          'border-muted': 'var(--color-border-muted)',
+          'border-accent': 'var(--color-border-accent)',
+          'text-primary': 'var(--color-text-primary)',
+          'text-secondary': 'var(--color-text-secondary)',
+            'text-dim': 'var(--color-text-dim)',
+          'accent': 'var(--color-accent-primary)',
+          'accent-alt': 'var(--color-accent-secondary)',
+          'danger': 'var(--color-danger)',
+          'warning': 'var(--color-warning)',
+          'success': 'var(--color-success)'
         }
       },
       animation: {

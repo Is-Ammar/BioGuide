@@ -1,135 +1,121 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
+import HgLogo from '../../../icon/hg.png';
 import { Link, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
 import { User, LogIn, LogOut } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 import { useAuth } from '../lib/auth';
 
-const navItems = [
-	{ label: 'Dashboard', to: '/dashboard' },
+const navItems: { label: string; to: string }[] = [
+  { label: 'Explore', to: '/dashboard?mode=explore' },
+  { label: 'Search', to: '/dashboard?mode=search' },
+  { label: 'About', to: '/about' },
+  { label: 'Contact', to: '/contact' }
 ];
 
-const Navigation = () => {
-	const location = useLocation();
-	const { user, logout } = useAuth();
-	const isLanding = location.pathname === '/';
-	const isDashboard = location.pathname.startsWith('/dashboard');
+const Navigation: React.FC = () => {
+  const location = useLocation();
+  const { user, logout } = useAuth();
 
-	// Track sidebar open state via custom event from Sidebar component (only matters on dashboard)
-	const [sidebarOpen, setSidebarOpen] = useState(false);
-	useEffect(() => {
-		const handler = (e: Event) => {
-			const custom = e as CustomEvent<{ open: boolean }>;
-			setSidebarOpen(!!custom.detail?.open);
-		};
-		window.addEventListener('sidebar:toggle', handler as EventListener);
-		return () => window.removeEventListener('sidebar:toggle', handler as EventListener);
-	}, []);
 
-	const containerBase = 'px-4 sm:px-6 lg:px-8';
-	const containerClasses = isDashboard
-		? `w-full ${containerBase} transition-[padding] duration-300 ${sidebarOpen ? 'md:pl-80' : ''}`
-		: `max-w-7xl mx-auto ${containerBase}`;
+  return (
+    <nav
+      className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-semantic-surface-1/85 border-b border-semantic-border-muted"
+      role="navigation"
+      aria-label="Primary"
+    >
+      <div className="w-full px-4 md:px-8 relative">
+        <div className="relative md:h-16 h-24 md:py-0 py-3 mx-auto flex items-center justify-between flex-wrap md:flex-nowrap gap-4">
+          <div className="order-1 flex items-center gap-3">
+            <Link to="/" className="flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-xl">
+              <span className="sr-only">BioGuide Home</span>
+              <span className="relative inline-flex h-10 w-10 rounded-xl overflow-hidden border border-semantic-border-muted group-hover:border-semantic-border-accent transition-colors">
+                <img
+                  src={HgLogo}
+                  alt="BioGuide Logo"
+                  className="h-full w-full object-cover select-none"
+                  loading="eager"
+                  decoding="async"
+                />
+                <span className="pointer-events-none absolute inset-0 rounded-xl group-hover:bg-accent/5" />
+              </span>
+            </Link>
+            <Link
+              to="/"
+              className="font-extrabold tracking-tight text-lg md:text-xl text-accent hover:text-accent-alt transition-colors"
+            >
+              BioGuide
+            </Link>
+          </div>
 
-	return (
-		<motion.nav
-			className={`fixed top-0 left-0 right-0 z-50 ${isLanding ? 'glass' : 'glass-dark'} border-b border-white/10 backdrop-blur-xl`}
-			initial={{ y: -72, opacity: 0 }}
-			animate={{ y: 0, opacity: 1 }}
-			transition={{ duration: 0.6, ease: 'easeOut' }}
-			role="navigation"
-			aria-label="Primary"
-		>
-			{/* Container: full-width on dashboard (with sidebar offset), centered on others */}
-			<div className={containerClasses}>
-				<div className="flex items-center h-16 w-full">
-					{/* Brand */}
-					<Link to="/" className="relative group flex items-center gap-2 flex-shrink-0">
-						<div className="absolute -inset-2 rounded-xl opacity-0 group-hover:opacity-100 bg-gradient-to-r from-purple-500/20 via-emerald-500/10 to-transparent blur-md transition" />
-						<motion.div
-							className="relative font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-100 via-purple-200 to-emerald-200 text-xl sm:text-2xl"
-							whileHover={{ scale: 1.06 }}
-							whileTap={{ scale: 0.97 }}
-							transition={{ type: 'spring', stiffness: 400, damping: 18 }}
-						>
-							FF BioGuide
-						</motion.div>
-					</Link>
+            {/* Links */}
+            <div className="order-3 md:order-2 w-full md:w-auto">
+              <ul className="flex flex-wrap md:flex-nowrap md:space-x-1 justify-between md:justify-center font-medium text-sm">
+                {navItems.map((item) => {
+                  const basePath = item.to.split('?')[0];
+                  const searchParams = new URLSearchParams(location.search);
+                  const mode = searchParams.get('mode');
+                  let active = false;
+                  if (basePath === '/dashboard') {
+                    if (item.label === 'Explore') active = mode === 'explore';
+                    if (item.label === 'Search') active = mode === 'search';
+                  } else {
+                    active = location.pathname.startsWith(basePath);
+                  }
+                  return (
+                    <li key={item.to} className="w-auto">
+                      <Link
+                        to={item.to}
+                        aria-current={active ? 'page' : undefined}
+                        className={`md:px-4 md:py-2 px-3 py-2 rounded-md transition-colors outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-ring-accent)] focus-visible:ring-offset-1 focus-visible:ring-offset-[color:var(--color-surface-0)]
+                          ${active
+                            ? 'text-accent font-semibold bg-semantic-surface-2/70 border border-semantic-border-accent'
+                            : 'text-semantic-text-secondary hover:text-accent hover:bg-semantic-surface-2/50'}
+                        `}
+                      >
+                        {item.label}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
 
-					{/* Center nav links (unchanged) */}
-					<div className="hidden md:flex items-center gap-8 ml-10">
-						{navItems.map(item => {
-							const active = location.pathname.startsWith(item.to);
-							return (
-								<div key={item.to} className="relative">
-									<Link
-										to={item.to}
-										aria-current={active ? 'page' : undefined}
-										className={`px-1 text-sm font-medium transition-colors ${active ? 'text-white' : 'text-slate-300 hover:text-white'}`}
-									>
-										{item.label}
-									</Link>
-									<AnimatePresence>
-										{active && (
-											<motion.span
-												layoutId="nav-active-pill"
-												className="absolute -bottom-1 left-0 right-0 h-[2px] rounded-full bg-gradient-to-r from-emerald-400 via-purple-400 to-emerald-400"
-												initial={{ opacity: 0, scaleX: 0 }}
-												animate={{ opacity: 1, scaleX: 1 }}
-												exit={{ opacity: 0, scaleX: 0 }}
-												transition={{ duration: 0.35, ease: 'easeOut' }}
-											/>
-										)}
-									</AnimatePresence>
-								</div>
-							);
-						})}
-					</div>
-
-					{/* Spacer to push auth to far right */}
-					<div className="flex-grow" />
-
-					{/* Right side auth */}
-					<div className="flex items-center gap-4 flex-shrink-0">
-						{user ? (
-							<div className="flex items-center gap-4">
-								<Link
-									to="/profile"
-									className="group flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
-								>
-									<User className="w-4 h-4 text-purple-300 group-hover:text-emerald-300 transition-colors" />
-									<span className="hidden sm:inline text-xs font-medium truncate max-w-[140px]">{user.first_name} {user.last_name}</span>
-								</Link>
-								<motion.button
-									onClick={logout}
-									className="relative flex items-center gap-2 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white transition-colors overflow-hidden"
-									whileHover={{ y: -2 }}
-									whileTap={{ scale: 0.95 }}
-								>
-									<span className="absolute inset-0 rounded-lg bg-gradient-to-r from-purple-500/0 via-emerald-500/0 to-purple-500/0 group-hover:from-purple-500/10 group-hover:to-emerald-500/10 transition-all" />
-									<LogOut className="w-4 h-4" />
-									<span className="hidden sm:inline text-xs font-medium">Logout</span>
-								</motion.button>
-							</div>
-						) : (
-												<motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
-													<Link
-														to="/login?redirect=/"
-														onClick={() => {
-															// When clicking Login from landing page, set redirect to go back to landing
-															localStorage.setItem('FF_BioGuide_redirect_after_auth', '/');
-														}}
-														className="relative inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-white bg-gradient-to-r from-purple-500 via-fuchsia-500 to-emerald-500 bg-[length:200%_auto] animate-[gradient-move_8s_linear_infinite] shadow-[0_0_15px_-3px_rgba(168,85,247,0.4)] hover:shadow-[0_0_22px_-3px_rgba(52,211,153,0.5)] transition-all"
-													>
-														<LogIn className="w-4 h-4" />
-														<span>Login</span>
-													</Link>
-												</motion.div>
-						)}
-					</div>
-				</div>
-			</div>
-		</motion.nav>
-	);
+          <div className="order-2 md:order-3 flex items-center gap-3 ml-auto">
+            <ThemeToggle />
+            {user ? (
+              <div className="flex items-center gap-3">
+                <Link
+                  to="/profile"
+                  className="inline-flex items-center gap-2 px-3 py-2 rounded-md text-semantic-text-secondary hover:text-semantic-text-primary bg-semantic-surface-2/70 hover:bg-semantic-surface-2/90 border border-semantic-border-muted hover:border-semantic-border-accent transition-colors text-xs font-medium outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-ring-accent)] focus-visible:ring-offset-1 focus-visible:ring-offset-[color:var(--color-surface-0)]"
+                >
+                  <User className="w-4 h-4 text-accent" />
+                  <span className="hidden sm:inline max-w-[140px] truncate">
+                    {user.first_name} {user.last_name}
+                  </span>
+                </Link>
+                <button
+                  onClick={logout}
+                  className="inline-flex items-center gap-2 px-3 py-2 rounded-md text-semantic-text-secondary hover:text-semantic-text-primary bg-semantic-surface-2/60 hover:bg-semantic-surface-2/80 border border-semantic-border-muted hover:border-semantic-border-accent transition-colors text-xs font-medium outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-ring-accent)] focus-visible:ring-offset-1 focus-visible:ring-offset-[color:var(--color-surface-0)]"
+                >
+                  <LogOut className="w-4 h-4" />
+                  <span className="hidden sm:inline">Logout</span>
+                </button>
+              </div>
+            ) : (
+              <Link
+                to="/login?redirect=/"
+                onClick={() => localStorage.setItem('FF_BioGuide_redirect_after_auth', '/')}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-accent hover:bg-accent-alt text-white transition-colors text-sm font-semibold shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--color-ring-accent)] focus-visible:ring-offset-1 focus-visible:ring-offset-[color:var(--color-surface-0)]"
+              >
+                <LogIn className="w-4 h-4" />
+                <span>Login</span>
+              </Link>
+            )}
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default Navigation;

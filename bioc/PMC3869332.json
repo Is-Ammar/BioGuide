@@ -1,22 +1,20 @@
 [
   {
     "bioctype": "BioCCollection",
-    "source": "PMC",
     "date": "20250704",
-    "key": "pmc.key",
-    "version": "1.0",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
         "bioctype": "BioCDocument",
+        "full_text": "Complete Genome Sequence of Carnobacterium gilichinskyi Strain WN1359T (DSM 27470T)\nWe report the complete genome sequence of Carnobacterium gilichinskyi strain WN1359, previously isolated from Siberian permafrost and capable of growth under cold (0°C), anoxic, CO2-dominated, low-pressure (0.7-kPa) conditions in a simulation of the Mars atmosphere.\nGENOME ANNOUNCEMENT\nRecently it was reported that Carnobacterium sp. strain WN1359, isolated from Siberian permafrost, was capable of growth under a combination of low-temperature (0°C), low-pressure (0.7-kPa), and CO2-enriched anoxic conditions intended to simulate the atmosphere of Mars. Based upon cladistic and phenetic analyses, the name C. gilichinskyi sp. nov. was proposed, with strain WN1359 being the type strain (W. L. Nicholson, K. Zhalnina, R. R. Oliveira, and E. W. Triplett, submitted for publication). As part of an effort to further investigate the molecular basis of the response of this organism to simulated Martian conditions, we report here the complete genome sequence of the strain.\nC. gilichinskyi strain WN1359 is from the corresponding author’s strain collection and is deposited as strain DSM 27470T in the German Collection of Microorganisms and Cell Cultures (DSMZ) (http://www.dsmz.de). Its genome was sequenced at the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR) using the PacBio SMRT system (Pacific Biosciences, Menlo Park, CA). A total of 78,692 reads were obtained, with a mean read length of 3,850 bp. The initial PacBio reads were error corrected using the PacBio RS_PreAssembler.1 module with minimum subread length of 500 bp, minimum read quality of 0.80, and minimum seed read length of 6,000 bp. The error correction process yielded 10,736 reads with an average length of 6,421 bp. A single scaffold was assembled directly from the error-corrected reads using Celera assembler (CA) version 7.0 software. The initial genome assembly was further refined using the PacBio RS_Resequencing.1 module with Quiver consensus calling. This process removes sequencing errors remaining in the initial CA assembly and produces the final consensus genome sequence. The chromosome has 2,347,813 bp and an overall GC content of 35.26%. We detected the presence of five plasmids in the genome, consisting of 9,615 bp (designated pWNCR9), 12,656 bp (pWNCR12), 15,476 bp (pWNCR15), 47,068 bp (pWNCR47), and 64,492 bp (pWNCR64). Open reading frame (ORF) prediction and annotation were performed through the Rapid Annotations using Subsystems Technology (RAST) pipeline using GLIMMER. Of the 2,152 protein-encoding ORFs present in the circular chromosome, 1,697 (79%) were assigned by similarity to a known annotated protein function, while 455 (21%) were assigned to unknown protein functions. In addition, 1,841 ORFs (86%) were assigned to Clusters of Orthologous Group (COG) categories through the Batch Web CD-Search tool. The rRNAs and tRNAs were identified using the “search_for_RNAs” script developed by Niels Larsen and tRNAscan-SE, respectively. By these analyses, 74 tRNAs and 8 rRNA operons, comprising 5S, 16S, and 23S rRNA genes, were detected in the genome.\nNucleotide sequence accession numbers.\nThe results of this whole-genome shotgun project have been deposited with GenBank under accession numbers CP006812 (chromosome) and CP006813, CP006814, CP006815, CP006816, and CP006817 (plasmids).\nCitation Leonard MT, Panayotova N, Farmerie WG, Triplett EW, Nicholson WL. 2013. Complete genome sequence of Carnobacterium gilichinskyi strain WN1359T (DSM 27470T). Genome Announc. 1(6):e00985-13. doi:10.1128/genomeA.00985-13.\nREFERENCES\nGrowth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars\nThe RAST server: rapid annotations using subsystems technology\nMicrobial gene identification using interpolated Markov models\nThe COG database: a tool for genome-scale analysis of protein functions and evolution\nCD-Search: protein domain annotations on the fly\nThe tRNAscan-SE, snoscan and snoGPS web servers for the detection of tRNAs and snoRNAs",
         "id": "PMC3869332",
         "infons": {
           "license": "CC BY"
         },
         "passages": [
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 0,
             "infons": {
               "article-id_doi": "10.1128/genomeA.00985-13",
               "article-id_pmc": "PMC3869332",
@@ -35,110 +33,110 @@
               "volume": "1",
               "year": "2013"
             },
-            "text": "Complete Genome Sequence of Carnobacterium gilichinskyi Strain WN1359T (DSM 27470T)",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Complete Genome Sequence of Carnobacterium gilichinskyi Strain WN1359T (DSM 27470T)"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 84,
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "We report the complete genome sequence of Carnobacterium gilichinskyi strain WN1359, previously isolated from Siberian permafrost and capable of growth under cold (0°C), anoxic, CO2-dominated, low-pressure (0.7-kPa) conditions in a simulation of the Mars atmosphere.",
+            "offset": 84,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "We report the complete genome sequence of Carnobacterium gilichinskyi strain WN1359, previously isolated from Siberian permafrost and capable of growth under cold (0°C), anoxic, CO2-dominated, low-pressure (0.7-kPa) conditions in a simulation of the Mars atmosphere."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 352,
             "infons": {
               "section_type": "INTRO",
               "type": "title_1"
             },
-            "text": "GENOME ANNOUNCEMENT",
+            "offset": 352,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "GENOME ANNOUNCEMENT"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 372,
+            "relations": [],
+            "sentences": [],
+            "text": "Recently it was reported that Carnobacterium sp. strain WN1359, isolated from Siberian permafrost, was capable of growth under a combination of low-temperature (0°C), low-pressure (0.7-kPa), and CO2-enriched anoxic conditions intended to simulate the atmosphere of Mars. Based upon cladistic and phenetic analyses, the name C. gilichinskyi sp. nov. was proposed, with strain WN1359 being the type strain (W. L. Nicholson, K. Zhalnina, R. R. Oliveira, and E. W. Triplett, submitted for publication). As part of an effort to further investigate the molecular basis of the response of this organism to simulated Martian conditions, we report here the complete genome sequence of the strain."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Recently it was reported that Carnobacterium sp. strain WN1359, isolated from Siberian permafrost, was capable of growth under a combination of low-temperature (0°C), low-pressure (0.7-kPa), and CO2-enriched anoxic conditions intended to simulate the atmosphere of Mars. Based upon cladistic and phenetic analyses, the name C. gilichinskyi sp. nov. was proposed, with strain WN1359 being the type strain (W. L. Nicholson, K. Zhalnina, R. R. Oliveira, and E. W. Triplett, submitted for publication). As part of an effort to further investigate the molecular basis of the response of this organism to simulated Martian conditions, we report here the complete genome sequence of the strain.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 1062,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "C. gilichinskyi strain WN1359 is from the corresponding author’s strain collection and is deposited as strain DSM 27470T in the German Collection of Microorganisms and Cell Cultures (DSMZ) (http://www.dsmz.de). Its genome was sequenced at the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR) using the PacBio SMRT system (Pacific Biosciences, Menlo Park, CA). A total of 78,692 reads were obtained, with a mean read length of 3,850 bp. The initial PacBio reads were error corrected using the PacBio RS_PreAssembler.1 module with minimum subread length of 500 bp, minimum read quality of 0.80, and minimum seed read length of 6,000 bp. The error correction process yielded 10,736 reads with an average length of 6,421 bp. A single scaffold was assembled directly from the error-corrected reads using Celera assembler (CA) version 7.0 software. The initial genome assembly was further refined using the PacBio RS_Resequencing.1 module with Quiver consensus calling. This process removes sequencing errors remaining in the initial CA assembly and produces the final consensus genome sequence. The chromosome has 2,347,813 bp and an overall GC content of 35.26%. We detected the presence of five plasmids in the genome, consisting of 9,615 bp (designated pWNCR9), 12,656 bp (pWNCR12), 15,476 bp (pWNCR15), 47,068 bp (pWNCR47), and 64,492 bp (pWNCR64). Open reading frame (ORF) prediction and annotation were performed through the Rapid Annotations using Subsystems Technology (RAST) pipeline using GLIMMER. Of the 2,152 protein-encoding ORFs present in the circular chromosome, 1,697 (79%) were assigned by similarity to a known annotated protein function, while 455 (21%) were assigned to unknown protein functions. In addition, 1,841 ORFs (86%) were assigned to Clusters of Orthologous Group (COG) categories through the Batch Web CD-Search tool. The rRNAs and tRNAs were identified using the “search_for_RNAs” script developed by Niels Larsen and tRNAscan-SE, respectively. By these analyses, 74 tRNAs and 8 rRNA operons, comprising 5S, 16S, and 23S rRNA genes, were detected in the genome.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "C. gilichinskyi strain WN1359 is from the corresponding author’s strain collection and is deposited as strain DSM 27470T in the German Collection of Microorganisms and Cell Cultures (DSMZ) (http://www.dsmz.de). Its genome was sequenced at the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR) using the PacBio SMRT system (Pacific Biosciences, Menlo Park, CA). A total of 78,692 reads were obtained, with a mean read length of 3,850 bp. The initial PacBio reads were error corrected using the PacBio RS_PreAssembler.1 module with minimum subread length of 500 bp, minimum read quality of 0.80, and minimum seed read length of 6,000 bp. The error correction process yielded 10,736 reads with an average length of 6,421 bp. A single scaffold was assembled directly from the error-corrected reads using Celera assembler (CA) version 7.0 software. The initial genome assembly was further refined using the PacBio RS_Resequencing.1 module with Quiver consensus calling. This process removes sequencing errors remaining in the initial CA assembly and produces the final consensus genome sequence. The chromosome has 2,347,813 bp and an overall GC content of 35.26%. We detected the presence of five plasmids in the genome, consisting of 9,615 bp (designated pWNCR9), 12,656 bp (pWNCR12), 15,476 bp (pWNCR15), 47,068 bp (pWNCR47), and 64,492 bp (pWNCR64). Open reading frame (ORF) prediction and annotation were performed through the Rapid Annotations using Subsystems Technology (RAST) pipeline using GLIMMER. Of the 2,152 protein-encoding ORFs present in the circular chromosome, 1,697 (79%) were assigned by similarity to a known annotated protein function, while 455 (21%) were assigned to unknown protein functions. In addition, 1,841 ORFs (86%) were assigned to Clusters of Orthologous Group (COG) categories through the Batch Web CD-Search tool. The rRNAs and tRNAs were identified using the “search_for_RNAs” script developed by Niels Larsen and tRNAscan-SE, respectively. By these analyses, 74 tRNAs and 8 rRNA operons, comprising 5S, 16S, and 23S rRNA genes, were detected in the genome."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3204,
             "infons": {
               "section_type": "INTRO",
               "type": "title_2"
             },
-            "text": "Nucleotide sequence accession numbers.",
+            "offset": 3204,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Nucleotide sequence accession numbers."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3243,
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "The results of this whole-genome shotgun project have been deposited with GenBank under accession numbers CP006812 (chromosome) and CP006813, CP006814, CP006815, CP006816, and CP006817 (plasmids).",
+            "offset": 3243,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The results of this whole-genome shotgun project have been deposited with GenBank under accession numbers CP006812 (chromosome) and CP006813, CP006814, CP006815, CP006816, and CP006817 (plasmids)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3440,
             "infons": {
               "section_type": "INTRO",
               "type": "footnote"
             },
-            "text": "Citation Leonard MT, Panayotova N, Farmerie WG, Triplett EW, Nicholson WL. 2013. Complete genome sequence of Carnobacterium gilichinskyi strain WN1359T (DSM 27470T). Genome Announc. 1(6):e00985-13. doi:10.1128/genomeA.00985-13.",
+            "offset": 3440,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Citation Leonard MT, Panayotova N, Farmerie WG, Triplett EW, Nicholson WL. 2013. Complete genome sequence of Carnobacterium gilichinskyi strain WN1359T (DSM 27470T). Genome Announc. 1(6):e00985-13. doi:10.1128/genomeA.00985-13."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3668,
             "infons": {
               "section_type": "REF",
               "type": "title"
             },
-            "text": "REFERENCES",
+            "offset": 3668,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "REFERENCES"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3679,
             "infons": {
               "fpage": "666",
               "lpage": "671",
@@ -153,14 +151,14 @@
               "volume": "110",
               "year": "2013"
             },
-            "text": "Growth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars",
+            "offset": 3679,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Growth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3824,
             "infons": {
               "fpage": "75",
               "name_0": "surname:Aziz;given-names:RK",
@@ -196,14 +194,14 @@
               "volume": "9",
               "year": "2008"
             },
-            "text": "The RAST server: rapid annotations using subsystems technology",
+            "offset": 3824,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The RAST server: rapid annotations using subsystems technology"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3887,
             "infons": {
               "fpage": "544",
               "lpage": "548",
@@ -218,14 +216,14 @@
               "volume": "26",
               "year": "1998"
             },
-            "text": "Microbial gene identification using interpolated Markov models",
+            "offset": 3887,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Microbial gene identification using interpolated Markov models"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 3950,
             "infons": {
               "fpage": "33",
               "lpage": "36",
@@ -240,14 +238,14 @@
               "volume": "28",
               "year": "2000"
             },
-            "text": "The COG database: a tool for genome-scale analysis of protein functions and evolution",
+            "offset": 3950,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The COG database: a tool for genome-scale analysis of protein functions and evolution"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 4036,
             "infons": {
               "fpage": "W327",
               "lpage": "W331",
@@ -260,14 +258,14 @@
               "volume": "32",
               "year": "2004"
             },
-            "text": "CD-Search: protein domain annotations on the fly",
+            "offset": 4036,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "CD-Search: protein domain annotations on the fly"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 4085,
             "infons": {
               "fpage": "W686",
               "lpage": "W689",
@@ -281,15 +279,18 @@
               "volume": "33",
               "year": "2005"
             },
-            "text": "The tRNAscan-SE, snoscan and snoGPS web servers for the detection of tRNAs and snoRNAs",
+            "offset": 4085,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The tRNAscan-SE, snoscan and snoGPS web servers for the detection of tRNAs and snoRNAs"
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC",
+    "version": "1.0"
   }
 ]

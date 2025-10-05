@@ -10,6 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <script>
+      (function(){
+        try {
+          var STORAGE_KEY='FF_BioGuide_theme';
+          var stored=localStorage.getItem(STORAGE_KEY);
+          var systemDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored === 'light' || stored === 'dark' ? stored : (systemDark ? 'dark' : 'light');
+          var html=document.documentElement;
+          html.classList.add(theme==='dark'?'theme-dark':'theme-light','theme-dark-init'); // mark that we set explicit theme
+          // remove the init marker next frame and enable transitions
+          requestAnimationFrame(function(){
+            html.classList.remove('theme-dark-init');
+            html.classList.add('theme-ready');
+          });
+        } catch(e) {}
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

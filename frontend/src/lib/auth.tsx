@@ -125,6 +125,27 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
           showToast('Account created successfully', 'success');
           localStorage.removeItem('FF_BioGuide_account_created');
         }
+
+        // Handle redirect when login originates from AuthModal or any page other than dedicated /login
+        try {
+          const isOnLoginPage = window.location.pathname.startsWith('/login');
+          if (!isOnLoginPage) {
+            const urlParams = new URLSearchParams(window.location.search);
+            const redirectQuery = urlParams.get('redirect');
+            const stored = localStorage.getItem('FF_BioGuide_redirect_after_auth');
+            const target = stored || redirectQuery || '/dashboard';
+            // Clear stored redirect intent once consumed
+            localStorage.removeItem('FF_BioGuide_redirect_after_auth');
+            // If target explicitly '/', send user to dashboard (primary app area)
+            if (target === '/') {
+              navigate('/dashboard', { replace: true });
+            } else {
+              navigate(target, { replace: true });
+            }
+          }
+        } catch (_) {
+          // Silently ignore redirect errors (e.g., during tests / SSR edge cases)
+        }
         return true;
       }
       return false;

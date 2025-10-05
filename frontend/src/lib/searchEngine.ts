@@ -7,6 +7,7 @@ export interface Publication {
   pmid?: string;
   pmc?: string;
   abstract: string;
+  fullText?: string; // optional full text (backend provided)
   mission: string;
   organism: string;
   assay: string;
@@ -101,7 +102,8 @@ export function searchPublications(
     filtered = filtered.filter(pub =>
       searchTerms.every(term =>
         pub.title.toLowerCase().includes(term) ||
-        pub.abstract.toLowerCase().includes(term) ||
+  pub.abstract.toLowerCase().includes(term) ||
+  (pub.fullText && pub.fullText.toLowerCase().includes(term)) ||
         pub.authors.some(author =>
           `${author.givenNames} ${author.surname}`.toLowerCase().includes(term)
         ) ||
@@ -172,49 +174,41 @@ export function searchPublications(
 
 export async function loadPublications(): Promise<Publication[]> {
   try {
-    // Prefer backend dynamic publications endpoint
     const resp = await fetch('http://localhost:3000/api/publications');
     if (resp.ok) {
-      const data = await resp.json(); // { publications: [...] }
+      const data = await resp.json();
       if (Array.isArray(data.publications)) {
-        // Map backend minimal pub objects to local Publication interface (best-effort)
         return data.publications.map((p: any) => ({
           id: p.id,
-            title: p.title || '',
-            authors: (p.authors || []).map((full: string) => {
-              const parts = full.split(' ');
-              return { givenNames: parts.slice(0, -1).join(' ') || '', surname: parts.slice(-1)[0] || '' };
-            }),
-            year: Number(p.year) || 0,
-            abstract: p.abstract || '',
-            mission: '',
-            organism: '',
-            assay: '',
-            source: p.journal || p.file || 'Unknown',
-            license: '',
-            url: '',
-            publisher: p.journal || 'Unknown',
-            keywords: [],
-            volume: undefined,
-            issue: undefined,
-            pmc: p.id,
-            pmid: undefined,
-            doi: undefined,
-            pdfUrl: null
+          title: p.title || '',
+          authors: (p.authors || []).map((full: string) => {
+            const parts = full.split(' ');
+            return { givenNames: parts.slice(0, -1).join(' ') || '', surname: parts.slice(-1)[0] || '' };
+          }),
+          year: Number(p.year) || 0,
+          abstract: p.abstract || '',
+          fullText: p.fullText || p.full_text || undefined,
+          mission: '',
+          organism: '',
+          assay: '',
+          source: p.journal || p.file || 'Unknown',
+          license: '',
+          url: '',
+          publisher: p.journal || 'Unknown',
+          keywords: [],
+          volume: undefined,
+          issue: undefined,
+          pmc: p.id,
+          pmid: undefined,
+          doi: undefined,
+          pdfUrl: null
         }));
       }
+    } else {
+      console.warn('Publications request failed with status', resp.status);
     }
   } catch (err) {
-    console.warn('Backend publications endpoint failed, falling back to static JSON.', err);
+    console.warn('Backend publications endpoint failed; returning empty list (mock data removed).', err);
   }
-  try {
-    const response = await fetch('/src/data/publications.json');
-    if (!response.ok) {
-      throw new Error('Failed to load publications');
-    }
-    return await response.json();
-  } catch (error) {
-    console.error('Error loading publications:', error);
-    return [];
-  }
+  return [];
 }

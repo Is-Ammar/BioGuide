@@ -1,8 +1,32 @@
 import fs from 'fs';
 import path from 'path';
 
-// Directory containing source JSON files (relative to backend folder root runtime cwd)
-const dataDir = path.join(process.cwd(), '../bioc');
+// Resolve data directory with multiple fallbacks so process cwd differences don't yield 0 files.
+function resolveDataDir() {
+  // 1. Explicit env override
+  if (process.env.BIOGUIDE_DATA_DIR) {
+    return process.env.BIOGUIDE_DATA_DIR;
+  }
+  const candidates = [];
+  const cwd = process.cwd();
+  // If running from backend/ (npm start typical)
+  candidates.push(path.join(cwd, '../bioc'));
+  // If running from repo root
+  candidates.push(path.join(cwd, 'bioc'));
+  // If compiled /dist or similar (defensive)
+  candidates.push(path.join(cwd, '../../bioc'));
+  for (const c of candidates) {
+    try {
+      if (fs.existsSync(c) && fs.statSync(c).isDirectory()) {
+        return c;
+      }
+    } catch (_) { /* ignore */ }
+  }
+  // Final fallback: first candidate (even if missing) so we can log
+  return candidates[0];
+}
+
+const dataDir = resolveDataDir();
 
 // In-memory caches
 let allData = {}; // Raw data keyed by filename
@@ -25,15 +49,26 @@ function safeReadJSON(filePath) {
 }
 
 function loadAllJson() {
-  const files = fs.existsSync(dataDir) ? fs.readdirSync(dataDir) : [];
+  if (!fs.existsSync(dataDir)) {
+    console.warn(`⚠️ Data directory not found: ${dataDir}`);
+    return {};
+  }
+  const files = fs.readdirSync(dataDir);
   const merged = {};
+  let count = 0;
   files.forEach(file => {
     if (file.endsWith('.json')) {
       const p = path.join(dataDir, file);
       const content = safeReadJSON(p);
-      if (content) merged[file] = content; // Keep original structure (often large arrays)
+      if (content) {
+        merged[file] = content; // Keep original structure (often large arrays)
+        count += 1;
+      }
     }
   });
+  if (count === 0) {
+    console.warn(`⚠️ No JSON files loaded from ${dataDir}. CWD=${process.cwd()} Candidates may be incorrect. Set BIOGUIDE_DATA_DIR env variable if needed.`);
+  }
   return merged;
 }
 
@@ -48,7 +83,7 @@ export function ensureDataLoaded({ force = false } = {}) {
   allData = loadAllJson();
   buildDerivedCaches();
   lastLoaded = Date.now();
-  console.log(`✅ Data loaded (${Object.keys(allData).length} files).`);
+  console.log(`✅ Data loaded (${Object.keys(allData).length} files) from ${dataDir}`);
 }
 
 // ---- Dashboard Metrics ----
@@ -169,9 +204,13 @@ function buildPublicationCaches() {
         const pmcId = doc?.infons?.['article-id_pmc'] || doc.id || doc?.infons?.['article-id_pmid'];
         let title = '';
         let abstract = '';
-        let authors = [];
-        let year = '';
-        let journal = '';
+  let authors = [];
+  let year = '';
+  let journal = '';
+  // Collect all non-abstract body text into a single fullText field.
+  // Strategy: after capturing title & abstract, concatenate passage texts whose section_type is not TITLE and not ABSTRACT.
+  // Preserve original order based on appearance in file.
+  const bodyChunks = [];
 
         (doc.passages || []).forEach(p => {
             const st = p?.infons?.section_type;
@@ -182,6 +221,12 @@ function buildPublicationCaches() {
               journal = p?.infons?.['journal-title'] || journal;
             } else if (st === 'ABSTRACT' && !abstract) {
               abstract = p.text?.trim() || '';
+            } else if (p.text && st && st !== 'TITLE' && st !== 'ABSTRACT') {
+              // Accumulate other sections (INTRO, METHODS, RESULTS, etc.)
+              bodyChunks.push(p.text.trim());
+            } else if (p.text && !st) {
+              // Passages without section_type still may contain relevant text.
+              bodyChunks.push(p.text.trim());
             }
         });
 
@@ -193,6 +238,7 @@ function buildPublicationCaches() {
           journal,
           authors,
           abstract,
+          fullText: bodyChunks.join('\n\n'),
           file: filename,
           citations: [], // Placeholder / future enhancement
           related: []

@@ -1,22 +1,20 @@
 [
   {
     "bioctype": "BioCCollection",
-    "source": "PMC",
     "date": "20250703",
-    "key": "pmc.key",
-    "version": "1.0",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
         "bioctype": "BioCDocument",
+        "full_text": "Genetic and tissue level muscle-bone interactions during unloading and reambulation\nLittle is known about interactions between muscle and bone during the removal and application of mechanical signals. Here, we applied 3wk of hindlimb unloading followed by 3wk of reambulation to a genetically heterogeneous population of 352 adult mice and tested the hypothesis that changes in muscle are associated with changes in bone at the level of the tissue and the genome. During unloading and relative to normally ambulating control mice, most mice lost muscle and cortical bone with large variability across the population. During reambulation, individual mice regained bone and muscle at different rates. Across mice, changes in muscle and trabecular/cortical bone were not correlated to each other during unloading or reambulation. For unloading, we found one significant quantitative trait locus (QTL) for muscle area and five QTLs for cortical bone without overlap between mechano-sensitive muscle and cortical bone QTLs (but some overlap between muscle and trabecular QTLs). The low correlations between morphological changes in muscle and bone, together with the largely distinct genetic regulation of the response indicate that the premise of a muscle-bone unit that co-adjusts its size during (un)loading may need to be reassessed.\nIntroduction\nThe concept of a muscle-bone unit tuned to the magnitude of contractile forces has intuitive appeal as reflected by Darcy Thompson in 1917: “Muscle and bone … are inseparably associated and connected; they are moulded one with another; they come into being together, and act and react together.” Indeed, strong correlations between muscle mass and bone mass have been found in cross-sectional as well as longitudinal studies, particularly over the course of growth and development, leading many to believe that mechanically adaptive changes in bone are initiated primarily by changes in muscle activity. Both cortical and trabecular bone have been included in muscle-bone correlations but it is unclear which type of bone is more highly associated with muscle strength.\nInherently, correlations used in these studies cannot infer causality and, alternatively, may reflect an indirect association via a shared underlying molecular signal. Exercise induces a highly site-specific mechanical environment in the skeleton, yet high correlations between muscle strength and bone mineral density (BMD) span distant sites in the skeleton. Thus, an association between muscle and bone may be more global than peak muscle forces locally altering bone (re)modeling at the specific anatomical site at which they act.\nFurthermore, if muscle was a causal factor during bone development, then increased muscle mass and muscle strength should precede the majority of bone mineral accrual. While such a sequential relationship has been observed using two-dimensional DXA, three-dimensional CT data show that bone mineral accrual may cease before peak muscle strength is reached. At the other end of the spectrum, age-related sarcopenia reduces muscle loading of bone and, therefore, should induce bone loss. Contrary to the proposed functional muscle-bone relationship, substantial bone loss can precede equivalently detectable losses in muscle by nearly a decade.\nThese examples demonstrate inconsistencies in the paradigm of a muscle-bone unit that is regulated by the force exerted in skeletal muscle. The drastic changes in the mechanical environment associated with unloading and reambulation of the musculoskeleton during spaceflight, bedrest, or injury/disease provide a model system to further test muscle-bone interactions. Reflecting the high sensitivity of the musculoskeleton to mechanical signals, unloading causes both sarcopenia and osteopenia in humans and animal models while reambulation recovers, at least in part, these losses. Further, differences in genetic make-up between individuals, humans or mice, have been shown to greatly influence the magnitude of the skeletal response to unloading and reambulation, providing an opportunity to relate intra-individual differences in musculoskeletal adaptation across a wide phenotypic range.\nMuscle-bone relations can be tested at different levels – from molecules to organs. While molecular interactions have recently received considerable attention, much less is known about the genes that determine differences in musculoskeletal sensitivity to mechanical signals based on an individual’s genetic make-up. For trabecular bone, we have identified specific regions on chromosomes that harbor regulatory genes (quantitative trait loci or QTL) explaining the variability in bone’s response to unloading and reambulation across a genetically heterogeneous mouse population. QTLs that regulate the susceptibility of cortical bone and muscle to unloading and subsequent reambulation are yet to be identified. Comparing regulatory genetic regions for the mechano-response between muscle and bone would afford insight into the muscle-bone unit at the genetic level.\nIn an effort to test muscle-bone interactions at the tissue and genetic level, we used more than 350 adult mice from a genetically heterogeneous mouse population that display a large range of trabecular responses to unloading and reambulation. Changes in muscle and cortical bone morphology during 3wk of unloading followed by 3wk of reambulation were quantified and associated with each other to test the hypothesis that those individuals who show the greatest muscular changes will coincide with those who show the greatest changes in bone. At the genetic level, the hypothesis that unloading/reambulation QTLs are similar between muscle and bone was considered.\nMethods\nExperimental design\nThe study design has been described previously and data for trabecular bone have been reported. Briefly, to produce a genetically heterogeneous mouse population with large individual differences in mechanosensitivity, the parental inbred mouse strains of female BALB/cByJ and male C3H/HeJ were double-crossed to produce the F2 offspring. At 4mo of age, female F2 mice were exposed to 3wk of hindlimb unloading followed by 3wk of reambulation. The unloading period was completed by 464 mice. A total of 352 mice completed both unloading and reambulation protocols. The length of the reambulation period was the same as the unloading period to capture the initial, mechanically induced response to the re-introduction of weightbearing and to minimize the influence of age-related changes in musculo-skeletal phenotypes. Muscle and bone data were also obtained from 25 normally ambulating F2 mice (n=25) that served as age-matched controls\nChanges in muscle and cortical bone assessed by in vivo µCT\nThe femoral diaphysis of both legs was scanned by in vivo micro-computed tomography (µCT) at baseline, after the unloading period, and after the reambulation period scans (VivaCT 40, Scanco Medical, SUI). An isotropic voxel size of 17.5µm with an integration time of 380ms, 1000 projections, 55kV and 109µA were used. There is no evidence that radiation at the prescribed levels influenced the tissue level response. The analyzed region for mid-diaphyseal cortical bone was determined as a 2.1mm long region in axial direction centered at 50% of femoral length. Mid-diaphyseal cortical bone morphology was evaluated for cortical area (Ct.Ar), marrow area (Ma.Ar), and tissue mineral density (TMD) with sigma, support, and threshold values of 0.6, 1, and 220. The combined cross-sectional area of muscle groups (Mu.Ar) surrounding a 700µm long region centered at 50% of femoral length was determined using sigma, support and threshold values of 0.9, 1, and 71 (Figure 1). Total cortical area was subtracted from the total muscle area. For each mouse, any given muscle and bone µCT index was determined for the left and right leg and averaged into a single value. The first 81 mice were not included in the muscle unloading analysis because we used a µCT ROI for these mice that did not capture the entire muscle group, resulting in n=384 for changes in Mu.Ar during unloading (vs n=464 for cortical variables). Sample size for reambulation was identical for all variables.\nA) Scout-view of the femur taken with the in vivo μCT scanner. Upon confirming that the femur was aligned, the scan region was centered at the femoral middiaphysis. B) Single μCT slice within the region in which muscle and cortical bone properties were determined. The white solid contour line surrounds the ROI of muscle tissue analyzed in a single leg. Total cortical bone area was excluded from the muscle area. For each mouse, the left and right leg were analyzed and averaged.\nGenotyping and QTL mapping\nGenotyping and QTL mapping for this set of mice has been described previously. Briefly, DNA was prepared from tail tips and submitted to KBiosciences (U.K.) for single-nucleotide polymorphism (SNP) genotyping. SNPs were spaced at approximately 1MB intervals across the genome with 89 SNPs known to be polymorphic between the BALB/cByJ and C3H/HeJ inbred strains.\nPhenotypes pertaining to longitudinal changes during unloading, and reambulation were included in the QTL analysis performed via the statistical software R/QTL. For genome-wide one-dimensional scans, pseudo-markers were generated at 2cM spacing for each chromosome and scans were performed using 256 imputations. The thresholds for QTL detection were computed from one thousand permutations. Four standard thresholds, 1%, 5%, 10%, and 63%, were used to identify a range of QTLs from strong (1% threshold) to suggestive (63% threshold). For genome-wide two-dimensional scans, pairwise scans were performed at 2cM spacing and LOD scores were calculated.\nQTL and possible QTL*QTL interactions identified from a single and pair wise QTL scan were fit into multiple regression models, facilitating the estimation of the variations of the phenotype in the models. P-values for terms in the multiple regression model were determined. Terms were dropped sequentially until all of the terms in the model were significant at the 1% level for main QTL effects and at 0.1% for interaction effects.\nStatistical phenotype analysis\nData were presented as means and standard deviations. To avoid outliers, minimal and maximal changes in any given phenotype during unloading and reambulation were reported as the 5th (min) and 95th percentile (max) of the experimental population. Paired t-tests compared individual phenotypes between two different time points. Unpaired t-tests compared temporal changes (0-3wk or 3-6wk) in all muscle and bone outcome variables between experimental and age-matched control mice. When Levene’s test of Equality of Variances indicated that the assumption of homogeneity of variances was not met, the t-test was corrected for accordingly. Changes in individual muscle and bone variables were associated with each other within and between the two experimental phases. Changes in body mass were also associated with µCT variables during unloading and reambulation. Coefficients of determination and their corresponding p-values were reported. For all tests, statistical significance was set at p=0.05. IBM SPSS Statistics (version 22) was used.\nResults\nAs expected from the F2 mouse population bred specifically for a large range in musculoskeletal mechanosensitivity, the response of both tissues to the two experimental regimes varied greatly across individuals. Body mass changes in these mice during unloading and reambulation were not correlated with changes in any of the phenotype outcome variables (all R2<0.05).\nUnloading - Muscle\nDuring 3wk of unloading, muscle area (Mu.Ar) declined (p<0.001) on average by 9% (min: -26%, max: 9%) while in normally ambulating age-matched controls, Mu.Ar did not change significantly (mean: 2% min: -14%, max: 19%) over the same period (Table 1, Figure 2). The relative (net) mean difference of 11% (p<0.001) between the two groups was significant (i.e., mean loss in experimental mice during unloading was different from the non-significant mean gain in normal control mice). One QTL was identified on chromosome 5 for the loss in muscle cross-sectional area during unloading, explaining 5% (p<0.001) of the variability between mice (Figure 3).\nMusculo-skeletal variables of the diaphyseal femur at baseline, after unloading, and after reambulation.\n\t\tBaseline\tUnloading\tReambulation\t \tEXP\t\tMean\tMin\tMax\tMean\tMin\tMax\tMean\tMin\tMax\t \tMu.Ar\t16.1\t13.4\t19.3\t14.6\t11.7\t17.5\t15.8\t13.2\t18.9\t \tCt.Ar (mm2)\t1.07\t0.88\t1.25\t1.06\t0.87\t1.27\t1.11\t0.91\t1.31\t \tMa.Ar (mm2)\t0.51\t0.38\t0.64\t0.54\t0.40\t0.68\t0.52\t0.38\t0.67\t \tTMD (mgHA/cm3)\t1132\t1101\t1183\t1135\t1099\t1172\t1144\t1108\t1178\t \tCTL\tMu.Ar\t16.8\t14.0\t19.9\t17.0\t13.5\t20.9\t17.0\t13.7\t20.6\t \tCt.Ar (mm2)\t1.09\t0.93\t1.29\t1.13\t0.94\t1.34\t1.17\t0.96\t1.39\t \tMa.Ar (mm2)\t0.49\t0.41\t0.60\t0.50\t0.40\t0.60\t0.49\t0.40\t0.60\t \tTMD (mgHA/cm3)\t1129\t1104\t1152\t1140\t1118\t1162\t1153\t1129\t1177\t \t\nShown are the mean, minimal, and maximal values of any given variable across the 352 experimental and 25 control female mice that completed the entire protocol.\nRelative changes in A) muscle area, B) cortical area, C) marrow area, and D) tissue mineral density in experimental (n=352) and control (n=25) mice. HLU: hindlimb unloading, RA: reambulation, AC: age-matched controls. *: significant change from previous time point, †: change in experimental mice significantly different from age-matched controls.\nGenome wide scans identifying QTLs for muscle and bone during unloading (left column) and reambulation (right column). Peaks crossing the black, red, green, and blue lines denote QTLs at significance thresholds of 63%, 10%, 5%, and 1%, respectively.\nReambulation - Muscle\nDuring reambulation, experimental mice averaged a 9% increase (p<0.001) in muscle area (min: -8% max: 31%), a change that was different (p<0.001) from the lack of growth in muscle area in age-matched controls (mean: 0%, min: -7%, max: 18%; Table 1, Figure 2). In experimental mice, individuals that experienced the greatest losses in muscle area during unloading were moderately correlated with those that experienced the greatest gain during reambulation (R2=0.32, p<0.0001; Figure 4). Two suggestive QTLs for the gain of muscle area upon reambulation were identified on chromosomal loci that differed from QTL identified for unloading (Figure 3).\nChanges in muscle area during hindlimb unloading (HLU, horizontal axis) associated with changes in muscle area experienced during reambulation (RA, vertical axis).\nUnloading - Bone\nUnloading of the hindlimb reduced (p=0.04) cortical bone in the femoral diaphysis on average by 0.5% (min: -6%, max: 12%) while age matched controls gained 3% (p<0.001) over the same time period (min: 1%, max: 5%; Table 1, Figure 2). Changes in the two groups were different from each other (p<0.001) with a net difference of 4%. Bone marrow area increased (p<0.001) on average by 6% (min: -12% max: 16%) during unloading, a response that was significantly different (p<0.001) from age matched controls in which Ma.Ar did not change significantly (min: -2%, max: 5%; Table 1, Figure 2). Tissue mineral density increased (p=0.03) on average by 0.3% (min: -3%, max: 2%) during unloading, a smaller (p<0.001) increase than in age matched controls which gained 1% (p<0.001) over the same time period (min: 0%, max: 2%; Table 1, Figure 2).\nFor changes in cortical bone area, three QTLs on chromosomes 9, 18, and 19 were determined for unloading (Figure 3), together accounting for 10% (p<0.001) of the variability in HLU induced change in Ct.Ar. QTLs responsible for the magnitude of change in bone marrow area during unloading were revealed on chromosomes 2 and 9, accounting for 10% (p<0.001) of the observed variability in this variable. No QTLs were found for changes in tissue mineral density during unloading.\nReambulation - Bone\nDuring reambulation, increases in cortical area seen in experimental mice (mean: 4%, min: -1%, max: 9%, p<0.001) matched those of age matched controls (mean: 4%, min: 2%, max: 6%, p<0.001; Table 1, Figure 2). During the reambulation period, marrow area decreased to a greater (p=0.04) degree in experimental mice (mean: -2%, min: -11%, max: 8%, p<0.001) than in controls (mean: -1%, min: -3%, max: 4%, p=0.05). The increase (p<0001) in tissue mineral density was 1% both in experimentals (min: -1%, max: 3%) and controls (min: 0%, max: 3%) during this time period without a significant between-group difference. Only weak correlations were found between unloading and reambulation for changes in any given variable; R2 values for CT.Ar, Ma.Ar, and TMD amounted to 8%, 16%, and 7%, respectively (all p<0.0001).\nFor reambulation and similar to muscle, no significant QTLs were identified for any of the three bone variables. For Ct.Ar, we found two suggestive QTLs (Chr 5 and 17) and for Ma.Ar, one suggested QTL was found (Chr 8) for reambulation (Figure 3).\nAssociations between muscle and bone\nBoth during unloading and reambulation, those mice displaying the greatest changes in muscle area did not coincide with those that showed the greatest changes in cortical bone; associations between changes in muscle area and cortical area resulted in R2-values of less than 10% (Figure 5). Coefficients of determination for changes in muscle area vs either marrow area or TMD were similarly low (data not shown). Extending the correlations between muscle and cortical bone to changes in trabecular bone previously reported from the metaphysis of the distal femur produced similar results; R2-values for changes in muscle area versus changes in trabecular bone volume fraction yielded 11% for the unloading phase and less than 1% for the reambulation phase (Figure 5).\nAssociations between changes in muscle area vs cortical area (a. & c.) and changes in muscle area vs marrow area (b. & d.) for unloading (a. & b.) and reambulation (c. & d.).\nFor unloading, the QTL for changes in muscle area on chromosome 5 did not overlap with those identified for cortical indices but shared common regions with previously determined trabecular QTLs from the same bones for changes in three out of six trabecular indices; normalized bone surface, trabecular thickness, and trabecular tissue mineral density. For reambulation, the two suggestive QTLs for changes in muscle area on chromosomes 2 and 19 did not overlap with (suggestive) QTLs identified for cortical indices but with trabecular QTLs for changes in one out of six trabecular indices (trabecular number).\nDiscussion\nWe tested for co-regulation between changes in muscle and bone during removal and reapplication of weightbearing activities with the rationale that if muscle size controls bone size, we should observe robust correlations in the response of the two tissues. In contrast to this hypothesis, the magnitude of the response of the two tissues to unloading and reambulation was not correlated across a genetically heterogeneous mouse population. This lack of coordination between muscle and bone at the tissue level was somewhat similar at the genetic level. The strong QTL for changes in muscle area during unloading on chromosome 5 did not overlap with any QTLs for changes in cortical bone properties but shared a common region for some trabecular properties. While these data emphasize the strong influence of genetic variations on the response of both skeletal muscle and bone, the low correlations between morphological changes in muscle and bone, together with the largely distinct genetic regulation of the response, are inconsistent with the premise of a muscle-bone unit that co-regulates its size during mechanical challenges.\nSeveral limitations should be considered when interpreting results from this study. First, we did not measure changes in muscle strength but muscle cross-sectional area as a surrogate measure of strength is well accepted in clinical and animal studies. Second, we chose the composite cross-sectional muscle area of several individual muscles as we assumed that the forces exerted by these muscles are primarily responsible for inducing bone strains in the diaphysis (and metaphysis) of the mouse femur and because the µCT images did not allow for separation into distinct muscle groups. Third, we observed musculoskeletal changes in unloading and reambulation over a 3wk period each, a duration that significantly altered musculo-skeletal variables at the mouse femur during both unloading and reambulation but it is conceivable that time periods of different length would influence our results and conclusions. Using the initial adaptive changes in both tissues upon application of a new mechanical environment ostensibly provided the largest signals for the correlations and should have also minimized the limitation that changes in muscle and bone were quantified simultaneously, rather than sequentially with muscle measurements preceding bone measurements. Lastly, QTL studies have many strengths including the absence of assumptions regarding genes and molecular pathways giving rise to the trait of interest. Conversely, the identification of causative genes from the identified QTLs typically requires substantial effort as QTLs can contain several hundred candidate genes and we are currently pursuing a combined bioinformatic/transgenic mouse approach towards this critical goal.\nThere was a relatively small number of mice that added muscle and/or bone tissue during unloading. While we don’t know the reason for this pattern, it is conceivable that specific combinations of polymorphisms caused the tissue response of these mice go into the opposite direction from what we would have expected. This is plausible because by breeding a F2 population, it is likely that some mice will have a phenotype well beyond the expected boundaries set by the two progenitor inbred strains. Because of the small number of mice displaying the opposite response pattern, no underlying QTLs could be determined. Inherently, it is also possible that noise in the data measurements contributed to this phenomenon. If it was true that combinations of polymorphisms cannot only prevent the catabolic response associated with unloading but can even produce a mild anabolic response, the identification of these polymorphisms may give rise to novel countermeasures.\nMuscle-bone interactions have recently received considerable attention. Most of the interest has focused on molecular pathways by which muscle and bone can communicate with each other, rather than on how bone perceives forces produced by muscle. For instance, novel myokines have been identified that may either promote catabolism or anabolism in bone. We did not measure (changes in) biochemical factors here but the low correlations between muscle and bone at the genetic and tissue level may indicate that molecular cross-tissue communication is not necessarily driven by changes in muscle size.\nExcellent relations between muscle and bone quantity have been reported in a number of species including mice and humans. Many of these studies were cross-sectional in nature, precluding mechanistic inferences. Some longitudinal studies in mice have proposed functional relationships between changes in bone and muscle during (un)loading but they were limited to temporal relations in a single inbred strain of mice. That our longitudinal study, taking advantage of a large sample of mice with greatly different mechano-responsivities, was not able to provide evidence for a mechanism by which changes in muscle size modulate changes in bone size should not be entirely surprising. Astronauts suffer from sarcopenia and ostepenia in space but the temporal patterns of muscle and bone loss are not suggestive of a causal relation; similar to paraplegia and bedrest, bone loss continues even as loss in muscle mass plateaus. Furthermore, individuals who lose the greatest amount of bone during bedrest do not coincide with those who experience the greatest amount of loss in muscle mass. Also consistent with our results, there is no influence of the levels of activity (i.e., mechanical forces) on the recovery of bone mass during reambulation in mice. Together, these studies suggest that the hypothesis of bone mass calibrated to altered levels of muscle cross-sectional area is not generally applicable.\nOur data do not disprove the general concept of a functional muscle-bone unit. They do, however, provide evidence for a lack of functional and/or genetic co-regulation of bone’s and muscle’s mechanosensitivity during unloading and reambulation in this genetically diverse mouse population. By extension, they also provide evidence that the relatively few, large-magnitude muscle contractions arising during daily weightbearing activities are unlikely to dominate skeletal adaptation. Further, in light of the distinct genetic mechano-regulation of the two tissues, it could be speculated that the development of mechanical interventions for musculoskeletal ailments may have to be optimized independently for bone and muscle. Regardless, our results emphasize that much work is required for a complete understanding of the mechanisms by which muscle and bone interact with each other while exposed to altered levels of weightbearing and that genetics is a variable that needs to be considered in these interactions.\nGrants\nThis study was kindly funded by NASA NAG 9-1499 and NNX12AL25G.\nAuthor contributions\nStudy design: SJ and LRD. Data acquisition: SJ, WZ, LRD, and EO. Data analysis: SJ, WZ, LRD, and EO. Drafting of manuscript: SJ. Manuscript edits and revisions: SJ, WZ, LRD, and EO. All authors approved the final version of the submitted manuscript.\nThe authors have no conflict of interest.\nEdited by: M. Hamrick\nReferences\n\nAnalyses of muscular mass and function: the impact on bone mineral density and peak muscle mass\nIs bone’s response to mechanical signals dominated by gravitational loading?\nCorrelates of trabecular and cortical volumetric bone mineral density of the radius and tibia in older men: the Osteoporotic Fractures in Men Study\nCorrelates of trabecular and cortical volumetric bone mineral density at the femoral neck and lumbar spine: the osteoporotic fractures in men study (MrOS)\nMuscle-bone interactions: From experimental models to the clinic? A critical update\nStrain gradients correlate with sites of exercise-induced bone-forming surfaces in the adult skeleton\nType of physical activity, muscle strength, and pubertal stage as determinants of bone mineral density and bone area in adolescent boys\nThe ‘muscle-bone unit’during the pubertal growth spurt\nTiming of peak bone mass: discrepancies between CT and DXA\nRelationship of age-related decreases in muscle mass and strength to skeletal status\nCortical and trabecular bone mineral loss from the spine and hip in long-duration spaceflight\nSkeletal adaptations to alterations in weight-bearing activity: a comparison of models of disuse osteoporosis\nRecovery of spaceflight-induced bone loss: Bone mineral density after long-duration missions as fitted with an exponential function\nTrabecular bone recovers from mechanical unloading primarily by restoring its mechanical function rather than its morphology\nLow-level vibrations retain bone marrow’s osteogenic potential and augment recovery of trabecular bone during reambulation\nEffects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts\nGenetic Loci that control the loss and regain of trabecular bone during unloading and reambulation\nForum on bone and skeletal muscle interactions: summary of the proceedings of an ASBMR workshop\nThe skeletal muscle secretome: an emerging player in muscle-bone crosstalk\nQuantitative trait loci that modulate trabecular bone’s risk of failure during unloading and reloading\nGenetically linked site-specificity of disuse osteoporosis\nGenetic variations that regulate bone morphology in the male mouse skeleton do not define its susceptibility to mechanical unloading\nR/qtl: QTL mapping in experimental crosses\nA statistical framework for quantitative trait mapping\nPermutation tests for multiple loci affecting a quantitative character\nGenetic dissection of complex traits: guidelines for interpreting and reporting linkage results\nPredictability of skeletal muscle tension from architectural determinations in guinea pig hindlimbs\nEffect of maturation on the relationship between muscle size and force production\nA cross-sectional study of muscle strength and mass in 45-to 78-yr-old men and women\nStrength and cross-sectional area of human skeletal muscle\nMuscle cross sectional area and grip torque contraction types are similarly related to pQCT derived bone strength indices in the radii of older healthy adults\nStrategies for mapping and cloning quantitative trait genes in rodents\nModulation of unloading-induced bone loss in mice with altered ERK signaling\nQuantitative trait loci for femoral and lumbar vertebral bone mineral density in C57BL/6J and C3H/HeJ inbred strains of mice\nBMPs and the muscle-bone connection\nEndocrine crosstalk between muscle and bone\nIs bone’s response to mechanical signals dominated by muscle forces?\nCortical bone resorption following muscle paralysis is spatially heterogeneous\nMuscle changes can account for bone loss after botulinum toxin injection\nInterdependence of muscle atrophy and bone loss induced by mechanical unloading\nSkeletal muscle unweighting: spaceflight and ground-based models\nMuscle atrophy and bone loss after 90 days’bed rest and the effects of flywheel resistive exercise and pamidronate: results from the LTBR study\nExtending Rest between Unloading Cycles Does Not Enhance Bone’s Long-Term Recovery\nQuantifying the strain history of bone: spatial uniformity and self- similarity of low-magnitude strains\nIs bone formation induced by high-frequency mechanical signals modulated by muscle activity?",
         "id": "PMC5114340",
         "infons": {
           "license": "CC BY-NC-SA"
         },
         "passages": [
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 0,
             "infons": {
               "article-id_pmc": "PMC5114340",
               "article-id_pmid": "27609032",
@@ -35,318 +33,318 @@
               "volume": "16",
               "year": "2016"
             },
-            "text": "Genetic and tissue level muscle-bone interactions during unloading and reambulation",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic and tissue level muscle-bone interactions during unloading and reambulation"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 84,
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "Little is known about interactions between muscle and bone during the removal and application of mechanical signals. Here, we applied 3wk of hindlimb unloading followed by 3wk of reambulation to a genetically heterogeneous population of 352 adult mice and tested the hypothesis that changes in muscle are associated with changes in bone at the level of the tissue and the genome. During unloading and relative to normally ambulating control mice, most mice lost muscle and cortical bone with large variability across the population. During reambulation, individual mice regained bone and muscle at different rates. Across mice, changes in muscle and trabecular/cortical bone were not correlated to each other during unloading or reambulation. For unloading, we found one significant quantitative trait locus (QTL) for muscle area and five QTLs for cortical bone without overlap between mechano-sensitive muscle and cortical bone QTLs (but some overlap between muscle and trabecular QTLs). The low correlations between morphological changes in muscle and bone, together with the largely distinct genetic regulation of the response indicate that the premise of a muscle-bone unit that co-adjusts its size during (un)loading may need to be reassessed.",
+            "offset": 84,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Little is known about interactions between muscle and bone during the removal and application of mechanical signals. Here, we applied 3wk of hindlimb unloading followed by 3wk of reambulation to a genetically heterogeneous population of 352 adult mice and tested the hypothesis that changes in muscle are associated with changes in bone at the level of the tissue and the genome. During unloading and relative to normally ambulating control mice, most mice lost muscle and cortical bone with large variability across the population. During reambulation, individual mice regained bone and muscle at different rates. Across mice, changes in muscle and trabecular/cortical bone were not correlated to each other during unloading or reambulation. For unloading, we found one significant quantitative trait locus (QTL) for muscle area and five QTLs for cortical bone without overlap between mechano-sensitive muscle and cortical bone QTLs (but some overlap between muscle and trabecular QTLs). The low correlations between morphological changes in muscle and bone, together with the largely distinct genetic regulation of the response indicate that the premise of a muscle-bone unit that co-adjusts its size during (un)loading may need to be reassessed."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "title_1"
+            },
             "offset": 1333,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "title_1"
-            },
-            "text": "Introduction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Introduction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 1346,
+            "relations": [],
+            "sentences": [],
+            "text": "The concept of a muscle-bone unit tuned to the magnitude of contractile forces has intuitive appeal as reflected by Darcy Thompson in 1917: “Muscle and bone … are inseparably associated and connected; they are moulded one with another; they come into being together, and act and react together.” Indeed, strong correlations between muscle mass and bone mass have been found in cross-sectional as well as longitudinal studies, particularly over the course of growth and development, leading many to believe that mechanically adaptive changes in bone are initiated primarily by changes in muscle activity. Both cortical and trabecular bone have been included in muscle-bone correlations but it is unclear which type of bone is more highly associated with muscle strength."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "The concept of a muscle-bone unit tuned to the magnitude of contractile forces has intuitive appeal as reflected by Darcy Thompson in 1917: “Muscle and bone … are inseparably associated and connected; they are moulded one with another; they come into being together, and act and react together.” Indeed, strong correlations between muscle mass and bone mass have been found in cross-sectional as well as longitudinal studies, particularly over the course of growth and development, leading many to believe that mechanically adaptive changes in bone are initiated primarily by changes in muscle activity. Both cortical and trabecular bone have been included in muscle-bone correlations but it is unclear which type of bone is more highly associated with muscle strength.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 2122,
+            "relations": [],
+            "sentences": [],
+            "text": "Inherently, correlations used in these studies cannot infer causality and, alternatively, may reflect an indirect association via a shared underlying molecular signal. Exercise induces a highly site-specific mechanical environment in the skeleton, yet high correlations between muscle strength and bone mineral density (BMD) span distant sites in the skeleton. Thus, an association between muscle and bone may be more global than peak muscle forces locally altering bone (re)modeling at the specific anatomical site at which they act."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Inherently, correlations used in these studies cannot infer causality and, alternatively, may reflect an indirect association via a shared underlying molecular signal. Exercise induces a highly site-specific mechanical environment in the skeleton, yet high correlations between muscle strength and bone mineral density (BMD) span distant sites in the skeleton. Thus, an association between muscle and bone may be more global than peak muscle forces locally altering bone (re)modeling at the specific anatomical site at which they act.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 2657,
+            "relations": [],
+            "sentences": [],
+            "text": "Furthermore, if muscle was a causal factor during bone development, then increased muscle mass and muscle strength should precede the majority of bone mineral accrual. While such a sequential relationship has been observed using two-dimensional DXA, three-dimensional CT data show that bone mineral accrual may cease before peak muscle strength is reached. At the other end of the spectrum, age-related sarcopenia reduces muscle loading of bone and, therefore, should induce bone loss. Contrary to the proposed functional muscle-bone relationship, substantial bone loss can precede equivalently detectable losses in muscle by nearly a decade."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Furthermore, if muscle was a causal factor during bone development, then increased muscle mass and muscle strength should precede the majority of bone mineral accrual. While such a sequential relationship has been observed using two-dimensional DXA, three-dimensional CT data show that bone mineral accrual may cease before peak muscle strength is reached. At the other end of the spectrum, age-related sarcopenia reduces muscle loading of bone and, therefore, should induce bone loss. Contrary to the proposed functional muscle-bone relationship, substantial bone loss can precede equivalently detectable losses in muscle by nearly a decade.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 3300,
+            "relations": [],
+            "sentences": [],
+            "text": "These examples demonstrate inconsistencies in the paradigm of a muscle-bone unit that is regulated by the force exerted in skeletal muscle. The drastic changes in the mechanical environment associated with unloading and reambulation of the musculoskeleton during spaceflight, bedrest, or injury/disease provide a model system to further test muscle-bone interactions. Reflecting the high sensitivity of the musculoskeleton to mechanical signals, unloading causes both sarcopenia and osteopenia in humans and animal models while reambulation recovers, at least in part, these losses. Further, differences in genetic make-up between individuals, humans or mice, have been shown to greatly influence the magnitude of the skeletal response to unloading and reambulation, providing an opportunity to relate intra-individual differences in musculoskeletal adaptation across a wide phenotypic range."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "These examples demonstrate inconsistencies in the paradigm of a muscle-bone unit that is regulated by the force exerted in skeletal muscle. The drastic changes in the mechanical environment associated with unloading and reambulation of the musculoskeleton during spaceflight, bedrest, or injury/disease provide a model system to further test muscle-bone interactions. Reflecting the high sensitivity of the musculoskeleton to mechanical signals, unloading causes both sarcopenia and osteopenia in humans and animal models while reambulation recovers, at least in part, these losses. Further, differences in genetic make-up between individuals, humans or mice, have been shown to greatly influence the magnitude of the skeletal response to unloading and reambulation, providing an opportunity to relate intra-individual differences in musculoskeletal adaptation across a wide phenotypic range.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 4193,
+            "relations": [],
+            "sentences": [],
+            "text": "Muscle-bone relations can be tested at different levels – from molecules to organs. While molecular interactions have recently received considerable attention, much less is known about the genes that determine differences in musculoskeletal sensitivity to mechanical signals based on an individual’s genetic make-up. For trabecular bone, we have identified specific regions on chromosomes that harbor regulatory genes (quantitative trait loci or QTL) explaining the variability in bone’s response to unloading and reambulation across a genetically heterogeneous mouse population. QTLs that regulate the susceptibility of cortical bone and muscle to unloading and subsequent reambulation are yet to be identified. Comparing regulatory genetic regions for the mechano-response between muscle and bone would afford insight into the muscle-bone unit at the genetic level."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Muscle-bone relations can be tested at different levels – from molecules to organs. While molecular interactions have recently received considerable attention, much less is known about the genes that determine differences in musculoskeletal sensitivity to mechanical signals based on an individual’s genetic make-up. For trabecular bone, we have identified specific regions on chromosomes that harbor regulatory genes (quantitative trait loci or QTL) explaining the variability in bone’s response to unloading and reambulation across a genetically heterogeneous mouse population. QTLs that regulate the susceptibility of cortical bone and muscle to unloading and subsequent reambulation are yet to be identified. Comparing regulatory genetic regions for the mechano-response between muscle and bone would afford insight into the muscle-bone unit at the genetic level.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 5067,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "In an effort to test muscle-bone interactions at the tissue and genetic level, we used more than 350 adult mice from a genetically heterogeneous mouse population that display a large range of trabecular responses to unloading and reambulation. Changes in muscle and cortical bone morphology during 3wk of unloading followed by 3wk of reambulation were quantified and associated with each other to test the hypothesis that those individuals who show the greatest muscular changes will coincide with those who show the greatest changes in bone. At the genetic level, the hypothesis that unloading/reambulation QTLs are similar between muscle and bone was considered.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In an effort to test muscle-bone interactions at the tissue and genetic level, we used more than 350 adult mice from a genetically heterogeneous mouse population that display a large range of trabecular responses to unloading and reambulation. Changes in muscle and cortical bone morphology during 3wk of unloading followed by 3wk of reambulation were quantified and associated with each other to test the hypothesis that those individuals who show the greatest muscular changes will coincide with those who show the greatest changes in bone. At the genetic level, the hypothesis that unloading/reambulation QTLs are similar between muscle and bone was considered."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 5732,
             "infons": {
               "section_type": "METHODS",
               "type": "title_1"
             },
-            "text": "Methods",
+            "offset": 5732,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Methods"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_3"
+            },
             "offset": 5740,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_3"
-            },
-            "text": "Experimental design",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experimental design"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 5760,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "The study design has been described previously and data for trabecular bone have been reported. Briefly, to produce a genetically heterogeneous mouse population with large individual differences in mechanosensitivity, the parental inbred mouse strains of female BALB/cByJ and male C3H/HeJ were double-crossed to produce the F2 offspring. At 4mo of age, female F2 mice were exposed to 3wk of hindlimb unloading followed by 3wk of reambulation. The unloading period was completed by 464 mice. A total of 352 mice completed both unloading and reambulation protocols. The length of the reambulation period was the same as the unloading period to capture the initial, mechanically induced response to the re-introduction of weightbearing and to minimize the influence of age-related changes in musculo-skeletal phenotypes. Muscle and bone data were also obtained from 25 normally ambulating F2 mice (n=25) that served as age-matched controls",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The study design has been described previously and data for trabecular bone have been reported. Briefly, to produce a genetically heterogeneous mouse population with large individual differences in mechanosensitivity, the parental inbred mouse strains of female BALB/cByJ and male C3H/HeJ were double-crossed to produce the F2 offspring. At 4mo of age, female F2 mice were exposed to 3wk of hindlimb unloading followed by 3wk of reambulation. The unloading period was completed by 464 mice. A total of 352 mice completed both unloading and reambulation protocols. The length of the reambulation period was the same as the unloading period to capture the initial, mechanically induced response to the re-introduction of weightbearing and to minimize the influence of age-related changes in musculo-skeletal phenotypes. Muscle and bone data were also obtained from 25 normally ambulating F2 mice (n=25) that served as age-matched controls"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 6697,
             "infons": {
               "section_type": "METHODS",
               "type": "title_3"
             },
-            "text": "Changes in muscle and cortical bone assessed by in vivo µCT",
+            "offset": 6697,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Changes in muscle and cortical bone assessed by in vivo µCT"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 6761,
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "The femoral diaphysis of both legs was scanned by in vivo micro-computed tomography (µCT) at baseline, after the unloading period, and after the reambulation period scans (VivaCT 40, Scanco Medical, SUI). An isotropic voxel size of 17.5µm with an integration time of 380ms, 1000 projections, 55kV and 109µA were used. There is no evidence that radiation at the prescribed levels influenced the tissue level response. The analyzed region for mid-diaphyseal cortical bone was determined as a 2.1mm long region in axial direction centered at 50% of femoral length. Mid-diaphyseal cortical bone morphology was evaluated for cortical area (Ct.Ar), marrow area (Ma.Ar), and tissue mineral density (TMD) with sigma, support, and threshold values of 0.6, 1, and 220. The combined cross-sectional area of muscle groups (Mu.Ar) surrounding a 700µm long region centered at 50% of femoral length was determined using sigma, support and threshold values of 0.9, 1, and 71 (Figure 1). Total cortical area was subtracted from the total muscle area. For each mouse, any given muscle and bone µCT index was determined for the left and right leg and averaged into a single value. The first 81 mice were not included in the muscle unloading analysis because we used a µCT ROI for these mice that did not capture the entire muscle group, resulting in n=384 for changes in Mu.Ar during unloading (vs n=464 for cortical variables). Sample size for reambulation was identical for all variables.",
+            "offset": 6761,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The femoral diaphysis of both legs was scanned by in vivo micro-computed tomography (µCT) at baseline, after the unloading period, and after the reambulation period scans (VivaCT 40, Scanco Medical, SUI). An isotropic voxel size of 17.5µm with an integration time of 380ms, 1000 projections, 55kV and 109µA were used. There is no evidence that radiation at the prescribed levels influenced the tissue level response. The analyzed region for mid-diaphyseal cortical bone was determined as a 2.1mm long region in axial direction centered at 50% of femoral length. Mid-diaphyseal cortical bone morphology was evaluated for cortical area (Ct.Ar), marrow area (Ma.Ar), and tissue mineral density (TMD) with sigma, support, and threshold values of 0.6, 1, and 220. The combined cross-sectional area of muscle groups (Mu.Ar) surrounding a 700µm long region centered at 50% of femoral length was determined using sigma, support and threshold values of 0.9, 1, and 71 (Figure 1). Total cortical area was subtracted from the total muscle area. For each mouse, any given muscle and bone µCT index was determined for the left and right leg and averaged into a single value. The first 81 mice were not included in the muscle unloading analysis because we used a µCT ROI for these mice that did not capture the entire muscle group, resulting in n=384 for changes in Mu.Ar during unloading (vs n=464 for cortical variables). Sample size for reambulation was identical for all variables."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 8257,
             "infons": {
               "file": "JMNI-16-174-g001.jpg",
               "id": "F1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "A) Scout-view of the femur taken with the in vivo μCT scanner. Upon confirming that the femur was aligned, the scan region was centered at the femoral middiaphysis. B) Single μCT slice within the region in which muscle and cortical bone properties were determined. The white solid contour line surrounds the ROI of muscle tissue analyzed in a single leg. Total cortical bone area was excluded from the muscle area. For each mouse, the left and right leg were analyzed and averaged.",
+            "offset": 8257,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A) Scout-view of the femur taken with the in vivo μCT scanner. Upon confirming that the femur was aligned, the scan region was centered at the femoral middiaphysis. B) Single μCT slice within the region in which muscle and cortical bone properties were determined. The white solid contour line surrounds the ROI of muscle tissue analyzed in a single leg. Total cortical bone area was excluded from the muscle area. For each mouse, the left and right leg were analyzed and averaged."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_3"
+            },
             "offset": 8741,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_3"
-            },
-            "text": "Genotyping and QTL mapping",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genotyping and QTL mapping"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 8768,
+            "relations": [],
+            "sentences": [],
+            "text": "Genotyping and QTL mapping for this set of mice has been described previously. Briefly, DNA was prepared from tail tips and submitted to KBiosciences (U.K.) for single-nucleotide polymorphism (SNP) genotyping. SNPs were spaced at approximately 1MB intervals across the genome with 89 SNPs known to be polymorphic between the BALB/cByJ and C3H/HeJ inbred strains."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Genotyping and QTL mapping for this set of mice has been described previously. Briefly, DNA was prepared from tail tips and submitted to KBiosciences (U.K.) for single-nucleotide polymorphism (SNP) genotyping. SNPs were spaced at approximately 1MB intervals across the genome with 89 SNPs known to be polymorphic between the BALB/cByJ and C3H/HeJ inbred strains.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 9131,
+            "relations": [],
+            "sentences": [],
+            "text": "Phenotypes pertaining to longitudinal changes during unloading, and reambulation were included in the QTL analysis performed via the statistical software R/QTL. For genome-wide one-dimensional scans, pseudo-markers were generated at 2cM spacing for each chromosome and scans were performed using 256 imputations. The thresholds for QTL detection were computed from one thousand permutations. Four standard thresholds, 1%, 5%, 10%, and 63%, were used to identify a range of QTLs from strong (1% threshold) to suggestive (63% threshold). For genome-wide two-dimensional scans, pairwise scans were performed at 2cM spacing and LOD scores were calculated."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Phenotypes pertaining to longitudinal changes during unloading, and reambulation were included in the QTL analysis performed via the statistical software R/QTL. For genome-wide one-dimensional scans, pseudo-markers were generated at 2cM spacing for each chromosome and scans were performed using 256 imputations. The thresholds for QTL detection were computed from one thousand permutations. Four standard thresholds, 1%, 5%, 10%, and 63%, were used to identify a range of QTLs from strong (1% threshold) to suggestive (63% threshold). For genome-wide two-dimensional scans, pairwise scans were performed at 2cM spacing and LOD scores were calculated.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 9783,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "QTL and possible QTL*QTL interactions identified from a single and pair wise QTL scan were fit into multiple regression models, facilitating the estimation of the variations of the phenotype in the models. P-values for terms in the multiple regression model were determined. Terms were dropped sequentially until all of the terms in the model were significant at the 1% level for main QTL effects and at 0.1% for interaction effects.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "QTL and possible QTL*QTL interactions identified from a single and pair wise QTL scan were fit into multiple regression models, facilitating the estimation of the variations of the phenotype in the models. P-values for terms in the multiple regression model were determined. Terms were dropped sequentially until all of the terms in the model were significant at the 1% level for main QTL effects and at 0.1% for interaction effects."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 10217,
             "infons": {
               "section_type": "METHODS",
               "type": "title_3"
             },
-            "text": "Statistical phenotype analysis",
+            "offset": 10217,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Statistical phenotype analysis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 10248,
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Data were presented as means and standard deviations. To avoid outliers, minimal and maximal changes in any given phenotype during unloading and reambulation were reported as the 5th (min) and 95th percentile (max) of the experimental population. Paired t-tests compared individual phenotypes between two different time points. Unpaired t-tests compared temporal changes (0-3wk or 3-6wk) in all muscle and bone outcome variables between experimental and age-matched control mice. When Levene’s test of Equality of Variances indicated that the assumption of homogeneity of variances was not met, the t-test was corrected for accordingly. Changes in individual muscle and bone variables were associated with each other within and between the two experimental phases. Changes in body mass were also associated with µCT variables during unloading and reambulation. Coefficients of determination and their corresponding p-values were reported. For all tests, statistical significance was set at p=0.05. IBM SPSS Statistics (version 22) was used.",
+            "offset": 10248,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Data were presented as means and standard deviations. To avoid outliers, minimal and maximal changes in any given phenotype during unloading and reambulation were reported as the 5th (min) and 95th percentile (max) of the experimental population. Paired t-tests compared individual phenotypes between two different time points. Unpaired t-tests compared temporal changes (0-3wk or 3-6wk) in all muscle and bone outcome variables between experimental and age-matched control mice. When Levene’s test of Equality of Variances indicated that the assumption of homogeneity of variances was not met, the t-test was corrected for accordingly. Changes in individual muscle and bone variables were associated with each other within and between the two experimental phases. Changes in body mass were also associated with µCT variables during unloading and reambulation. Coefficients of determination and their corresponding p-values were reported. For all tests, statistical significance was set at p=0.05. IBM SPSS Statistics (version 22) was used."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 11293,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_1"
             },
-            "text": "Results",
+            "offset": 11293,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Results"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 11301,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "As expected from the F2 mouse population bred specifically for a large range in musculoskeletal mechanosensitivity, the response of both tissues to the two experimental regimes varied greatly across individuals. Body mass changes in these mice during unloading and reambulation were not correlated with changes in any of the phenotype outcome variables (all R2<0.05).",
+            "offset": 11301,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "As expected from the F2 mouse population bred specifically for a large range in musculoskeletal mechanosensitivity, the response of both tissues to the two experimental regimes varied greatly across individuals. Body mass changes in these mice during unloading and reambulation were not correlated with changes in any of the phenotype outcome variables (all R2<0.05)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 11669,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_3"
             },
-            "text": "Unloading - Muscle",
+            "offset": 11669,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Unloading - Muscle"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 11688,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "During 3wk of unloading, muscle area (Mu.Ar) declined (p<0.001) on average by 9% (min: -26%, max: 9%) while in normally ambulating age-matched controls, Mu.Ar did not change significantly (mean: 2% min: -14%, max: 19%) over the same period (Table 1, Figure 2). The relative (net) mean difference of 11% (p<0.001) between the two groups was significant (i.e., mean loss in experimental mice during unloading was different from the non-significant mean gain in normal control mice). One QTL was identified on chromosome 5 for the loss in muscle cross-sectional area during unloading, explaining 5% (p<0.001) of the variability between mice (Figure 3).",
+            "offset": 11688,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "During 3wk of unloading, muscle area (Mu.Ar) declined (p<0.001) on average by 9% (min: -26%, max: 9%) while in normally ambulating age-matched controls, Mu.Ar did not change significantly (mean: 2% min: -14%, max: 19%) over the same period (Table 1, Figure 2). The relative (net) mean difference of 11% (p<0.001) between the two groups was significant (i.e., mean loss in experimental mice during unloading was different from the non-significant mean gain in normal control mice). One QTL was identified on chromosome 5 for the loss in muscle cross-sectional area during unloading, explaining 5% (p<0.001) of the variability between mice (Figure 3)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 12338,
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_caption"
             },
-            "text": "Musculo-skeletal variables of the diaphyseal femur at baseline, after unloading, and after reambulation.",
+            "offset": 12338,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Musculo-skeletal variables of the diaphyseal femur at baseline, after unloading, and after reambulation."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 12443,
             "infons": {
               "file": "T1.xml",
               "id": "T1",
@@ -354,384 +352,384 @@
               "type": "table",
               "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"all\" width=\"100%\"><thead><tr><th align=\"center\" rowspan=\"1\" colspan=\"1\"/><th align=\"center\" rowspan=\"1\" colspan=\"1\"/><th align=\"center\" colspan=\"3\" rowspan=\"1\">Baseline</th><th align=\"center\" colspan=\"3\" rowspan=\"1\">Unloading</th><th align=\"center\" colspan=\"3\" rowspan=\"1\">Reambulation</th></tr></thead><tbody><tr><td align=\"center\" rowspan=\"5\" colspan=\"1\">EXP</td><td align=\"center\" rowspan=\"1\" colspan=\"1\"/><td align=\"center\" rowspan=\"1\" colspan=\"1\">Mean</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Min</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Max</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Mean</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Min</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Max</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Mean</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Min</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">Max</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">Mu.Ar</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">16.1</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">13.4</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">19.3</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">14.6</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">11.7</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">17.5</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">15.8</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">13.2</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">18.9</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">Ct.Ar (mm<sup>2</sup>)</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.07</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.88</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.25</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.06</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.87</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.27</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.11</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.91</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.31</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">Ma.Ar (mm<sup>2</sup>)</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.51</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.38</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.64</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.54</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.40</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.68</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.52</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.38</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.67</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">TMD (mgHA/cm<sup>3</sup>)</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1132</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1101</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1183</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1135</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1099</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1172</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1144</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1108</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1178</td></tr><tr><td align=\"center\" rowspan=\"4\" colspan=\"1\">CTL</td><td align=\"left\" rowspan=\"1\" colspan=\"1\">Mu.Ar</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">16.8</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">14.0</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">19.9</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">17.0</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">13.5</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">20.9</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">17.0</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">13.7</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">20.6</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">Ct.Ar (mm<sup>2</sup>)</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.09</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.93</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.29</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.13</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.94</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.34</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.17</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.96</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1.39</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">Ma.Ar (mm<sup>2</sup>)</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.49</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.41</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.60</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.50</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.40</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.60</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.49</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.40</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">0.60</td></tr><tr><td align=\"left\" rowspan=\"1\" colspan=\"1\">TMD (mgHA/cm<sup>3</sup>)</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1129</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1104</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1152</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1140</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1118</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1162</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1153</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1129</td><td align=\"center\" rowspan=\"1\" colspan=\"1\">1177</td></tr></tbody></table>\n"
             },
-            "text": "\t\tBaseline\tUnloading\tReambulation\t \tEXP\t\tMean\tMin\tMax\tMean\tMin\tMax\tMean\tMin\tMax\t \tMu.Ar\t16.1\t13.4\t19.3\t14.6\t11.7\t17.5\t15.8\t13.2\t18.9\t \tCt.Ar (mm2)\t1.07\t0.88\t1.25\t1.06\t0.87\t1.27\t1.11\t0.91\t1.31\t \tMa.Ar (mm2)\t0.51\t0.38\t0.64\t0.54\t0.40\t0.68\t0.52\t0.38\t0.67\t \tTMD (mgHA/cm3)\t1132\t1101\t1183\t1135\t1099\t1172\t1144\t1108\t1178\t \tCTL\tMu.Ar\t16.8\t14.0\t19.9\t17.0\t13.5\t20.9\t17.0\t13.7\t20.6\t \tCt.Ar (mm2)\t1.09\t0.93\t1.29\t1.13\t0.94\t1.34\t1.17\t0.96\t1.39\t \tMa.Ar (mm2)\t0.49\t0.41\t0.60\t0.50\t0.40\t0.60\t0.49\t0.40\t0.60\t \tTMD (mgHA/cm3)\t1129\t1104\t1152\t1140\t1118\t1162\t1153\t1129\t1177\t \t",
+            "offset": 12443,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "\t\tBaseline\tUnloading\tReambulation\t \tEXP\t\tMean\tMin\tMax\tMean\tMin\tMax\tMean\tMin\tMax\t \tMu.Ar\t16.1\t13.4\t19.3\t14.6\t11.7\t17.5\t15.8\t13.2\t18.9\t \tCt.Ar (mm2)\t1.07\t0.88\t1.25\t1.06\t0.87\t1.27\t1.11\t0.91\t1.31\t \tMa.Ar (mm2)\t0.51\t0.38\t0.64\t0.54\t0.40\t0.68\t0.52\t0.38\t0.67\t \tTMD (mgHA/cm3)\t1132\t1101\t1183\t1135\t1099\t1172\t1144\t1108\t1178\t \tCTL\tMu.Ar\t16.8\t14.0\t19.9\t17.0\t13.5\t20.9\t17.0\t13.7\t20.6\t \tCt.Ar (mm2)\t1.09\t0.93\t1.29\t1.13\t0.94\t1.34\t1.17\t0.96\t1.39\t \tMa.Ar (mm2)\t0.49\t0.41\t0.60\t0.50\t0.40\t0.60\t0.49\t0.40\t0.60\t \tTMD (mgHA/cm3)\t1129\t1104\t1152\t1140\t1118\t1162\t1153\t1129\t1177\t \t"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 12996,
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "Shown are the mean, minimal, and maximal values of any given variable across the 352 experimental and 25 control female mice that completed the entire protocol.",
+            "offset": 12996,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Shown are the mean, minimal, and maximal values of any given variable across the 352 experimental and 25 control female mice that completed the entire protocol."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 13157,
             "infons": {
               "file": "JMNI-16-174-g002.jpg",
               "id": "F2",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Relative changes in A) muscle area, B) cortical area, C) marrow area, and D) tissue mineral density in experimental (n=352) and control (n=25) mice. HLU: hindlimb unloading, RA: reambulation, AC: age-matched controls. *: significant change from previous time point, †: change in experimental mice significantly different from age-matched controls.",
+            "offset": 13157,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Relative changes in A) muscle area, B) cortical area, C) marrow area, and D) tissue mineral density in experimental (n=352) and control (n=25) mice. HLU: hindlimb unloading, RA: reambulation, AC: age-matched controls. *: significant change from previous time point, †: change in experimental mice significantly different from age-matched controls."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 13507,
             "infons": {
               "file": "JMNI-16-174-g003.jpg",
               "id": "F3",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Genome wide scans identifying QTLs for muscle and bone during unloading (left column) and reambulation (right column). Peaks crossing the black, red, green, and blue lines denote QTLs at significance thresholds of 63%, 10%, 5%, and 1%, respectively.",
+            "offset": 13507,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genome wide scans identifying QTLs for muscle and bone during unloading (left column) and reambulation (right column). Peaks crossing the black, red, green, and blue lines denote QTLs at significance thresholds of 63%, 10%, 5%, and 1%, respectively."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 13757,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_3"
             },
-            "text": "Reambulation - Muscle",
+            "offset": 13757,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Reambulation - Muscle"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 13779,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "During reambulation, experimental mice averaged a 9% increase (p<0.001) in muscle area (min: -8% max: 31%), a change that was different (p<0.001) from the lack of growth in muscle area in age-matched controls (mean: 0%, min: -7%, max: 18%; Table 1, Figure 2). In experimental mice, individuals that experienced the greatest losses in muscle area during unloading were moderately correlated with those that experienced the greatest gain during reambulation (R2=0.32, p<0.0001; Figure 4). Two suggestive QTLs for the gain of muscle area upon reambulation were identified on chromosomal loci that differed from QTL identified for unloading (Figure 3).",
+            "offset": 13779,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "During reambulation, experimental mice averaged a 9% increase (p<0.001) in muscle area (min: -8% max: 31%), a change that was different (p<0.001) from the lack of growth in muscle area in age-matched controls (mean: 0%, min: -7%, max: 18%; Table 1, Figure 2). In experimental mice, individuals that experienced the greatest losses in muscle area during unloading were moderately correlated with those that experienced the greatest gain during reambulation (R2=0.32, p<0.0001; Figure 4). Two suggestive QTLs for the gain of muscle area upon reambulation were identified on chromosomal loci that differed from QTL identified for unloading (Figure 3)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14428,
             "infons": {
               "file": "JMNI-16-174-g004.jpg",
               "id": "F4",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Changes in muscle area during hindlimb unloading (HLU, horizontal axis) associated with changes in muscle area experienced during reambulation (RA, vertical axis).",
+            "offset": 14428,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Changes in muscle area during hindlimb unloading (HLU, horizontal axis) associated with changes in muscle area experienced during reambulation (RA, vertical axis)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_3"
+            },
             "offset": 14592,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_3"
-            },
-            "text": "Unloading - Bone",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Unloading - Bone"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 14609,
+            "relations": [],
+            "sentences": [],
+            "text": "Unloading of the hindlimb reduced (p=0.04) cortical bone in the femoral diaphysis on average by 0.5% (min: -6%, max: 12%) while age matched controls gained 3% (p<0.001) over the same time period (min: 1%, max: 5%; Table 1, Figure 2). Changes in the two groups were different from each other (p<0.001) with a net difference of 4%. Bone marrow area increased (p<0.001) on average by 6% (min: -12% max: 16%) during unloading, a response that was significantly different (p<0.001) from age matched controls in which Ma.Ar did not change significantly (min: -2%, max: 5%; Table 1, Figure 2). Tissue mineral density increased (p=0.03) on average by 0.3% (min: -3%, max: 2%) during unloading, a smaller (p<0.001) increase than in age matched controls which gained 1% (p<0.001) over the same time period (min: 0%, max: 2%; Table 1, Figure 2)."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Unloading of the hindlimb reduced (p=0.04) cortical bone in the femoral diaphysis on average by 0.5% (min: -6%, max: 12%) while age matched controls gained 3% (p<0.001) over the same time period (min: 1%, max: 5%; Table 1, Figure 2). Changes in the two groups were different from each other (p<0.001) with a net difference of 4%. Bone marrow area increased (p<0.001) on average by 6% (min: -12% max: 16%) during unloading, a response that was significantly different (p<0.001) from age matched controls in which Ma.Ar did not change significantly (min: -2%, max: 5%; Table 1, Figure 2). Tissue mineral density increased (p=0.03) on average by 0.3% (min: -3%, max: 2%) during unloading, a smaller (p<0.001) increase than in age matched controls which gained 1% (p<0.001) over the same time period (min: 0%, max: 2%; Table 1, Figure 2).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 15444,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "For changes in cortical bone area, three QTLs on chromosomes 9, 18, and 19 were determined for unloading (Figure 3), together accounting for 10% (p<0.001) of the variability in HLU induced change in Ct.Ar. QTLs responsible for the magnitude of change in bone marrow area during unloading were revealed on chromosomes 2 and 9, accounting for 10% (p<0.001) of the observed variability in this variable. No QTLs were found for changes in tissue mineral density during unloading.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "For changes in cortical bone area, three QTLs on chromosomes 9, 18, and 19 were determined for unloading (Figure 3), together accounting for 10% (p<0.001) of the variability in HLU induced change in Ct.Ar. QTLs responsible for the magnitude of change in bone marrow area during unloading were revealed on chromosomes 2 and 9, accounting for 10% (p<0.001) of the observed variability in this variable. No QTLs were found for changes in tissue mineral density during unloading."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_3"
+            },
             "offset": 15920,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_3"
-            },
-            "text": "Reambulation - Bone",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Reambulation - Bone"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 15940,
+            "relations": [],
+            "sentences": [],
+            "text": "During reambulation, increases in cortical area seen in experimental mice (mean: 4%, min: -1%, max: 9%, p<0.001) matched those of age matched controls (mean: 4%, min: 2%, max: 6%, p<0.001; Table 1, Figure 2). During the reambulation period, marrow area decreased to a greater (p=0.04) degree in experimental mice (mean: -2%, min: -11%, max: 8%, p<0.001) than in controls (mean: -1%, min: -3%, max: 4%, p=0.05). The increase (p<0001) in tissue mineral density was 1% both in experimentals (min: -1%, max: 3%) and controls (min: 0%, max: 3%) during this time period without a significant between-group difference. Only weak correlations were found between unloading and reambulation for changes in any given variable; R2 values for CT.Ar, Ma.Ar, and TMD amounted to 8%, 16%, and 7%, respectively (all p<0.0001)."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "During reambulation, increases in cortical area seen in experimental mice (mean: 4%, min: -1%, max: 9%, p<0.001) matched those of age matched controls (mean: 4%, min: 2%, max: 6%, p<0.001; Table 1, Figure 2). During the reambulation period, marrow area decreased to a greater (p=0.04) degree in experimental mice (mean: -2%, min: -11%, max: 8%, p<0.001) than in controls (mean: -1%, min: -3%, max: 4%, p=0.05). The increase (p<0001) in tissue mineral density was 1% both in experimentals (min: -1%, max: 3%) and controls (min: 0%, max: 3%) during this time period without a significant between-group difference. Only weak correlations were found between unloading and reambulation for changes in any given variable; R2 values for CT.Ar, Ma.Ar, and TMD amounted to 8%, 16%, and 7%, respectively (all p<0.0001).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 16750,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "For reambulation and similar to muscle, no significant QTLs were identified for any of the three bone variables. For Ct.Ar, we found two suggestive QTLs (Chr 5 and 17) and for Ma.Ar, one suggested QTL was found (Chr 8) for reambulation (Figure 3).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "For reambulation and similar to muscle, no significant QTLs were identified for any of the three bone variables. For Ct.Ar, we found two suggestive QTLs (Chr 5 and 17) and for Ma.Ar, one suggested QTL was found (Chr 8) for reambulation (Figure 3)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 16998,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_3"
             },
-            "text": "Associations between muscle and bone",
+            "offset": 16998,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Associations between muscle and bone"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 17035,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Both during unloading and reambulation, those mice displaying the greatest changes in muscle area did not coincide with those that showed the greatest changes in cortical bone; associations between changes in muscle area and cortical area resulted in R2-values of less than 10% (Figure 5). Coefficients of determination for changes in muscle area vs either marrow area or TMD were similarly low (data not shown). Extending the correlations between muscle and cortical bone to changes in trabecular bone previously reported from the metaphysis of the distal femur produced similar results; R2-values for changes in muscle area versus changes in trabecular bone volume fraction yielded 11% for the unloading phase and less than 1% for the reambulation phase (Figure 5).",
+            "offset": 17035,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Both during unloading and reambulation, those mice displaying the greatest changes in muscle area did not coincide with those that showed the greatest changes in cortical bone; associations between changes in muscle area and cortical area resulted in R2-values of less than 10% (Figure 5). Coefficients of determination for changes in muscle area vs either marrow area or TMD were similarly low (data not shown). Extending the correlations between muscle and cortical bone to changes in trabecular bone previously reported from the metaphysis of the distal femur produced similar results; R2-values for changes in muscle area versus changes in trabecular bone volume fraction yielded 11% for the unloading phase and less than 1% for the reambulation phase (Figure 5)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 17803,
             "infons": {
               "file": "JMNI-16-174-g005.jpg",
               "id": "F5",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Associations between changes in muscle area vs cortical area (a. & c.) and changes in muscle area vs marrow area (b. & d.) for unloading (a. & b.) and reambulation (c. & d.).",
+            "offset": 17803,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Associations between changes in muscle area vs cortical area (a. & c.) and changes in muscle area vs marrow area (b. & d.) for unloading (a. & b.) and reambulation (c. & d.)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 17978,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "For unloading, the QTL for changes in muscle area on chromosome 5 did not overlap with those identified for cortical indices but shared common regions with previously determined trabecular QTLs from the same bones for changes in three out of six trabecular indices; normalized bone surface, trabecular thickness, and trabecular tissue mineral density. For reambulation, the two suggestive QTLs for changes in muscle area on chromosomes 2 and 19 did not overlap with (suggestive) QTLs identified for cortical indices but with trabecular QTLs for changes in one out of six trabecular indices (trabecular number).",
+            "offset": 17978,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "For unloading, the QTL for changes in muscle area on chromosome 5 did not overlap with those identified for cortical indices but shared common regions with previously determined trabecular QTLs from the same bones for changes in three out of six trabecular indices; normalized bone surface, trabecular thickness, and trabecular tissue mineral density. For reambulation, the two suggestive QTLs for changes in muscle area on chromosomes 2 and 19 did not overlap with (suggestive) QTLs identified for cortical indices but with trabecular QTLs for changes in one out of six trabecular indices (trabecular number)."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 18589,
             "infons": {
               "section_type": "DISCUSS",
               "type": "title_1"
             },
-            "text": "Discussion",
+            "offset": 18589,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Discussion"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 18600,
+            "relations": [],
+            "sentences": [],
+            "text": "We tested for co-regulation between changes in muscle and bone during removal and reapplication of weightbearing activities with the rationale that if muscle size controls bone size, we should observe robust correlations in the response of the two tissues. In contrast to this hypothesis, the magnitude of the response of the two tissues to unloading and reambulation was not correlated across a genetically heterogeneous mouse population. This lack of coordination between muscle and bone at the tissue level was somewhat similar at the genetic level. The strong QTL for changes in muscle area during unloading on chromosome 5 did not overlap with any QTLs for changes in cortical bone properties but shared a common region for some trabecular properties. While these data emphasize the strong influence of genetic variations on the response of both skeletal muscle and bone, the low correlations between morphological changes in muscle and bone, together with the largely distinct genetic regulation of the response, are inconsistent with the premise of a muscle-bone unit that co-regulates its size during mechanical challenges."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "We tested for co-regulation between changes in muscle and bone during removal and reapplication of weightbearing activities with the rationale that if muscle size controls bone size, we should observe robust correlations in the response of the two tissues. In contrast to this hypothesis, the magnitude of the response of the two tissues to unloading and reambulation was not correlated across a genetically heterogeneous mouse population. This lack of coordination between muscle and bone at the tissue level was somewhat similar at the genetic level. The strong QTL for changes in muscle area during unloading on chromosome 5 did not overlap with any QTLs for changes in cortical bone properties but shared a common region for some trabecular properties. While these data emphasize the strong influence of genetic variations on the response of both skeletal muscle and bone, the low correlations between morphological changes in muscle and bone, together with the largely distinct genetic regulation of the response, are inconsistent with the premise of a muscle-bone unit that co-regulates its size during mechanical challenges.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 19732,
+            "relations": [],
+            "sentences": [],
+            "text": "Several limitations should be considered when interpreting results from this study. First, we did not measure changes in muscle strength but muscle cross-sectional area as a surrogate measure of strength is well accepted in clinical and animal studies. Second, we chose the composite cross-sectional muscle area of several individual muscles as we assumed that the forces exerted by these muscles are primarily responsible for inducing bone strains in the diaphysis (and metaphysis) of the mouse femur and because the µCT images did not allow for separation into distinct muscle groups. Third, we observed musculoskeletal changes in unloading and reambulation over a 3wk period each, a duration that significantly altered musculo-skeletal variables at the mouse femur during both unloading and reambulation but it is conceivable that time periods of different length would influence our results and conclusions. Using the initial adaptive changes in both tissues upon application of a new mechanical environment ostensibly provided the largest signals for the correlations and should have also minimized the limitation that changes in muscle and bone were quantified simultaneously, rather than sequentially with muscle measurements preceding bone measurements. Lastly, QTL studies have many strengths including the absence of assumptions regarding genes and molecular pathways giving rise to the trait of interest. Conversely, the identification of causative genes from the identified QTLs typically requires substantial effort as QTLs can contain several hundred candidate genes and we are currently pursuing a combined bioinformatic/transgenic mouse approach towards this critical goal."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Several limitations should be considered when interpreting results from this study. First, we did not measure changes in muscle strength but muscle cross-sectional area as a surrogate measure of strength is well accepted in clinical and animal studies. Second, we chose the composite cross-sectional muscle area of several individual muscles as we assumed that the forces exerted by these muscles are primarily responsible for inducing bone strains in the diaphysis (and metaphysis) of the mouse femur and because the µCT images did not allow for separation into distinct muscle groups. Third, we observed musculoskeletal changes in unloading and reambulation over a 3wk period each, a duration that significantly altered musculo-skeletal variables at the mouse femur during both unloading and reambulation but it is conceivable that time periods of different length would influence our results and conclusions. Using the initial adaptive changes in both tissues upon application of a new mechanical environment ostensibly provided the largest signals for the correlations and should have also minimized the limitation that changes in muscle and bone were quantified simultaneously, rather than sequentially with muscle measurements preceding bone measurements. Lastly, QTL studies have many strengths including the absence of assumptions regarding genes and molecular pathways giving rise to the trait of interest. Conversely, the identification of causative genes from the identified QTLs typically requires substantial effort as QTLs can contain several hundred candidate genes and we are currently pursuing a combined bioinformatic/transgenic mouse approach towards this critical goal.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 21426,
+            "relations": [],
+            "sentences": [],
+            "text": "There was a relatively small number of mice that added muscle and/or bone tissue during unloading. While we don’t know the reason for this pattern, it is conceivable that specific combinations of polymorphisms caused the tissue response of these mice go into the opposite direction from what we would have expected. This is plausible because by breeding a F2 population, it is likely that some mice will have a phenotype well beyond the expected boundaries set by the two progenitor inbred strains. Because of the small number of mice displaying the opposite response pattern, no underlying QTLs could be determined. Inherently, it is also possible that noise in the data measurements contributed to this phenomenon. If it was true that combinations of polymorphisms cannot only prevent the catabolic response associated with unloading but can even produce a mild anabolic response, the identification of these polymorphisms may give rise to novel countermeasures."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "There was a relatively small number of mice that added muscle and/or bone tissue during unloading. While we don’t know the reason for this pattern, it is conceivable that specific combinations of polymorphisms caused the tissue response of these mice go into the opposite direction from what we would have expected. This is plausible because by breeding a F2 population, it is likely that some mice will have a phenotype well beyond the expected boundaries set by the two progenitor inbred strains. Because of the small number of mice displaying the opposite response pattern, no underlying QTLs could be determined. Inherently, it is also possible that noise in the data measurements contributed to this phenomenon. If it was true that combinations of polymorphisms cannot only prevent the catabolic response associated with unloading but can even produce a mild anabolic response, the identification of these polymorphisms may give rise to novel countermeasures.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 22393,
+            "relations": [],
+            "sentences": [],
+            "text": "Muscle-bone interactions have recently received considerable attention. Most of the interest has focused on molecular pathways by which muscle and bone can communicate with each other, rather than on how bone perceives forces produced by muscle. For instance, novel myokines have been identified that may either promote catabolism or anabolism in bone. We did not measure (changes in) biochemical factors here but the low correlations between muscle and bone at the genetic and tissue level may indicate that molecular cross-tissue communication is not necessarily driven by changes in muscle size."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Muscle-bone interactions have recently received considerable attention. Most of the interest has focused on molecular pathways by which muscle and bone can communicate with each other, rather than on how bone perceives forces produced by muscle. For instance, novel myokines have been identified that may either promote catabolism or anabolism in bone. We did not measure (changes in) biochemical factors here but the low correlations between muscle and bone at the genetic and tissue level may indicate that molecular cross-tissue communication is not necessarily driven by changes in muscle size.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 22992,
+            "relations": [],
+            "sentences": [],
+            "text": "Excellent relations between muscle and bone quantity have been reported in a number of species including mice and humans. Many of these studies were cross-sectional in nature, precluding mechanistic inferences. Some longitudinal studies in mice have proposed functional relationships between changes in bone and muscle during (un)loading but they were limited to temporal relations in a single inbred strain of mice. That our longitudinal study, taking advantage of a large sample of mice with greatly different mechano-responsivities, was not able to provide evidence for a mechanism by which changes in muscle size modulate changes in bone size should not be entirely surprising. Astronauts suffer from sarcopenia and ostepenia in space but the temporal patterns of muscle and bone loss are not suggestive of a causal relation; similar to paraplegia and bedrest, bone loss continues even as loss in muscle mass plateaus. Furthermore, individuals who lose the greatest amount of bone during bedrest do not coincide with those who experience the greatest amount of loss in muscle mass. Also consistent with our results, there is no influence of the levels of activity (i.e., mechanical forces) on the recovery of bone mass during reambulation in mice. Together, these studies suggest that the hypothesis of bone mass calibrated to altered levels of muscle cross-sectional area is not generally applicable."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Excellent relations between muscle and bone quantity have been reported in a number of species including mice and humans. Many of these studies were cross-sectional in nature, precluding mechanistic inferences. Some longitudinal studies in mice have proposed functional relationships between changes in bone and muscle during (un)loading but they were limited to temporal relations in a single inbred strain of mice. That our longitudinal study, taking advantage of a large sample of mice with greatly different mechano-responsivities, was not able to provide evidence for a mechanism by which changes in muscle size modulate changes in bone size should not be entirely surprising. Astronauts suffer from sarcopenia and ostepenia in space but the temporal patterns of muscle and bone loss are not suggestive of a causal relation; similar to paraplegia and bedrest, bone loss continues even as loss in muscle mass plateaus. Furthermore, individuals who lose the greatest amount of bone during bedrest do not coincide with those who experience the greatest amount of loss in muscle mass. Also consistent with our results, there is no influence of the levels of activity (i.e., mechanical forces) on the recovery of bone mass during reambulation in mice. Together, these studies suggest that the hypothesis of bone mass calibrated to altered levels of muscle cross-sectional area is not generally applicable.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 24398,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "Our data do not disprove the general concept of a functional muscle-bone unit. They do, however, provide evidence for a lack of functional and/or genetic co-regulation of bone’s and muscle’s mechanosensitivity during unloading and reambulation in this genetically diverse mouse population. By extension, they also provide evidence that the relatively few, large-magnitude muscle contractions arising during daily weightbearing activities are unlikely to dominate skeletal adaptation. Further, in light of the distinct genetic mechano-regulation of the two tissues, it could be speculated that the development of mechanical interventions for musculoskeletal ailments may have to be optimized independently for bone and muscle. Regardless, our results emphasize that much work is required for a complete understanding of the mechanisms by which muscle and bone interact with each other while exposed to altered levels of weightbearing and that genetics is a variable that needs to be considered in these interactions.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Our data do not disprove the general concept of a functional muscle-bone unit. They do, however, provide evidence for a lack of functional and/or genetic co-regulation of bone’s and muscle’s mechanosensitivity during unloading and reambulation in this genetically diverse mouse population. By extension, they also provide evidence that the relatively few, large-magnitude muscle contractions arising during daily weightbearing activities are unlikely to dominate skeletal adaptation. Further, in light of the distinct genetic mechano-regulation of the two tissues, it could be speculated that the development of mechanical interventions for musculoskeletal ailments may have to be optimized independently for bone and muscle. Regardless, our results emphasize that much work is required for a complete understanding of the mechanisms by which muscle and bone interact with each other while exposed to altered levels of weightbearing and that genetics is a variable that needs to be considered in these interactions."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "title_3"
+            },
             "offset": 25418,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "title_3"
-            },
-            "text": "Grants",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Grants"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 25425,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "This study was kindly funded by NASA NAG 9-1499 and NNX12AL25G.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "This study was kindly funded by NASA NAG 9-1499 and NNX12AL25G."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25489,
             "infons": {
               "section_type": "DISCUSS",
               "type": "title_3"
             },
-            "text": "Author contributions",
+            "offset": 25489,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Author contributions"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25510,
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Study design: SJ and LRD. Data acquisition: SJ, WZ, LRD, and EO. Data analysis: SJ, WZ, LRD, and EO. Drafting of manuscript: SJ. Manuscript edits and revisions: SJ, WZ, LRD, and EO. All authors approved the final version of the submitted manuscript.",
+            "offset": 25510,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Study design: SJ and LRD. Data acquisition: SJ, WZ, LRD, and EO. Data analysis: SJ, WZ, LRD, and EO. Drafting of manuscript: SJ. Manuscript edits and revisions: SJ, WZ, LRD, and EO. All authors approved the final version of the submitted manuscript."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "footnote"
+            },
             "offset": 25760,
+            "relations": [],
+            "sentences": [],
+            "text": "The authors have no conflict of interest."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "footnote"
             },
-            "text": "The authors have no conflict of interest.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 25802,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "footnote"
-            },
-            "text": "Edited by: M. Hamrick",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Edited by: M. Hamrick"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25824,
             "infons": {
               "section_type": "REF",
               "type": "title"
             },
-            "text": "References",
+            "offset": 25824,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "References"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25835,
             "infons": {
               "fpage": "16",
               "name_0": "surname:Thompson;given-names:d’Arcy W",
@@ -741,14 +739,14 @@
               "volume": "16",
               "year": "1917"
             },
-            "text": "",
+            "offset": 25835,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": ""
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25836,
             "infons": {
               "fpage": "2393",
               "issue": "12",
@@ -764,14 +762,14 @@
               "volume": "25",
               "year": "2010"
             },
-            "text": "Analyses of muscular mass and function: the impact on bone mineral density and peak muscle mass",
+            "offset": 25836,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Analyses of muscular mass and function: the impact on bone mineral density and peak muscle mass"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 25932,
             "infons": {
               "fpage": "2037",
               "issue": "11",
@@ -785,14 +783,14 @@
               "volume": "41",
               "year": "2009"
             },
-            "text": "Is bone’s response to mechanical signals dominated by gravitational loading?",
+            "offset": 25932,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Is bone’s response to mechanical signals dominated by gravitational loading?"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26011,
             "infons": {
               "fpage": "1017",
               "issue": "5",
@@ -810,14 +808,14 @@
               "volume": "25",
               "year": "2010"
             },
-            "text": "Correlates of trabecular and cortical volumetric bone mineral density of the radius and tibia in older men: the Osteoporotic Fractures in Men Study",
+            "offset": 26011,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Correlates of trabecular and cortical volumetric bone mineral density of the radius and tibia in older men: the Osteoporotic Fractures in Men Study"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26159,
             "infons": {
               "fpage": "1958",
               "issue": "9",
@@ -835,14 +833,14 @@
               "volume": "25",
               "year": "2010"
             },
-            "text": "Correlates of trabecular and cortical volumetric bone mineral density at the femoral neck and lumbar spine: the osteoporotic fractures in men study (MrOS)",
+            "offset": 26159,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Correlates of trabecular and cortical volumetric bone mineral density at the femoral neck and lumbar spine: the osteoporotic fractures in men study (MrOS)"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26314,
             "infons": {
               "name_0": "surname:Laurent;given-names:MR",
               "name_1": "surname:Dubois;given-names:V",
@@ -855,14 +853,14 @@
               "type": "ref",
               "year": "2015"
             },
-            "text": "Muscle-bone interactions: From experimental models to the clinic? A critical update",
+            "offset": 26314,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Muscle-bone interactions: From experimental models to the clinic? A critical update"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26398,
             "infons": {
               "fpage": "1737",
               "issue": "10",
@@ -877,14 +875,14 @@
               "volume": "12",
               "year": "1997"
             },
-            "text": "Strain gradients correlate with sites of exercise-induced bone-forming surfaces in the adult skeleton",
+            "offset": 26398,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Strain gradients correlate with sites of exercise-induced bone-forming surfaces in the adult skeleton"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26500,
             "infons": {
               "fpage": "1141",
               "issue": "7",
@@ -899,14 +897,14 @@
               "volume": "13",
               "year": "1998"
             },
-            "text": "Type of physical activity, muscle strength, and pubertal stage as determinants of bone mineral density and bone area in adolescent boys",
+            "offset": 26500,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Type of physical activity, muscle strength, and pubertal stage as determinants of bone mineral density and bone area in adolescent boys"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26636,
             "infons": {
               "fpage": "771",
               "issue": "5",
@@ -923,14 +921,14 @@
               "volume": "34",
               "year": "2004"
             },
-            "text": "The ‘muscle-bone unit’during the pubertal growth spurt",
+            "offset": 26636,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The ‘muscle-bone unit’during the pubertal growth spurt"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26695,
             "infons": {
               "fpage": "938",
               "issue": "3",
@@ -947,14 +945,14 @@
               "volume": "92",
               "year": "2007"
             },
-            "text": "Timing of peak bone mass: discrepancies between CT and DXA",
+            "offset": 26695,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Timing of peak bone mass: discrepancies between CT and DXA"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26754,
             "infons": {
               "fpage": "86",
               "lpage": "7",
@@ -966,14 +964,14 @@
               "volume": "50 Spec No",
               "year": "1995"
             },
-            "text": "Relationship of age-related decreases in muscle mass and strength to skeletal status",
+            "offset": 26754,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Relationship of age-related decreases in muscle mass and strength to skeletal status"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26839,
             "infons": {
               "fpage": "1006",
               "issue": "6",
@@ -991,14 +989,14 @@
               "volume": "19",
               "year": "2004"
             },
-            "text": "Cortical and trabecular bone mineral loss from the spine and hip in long-duration spaceflight",
+            "offset": 26839,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cortical and trabecular bone mineral loss from the spine and hip in long-duration spaceflight"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 26933,
             "infons": {
               "fpage": "459",
               "issue": "7",
@@ -1012,14 +1010,14 @@
               "volume": "32",
               "year": "2002"
             },
-            "text": "Skeletal adaptations to alterations in weight-bearing activity: a comparison of models of disuse osteoporosis",
+            "offset": 26933,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Skeletal adaptations to alterations in weight-bearing activity: a comparison of models of disuse osteoporosis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27043,
             "infons": {
               "fpage": "973",
               "issue": "6",
@@ -1037,14 +1035,14 @@
               "volume": "41",
               "year": "2007"
             },
-            "text": "Recovery of spaceflight-induced bone loss: Bone mineral density after long-duration missions as fitted with an exponential function",
+            "offset": 27043,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Recovery of spaceflight-induced bone loss: Bone mineral density after long-duration missions as fitted with an exponential function"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27175,
             "infons": {
               "fpage": "122",
               "lpage": "9",
@@ -1057,14 +1055,14 @@
               "volume": "67",
               "year": "2014"
             },
-            "text": "Trabecular bone recovers from mechanical unloading primarily by restoring its mechanical function rather than its morphology",
+            "offset": 27175,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Trabecular bone recovers from mechanical unloading primarily by restoring its mechanical function rather than its morphology"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27300,
             "infons": {
               "fpage": "e11178",
               "issue": "6",
@@ -1079,14 +1077,14 @@
               "volume": "5",
               "year": "2010"
             },
-            "text": "Low-level vibrations retain bone marrow’s osteogenic potential and augment recovery of trabecular bone during reambulation",
+            "offset": 27300,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Low-level vibrations retain bone marrow’s osteogenic potential and augment recovery of trabecular bone during reambulation"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27425,
             "infons": {
               "fpage": "1607",
               "issue": "9215",
@@ -1104,14 +1102,14 @@
               "volume": "355",
               "year": "2000"
             },
-            "text": "Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts",
+            "offset": 27425,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27530,
             "infons": {
               "fpage": "1537",
               "issue": "7",
@@ -1127,14 +1125,14 @@
               "volume": "28",
               "year": "2013"
             },
-            "text": "Genetic Loci that control the loss and regain of trabecular bone during unloading and reambulation",
+            "offset": 27530,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic Loci that control the loss and regain of trabecular bone during unloading and reambulation"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27629,
             "infons": {
               "fpage": "1857",
               "issue": "9",
@@ -1152,14 +1150,14 @@
               "volume": "28",
               "year": "2013"
             },
-            "text": "Forum on bone and skeletal muscle interactions: summary of the proceedings of an ASBMR workshop",
+            "offset": 27629,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Forum on bone and skeletal muscle interactions: summary of the proceedings of an ASBMR workshop"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27725,
             "infons": {
               "issue": "4",
               "name_0": "surname:Hamrick;given-names:MW",
@@ -1169,14 +1167,14 @@
               "volume": "1",
               "year": "2012"
             },
-            "text": "The skeletal muscle secretome: an emerging player in muscle-bone crosstalk",
+            "offset": 27725,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The skeletal muscle secretome: an emerging player in muscle-bone crosstalk"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27800,
             "infons": {
               "fpage": "25",
               "lpage": "32",
@@ -1191,14 +1189,14 @@
               "volume": "64",
               "year": "2014"
             },
-            "text": "Quantitative trait loci that modulate trabecular bone’s risk of failure during unloading and reloading",
+            "offset": 27800,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Quantitative trait loci that modulate trabecular bone’s risk of failure during unloading and reloading"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27905,
             "infons": {
               "fpage": "607",
               "issue": "4",
@@ -1216,14 +1214,14 @@
               "volume": "19",
               "year": "2004"
             },
-            "text": "Genetically linked site-specificity of disuse osteoporosis",
+            "offset": 27905,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetically linked site-specificity of disuse osteoporosis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 27964,
             "infons": {
               "fpage": "1353",
               "issue": "6",
@@ -1239,14 +1237,14 @@
               "volume": "35",
               "year": "2004"
             },
-            "text": "Genetic variations that regulate bone morphology in the male mouse skeleton do not define its susceptibility to mechanical unloading",
+            "offset": 27964,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic variations that regulate bone morphology in the male mouse skeleton do not define its susceptibility to mechanical unloading"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28097,
             "infons": {
               "fpage": "889",
               "issue": "7",
@@ -1262,14 +1260,14 @@
               "volume": "19",
               "year": "2003"
             },
-            "text": "R/qtl: QTL mapping in experimental crosses",
+            "offset": 28097,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "R/qtl: QTL mapping in experimental crosses"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28140,
             "infons": {
               "fpage": "371",
               "issue": "1",
@@ -1283,14 +1281,14 @@
               "volume": "159",
               "year": "2001"
             },
-            "text": "A statistical framework for quantitative trait mapping",
+            "offset": 28140,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A statistical framework for quantitative trait mapping"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28195,
             "infons": {
               "fpage": "285",
               "issue": "1",
@@ -1304,14 +1302,14 @@
               "volume": "142",
               "year": "1996"
             },
-            "text": "Permutation tests for multiple loci affecting a quantitative character",
+            "offset": 28195,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Permutation tests for multiple loci affecting a quantitative character"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28266,
             "infons": {
               "fpage": "241",
               "issue": "3",
@@ -1325,14 +1323,14 @@
               "volume": "11",
               "year": "1995"
             },
-            "text": "Genetic dissection of complex traits: guidelines for interpreting and reporting linkage results",
+            "offset": 28266,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic dissection of complex traits: guidelines for interpreting and reporting linkage results"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28362,
             "infons": {
               "fpage": "1715",
               "issue": "6",
@@ -1347,14 +1345,14 @@
               "type": "ref",
               "volume": "57"
             },
-            "text": "Predictability of skeletal muscle tension from architectural determinations in guinea pig hindlimbs",
+            "offset": 28362,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Predictability of skeletal muscle tension from architectural determinations in guinea pig hindlimbs"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28462,
             "infons": {
               "fpage": "918",
               "issue": "5",
@@ -1371,14 +1369,14 @@
               "volume": "40",
               "year": "2008"
             },
-            "text": "Effect of maturation on the relationship between muscle size and force production",
+            "offset": 28462,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effect of maturation on the relationship between muscle size and force production"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28544,
             "infons": {
               "fpage": "644",
               "issue": "2",
@@ -1394,14 +1392,14 @@
               "volume": "71",
               "year": "1991"
             },
-            "text": "A cross-sectional study of muscle strength and mass in 45-to 78-yr-old men and women",
+            "offset": 28544,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A cross-sectional study of muscle strength and mass in 45-to 78-yr-old men and women"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28629,
             "infons": {
               "fpage": "338",
               "name_0": "surname:Maughan;given-names:R",
@@ -1413,14 +1411,14 @@
               "volume": "338",
               "year": "1983"
             },
-            "text": "Strength and cross-sectional area of human skeletal muscle",
+            "offset": 28629,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Strength and cross-sectional area of human skeletal muscle"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28688,
             "infons": {
               "fpage": "136",
               "issue": "2",
@@ -1437,14 +1435,14 @@
               "volume": "10",
               "year": "2010"
             },
-            "text": "Muscle cross sectional area and grip torque contraction types are similarly related to pQCT derived bone strength indices in the radii of older healthy adults",
+            "offset": 28688,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Muscle cross sectional area and grip torque contraction types are similarly related to pQCT derived bone strength indices in the radii of older healthy adults"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28847,
             "infons": {
               "fpage": "271",
               "issue": "4",
@@ -1459,14 +1457,14 @@
               "volume": "6",
               "year": "2005"
             },
-            "text": "Strategies for mapping and cloning quantitative trait genes in rodents",
+            "offset": 28847,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Strategies for mapping and cloning quantitative trait genes in rodents"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28918,
             "infons": {
               "fpage": "1",
               "lpage": "15",
@@ -1479,14 +1477,14 @@
               "type": "ref",
               "year": "2015"
             },
-            "text": "Modulation of unloading-induced bone loss in mice with altered ERK signaling",
+            "offset": 28918,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Modulation of unloading-induced bone loss in mice with altered ERK signaling"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 28995,
             "infons": {
               "fpage": "1195",
               "issue": "7",
@@ -1504,14 +1502,14 @@
               "volume": "16",
               "year": "2001"
             },
-            "text": "Quantitative trait loci for femoral and lumbar vertebral bone mineral density in C57BL/6J and C3H/HeJ inbred strains of mice",
+            "offset": 28995,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Quantitative trait loci for femoral and lumbar vertebral bone mineral density in C57BL/6J and C3H/HeJ inbred strains of mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29120,
             "infons": {
               "name_0": "surname:Sartori;given-names:R",
               "name_1": "surname:Sandri;given-names:M",
@@ -1520,14 +1518,14 @@
               "type": "ref",
               "year": "2015"
             },
-            "text": "BMPs and the muscle-bone connection",
+            "offset": 29120,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "BMPs and the muscle-bone connection"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29156,
             "infons": {
               "fpage": "135",
               "issue": "2",
@@ -1541,14 +1539,14 @@
               "volume": "12",
               "year": "2014"
             },
-            "text": "Endocrine crosstalk between muscle and bone",
+            "offset": 29156,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Endocrine crosstalk between muscle and bone"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29200,
             "infons": {
               "fpage": "2044",
               "issue": "11",
@@ -1561,14 +1559,14 @@
               "volume": "41",
               "year": "2009"
             },
-            "text": "Is bone’s response to mechanical signals dominated by muscle forces?",
+            "offset": 29200,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Is bone’s response to mechanical signals dominated by muscle forces?"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29271,
             "infons": {
               "fpage": "14",
               "issue": "1",
@@ -1586,14 +1584,14 @@
               "volume": "50",
               "year": "2012"
             },
-            "text": "Cortical bone resorption following muscle paralysis is spatially heterogeneous",
+            "offset": 29271,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cortical bone resorption following muscle paralysis is spatially heterogeneous"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29350,
             "infons": {
               "fpage": "541",
               "issue": "6",
@@ -1608,14 +1606,14 @@
               "volume": "87",
               "year": "2010"
             },
-            "text": "Muscle changes can account for bone loss after botulinum toxin injection",
+            "offset": 29350,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Muscle changes can account for bone loss after botulinum toxin injection"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29423,
             "infons": {
               "fpage": "1118",
               "issue": "5",
@@ -1633,14 +1631,14 @@
               "volume": "29",
               "year": "2014"
             },
-            "text": "Interdependence of muscle atrophy and bone loss induced by mechanical unloading",
+            "offset": 29423,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Interdependence of muscle atrophy and bone loss induced by mechanical unloading"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29503,
             "infons": {
               "fpage": "2185",
               "issue": "6",
@@ -1655,14 +1653,14 @@
               "volume": "95",
               "year": "2003"
             },
-            "text": "Skeletal muscle unweighting: spaceflight and ground-based models",
+            "offset": 29503,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Skeletal muscle unweighting: spaceflight and ground-based models"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29568,
             "infons": {
               "fpage": "1019",
               "issue": "6",
@@ -1680,14 +1678,14 @@
               "volume": "36",
               "year": "2005"
             },
-            "text": "Muscle atrophy and bone loss after 90 days’bed rest and the effects of flywheel resistive exercise and pamidronate: results from the LTBR study",
+            "offset": 29568,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Muscle atrophy and bone loss after 90 days’bed rest and the effects of flywheel resistive exercise and pamidronate: results from the LTBR study"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29714,
             "infons": {
               "fpage": "2191",
               "issue": "10",
@@ -1705,14 +1703,14 @@
               "volume": "47",
               "year": "2015"
             },
-            "text": "Extending Rest between Unloading Cycles Does Not Enhance Bone’s Long-Term Recovery",
+            "offset": 29714,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Extending Rest between Unloading Cycles Does Not Enhance Bone’s Long-Term Recovery"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29799,
             "infons": {
               "fpage": "317",
               "issue": "3",
@@ -1727,14 +1725,14 @@
               "volume": "33",
               "year": "2000"
             },
-            "text": "Quantifying the strain history of bone: spatial uniformity and self- similarity of low-magnitude strains",
+            "offset": 29799,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Quantifying the strain history of bone: spatial uniformity and self- similarity of low-magnitude strains"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 29904,
             "infons": {
               "fpage": "3",
               "issue": "1",
@@ -1748,15 +1746,18 @@
               "volume": "10",
               "year": "2010"
             },
-            "text": "Is bone formation induced by high-frequency mechanical signals modulated by muscle activity?",
+            "offset": 29904,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Is bone formation induced by high-frequency mechanical signals modulated by muscle activity?"
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC",
+    "version": "1.0"
   }
 ]

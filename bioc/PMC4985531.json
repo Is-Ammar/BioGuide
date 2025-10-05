@@ -1,22 +1,20 @@
 [
   {
     "bioctype": "BioCCollection",
-    "source": "PMC",
     "date": "20250705",
-    "key": "pmc.key",
-    "version": "1.0",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
         "bioctype": "BioCDocument",
+        "full_text": "Hypothalamic Leptin Gene Therapy Reduces Bone Marrow Adiposity in ob/ob Mice Fed Regular and High-Fat Diets\nLow bone mass is often associated with elevated bone marrow adiposity. Since osteoblasts and adipocytes are derived from the same mesenchymal stem cell (MSC) progenitor, adipocyte formation may increase at the expense of osteoblast formation. Leptin is an adipocyte-derived hormone known to regulate energy and bone metabolism. Leptin deficiency and high-fat diet-induced obesity are associated with increased marrow adipose tissue (MAT) and reduced bone formation. Short-duration studies suggest that leptin treatment reduces MAT and increases bone formation in leptin-deficient ob/ob mice fed a regular diet. Here, we determined the long-duration impact of increased hypothalamic leptin on marrow adipocytes and osteoblasts in ob/ob mice following recombinant adeno-associated virus (rAAV) gene therapy. Eight- to 10-week-old male ob/ob mice were randomized into four groups: (1) untreated, (2) rAAV-Lep, (3) rAAV-green fluorescent protein (rAAV-GFP), or (4) pair-fed to rAAV-Lep. For vector administration, mice were injected intracerebroventricularly with either rAAV-leptin gene therapy (rAAV-Lep) or rAAV-GFP (9 × 107 particles) and maintained for 30 weeks. In a second study, the impact of increased hypothalamic leptin levels on MAT was determined in mice fed high-fat diets; ob/ob mice were randomized into two groups and treated with either rAAV-Lep or rAAV-GFP. At 7 weeks post-vector administration, half the mice in each group were switched to a high-fat diet for 8 weeks. Wild-type (WT) controls included age-matched mice fed regular or high-fat diet. High-fat diet resulted in a threefold increase in MAT in WT mice, whereas MAT was increased by leptin deficiency up to 50-fold. Hypothalamic leptin gene therapy increased osteoblast perimeter and osteoclast perimeter with minor change in cancellous bone architecture. The gene therapy decreased MAT levels in ob/ob mice fed regular or high-fat diet to values similar to WT mice fed regular diet. These findings suggest that leptin plays an important role in regulating the differentiation of MSCs to adipocytes and osteoblasts, a process that may be dysregulated by high-fat diet. However, the results also illustrate that reducing MAT by increasing leptin levels does not necessarily result in increased bone mass.\nIntroduction\nAdipose tissue in bone marrow may contribute to metabolic health through its effects on local energy balance and/or its actions as an endocrine organ. Low bone mass is often associated with elevated bone marrow adiposity. Bone marrow contains mesenchymal stem cells (MSCs) capable of differentiating into cells of the osteoblastic and adipocytic lineages. A reciprocal relationship between the number of mature osteoblasts and bone marrow adipocytes may occur as a consequence of differentiation of MSCs toward one lineage at the expense of the other lineage. Mechanistically, peroxisome proliferator-activated receptor gamma (PPARγ), a transcription factor that plays a key role in regulation of adipogenesis and lipid uptake, has been implicated as a factor controlling MSC differentiation. Inhibition of PPARγ increases osteoblast differentiation while decreasing adipocyte differentiation. Osteoblast-targeted overexpression of PPARγ inhibits bone mass gain in male mice and increases ovariectomy-induced osteopenia in female mice. Furthermore, cultured adipocytes release factors capable of inducing osteoblast linage cells to differentiate into an adipocyte-like phenotype. Thus, excessive marrow adipose tissue (MAT) has the potential to directly and/or indirectly reduce bone mass by inhibiting osteoblast differentiation. As such, an increase in MAT may contribute to osteoporosis in conditions, such as menopause, skeletal disuse, alcohol abuse, and eating disorders.\nInterestingly, anorexia and obesity both result in increased MAT. Anorexia is commonly associated with reduced bone mineral density (BMD) and increased fracture risk. By contrast, being overweight is generally associated with increased BMD and reduced fracture risk. However, recent studies suggest that morbid obesity has negative effects on bone quality. Thus, it is possible that the increase in MAT plays a role in the detrimental skeletal changes associated with both extremes in body weight.\nLeptin, an adipokine produced in proportion to fat mass, plays a critical role in central nervous system-mediated regulation of energy homeostasis. Additionally, leptin plays an important positive role in skeletal growth and maturation. Indeed, leptin signaling deficiency results in abnormal growth plate development and mild osteopetrosis.\nLeptin suppresses PPARγ expression and increases lipolysis in adipose tissue in rodents. In parallel, leptin increases longitudinal bone growth, osteoblastogenesis and bone formation. Thus, the low leptin levels resulting from insufficient adipose tissue observed in anorexia may contribute to increased MAT and decreased bone formation. In contrast to anorexia, obesity typically results in increased leptin levels which, in turn, should suppress MAT. Many authors have concluded that leptin resistance plays an important role in hyperphagia and weight gain associated with obesity. Thus, leptin resistance may counteract the expected response to elevated leptin levels and thereby contribute to an increase in MAT during obesity. However, some new studies question whether resistance to endogenous leptin contributes to development of diet-induced obesity in mice. If leptin resistance is a major contributor to the etiology of obesity, it may be overcome in normal rodents, at least in part, by increasing hypothalamic leptin levels. Whatever its precise role in diet-induced obesity, it is clear that leptin resistance resulting from loss of function of the leptin receptor (db/db mice), in addition to inducing morbid obesity, results in profound negative effects on the skeleton. Furthermore, some of these negative skeletal effects (e.g., reduced bone formation) are recapitulated, without impacting energy metabolism, following adoptive transfer of bone marrow from db/db mice into wild-type (WT) mice.\nLeptin-deficient ob/ob and leptin receptor-deficient db/db mice exhibit excessive MAT in long bones. Short-term delivery of leptin into the hypothalamus was shown to reduce peripheral fat depots as well as MAT. However, the long-term effects of increased leptin levels on MAT have not been well characterized. Hypothalamic leptin gene therapy has been shown to result in life-long reductions in body weight in ob/ob mice. The goal of the present study was to determine the long-duration effects of increased hypothalamic leptin, using recombinant adeno-associated virus leptin gene therapy (rAAV-Lep), on bone marrow adiposity in morbidly obese ob/ob mice. Given that the energy density of a diet impacts weight gain and MAT levels, the effects of a regular and high energy density (high fat) diet were also evaluated.\nMaterials and Methods\nExperimental Animals\nEight- to 10-week-old male WT C57BL/6J (B6) and leptin-deficient ob/ob mice on the same genetic background were obtained from Jackson Laboratory (Bar Harbor, ME, USA). This age corresponds to peak cancellous bone volume fraction in the femur metaphysis. The mice were maintained in accordance with the NIH Guide for the Care and Use of Laboratory Animals and the experimental protocols were approved by the Institutional Animal Care and Use Committee at the University of Florida. The mice were housed individually in a temperature (21–23°C) and light-controlled room (lights on 6:00 a.m. to 6:00 p.m.) under specific pathogen-free conditions.\nExperiment 1: Effects of 30 Weeks of Hypothalamic Leptin Gene Therapy on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice\nFollowing arrival, ob/ob mice were randomized by weight into four treatment groups: (1) untreated (n = 6), (2) control vector encoding green fluorescent protein (rAAV-GFP, n = 7), (3) rAAV-Lep (n = 8), or (4) pair-fed to rAAV-Lep (n = 6). The mice were maintained on standard mouse chow (LM-485, Teklad, Madison, WI, USA) and sacrificed 30 weeks following vector administration at 38–40 weeks of age. This age corresponds to a period immediately prior to a drastic increase in mortality in ob/ob mice – median lifespan in ob/ob mice is 55 weeks compared to 131 weeks in WT mice. The effects of treatment on hypothalamic leptin gene expression, body weight, food intake, hormone levels, organ weights, and cancellous and cortical bone architecture evaluated by microcomputed tomography in this study are detailed elsewhere.\nExperiment 2: Effects of 15 Weeks of Hypothalamic Leptin Gene Therapy and 8 Weeks of High-Fat Diet on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice\nExperiment 2 was conducted using WT and ob/ob mice. Following arrival, WT mice (n = 12) were maintained on regular chow (LM-485, Teklad, Madison, WI, USA; caloric density 3.4 kcal/g, 11% of kcal from fat) until 15–17 weeks of age and then randomized by weight into two groups: (1) control (n = 3) or (2) high-fat diet (n = 9). Mice in the control group continued to consume the regular diet ad libitum while mice in the high-fat group were placed on a high-fat diet (caloric density 4.7 kcal/g; 45% of kcal from fat, primarily from lard; Research Diets, New Brunswick, NJ, USA) fed ad libitum. The mice were sacrificed 8 weeks later at 23–25 weeks of age – an age corresponding to cessation of linear growth in B6 mice.\nIn conjunction, ob/ob mice were randomized by weight into two treatment groups: rAAV-Lep (n = 16) or control vector rAAV-GFP (n = 14). At 7 weeks post-vector administration, rAAV-GFP and rAAV-Lep mice were each divided into two groups: one group continued to consume regular diet and the other was switched to a high-fat diet as described above for WT mice. The mice were sacrificed 8 weeks later at 23–25 weeks of age (15 weeks following vector administration). The effect of the rAAV-Lep pretreatment and high-fat diet on hypothalamic leptin gene expression, body weight, food intake, organ weights, hormone levels, and cancellous and cortical bone architecture determined by microcomputed tomography are detailed elsewhere.\nConstruction and Packaging of rAAV Vectors\nrAAV-leptin gene therapy and rAAV-GFP vectors were constructed and packaged as previously described. In brief, the vector pTR-CBA-Ob EcoRI fragment of pCR-rOb containing rat leptin cDNA was subcloned into rAAV vector plasmid pAAVβGEnh after deleting the EcoRI fragment carrying the β-glucoronidase cDNA sequence. The control vector, rAAV-GFP, was similarly constructed to encode the GFP gene.\nVector Administration\nFor vector administration, the mice were anesthetized with sodium pentobarbital (60 mg/kg, i.p.), placed on a Kopf stereotaxic apparatus with mouse adapter for intracerebroventricular injection, and injected intracerebroventricularly with either rAAV-Lep (9 × 107 particles in 1.5 μl) or rAAV-GFP (9 × 107 particles in 1.5 μl). The coordinates employed for microinjector placement in the third cerebroventricle were 0.3 mm posterior to bregma, 0.0 lateral to midline, and 4.2 mm below the dura.\nTissue Collection and Analyses\nAt the end of each experiment mice were anesthetized with sodium pentobarbital (60 mg/kg; i.p.) and euthanized by exsanguination. Femora were excised, cleaned of soft tissue, and stored in 70% ethanol. Femora were prepared for histomorphometric evaluation as described. In brief, distal femora were dehydrated in graded increases of ethanol and xylene and embedded undecalcified in methyl methacrylate. Frontal sections (4 μm thick) were cut with a vertical bed microtome (Leica 2165) and affixed to slides precoated with a 1% gelatin solution. One section/animal was stained for tartrate-resistant acid phosphatase and counterstained with toluidine blue (Sigma, St Louis, MO, USA) for assessment of bone and cell-based measurements.\nHistomorphometric data were collected using the OsteoMeasure System (OsteoMetrics, Inc., Atlanta, GA, USA). The sampling site for the distal femoral metaphysis was located 0.25–1.25 mm proximal to the growth plate and 0.1 mm from cortical bone. Cancellous bone measurements included bone area fraction (bone area/tissue area, %) and the derived architectural indices of trabecular number (mm−1), trabecular thickness (micrometer), and trabecular separation (micrometer). Measurements of MAT included overall marrow adiposity (adipose area/tissue area, %), adipocyte density (mm−2), and adipocyte size (micrometers2). Adipocytes were identified as large circular or oval-shaped cells bordered by a prominent cell membrane and lacking cytoplasmic staining due to alcohol extraction of intracellular lipids during processing. This method has been validated by fat extraction and analysis. Osteoblast and osteoclast perimeters were also measured and expressed as % of total bone perimeter. Osteoblasts were identified as plump cuboidal cells immediately adjacent to a thin layer of osteoid in direct contact with the bone perimeter. Osteoclasts were identified as multinucleated (two or more nuclei) cells with acid phosphatase positive (red-stained) cytoplasm in contact with the bone perimeter. Data are reported using standard two-dimensional nomenclature.\nStatistical Analysis\nMean responses for Experiment 1 were compared among the untreated, rAAV-GFP, rAAV-Lep, and pair-fed groups using one-way analysis of variance. For Experiment 2, the effects of treatment and diet were assessed using two-way analysis of variance. Pairwise comparisons were made using t-tests or the Wilcoxon–Mann–Whitney test. The required conditions for valid use of linear models were assessed using Levene’s test for homogeneity of variance, plots of residuals versus fitted values, normal quantile plots, and the Anderson–Darling test of normality. The Benjamini and Hochberg method for maintaining the false discovery rate at 5% was used to adjust for multiple comparisons. Data analysis was performed using R version 3.3.2.\nResults\nExperiment 1: Effects of 30 Weeks of Hypothalamic Leptin Gene Therapy on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice\nThe effects of treatment on body weight and on cancellous bone in the distal femur metaphysis are shown in Table 1. rAAV-Lep treatment resulted in lower body weight compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences in cancellous bone area fraction, trabecular number, or trabecular spacing were not detected with treatment. However, trabecular thickness was lower in rAAV-Lep-treated mice compared to untreated and rAAV-GFP-treated mice, but did not differ from pair-fed ob/ob mice.\nEffects of hypothalamic leptin gene therapy (rAAV-Lep) on body weight and cancellous bone architecture in distal femur metaphysis in ob/ob male mice at 30 weeks post-vector administration.\n\tob/ob Mice\tANOVA FDR adjusted P\t \tUntreated (n = 6)\trAAV-GFP (n = 7)\trAAV-Lep (n = 8)\tPair-fed (n = 6)\t \tBody weight (g)\t70 ± 2\t68 ± 2\t29 ± 3a–c\t63 ± 2\t<0.001*\t \tBone area/tissue area (%)\t8.3 ± 1.1\t7.2 ± 0.9\t5.3 ± 1.0\t5.7 ± 0.7\t0.225\t \tTrabecular thickness (μm)\t35 ± 2\t34 ± 1\t26 ± 2a,b\t31 ± 2\t0.009\t \tTrabecular number (mm−1)\t2.3 ± 0.2\t2.1 ± 0.2\t2.0 ± 0.2\t1.8 ± 0.2\t0.645\t \tTrabecular spacing (μm)\t416 ± 42\t470 ± 38\t542 ± 71\t547 ± 73\t0.588\t \t\nData are mean ± SE.\n*Previously reported .\naDifferent from untreated, P < 0.05.\nbDifferent from rAAV-GFP, P < 0.05.\ncDifferent from pair-fed, P < 0.05.\nThe effects of treatment on MAT in the distal femur metaphysis are shown in Figure 1. Marrow adiposity (adipose area/tissue area) (Figure 1A), adipocyte density (Figure 1B), and adipocyte size (Figure 1C) were lower in rAAV-Lep-treated mice compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences among untreated, rAAV-GFP-treated, and pair-fed mice were not detected for any of the MAT measurements. The effects of rAAV-Lep treatment on marrow adiposity can be readily appreciated in Figures 1D–G.\nEffects of hypothalamic leptin gene therapy (rAAV-Lep) on marrow adipose tissue in distal femur metaphysis in male ob/ob mice at 30 weeks post-vector administration. Bone marrow adiposity (A), adipocyte density (B), and adipocyte size (C) were decreased with rAAV-Lep treatment. The effects of treatment on marrow adipose tissue in the femoral metaphysis can be readily appreciated in representative micrographs from an untreated (D), rAAV-GFP-treated (E), rAAV-Lep-treated (F), and pair-fed to rAAV-Lep (G) mouse. Please see Figures 2C–F for representative higher magnification images. Data are mean ± SE (n = 6–8/group). aDifferent from untreated, bdifferent from rAAV-GFP, and cdifferent from pair-fed, P < 0.05.\nThe effects of treatment on osteoblast perimeter and osteoclast perimeter in the distal femur metaphysis are shown in Figure 2. Osteoblast perimeter (Figure 2A) and osteoclast perimeter (Figure 2B) were higher in rAAV-Lep-treated mice compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences among untreated, rAAV-GFP-treated, and pair-fed mice were not detected for either of the cellular endpoints evaluated. The effects of rAAV-Lep treatment on osteoblast and osteoclast perimeter can be appreciated in Figures 2C–F.\nEffects of hypothalamic leptin gene therapy (rAAV-Lep) on osteoblast perimeter, an index of bone formation, and osteoclast perimeter, an index of bone resorption, in distal femur metaphysis in male ob/ob mice at 30 weeks post-vector administration. Osteoblast perimeter (A) and osteoclast perimeter (B) were increased with rAAV-Lep treatment. The effects of treatment on osteoclast perimeter, an index of bone resorption, can be readily appreciated in representative micrographs from an untreated (C), rAAV-GFP-treated (D), rAAV-Lep-treated (E), and pair-fed to rAAV-Lep (F) mouse. Data are mean ± SE (n = 6–8/group). aDifferent from untreated, bdifferent from rAAV-GFP, and cdifferent from pair-fed, P < 0.05. Asterisks demarcate adipocytes.\nExperiment 2: Effects of 15 Weeks of Hypothalamic Leptin Gene Therapy and 8 Weeks of High-Fat Diet on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice\nThe effects of rAAV-Lep pretreatment and high-fat diet on body weight and on cancellous bone in distal femur metaphysis are shown in Table 2. Body weight was higher in WT mice fed high-fat diet compared to WT mice fed regular diet. Body weight was also higher in ob/ob mice fed high fat compared to ob/ob mice fed regular diet and rAAV-Lep treatment resulted in lower body weight. Cancellous bone area fraction, trabecular thickness, and trabecular number were higher and trabecular spacing was lower in WT mice fed high-fat diet compared to WT mice fed regular diet. rAAV-Lep treatment in ob/ob mice resulted in lower cancellous bone area fraction and trabecular thickness. Significant differences in trabecular number or trabecular spacing were not detected with treatment in the ob/ob mice. With the exception of trabecular thickness, which was lower, significant differences between WT mice and rAAV-Lep-treated ob/ob mice fed regular diets were not detected for any of the remaining cancellous endpoints evaluated.\nEffects of high-fat diet and rAAV-Lep pretreatment and high fat diet on terminal body weight and cancellous bone architecture in distal femur metaphysis in male WT and ob/ob mice, respectively.\n\t\tob/ob Mice\t\t \tWT mice\trAAV-GFP\trAAV-Lep\tANOVA P\t \tRegular diet (n = 3)\tHigh-fat diet (n = 9)\tT-test P\tRegular diet (n = 5)\tHigh-fat diet (n = 9)\tRegular diet (n = 8)\tHigh-fat diet (n = 8)\tVector\tDiet\tInteraction\t \tBody weight (g)\t29 ± 1\t38 ± 1\t0.014\t56 ± 2\t66 ± 2\t28 ± 3\t33 ± 2\t0.000\t0.003\t0.307*\t \tBone area/tissue area (%)\t7.1 ± 1.0\t11.5 ± 0.8\t0.009\t7.9 ± 0.9\t9.9 ± 1.0\t7.1 ± 0.7\t6.6 ± 0.6\t0.016\t0.486\t0.159\t \tTrabecular thickness (μm)\t30 ± 0\t38 ± 1\t0.009\t31 ± 1\t34 ± 2\t25 ± 1.1a\t25 ± 1\t0.000\t0.501\t0.330\t \tTrabecular number (mm−1)\t2.3 ± 0.3\t3.0 ± 0.1\t0.020\t2.5 ± 0.2\t2.8 ± 0.1\t2.8 ± 0.2\t2.6 ± 0.1\t0.950\t0.658\t0.115\t \tTrabecular spacing (μm)\t412 ± 62\t297 ± 12\t0.014\t379 ± 29\t323 ± 16\t340 ± 19\t363 ± 24\t0.764\t0.608\t0.083\t \t\nData are mean ± SE.\n*Previously reported .\naDifferent from WT mice fed regular diet.\nThe effects of treatment on marrow adiposity in distal femur metaphysis are shown in Figure 3. Marrow adiposity and adipocyte size were higher in WT mice fed high-fat diet compared to mice fed regular diet. Significant differences in adipocyte density were not detected with diet in WT mice. rAAV-Lep treatment in ob/ob mice resulted in lower marrow adiposity due to lower adipocyte density as well as lower adipocyte size. Significant differences in marrow adiposity, adipocyte density, or adipocyte size were not detected between WT and rAAV-Lep-treated ob/ob mice fed regular diet.\nEffects of high-fat diet and rAAV-Lep pretreatment and high-fat diet on bone marrow adiposity (A), adipocyte density (B), and adipocyte size (C) in distal femur metaphysis in male WT and ob/ob mice, respectively. RCD, regular control diet. HFD, high-fat diet. Data are mean ± SE (n = 3–9/group). aDifferent from RCD within WT, P < 0.05.\nDiscussion\nLeptin-deficient ob/ob mice were heavier and had increased MAT in distal femur metaphysis compared to WT mice. Consumption of high-fat diet resulted in increased body weight in both WT mice and ob/ob mice but increased MAT and cancellous bone in WT mice only. rAAV-Lep treatment decreased MAT in ob/ob mice. The reduction in MAT in rAAV-Lep-treated ob/ob mice was accompanied by increases in osteoblast-lined and osteoclast-lined bone perimeter but not by an increase in cancellous bone.\nContinuous and once daily intracerebroventricular administration of leptin were similarly effective in reducing MAT in long bones of ob/ob mice. Based on lower adipocyte number and size and increased concentration of apoptosis marker caspase-3 in bone marrow adipocytes, the reduction in MAT was likely due to a combination of reduced adipocyte differentiation, increased fat oxidation, and increased adipocyte apoptosis. A similar reduction in MAT was observed following subcutaneous leptin administration.\nIn normal female rats, hypothalamic delivery of rAAV-Lep was shown to maintain lower body weight, WAT weight, and serum leptin levels (2.7 ± 0.3 versus 1.0 ± 0.1 ng/ml) for at least 18 weeks following vector administration. By contrast, rAAV-Lep transiently reduced MAT; MAT levels were reduced at 5 weeks but returned to normal levels by 10 weeks following vector administration. Also, hypothalamic rAAV-Lep gene therapy was ineffective in lowering MAT in ovariectomized rats. In the present study, MAT levels in rAAV-Lep-treated ob/ob mice, evaluated 15 and 30 weeks following vector administration, were much lower than age-matched ob/ob controls and comparable to WT mice in Experiment 2. These findings suggest that (1) while very important, the physiological actions of leptin on MAT are primarily manifested at low hormone levels and (2) hyperleptinemia has little further effect on MAT. If correct, this could help explain why some studies fail to detect a relationship between blood leptin levels and MAT. The findings regarding the actions of leptin on MAT are remarkably similar to the actions of the hormone on bone growth, maturation, and turnover. Whereas hypothalamic rAAV-Lep gene therapy corrected the skeletal abnormalities in ob/ob mice, it had minimal long-term impact on bone in rodents capable of producing leptin.\nIt was initially hypothesized that the complex skeletal phenotype of ob/ob mice was due to opposing actions of peripheral and central leptin on bone formation. However, subcutaneous and intracerebroventricular delivery of leptin were found to similarly increase bone formation in ob/ob mice. Additionally, long-duration hypothalamic leptin gene therapy was shown to normalize bone microarchitecture in ob/ob mice; specifically, increasing hypothalamic leptin levels resulted in increased femur length and total femur bone volume but decreased cancellous bone volume fraction in lumbar vertebra. These latter findings imply that, in addition to increasing longitudinal bone growth, delivery of leptin into the hypothalamus results in increased bone formation as well as increased bone resorption. Thus, an imbalance between bone formation and resorption related to local environment (e.g., precursor cell populations, mechanical loads, paracrine factors, etc.) potentially explains the contrasting phenotypes that have been identified in bones of the limb and spine in ob/ob mice.\nBone- and bone compartment-specific changes in microarchitecture in response to hormonal regulators of bone metabolism and mechanical loading environment are not unique to leptin. For example, by regulating longitudinal and radial bone growth and bone turnover balance, estrogens, and androgens contribute to sexual dimorphism of the skeleton. In this regard, administration of estrogen to growing ovariectomized rats results in shorter bones with lower total bone mass but higher site-specific cancellous bone volume. Ovariectomized rats also experience increased MAT expansion. ob/ob mice of both genders are hypogonadal due to reduced GnRH secretion, a defect that is reversed following leptin treatment. Thus, it is possible that hypogonadism contributes to MAT expansion in ob/ob mice. Expansion of MAT during caloric restriction in WT mice was associated with increased circulation of glucocorticoids, while caloric restriction resulted in a further increase in the already high levels of MAT in leptin-deficient ob/ob mice. These findings provide evidence that multiple factors, including leptin, regulate MAT levels.\nAs previously mentioned, short-duration delivery of leptin into the hypothalamus increased bone formation. Similarly, hypothalamic leptin gene therapy increased serum osteocalcin levels and osteoblast perimeter in lumbar vertebra of ob/ob mice. In the present study, hypothalamic leptin gene therapy increased osteoblast perimeter in distal femur metaphysis in ob/ob mice 30 weeks following vector administration. These findings indicate that leptin promotes higher levels of bone formation prior to and following restoration of normal body weight and bone mass in ob/ob mice.\nThe increased cancellous bone volume fraction observed at selected skeletal sites (lumbar vertebrae) in ob/ob mice was initially attributed to increased bone formation, suggesting that leptin was antiosteogenic. However, subsequent studies consistently reported decreased bone formation in ob/ob mice and leptin receptor-deficient db/db mice, and increased bone formation following intracerebroventricular delivery of leptin, leptin gene therapy, or subcutaneous administration of leptin in ob/ob mice. Leptin signaling-deficient (ob/ob and db/db) mice have normal or increased osteoclast number but exhibit evidence for impaired osteoclast function. As a consequence, these mice exhibit impaired skeletal maturation due to defective resorption of calcified cartilage. Specifically, the high cancellous bone volume fraction represents mild osteopetrosis. In the present study in ob/ob mice, rAAV-Lep resulted in increased osteoclast-lined bone perimeter. Thus, the failure to detect an increase in cancellous bone volume fraction in the femur metaphysis in response to higher leptin levels is likely due to parallel increases in bone formation and bone resorption.\nHigh MAT levels in ob/ob mice are associated with low cancellous bone turnover. In the present study, rAAV-Lep resulted in increases in osteoclast-lined perimeter as well as osteoblast-lined bone perimeter and greatly reduced MAT with minimal change in cancellous bone area fraction. High MAT levels are not unique to leptin deficiency. Growth hormone deficiency in rats and mice induced by hypophysectomy or deletion of the gene for growth hormone, respectively, is also associated with high MAT and low bone turnover. In the case of growth hormone deficiency, parathyroid hormone was found to increase bone formation in hypophysectomized rats without impacting MAT levels, demonstrating that bone formation induced by bone anabolic agents is not suppressed by high levels of MAT. Similarly, although bone formation was increased, the absence of MAT in kitW/W-v mice did not protect against ovariectomy-induced bone loss. Taken together, these findings suggest that bone resorption as well as bone formation can be impacted during changes in MAT levels and interventions that target MAT may not necessarily change bone turnover balance.\nA positive association between body weight and bone mass was observed in ob/ob as well as WT mice. However, leptin appears to sensitize the skeleton to bone mechanical loading. This may explain why leptin-deficient mice have a low total bone mass even though they are morbidly obese and why the massive weight loss in ob/ob mice following leptin treatment is actually associated with a net increase in bone mass.\nConditional knockout of the leptin receptor in bone marrow stromal cells has been reported to result in local increases in osteogenesis and decreased adipogenesis. It is difficult to reconcile these findings with the skeletal phenotype of leptin receptor-deficient mice or with the present results demonstrating that increasing hypothalamic leptin levels profoundly reduces MAT levels. Evidence that factors secondary to leptin deficiency are responsible for the discrepancy, as suggested by Yue et al., are presently lacking and correction of many of the metabolic abnormalities associated with leptin deficiency (e.g., hyperglycemia), rather than improving, actually worsens the skeletal phenotype of ob/ob mice. Also inexplicable by Yue et al. is the finding that adoptive transfer of leptin receptor-deficient db/db bone marrow cells into WT mice recapitulates the low bone formation skeletal phenotype of db/db mice without impacting food intake or weight gain. It is possible that the role of leptin receptors in regulating bone metabolism depends upon stage of stromal cell differentiation, but this requires additional research.\nA limitation of the present study is that MAT measurements were performed at a single skeletal site and MAT subtypes were not evaluated. The lipid composition and physiological function of MAT can vary with location and/or regulatory factors, such as growth hormone status. A further limitation of most studies, including the present study, is that they have been performed housing mice at room temperature. Thermoneutral (temperature range where basal rate of energy production is at equilibrium with heat loss) in mice ranges from 26 to 34°C. Mild cold stress induced by room temperature housing results in dramatic cancellous bone loss at the femur metaphysis. Interestingly, mice housed at 32°C consumed ~40% less food (fed ad libitum) but did not differ from room temperature-housed mice in weight. In addition to higher bone mass, mice housed at 32°C had greatly reduced UCP-1 gene expression in brown fat, higher serum leptin, higher MAT levels due to increased adipocyte number, higher bone formation rate to due higher osteoblast perimeter, and lower osteoclast perimeter. These findings suggest that non-shivering thermogenesis substantially influences the association between leptin, MAT, and bone cells.\nIn summary, hypothalamic leptin gene therapy maintained low MAT levels in ob/ob mice fed regular or high-fat diet. The reduction in MAT was accompanied by an increase in osteoblast-lined bone perimeter but not an increase in cancellous bone volume fraction. The increase in osteoclast-lined bone perimeter suggests that the increase in bone formation was matched by an increase in bone resorption. These findings provide further evidence that a deterministic model where reducing MAT will invariably lead to increased bone volume is not tenable. As a consequence, interventions targeted at reducing MAT may not be an effective strategy for increasing bone mass.\nAuthor Contributions\nStudy design: SK. Data acquisition: LL, KP, and RT. Data analysis: AB. Data interpretation: LL, KP, AB, SK, RT, and UI. Drafting of manuscript: LL, RT, and UI. Revising manuscript content: LL, KP, AB, SK, RT, and UI. Approving final version of manuscript: LL, KP, AB, SK, RT, and UI. All authors take responsibility for the integrity of this work.\nConflict of Interest Statement\nThe authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.\nFunding\nThis study was supported by NIH AR060913, NASA NNX12AL24, and USDA 38420-17804.\nReferences\nBone marrow adipose tissue is an endocrine organ that contributes to increased circulating adiponectin during caloric restriction\nAssessment of bone marrow changes in postmenopausal women with varying bone densities: magnetic resonance spectroscopy and diffusion magnetic resonance imaging\nPrecedence of the shift of body-fat distribution over the change in body composition after menopause\nMarrow stromal cells as stem cells for nonhematopoietic tissues\nPPARgamma insufficiency enhances osteogenesis through osteoblast formation from bone marrow progenitors\nOsteoblast-targeted overexpression of PPARgamma inhibited bone mass gain in male mice and accelerated ovariectomy-induced bone loss in female mice\nIncreased fat due to estrogen deficiency induces bone loss by elevating monocyte chemoattractant protein-1 (MCP-1) production\nAlcohol alters whole body composition, inhibits bone formation, and increases bone marrow adiposity in rats\nBone marrow fat accumulation after 60 days of bed rest persisted 1 year after activities were resumed along with hemopoietic stimulation: the Women International Space Simulation for Exploration study\nIncreased bone marrow fat in anorexia nervosa\nEffects of obesity on bone metabolism\nWomen with severe obesity and relatively low bone mineral density have increased fracture risk\nInfluence of body weight on bone mass, architecture, and turnover\nLeptin and the regulation of body weight in mammals\nLeptin is a potent stimulator of bone growth in ob/ob mice\nPeripheral leptin regulates bone formation\nLeptin regulates chondrocyte differentiation and matrix maturation during endochondral ossification\nMorbid obesity attenuates the skeletal abnormalities associated with leptin deficiency in mice\nLeptin regulation of peroxisome proliferator-activated receptor-gamma, tumor necrosis factor, and uncoupling protein-2 expression in adipose tissues\nImpaired transport of leptin across the blood-brain barrier in obesity is acquired and reversible\nNew insights in leptin resistance mechanisms in mice\nDiet-induced obese mice retain endogenous leptin action\nCentral leptin versus ghrelin: effects on bone marrow adiposity and gene expression\nInjections of leptin into rat ventromedial hypothalamus increase adipocyte apoptosis in peripheral fat and in bone marrow\nLeptin gene transfer in the hypothalamus enhances longevity in adult monogenic mutant mice in the absence of circulating leptin\nA high fat diet increases bone marrow adipose tissue (MAT) but does not alter trabecular or cortical bone mass in C57BL/6J mice\nAge-related changes in trabecular architecture differ in female and male C57BL/6J mice\nCentral leptin gene therapy corrects skeletal abnormalities in leptin-deficient ob/ob mice\nHypothalamic clamp on insulin release by leptin-transgene expression\nBody mass influences cortical bone mass independent of leptin signaling\nLong-term suppression of weight gain, adiposity, and serum insulin by central leptin gene therapy in prepubertal rats: effects on serum ghrelin and appetite-regulating genes\nHistological analysis of bone\nGrowth hormone regulates the balance between bone formation and bone marrow adiposity\nStandardized nomenclature, symbols, and units for bone histomorphometry: a 2012 update of the report of the ASBMR Histomorphometry Nomenclature Committee\nControlling the false discovery rate: a practical and powerful approach to multiple testing\nCentral (ICV) leptin injection increases bone formation, bone mineral density, muscle mass, serum IGF-1, and the expression of osteogenic genes in leptin-deficient ob/ob mice\nLeptin treatment induces loss of bone marrow adipocytes and increases bone formation in leptin-deficient ob/ob mice\nHypothalamic leptin gene therapy prevents weight gain without long-term detrimental effects on bone in growing and skeletally mature female rats\nEffects of increased hypothalamic leptin gene expression on ovariectomy-induced bone loss in rats\nLeptin reduces ovariectomy-induced bone loss in rats\nLeptin deficiency produces contrasting phenotypes in bones of the limb and spine\nSkeletal effects of estrogen\nHypothalamic sites of leptin action linking metabolism and reproduction\nLeptin increases osteoblast-specific osteocalcin release through a hypothalamic relay\nLeptin inhibits bone formation through a hypothalamic relay: a central control of bone mass\nFailure to generate bone marrow adipocytes does not protect mice from ovariectomy-induced osteopenia\nParadoxical effects of partial leptin deficiency on bone in growing female mice\nLeptin receptor promotes adipogenesis and reduces osteogenesis by regulating mesenchymal stromal cells in adult bone marrow\nSkeletal phenotype of the leptin receptor-deficient db/db mouse\nLeptin functions peripherally to regulate differentiation of mesenchymal progenitor cells\nRegion-specific variation in the properties of skeletal adipocytes reveals regulated and constitutive marrow adipose tissues\n\nRoom temperature housing results in premature cancellous bone loss in growing female mice: implications for the mouse as a preclinical model for age-related bone loss",
         "id": "PMC4985531",
         "infons": {
           "license": "CC BY"
         },
         "passages": [
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 0,
             "infons": {
               "article-id_doi": "10.3389/fendo.2016.00110",
               "article-id_pmc": "PMC4985531",
@@ -35,352 +33,352 @@
               "volume": "7",
               "year": "2016"
             },
-            "text": "Hypothalamic Leptin Gene Therapy Reduces Bone Marrow Adiposity in ob/ob Mice Fed Regular and High-Fat Diets",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hypothalamic Leptin Gene Therapy Reduces Bone Marrow Adiposity in ob/ob Mice Fed Regular and High-Fat Diets"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 108,
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "Low bone mass is often associated with elevated bone marrow adiposity. Since osteoblasts and adipocytes are derived from the same mesenchymal stem cell (MSC) progenitor, adipocyte formation may increase at the expense of osteoblast formation. Leptin is an adipocyte-derived hormone known to regulate energy and bone metabolism. Leptin deficiency and high-fat diet-induced obesity are associated with increased marrow adipose tissue (MAT) and reduced bone formation. Short-duration studies suggest that leptin treatment reduces MAT and increases bone formation in leptin-deficient ob/ob mice fed a regular diet. Here, we determined the long-duration impact of increased hypothalamic leptin on marrow adipocytes and osteoblasts in ob/ob mice following recombinant adeno-associated virus (rAAV) gene therapy. Eight- to 10-week-old male ob/ob mice were randomized into four groups: (1) untreated, (2) rAAV-Lep, (3) rAAV-green fluorescent protein (rAAV-GFP), or (4) pair-fed to rAAV-Lep. For vector administration, mice were injected intracerebroventricularly with either rAAV-leptin gene therapy (rAAV-Lep) or rAAV-GFP (9 × 107 particles) and maintained for 30 weeks. In a second study, the impact of increased hypothalamic leptin levels on MAT was determined in mice fed high-fat diets; ob/ob mice were randomized into two groups and treated with either rAAV-Lep or rAAV-GFP. At 7 weeks post-vector administration, half the mice in each group were switched to a high-fat diet for 8 weeks. Wild-type (WT) controls included age-matched mice fed regular or high-fat diet. High-fat diet resulted in a threefold increase in MAT in WT mice, whereas MAT was increased by leptin deficiency up to 50-fold. Hypothalamic leptin gene therapy increased osteoblast perimeter and osteoclast perimeter with minor change in cancellous bone architecture. The gene therapy decreased MAT levels in ob/ob mice fed regular or high-fat diet to values similar to WT mice fed regular diet. These findings suggest that leptin plays an important role in regulating the differentiation of MSCs to adipocytes and osteoblasts, a process that may be dysregulated by high-fat diet. However, the results also illustrate that reducing MAT by increasing leptin levels does not necessarily result in increased bone mass.",
+            "offset": 108,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Low bone mass is often associated with elevated bone marrow adiposity. Since osteoblasts and adipocytes are derived from the same mesenchymal stem cell (MSC) progenitor, adipocyte formation may increase at the expense of osteoblast formation. Leptin is an adipocyte-derived hormone known to regulate energy and bone metabolism. Leptin deficiency and high-fat diet-induced obesity are associated with increased marrow adipose tissue (MAT) and reduced bone formation. Short-duration studies suggest that leptin treatment reduces MAT and increases bone formation in leptin-deficient ob/ob mice fed a regular diet. Here, we determined the long-duration impact of increased hypothalamic leptin on marrow adipocytes and osteoblasts in ob/ob mice following recombinant adeno-associated virus (rAAV) gene therapy. Eight- to 10-week-old male ob/ob mice were randomized into four groups: (1) untreated, (2) rAAV-Lep, (3) rAAV-green fluorescent protein (rAAV-GFP), or (4) pair-fed to rAAV-Lep. For vector administration, mice were injected intracerebroventricularly with either rAAV-leptin gene therapy (rAAV-Lep) or rAAV-GFP (9 × 107 particles) and maintained for 30 weeks. In a second study, the impact of increased hypothalamic leptin levels on MAT was determined in mice fed high-fat diets; ob/ob mice were randomized into two groups and treated with either rAAV-Lep or rAAV-GFP. At 7 weeks post-vector administration, half the mice in each group were switched to a high-fat diet for 8 weeks. Wild-type (WT) controls included age-matched mice fed regular or high-fat diet. High-fat diet resulted in a threefold increase in MAT in WT mice, whereas MAT was increased by leptin deficiency up to 50-fold. Hypothalamic leptin gene therapy increased osteoblast perimeter and osteoclast perimeter with minor change in cancellous bone architecture. The gene therapy decreased MAT levels in ob/ob mice fed regular or high-fat diet to values similar to WT mice fed regular diet. These findings suggest that leptin plays an important role in regulating the differentiation of MSCs to adipocytes and osteoblasts, a process that may be dysregulated by high-fat diet. However, the results also illustrate that reducing MAT by increasing leptin levels does not necessarily result in increased bone mass."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "title_1"
+            },
             "offset": 2401,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "title_1"
-            },
-            "text": "Introduction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Introduction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 2414,
+            "relations": [],
+            "sentences": [],
+            "text": "Adipose tissue in bone marrow may contribute to metabolic health through its effects on local energy balance and/or its actions as an endocrine organ. Low bone mass is often associated with elevated bone marrow adiposity. Bone marrow contains mesenchymal stem cells (MSCs) capable of differentiating into cells of the osteoblastic and adipocytic lineages. A reciprocal relationship between the number of mature osteoblasts and bone marrow adipocytes may occur as a consequence of differentiation of MSCs toward one lineage at the expense of the other lineage. Mechanistically, peroxisome proliferator-activated receptor gamma (PPARγ), a transcription factor that plays a key role in regulation of adipogenesis and lipid uptake, has been implicated as a factor controlling MSC differentiation. Inhibition of PPARγ increases osteoblast differentiation while decreasing adipocyte differentiation. Osteoblast-targeted overexpression of PPARγ inhibits bone mass gain in male mice and increases ovariectomy-induced osteopenia in female mice. Furthermore, cultured adipocytes release factors capable of inducing osteoblast linage cells to differentiate into an adipocyte-like phenotype. Thus, excessive marrow adipose tissue (MAT) has the potential to directly and/or indirectly reduce bone mass by inhibiting osteoblast differentiation. As such, an increase in MAT may contribute to osteoporosis in conditions, such as menopause, skeletal disuse, alcohol abuse, and eating disorders."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Adipose tissue in bone marrow may contribute to metabolic health through its effects on local energy balance and/or its actions as an endocrine organ. Low bone mass is often associated with elevated bone marrow adiposity. Bone marrow contains mesenchymal stem cells (MSCs) capable of differentiating into cells of the osteoblastic and adipocytic lineages. A reciprocal relationship between the number of mature osteoblasts and bone marrow adipocytes may occur as a consequence of differentiation of MSCs toward one lineage at the expense of the other lineage. Mechanistically, peroxisome proliferator-activated receptor gamma (PPARγ), a transcription factor that plays a key role in regulation of adipogenesis and lipid uptake, has been implicated as a factor controlling MSC differentiation. Inhibition of PPARγ increases osteoblast differentiation while decreasing adipocyte differentiation. Osteoblast-targeted overexpression of PPARγ inhibits bone mass gain in male mice and increases ovariectomy-induced osteopenia in female mice. Furthermore, cultured adipocytes release factors capable of inducing osteoblast linage cells to differentiate into an adipocyte-like phenotype. Thus, excessive marrow adipose tissue (MAT) has the potential to directly and/or indirectly reduce bone mass by inhibiting osteoblast differentiation. As such, an increase in MAT may contribute to osteoporosis in conditions, such as menopause, skeletal disuse, alcohol abuse, and eating disorders.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 3904,
+            "relations": [],
+            "sentences": [],
+            "text": "Interestingly, anorexia and obesity both result in increased MAT. Anorexia is commonly associated with reduced bone mineral density (BMD) and increased fracture risk. By contrast, being overweight is generally associated with increased BMD and reduced fracture risk. However, recent studies suggest that morbid obesity has negative effects on bone quality. Thus, it is possible that the increase in MAT plays a role in the detrimental skeletal changes associated with both extremes in body weight."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Interestingly, anorexia and obesity both result in increased MAT. Anorexia is commonly associated with reduced bone mineral density (BMD) and increased fracture risk. By contrast, being overweight is generally associated with increased BMD and reduced fracture risk. However, recent studies suggest that morbid obesity has negative effects on bone quality. Thus, it is possible that the increase in MAT plays a role in the detrimental skeletal changes associated with both extremes in body weight.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 4402,
+            "relations": [],
+            "sentences": [],
+            "text": "Leptin, an adipokine produced in proportion to fat mass, plays a critical role in central nervous system-mediated regulation of energy homeostasis. Additionally, leptin plays an important positive role in skeletal growth and maturation. Indeed, leptin signaling deficiency results in abnormal growth plate development and mild osteopetrosis."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Leptin, an adipokine produced in proportion to fat mass, plays a critical role in central nervous system-mediated regulation of energy homeostasis. Additionally, leptin plays an important positive role in skeletal growth and maturation. Indeed, leptin signaling deficiency results in abnormal growth plate development and mild osteopetrosis.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 4744,
+            "relations": [],
+            "sentences": [],
+            "text": "Leptin suppresses PPARγ expression and increases lipolysis in adipose tissue in rodents. In parallel, leptin increases longitudinal bone growth, osteoblastogenesis and bone formation. Thus, the low leptin levels resulting from insufficient adipose tissue observed in anorexia may contribute to increased MAT and decreased bone formation. In contrast to anorexia, obesity typically results in increased leptin levels which, in turn, should suppress MAT. Many authors have concluded that leptin resistance plays an important role in hyperphagia and weight gain associated with obesity. Thus, leptin resistance may counteract the expected response to elevated leptin levels and thereby contribute to an increase in MAT during obesity. However, some new studies question whether resistance to endogenous leptin contributes to development of diet-induced obesity in mice. If leptin resistance is a major contributor to the etiology of obesity, it may be overcome in normal rodents, at least in part, by increasing hypothalamic leptin levels. Whatever its precise role in diet-induced obesity, it is clear that leptin resistance resulting from loss of function of the leptin receptor (db/db mice), in addition to inducing morbid obesity, results in profound negative effects on the skeleton. Furthermore, some of these negative skeletal effects (e.g., reduced bone formation) are recapitulated, without impacting energy metabolism, following adoptive transfer of bone marrow from db/db mice into wild-type (WT) mice."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Leptin suppresses PPARγ expression and increases lipolysis in adipose tissue in rodents. In parallel, leptin increases longitudinal bone growth, osteoblastogenesis and bone formation. Thus, the low leptin levels resulting from insufficient adipose tissue observed in anorexia may contribute to increased MAT and decreased bone formation. In contrast to anorexia, obesity typically results in increased leptin levels which, in turn, should suppress MAT. Many authors have concluded that leptin resistance plays an important role in hyperphagia and weight gain associated with obesity. Thus, leptin resistance may counteract the expected response to elevated leptin levels and thereby contribute to an increase in MAT during obesity. However, some new studies question whether resistance to endogenous leptin contributes to development of diet-induced obesity in mice. If leptin resistance is a major contributor to the etiology of obesity, it may be overcome in normal rodents, at least in part, by increasing hypothalamic leptin levels. Whatever its precise role in diet-induced obesity, it is clear that leptin resistance resulting from loss of function of the leptin receptor (db/db mice), in addition to inducing morbid obesity, results in profound negative effects on the skeleton. Furthermore, some of these negative skeletal effects (e.g., reduced bone formation) are recapitulated, without impacting energy metabolism, following adoptive transfer of bone marrow from db/db mice into wild-type (WT) mice.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 6259,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "Leptin-deficient ob/ob and leptin receptor-deficient db/db mice exhibit excessive MAT in long bones. Short-term delivery of leptin into the hypothalamus was shown to reduce peripheral fat depots as well as MAT. However, the long-term effects of increased leptin levels on MAT have not been well characterized. Hypothalamic leptin gene therapy has been shown to result in life-long reductions in body weight in ob/ob mice. The goal of the present study was to determine the long-duration effects of increased hypothalamic leptin, using recombinant adeno-associated virus leptin gene therapy (rAAV-Lep), on bone marrow adiposity in morbidly obese ob/ob mice. Given that the energy density of a diet impacts weight gain and MAT levels, the effects of a regular and high energy density (high fat) diet were also evaluated.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin-deficient ob/ob and leptin receptor-deficient db/db mice exhibit excessive MAT in long bones. Short-term delivery of leptin into the hypothalamus was shown to reduce peripheral fat depots as well as MAT. However, the long-term effects of increased leptin levels on MAT have not been well characterized. Hypothalamic leptin gene therapy has been shown to result in life-long reductions in body weight in ob/ob mice. The goal of the present study was to determine the long-duration effects of increased hypothalamic leptin, using recombinant adeno-associated virus leptin gene therapy (rAAV-Lep), on bone marrow adiposity in morbidly obese ob/ob mice. Given that the energy density of a diet impacts weight gain and MAT levels, the effects of a regular and high energy density (high fat) diet were also evaluated."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_1"
+            },
             "offset": 7078,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_1"
-            },
-            "text": "Materials and Methods",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Materials and Methods"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 7100,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Experimental Animals",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experimental Animals"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 7121,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Eight- to 10-week-old male WT C57BL/6J (B6) and leptin-deficient ob/ob mice on the same genetic background were obtained from Jackson Laboratory (Bar Harbor, ME, USA). This age corresponds to peak cancellous bone volume fraction in the femur metaphysis. The mice were maintained in accordance with the NIH Guide for the Care and Use of Laboratory Animals and the experimental protocols were approved by the Institutional Animal Care and Use Committee at the University of Florida. The mice were housed individually in a temperature (21–23°C) and light-controlled room (lights on 6:00 a.m. to 6:00 p.m.) under specific pathogen-free conditions.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Eight- to 10-week-old male WT C57BL/6J (B6) and leptin-deficient ob/ob mice on the same genetic background were obtained from Jackson Laboratory (Bar Harbor, ME, USA). This age corresponds to peak cancellous bone volume fraction in the femur metaphysis. The mice were maintained in accordance with the NIH Guide for the Care and Use of Laboratory Animals and the experimental protocols were approved by the Institutional Animal Care and Use Committee at the University of Florida. The mice were housed individually in a temperature (21–23°C) and light-controlled room (lights on 6:00 a.m. to 6:00 p.m.) under specific pathogen-free conditions."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 7768,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Experiment 1: Effects of 30 Weeks of Hypothalamic Leptin Gene Therapy on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experiment 1: Effects of 30 Weeks of Hypothalamic Leptin Gene Therapy on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 7909,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Following arrival, ob/ob mice were randomized by weight into four treatment groups: (1) untreated (n = 6), (2) control vector encoding green fluorescent protein (rAAV-GFP, n = 7), (3) rAAV-Lep (n = 8), or (4) pair-fed to rAAV-Lep (n = 6). The mice were maintained on standard mouse chow (LM-485, Teklad, Madison, WI, USA) and sacrificed 30 weeks following vector administration at 38–40 weeks of age. This age corresponds to a period immediately prior to a drastic increase in mortality in ob/ob mice – median lifespan in ob/ob mice is 55 weeks compared to 131 weeks in WT mice. The effects of treatment on hypothalamic leptin gene expression, body weight, food intake, hormone levels, organ weights, and cancellous and cortical bone architecture evaluated by microcomputed tomography in this study are detailed elsewhere.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Following arrival, ob/ob mice were randomized by weight into four treatment groups: (1) untreated (n = 6), (2) control vector encoding green fluorescent protein (rAAV-GFP, n = 7), (3) rAAV-Lep (n = 8), or (4) pair-fed to rAAV-Lep (n = 6). The mice were maintained on standard mouse chow (LM-485, Teklad, Madison, WI, USA) and sacrificed 30 weeks following vector administration at 38–40 weeks of age. This age corresponds to a period immediately prior to a drastic increase in mortality in ob/ob mice – median lifespan in ob/ob mice is 55 weeks compared to 131 weeks in WT mice. The effects of treatment on hypothalamic leptin gene expression, body weight, food intake, hormone levels, organ weights, and cancellous and cortical bone architecture evaluated by microcomputed tomography in this study are detailed elsewhere."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 8760,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Experiment 2: Effects of 15 Weeks of Hypothalamic Leptin Gene Therapy and 8 Weeks of High-Fat Diet on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experiment 2: Effects of 15 Weeks of Hypothalamic Leptin Gene Therapy and 8 Weeks of High-Fat Diet on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 8930,
+            "relations": [],
+            "sentences": [],
+            "text": "Experiment 2 was conducted using WT and ob/ob mice. Following arrival, WT mice (n = 12) were maintained on regular chow (LM-485, Teklad, Madison, WI, USA; caloric density 3.4 kcal/g, 11% of kcal from fat) until 15–17 weeks of age and then randomized by weight into two groups: (1) control (n = 3) or (2) high-fat diet (n = 9). Mice in the control group continued to consume the regular diet ad libitum while mice in the high-fat group were placed on a high-fat diet (caloric density 4.7 kcal/g; 45% of kcal from fat, primarily from lard; Research Diets, New Brunswick, NJ, USA) fed ad libitum. The mice were sacrificed 8 weeks later at 23–25 weeks of age – an age corresponding to cessation of linear growth in B6 mice."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Experiment 2 was conducted using WT and ob/ob mice. Following arrival, WT mice (n = 12) were maintained on regular chow (LM-485, Teklad, Madison, WI, USA; caloric density 3.4 kcal/g, 11% of kcal from fat) until 15–17 weeks of age and then randomized by weight into two groups: (1) control (n = 3) or (2) high-fat diet (n = 9). Mice in the control group continued to consume the regular diet ad libitum while mice in the high-fat group were placed on a high-fat diet (caloric density 4.7 kcal/g; 45% of kcal from fat, primarily from lard; Research Diets, New Brunswick, NJ, USA) fed ad libitum. The mice were sacrificed 8 weeks later at 23–25 weeks of age – an age corresponding to cessation of linear growth in B6 mice.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 9678,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "In conjunction, ob/ob mice were randomized by weight into two treatment groups: rAAV-Lep (n = 16) or control vector rAAV-GFP (n = 14). At 7 weeks post-vector administration, rAAV-GFP and rAAV-Lep mice were each divided into two groups: one group continued to consume regular diet and the other was switched to a high-fat diet as described above for WT mice. The mice were sacrificed 8 weeks later at 23–25 weeks of age (15 weeks following vector administration). The effect of the rAAV-Lep pretreatment and high-fat diet on hypothalamic leptin gene expression, body weight, food intake, organ weights, hormone levels, and cancellous and cortical bone architecture determined by microcomputed tomography are detailed elsewhere.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In conjunction, ob/ob mice were randomized by weight into two treatment groups: rAAV-Lep (n = 16) or control vector rAAV-GFP (n = 14). At 7 weeks post-vector administration, rAAV-GFP and rAAV-Lep mice were each divided into two groups: one group continued to consume regular diet and the other was switched to a high-fat diet as described above for WT mice. The mice were sacrificed 8 weeks later at 23–25 weeks of age (15 weeks following vector administration). The effect of the rAAV-Lep pretreatment and high-fat diet on hypothalamic leptin gene expression, body weight, food intake, organ weights, hormone levels, and cancellous and cortical bone architecture determined by microcomputed tomography are detailed elsewhere."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 10423,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Construction and Packaging of rAAV Vectors",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Construction and Packaging of rAAV Vectors"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 10466,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "rAAV-leptin gene therapy and rAAV-GFP vectors were constructed and packaged as previously described. In brief, the vector pTR-CBA-Ob EcoRI fragment of pCR-rOb containing rat leptin cDNA was subcloned into rAAV vector plasmid pAAVβGEnh after deleting the EcoRI fragment carrying the β-glucoronidase cDNA sequence. The control vector, rAAV-GFP, was similarly constructed to encode the GFP gene.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "rAAV-leptin gene therapy and rAAV-GFP vectors were constructed and packaged as previously described. In brief, the vector pTR-CBA-Ob EcoRI fragment of pCR-rOb containing rat leptin cDNA was subcloned into rAAV vector plasmid pAAVβGEnh after deleting the EcoRI fragment carrying the β-glucoronidase cDNA sequence. The control vector, rAAV-GFP, was similarly constructed to encode the GFP gene."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 10865,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Vector Administration",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Vector Administration"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 10887,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "For vector administration, the mice were anesthetized with sodium pentobarbital (60 mg/kg, i.p.), placed on a Kopf stereotaxic apparatus with mouse adapter for intracerebroventricular injection, and injected intracerebroventricularly with either rAAV-Lep (9 × 107 particles in 1.5 μl) or rAAV-GFP (9 × 107 particles in 1.5 μl). The coordinates employed for microinjector placement in the third cerebroventricle were 0.3 mm posterior to bregma, 0.0 lateral to midline, and 4.2 mm below the dura.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "For vector administration, the mice were anesthetized with sodium pentobarbital (60 mg/kg, i.p.), placed on a Kopf stereotaxic apparatus with mouse adapter for intracerebroventricular injection, and injected intracerebroventricularly with either rAAV-Lep (9 × 107 particles in 1.5 μl) or rAAV-GFP (9 × 107 particles in 1.5 μl). The coordinates employed for microinjector placement in the third cerebroventricle were 0.3 mm posterior to bregma, 0.0 lateral to midline, and 4.2 mm below the dura."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 11404,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Tissue Collection and Analyses",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tissue Collection and Analyses"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 11435,
+            "relations": [],
+            "sentences": [],
+            "text": "At the end of each experiment mice were anesthetized with sodium pentobarbital (60 mg/kg; i.p.) and euthanized by exsanguination. Femora were excised, cleaned of soft tissue, and stored in 70% ethanol. Femora were prepared for histomorphometric evaluation as described. In brief, distal femora were dehydrated in graded increases of ethanol and xylene and embedded undecalcified in methyl methacrylate. Frontal sections (4 μm thick) were cut with a vertical bed microtome (Leica 2165) and affixed to slides precoated with a 1% gelatin solution. One section/animal was stained for tartrate-resistant acid phosphatase and counterstained with toluidine blue (Sigma, St Louis, MO, USA) for assessment of bone and cell-based measurements."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "At the end of each experiment mice were anesthetized with sodium pentobarbital (60 mg/kg; i.p.) and euthanized by exsanguination. Femora were excised, cleaned of soft tissue, and stored in 70% ethanol. Femora were prepared for histomorphometric evaluation as described. In brief, distal femora were dehydrated in graded increases of ethanol and xylene and embedded undecalcified in methyl methacrylate. Frontal sections (4 μm thick) were cut with a vertical bed microtome (Leica 2165) and affixed to slides precoated with a 1% gelatin solution. One section/animal was stained for tartrate-resistant acid phosphatase and counterstained with toluidine blue (Sigma, St Louis, MO, USA) for assessment of bone and cell-based measurements.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 12174,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Histomorphometric data were collected using the OsteoMeasure System (OsteoMetrics, Inc., Atlanta, GA, USA). The sampling site for the distal femoral metaphysis was located 0.25–1.25 mm proximal to the growth plate and 0.1 mm from cortical bone. Cancellous bone measurements included bone area fraction (bone area/tissue area, %) and the derived architectural indices of trabecular number (mm−1), trabecular thickness (micrometer), and trabecular separation (micrometer). Measurements of MAT included overall marrow adiposity (adipose area/tissue area, %), adipocyte density (mm−2), and adipocyte size (micrometers2). Adipocytes were identified as large circular or oval-shaped cells bordered by a prominent cell membrane and lacking cytoplasmic staining due to alcohol extraction of intracellular lipids during processing. This method has been validated by fat extraction and analysis. Osteoblast and osteoclast perimeters were also measured and expressed as % of total bone perimeter. Osteoblasts were identified as plump cuboidal cells immediately adjacent to a thin layer of osteoid in direct contact with the bone perimeter. Osteoclasts were identified as multinucleated (two or more nuclei) cells with acid phosphatase positive (red-stained) cytoplasm in contact with the bone perimeter. Data are reported using standard two-dimensional nomenclature.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Histomorphometric data were collected using the OsteoMeasure System (OsteoMetrics, Inc., Atlanta, GA, USA). The sampling site for the distal femoral metaphysis was located 0.25–1.25 mm proximal to the growth plate and 0.1 mm from cortical bone. Cancellous bone measurements included bone area fraction (bone area/tissue area, %) and the derived architectural indices of trabecular number (mm−1), trabecular thickness (micrometer), and trabecular separation (micrometer). Measurements of MAT included overall marrow adiposity (adipose area/tissue area, %), adipocyte density (mm−2), and adipocyte size (micrometers2). Adipocytes were identified as large circular or oval-shaped cells bordered by a prominent cell membrane and lacking cytoplasmic staining due to alcohol extraction of intracellular lipids during processing. This method has been validated by fat extraction and analysis. Osteoblast and osteoclast perimeters were also measured and expressed as % of total bone perimeter. Osteoblasts were identified as plump cuboidal cells immediately adjacent to a thin layer of osteoid in direct contact with the bone perimeter. Osteoclasts were identified as multinucleated (two or more nuclei) cells with acid phosphatase positive (red-stained) cytoplasm in contact with the bone perimeter. Data are reported using standard two-dimensional nomenclature."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 13540,
             "infons": {
               "section_type": "METHODS",
               "type": "title_2"
             },
-            "text": "Statistical Analysis",
+            "offset": 13540,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Statistical Analysis"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 13561,
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Mean responses for Experiment 1 were compared among the untreated, rAAV-GFP, rAAV-Lep, and pair-fed groups using one-way analysis of variance. For Experiment 2, the effects of treatment and diet were assessed using two-way analysis of variance. Pairwise comparisons were made using t-tests or the Wilcoxon–Mann–Whitney test. The required conditions for valid use of linear models were assessed using Levene’s test for homogeneity of variance, plots of residuals versus fitted values, normal quantile plots, and the Anderson–Darling test of normality. The Benjamini and Hochberg method for maintaining the false discovery rate at 5% was used to adjust for multiple comparisons. Data analysis was performed using R version 3.3.2.",
+            "offset": 13561,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Mean responses for Experiment 1 were compared among the untreated, rAAV-GFP, rAAV-Lep, and pair-fed groups using one-way analysis of variance. For Experiment 2, the effects of treatment and diet were assessed using two-way analysis of variance. Pairwise comparisons were made using t-tests or the Wilcoxon–Mann–Whitney test. The required conditions for valid use of linear models were assessed using Levene’s test for homogeneity of variance, plots of residuals versus fitted values, normal quantile plots, and the Anderson–Darling test of normality. The Benjamini and Hochberg method for maintaining the false discovery rate at 5% was used to adjust for multiple comparisons. Data analysis was performed using R version 3.3.2."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14297,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_1"
             },
-            "text": "Results",
+            "offset": 14297,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Results"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14305,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "Experiment 1: Effects of 30 Weeks of Hypothalamic Leptin Gene Therapy on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice",
+            "offset": 14305,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experiment 1: Effects of 30 Weeks of Hypothalamic Leptin Gene Therapy on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14446,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The effects of treatment on body weight and on cancellous bone in the distal femur metaphysis are shown in Table 1. rAAV-Lep treatment resulted in lower body weight compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences in cancellous bone area fraction, trabecular number, or trabecular spacing were not detected with treatment. However, trabecular thickness was lower in rAAV-Lep-treated mice compared to untreated and rAAV-GFP-treated mice, but did not differ from pair-fed ob/ob mice.",
+            "offset": 14446,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The effects of treatment on body weight and on cancellous bone in the distal femur metaphysis are shown in Table 1. rAAV-Lep treatment resulted in lower body weight compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences in cancellous bone area fraction, trabecular number, or trabecular spacing were not detected with treatment. However, trabecular thickness was lower in rAAV-Lep-treated mice compared to untreated and rAAV-GFP-treated mice, but did not differ from pair-fed ob/ob mice."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 14963,
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_caption"
             },
-            "text": "Effects of hypothalamic leptin gene therapy (rAAV-Lep) on body weight and cancellous bone architecture in distal femur metaphysis in ob/ob male mice at 30 weeks post-vector administration.",
+            "offset": 14963,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of hypothalamic leptin gene therapy (rAAV-Lep) on body weight and cancellous bone architecture in distal femur metaphysis in ob/ob male mice at 30 weeks post-vector administration."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 15154,
             "infons": {
               "file": "T1.xml",
               "id": "T1",
@@ -388,174 +386,174 @@
               "type": "table",
               "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th valign=\"top\" align=\"center\" rowspan=\"2\" colspan=\"1\"/><th valign=\"top\" align=\"center\" colspan=\"4\" rowspan=\"1\"><italic>ob/ob</italic> Mice<hr/></th><th valign=\"top\" align=\"center\" rowspan=\"2\" colspan=\"1\">ANOVA FDR adjusted <italic>P</italic></th></tr><tr><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Untreated (<italic>n</italic> = 6)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">rAAV-GFP (<italic>n</italic> = 7)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">rAAV-Lep (<italic>n</italic> = 8)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Pair-fed (<italic>n</italic> = 6)</th></tr></thead><tbody><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Body weight (g)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">70 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">68 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">29 ± 3<xref ref-type=\"table-fn\" rid=\"tfn2\"><sup>a</sup></xref>–<xref ref-type=\"table-fn\" rid=\"tfn4\"><sup>c</sup></xref></td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">63 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">&lt;0.001<xref ref-type=\"table-fn\" rid=\"tfn1\">*</xref></td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Bone area/tissue area (%)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">8.3 ± 1.1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">7.2 ± 0.9</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">5.3 ± 1.0</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">5.7 ± 0.7</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.225</td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Trabecular thickness (μm)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">35 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">34 ± 1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">26 ± 2<xref ref-type=\"table-fn\" rid=\"tfn2\"><sup>a</sup></xref><sup>,</sup><xref ref-type=\"table-fn\" rid=\"tfn3\"><sup>b</sup></xref></td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">31 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.009</td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Trabecular number (mm<sup>−1</sup>)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.3 ± 0.2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.1 ± 0.2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.0 ± 0.2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">1.8 ± 0.2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.645</td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Trabecular spacing (μm)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">416 ± 42</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">470 ± 38</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">542 ± 71</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">547 ± 73</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.588</td></tr></tbody></table>\n"
             },
-            "text": "\tob/ob Mice\tANOVA FDR adjusted P\t \tUntreated (n = 6)\trAAV-GFP (n = 7)\trAAV-Lep (n = 8)\tPair-fed (n = 6)\t \tBody weight (g)\t70 ± 2\t68 ± 2\t29 ± 3a–c\t63 ± 2\t<0.001*\t \tBone area/tissue area (%)\t8.3 ± 1.1\t7.2 ± 0.9\t5.3 ± 1.0\t5.7 ± 0.7\t0.225\t \tTrabecular thickness (μm)\t35 ± 2\t34 ± 1\t26 ± 2a,b\t31 ± 2\t0.009\t \tTrabecular number (mm−1)\t2.3 ± 0.2\t2.1 ± 0.2\t2.0 ± 0.2\t1.8 ± 0.2\t0.645\t \tTrabecular spacing (μm)\t416 ± 42\t470 ± 38\t542 ± 71\t547 ± 73\t0.588\t \t",
+            "offset": 15154,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "\tob/ob Mice\tANOVA FDR adjusted P\t \tUntreated (n = 6)\trAAV-GFP (n = 7)\trAAV-Lep (n = 8)\tPair-fed (n = 6)\t \tBody weight (g)\t70 ± 2\t68 ± 2\t29 ± 3a–c\t63 ± 2\t<0.001*\t \tBone area/tissue area (%)\t8.3 ± 1.1\t7.2 ± 0.9\t5.3 ± 1.0\t5.7 ± 0.7\t0.225\t \tTrabecular thickness (μm)\t35 ± 2\t34 ± 1\t26 ± 2a,b\t31 ± 2\t0.009\t \tTrabecular number (mm−1)\t2.3 ± 0.2\t2.1 ± 0.2\t2.0 ± 0.2\t1.8 ± 0.2\t0.645\t \tTrabecular spacing (μm)\t416 ± 42\t470 ± 38\t542 ± 71\t547 ± 73\t0.588\t \t"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 15720,
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_foot"
             },
-            "text": "Data are mean ± SE.",
+            "offset": 15720,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Data are mean ± SE."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "file": "T1.xml",
+              "id": "T1",
+              "section_type": "TABLE",
+              "type": "table_footnote"
+            },
             "offset": 15745,
+            "relations": [],
+            "sentences": [],
+            "text": "*Previously reported ."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "*Previously reported .",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 15768,
+            "relations": [],
+            "sentences": [],
+            "text": "aDifferent from untreated, P < 0.05."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "aDifferent from untreated, P < 0.05.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 15809,
+            "relations": [],
+            "sentences": [],
+            "text": "bDifferent from rAAV-GFP, P < 0.05."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "bDifferent from rAAV-GFP, P < 0.05.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 15849,
-            "infons": {
-              "file": "T1.xml",
-              "id": "T1",
-              "section_type": "TABLE",
-              "type": "table_footnote"
-            },
-            "text": "cDifferent from pair-fed, P < 0.05.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "cDifferent from pair-fed, P < 0.05."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 15889,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The effects of treatment on MAT in the distal femur metaphysis are shown in Figure 1. Marrow adiposity (adipose area/tissue area) (Figure 1A), adipocyte density (Figure 1B), and adipocyte size (Figure 1C) were lower in rAAV-Lep-treated mice compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences among untreated, rAAV-GFP-treated, and pair-fed mice were not detected for any of the MAT measurements. The effects of rAAV-Lep treatment on marrow adiposity can be readily appreciated in Figures 1D–G.",
+            "offset": 15889,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The effects of treatment on MAT in the distal femur metaphysis are shown in Figure 1. Marrow adiposity (adipose area/tissue area) (Figure 1A), adipocyte density (Figure 1B), and adipocyte size (Figure 1C) were lower in rAAV-Lep-treated mice compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences among untreated, rAAV-GFP-treated, and pair-fed mice were not detected for any of the MAT measurements. The effects of rAAV-Lep treatment on marrow adiposity can be readily appreciated in Figures 1D–G."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 16418,
             "infons": {
               "file": "fendo-07-00110-g001.jpg",
               "id": "F1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Effects of hypothalamic leptin gene therapy (rAAV-Lep) on marrow adipose tissue in distal femur metaphysis in male ob/ob mice at 30 weeks post-vector administration. Bone marrow adiposity (A), adipocyte density (B), and adipocyte size (C) were decreased with rAAV-Lep treatment. The effects of treatment on marrow adipose tissue in the femoral metaphysis can be readily appreciated in representative micrographs from an untreated (D), rAAV-GFP-treated (E), rAAV-Lep-treated (F), and pair-fed to rAAV-Lep (G) mouse. Please see Figures 2C–F for representative higher magnification images. Data are mean ± SE (n = 6–8/group). aDifferent from untreated, bdifferent from rAAV-GFP, and cdifferent from pair-fed, P < 0.05.",
+            "offset": 16418,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of hypothalamic leptin gene therapy (rAAV-Lep) on marrow adipose tissue in distal femur metaphysis in male ob/ob mice at 30 weeks post-vector administration. Bone marrow adiposity (A), adipocyte density (B), and adipocyte size (C) were decreased with rAAV-Lep treatment. The effects of treatment on marrow adipose tissue in the femoral metaphysis can be readily appreciated in representative micrographs from an untreated (D), rAAV-GFP-treated (E), rAAV-Lep-treated (F), and pair-fed to rAAV-Lep (G) mouse. Please see Figures 2C–F for representative higher magnification images. Data are mean ± SE (n = 6–8/group). aDifferent from untreated, bdifferent from rAAV-GFP, and cdifferent from pair-fed, P < 0.05."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 17153,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The effects of treatment on osteoblast perimeter and osteoclast perimeter in the distal femur metaphysis are shown in Figure 2. Osteoblast perimeter (Figure 2A) and osteoclast perimeter (Figure 2B) were higher in rAAV-Lep-treated mice compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences among untreated, rAAV-GFP-treated, and pair-fed mice were not detected for either of the cellular endpoints evaluated. The effects of rAAV-Lep treatment on osteoblast and osteoclast perimeter can be appreciated in Figures 2C–F.",
+            "offset": 17153,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The effects of treatment on osteoblast perimeter and osteoclast perimeter in the distal femur metaphysis are shown in Figure 2. Osteoblast perimeter (Figure 2A) and osteoclast perimeter (Figure 2B) were higher in rAAV-Lep-treated mice compared to untreated, rAAV-GFP-treated, and pair-fed mice. Significant differences among untreated, rAAV-GFP-treated, and pair-fed mice were not detected for either of the cellular endpoints evaluated. The effects of rAAV-Lep treatment on osteoblast and osteoclast perimeter can be appreciated in Figures 2C–F."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 17702,
             "infons": {
               "file": "fendo-07-00110-g002.jpg",
               "id": "F2",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Effects of hypothalamic leptin gene therapy (rAAV-Lep) on osteoblast perimeter, an index of bone formation, and osteoclast perimeter, an index of bone resorption, in distal femur metaphysis in male ob/ob mice at 30 weeks post-vector administration. Osteoblast perimeter (A) and osteoclast perimeter (B) were increased with rAAV-Lep treatment. The effects of treatment on osteoclast perimeter, an index of bone resorption, can be readily appreciated in representative micrographs from an untreated (C), rAAV-GFP-treated (D), rAAV-Lep-treated (E), and pair-fed to rAAV-Lep (F) mouse. Data are mean ± SE (n = 6–8/group). aDifferent from untreated, bdifferent from rAAV-GFP, and cdifferent from pair-fed, P < 0.05. Asterisks demarcate adipocytes.",
+            "offset": 17702,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of hypothalamic leptin gene therapy (rAAV-Lep) on osteoblast perimeter, an index of bone formation, and osteoclast perimeter, an index of bone resorption, in distal femur metaphysis in male ob/ob mice at 30 weeks post-vector administration. Osteoblast perimeter (A) and osteoclast perimeter (B) were increased with rAAV-Lep treatment. The effects of treatment on osteoclast perimeter, an index of bone resorption, can be readily appreciated in representative micrographs from an untreated (C), rAAV-GFP-treated (D), rAAV-Lep-treated (E), and pair-fed to rAAV-Lep (F) mouse. Data are mean ± SE (n = 6–8/group). aDifferent from untreated, bdifferent from rAAV-GFP, and cdifferent from pair-fed, P < 0.05. Asterisks demarcate adipocytes."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 18462,
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "Experiment 2: Effects of 15 Weeks of Hypothalamic Leptin Gene Therapy and 8 Weeks of High-Fat Diet on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice",
+            "offset": 18462,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experiment 2: Effects of 15 Weeks of Hypothalamic Leptin Gene Therapy and 8 Weeks of High-Fat Diet on Marrow Adiposity and Cancellous Bone Histomorphometry in ob/ob Mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 18632,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The effects of rAAV-Lep pretreatment and high-fat diet on body weight and on cancellous bone in distal femur metaphysis are shown in Table 2. Body weight was higher in WT mice fed high-fat diet compared to WT mice fed regular diet. Body weight was also higher in ob/ob mice fed high fat compared to ob/ob mice fed regular diet and rAAV-Lep treatment resulted in lower body weight. Cancellous bone area fraction, trabecular thickness, and trabecular number were higher and trabecular spacing was lower in WT mice fed high-fat diet compared to WT mice fed regular diet. rAAV-Lep treatment in ob/ob mice resulted in lower cancellous bone area fraction and trabecular thickness. Significant differences in trabecular number or trabecular spacing were not detected with treatment in the ob/ob mice. With the exception of trabecular thickness, which was lower, significant differences between WT mice and rAAV-Lep-treated ob/ob mice fed regular diets were not detected for any of the remaining cancellous endpoints evaluated.",
+            "offset": 18632,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The effects of rAAV-Lep pretreatment and high-fat diet on body weight and on cancellous bone in distal femur metaphysis are shown in Table 2. Body weight was higher in WT mice fed high-fat diet compared to WT mice fed regular diet. Body weight was also higher in ob/ob mice fed high fat compared to ob/ob mice fed regular diet and rAAV-Lep treatment resulted in lower body weight. Cancellous bone area fraction, trabecular thickness, and trabecular number were higher and trabecular spacing was lower in WT mice fed high-fat diet compared to WT mice fed regular diet. rAAV-Lep treatment in ob/ob mice resulted in lower cancellous bone area fraction and trabecular thickness. Significant differences in trabecular number or trabecular spacing were not detected with treatment in the ob/ob mice. With the exception of trabecular thickness, which was lower, significant differences between WT mice and rAAV-Lep-treated ob/ob mice fed regular diets were not detected for any of the remaining cancellous endpoints evaluated."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 19652,
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_caption"
             },
-            "text": "Effects of high-fat diet and rAAV-Lep pretreatment and high fat diet on terminal body weight and cancellous bone architecture in distal femur metaphysis in male WT and ob/ob mice, respectively.",
+            "offset": 19652,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of high-fat diet and rAAV-Lep pretreatment and high fat diet on terminal body weight and cancellous bone architecture in distal femur metaphysis in male WT and ob/ob mice, respectively."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 19846,
             "infons": {
               "file": "T2.xml",
               "id": "T2",
@@ -563,322 +561,322 @@
               "type": "table",
               "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th valign=\"top\" align=\"center\" rowspan=\"3\" colspan=\"1\"/><th valign=\"top\" align=\"center\" colspan=\"3\" rowspan=\"1\"/><th valign=\"top\" align=\"center\" colspan=\"4\" rowspan=\"1\"><italic>ob/ob</italic> Mice<hr/></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"/></tr><tr><th valign=\"top\" align=\"center\" colspan=\"3\" rowspan=\"1\">WT mice<hr/></th><th valign=\"top\" align=\"center\" colspan=\"2\" rowspan=\"1\">rAAV-GFP<hr/></th><th valign=\"top\" align=\"center\" colspan=\"2\" rowspan=\"1\">rAAV-Lep<hr/></th><th valign=\"top\" align=\"center\" colspan=\"3\" rowspan=\"1\">ANOVA <italic>P</italic><hr/></th></tr><tr><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Regular diet (<italic>n</italic> = 3)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">High-fat diet (<italic>n</italic> = 9)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><italic>T</italic>-test <italic>P</italic></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Regular diet (<italic>n</italic> = 5)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">High-fat diet (<italic>n</italic> = 9)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Regular diet (<italic>n</italic> = 8)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">High-fat diet (<italic>n</italic> = 8)</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Vector</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Diet</th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">Interaction</th></tr></thead><tbody><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Body weight (g)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">29 ± 1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">38 ± 1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.014</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">56 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">66 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">28 ± 3</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">33 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.000</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.003</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.307<xref ref-type=\"table-fn\" rid=\"tfn5\">*</xref></td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Bone area/tissue area (%)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">7.1 ± 1.0</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">11.5 ± 0.8</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.009</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">7.9 ± 0.9</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">9.9 ± 1.0</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">7.1 ± 0.7</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">6.6 ± 0.6</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.016</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.486</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.159</td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Trabecular thickness (μm)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">30 ± 0</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">38 ± 1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.009</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">31 ± 1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">34 ± 2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">25 ± 1.1<xref ref-type=\"table-fn\" rid=\"tfn6\"><sup>a</sup></xref></td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">25 ± 1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.000</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.501</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.330</td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Trabecular number (mm<sup>−1</sup>)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.3 ± 0.3</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">3.0 ± 0.1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.020</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.5 ± 0.2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.8 ± 0.1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.8 ± 0.2</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2.6 ± 0.1</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.950</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.658</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.115</td></tr><tr><td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Trabecular spacing (μm)</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">412 ± 62</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">297 ± 12</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.014</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">379 ± 29</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">323 ± 16</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">340 ± 19</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">363 ± 24</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.764</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.608</td><td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">0.083</td></tr></tbody></table>\n"
             },
-            "text": "\t\tob/ob Mice\t\t \tWT mice\trAAV-GFP\trAAV-Lep\tANOVA P\t \tRegular diet (n = 3)\tHigh-fat diet (n = 9)\tT-test P\tRegular diet (n = 5)\tHigh-fat diet (n = 9)\tRegular diet (n = 8)\tHigh-fat diet (n = 8)\tVector\tDiet\tInteraction\t \tBody weight (g)\t29 ± 1\t38 ± 1\t0.014\t56 ± 2\t66 ± 2\t28 ± 3\t33 ± 2\t0.000\t0.003\t0.307*\t \tBone area/tissue area (%)\t7.1 ± 1.0\t11.5 ± 0.8\t0.009\t7.9 ± 0.9\t9.9 ± 1.0\t7.1 ± 0.7\t6.6 ± 0.6\t0.016\t0.486\t0.159\t \tTrabecular thickness (μm)\t30 ± 0\t38 ± 1\t0.009\t31 ± 1\t34 ± 2\t25 ± 1.1a\t25 ± 1\t0.000\t0.501\t0.330\t \tTrabecular number (mm−1)\t2.3 ± 0.3\t3.0 ± 0.1\t0.020\t2.5 ± 0.2\t2.8 ± 0.1\t2.8 ± 0.2\t2.6 ± 0.1\t0.950\t0.658\t0.115\t \tTrabecular spacing (μm)\t412 ± 62\t297 ± 12\t0.014\t379 ± 29\t323 ± 16\t340 ± 19\t363 ± 24\t0.764\t0.608\t0.083\t \t",
+            "offset": 19846,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "\t\tob/ob Mice\t\t \tWT mice\trAAV-GFP\trAAV-Lep\tANOVA P\t \tRegular diet (n = 3)\tHigh-fat diet (n = 9)\tT-test P\tRegular diet (n = 5)\tHigh-fat diet (n = 9)\tRegular diet (n = 8)\tHigh-fat diet (n = 8)\tVector\tDiet\tInteraction\t \tBody weight (g)\t29 ± 1\t38 ± 1\t0.014\t56 ± 2\t66 ± 2\t28 ± 3\t33 ± 2\t0.000\t0.003\t0.307*\t \tBone area/tissue area (%)\t7.1 ± 1.0\t11.5 ± 0.8\t0.009\t7.9 ± 0.9\t9.9 ± 1.0\t7.1 ± 0.7\t6.6 ± 0.6\t0.016\t0.486\t0.159\t \tTrabecular thickness (μm)\t30 ± 0\t38 ± 1\t0.009\t31 ± 1\t34 ± 2\t25 ± 1.1a\t25 ± 1\t0.000\t0.501\t0.330\t \tTrabecular number (mm−1)\t2.3 ± 0.3\t3.0 ± 0.1\t0.020\t2.5 ± 0.2\t2.8 ± 0.1\t2.8 ± 0.2\t2.6 ± 0.1\t0.950\t0.658\t0.115\t \tTrabecular spacing (μm)\t412 ± 62\t297 ± 12\t0.014\t379 ± 29\t323 ± 16\t340 ± 19\t363 ± 24\t0.764\t0.608\t0.083\t \t"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 20751,
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_foot"
             },
-            "text": "Data are mean ± SE.",
+            "offset": 20751,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Data are mean ± SE."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "file": "T2.xml",
+              "id": "T2",
+              "section_type": "TABLE",
+              "type": "table_footnote"
+            },
             "offset": 20776,
+            "relations": [],
+            "sentences": [],
+            "text": "*Previously reported ."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "*Previously reported .",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 20799,
-            "infons": {
-              "file": "T2.xml",
-              "id": "T2",
-              "section_type": "TABLE",
-              "type": "table_footnote"
-            },
-            "text": "aDifferent from WT mice fed regular diet.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "aDifferent from WT mice fed regular diet."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 20841,
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "The effects of treatment on marrow adiposity in distal femur metaphysis are shown in Figure 3. Marrow adiposity and adipocyte size were higher in WT mice fed high-fat diet compared to mice fed regular diet. Significant differences in adipocyte density were not detected with diet in WT mice. rAAV-Lep treatment in ob/ob mice resulted in lower marrow adiposity due to lower adipocyte density as well as lower adipocyte size. Significant differences in marrow adiposity, adipocyte density, or adipocyte size were not detected between WT and rAAV-Lep-treated ob/ob mice fed regular diet.",
+            "offset": 20841,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The effects of treatment on marrow adiposity in distal femur metaphysis are shown in Figure 3. Marrow adiposity and adipocyte size were higher in WT mice fed high-fat diet compared to mice fed regular diet. Significant differences in adipocyte density were not detected with diet in WT mice. rAAV-Lep treatment in ob/ob mice resulted in lower marrow adiposity due to lower adipocyte density as well as lower adipocyte size. Significant differences in marrow adiposity, adipocyte density, or adipocyte size were not detected between WT and rAAV-Lep-treated ob/ob mice fed regular diet."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 21426,
             "infons": {
               "file": "fendo-07-00110-g003.jpg",
               "id": "F3",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Effects of high-fat diet and rAAV-Lep pretreatment and high-fat diet on bone marrow adiposity (A), adipocyte density (B), and adipocyte size (C) in distal femur metaphysis in male WT and ob/ob mice, respectively. RCD, regular control diet. HFD, high-fat diet. Data are mean ± SE (n = 3–9/group). aDifferent from RCD within WT, P < 0.05.",
+            "offset": 21426,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of high-fat diet and rAAV-Lep pretreatment and high-fat diet on bone marrow adiposity (A), adipocyte density (B), and adipocyte size (C) in distal femur metaphysis in male WT and ob/ob mice, respectively. RCD, regular control diet. HFD, high-fat diet. Data are mean ± SE (n = 3–9/group). aDifferent from RCD within WT, P < 0.05."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "title_1"
+            },
             "offset": 21778,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "title_1"
-            },
-            "text": "Discussion",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Discussion"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 21789,
+            "relations": [],
+            "sentences": [],
+            "text": "Leptin-deficient ob/ob mice were heavier and had increased MAT in distal femur metaphysis compared to WT mice. Consumption of high-fat diet resulted in increased body weight in both WT mice and ob/ob mice but increased MAT and cancellous bone in WT mice only. rAAV-Lep treatment decreased MAT in ob/ob mice. The reduction in MAT in rAAV-Lep-treated ob/ob mice was accompanied by increases in osteoblast-lined and osteoclast-lined bone perimeter but not by an increase in cancellous bone."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Leptin-deficient ob/ob mice were heavier and had increased MAT in distal femur metaphysis compared to WT mice. Consumption of high-fat diet resulted in increased body weight in both WT mice and ob/ob mice but increased MAT and cancellous bone in WT mice only. rAAV-Lep treatment decreased MAT in ob/ob mice. The reduction in MAT in rAAV-Lep-treated ob/ob mice was accompanied by increases in osteoblast-lined and osteoclast-lined bone perimeter but not by an increase in cancellous bone.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 22277,
+            "relations": [],
+            "sentences": [],
+            "text": "Continuous and once daily intracerebroventricular administration of leptin were similarly effective in reducing MAT in long bones of ob/ob mice. Based on lower adipocyte number and size and increased concentration of apoptosis marker caspase-3 in bone marrow adipocytes, the reduction in MAT was likely due to a combination of reduced adipocyte differentiation, increased fat oxidation, and increased adipocyte apoptosis. A similar reduction in MAT was observed following subcutaneous leptin administration."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Continuous and once daily intracerebroventricular administration of leptin were similarly effective in reducing MAT in long bones of ob/ob mice. Based on lower adipocyte number and size and increased concentration of apoptosis marker caspase-3 in bone marrow adipocytes, the reduction in MAT was likely due to a combination of reduced adipocyte differentiation, increased fat oxidation, and increased adipocyte apoptosis. A similar reduction in MAT was observed following subcutaneous leptin administration.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 22785,
+            "relations": [],
+            "sentences": [],
+            "text": "In normal female rats, hypothalamic delivery of rAAV-Lep was shown to maintain lower body weight, WAT weight, and serum leptin levels (2.7 ± 0.3 versus 1.0 ± 0.1 ng/ml) for at least 18 weeks following vector administration. By contrast, rAAV-Lep transiently reduced MAT; MAT levels were reduced at 5 weeks but returned to normal levels by 10 weeks following vector administration. Also, hypothalamic rAAV-Lep gene therapy was ineffective in lowering MAT in ovariectomized rats. In the present study, MAT levels in rAAV-Lep-treated ob/ob mice, evaluated 15 and 30 weeks following vector administration, were much lower than age-matched ob/ob controls and comparable to WT mice in Experiment 2. These findings suggest that (1) while very important, the physiological actions of leptin on MAT are primarily manifested at low hormone levels and (2) hyperleptinemia has little further effect on MAT. If correct, this could help explain why some studies fail to detect a relationship between blood leptin levels and MAT. The findings regarding the actions of leptin on MAT are remarkably similar to the actions of the hormone on bone growth, maturation, and turnover. Whereas hypothalamic rAAV-Lep gene therapy corrected the skeletal abnormalities in ob/ob mice, it had minimal long-term impact on bone in rodents capable of producing leptin."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "In normal female rats, hypothalamic delivery of rAAV-Lep was shown to maintain lower body weight, WAT weight, and serum leptin levels (2.7 ± 0.3 versus 1.0 ± 0.1 ng/ml) for at least 18 weeks following vector administration. By contrast, rAAV-Lep transiently reduced MAT; MAT levels were reduced at 5 weeks but returned to normal levels by 10 weeks following vector administration. Also, hypothalamic rAAV-Lep gene therapy was ineffective in lowering MAT in ovariectomized rats. In the present study, MAT levels in rAAV-Lep-treated ob/ob mice, evaluated 15 and 30 weeks following vector administration, were much lower than age-matched ob/ob controls and comparable to WT mice in Experiment 2. These findings suggest that (1) while very important, the physiological actions of leptin on MAT are primarily manifested at low hormone levels and (2) hyperleptinemia has little further effect on MAT. If correct, this could help explain why some studies fail to detect a relationship between blood leptin levels and MAT. The findings regarding the actions of leptin on MAT are remarkably similar to the actions of the hormone on bone growth, maturation, and turnover. Whereas hypothalamic rAAV-Lep gene therapy corrected the skeletal abnormalities in ob/ob mice, it had minimal long-term impact on bone in rodents capable of producing leptin.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 24142,
+            "relations": [],
+            "sentences": [],
+            "text": "It was initially hypothesized that the complex skeletal phenotype of ob/ob mice was due to opposing actions of peripheral and central leptin on bone formation. However, subcutaneous and intracerebroventricular delivery of leptin were found to similarly increase bone formation in ob/ob mice. Additionally, long-duration hypothalamic leptin gene therapy was shown to normalize bone microarchitecture in ob/ob mice; specifically, increasing hypothalamic leptin levels resulted in increased femur length and total femur bone volume but decreased cancellous bone volume fraction in lumbar vertebra. These latter findings imply that, in addition to increasing longitudinal bone growth, delivery of leptin into the hypothalamus results in increased bone formation as well as increased bone resorption. Thus, an imbalance between bone formation and resorption related to local environment (e.g., precursor cell populations, mechanical loads, paracrine factors, etc.) potentially explains the contrasting phenotypes that have been identified in bones of the limb and spine in ob/ob mice."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "It was initially hypothesized that the complex skeletal phenotype of ob/ob mice was due to opposing actions of peripheral and central leptin on bone formation. However, subcutaneous and intracerebroventricular delivery of leptin were found to similarly increase bone formation in ob/ob mice. Additionally, long-duration hypothalamic leptin gene therapy was shown to normalize bone microarchitecture in ob/ob mice; specifically, increasing hypothalamic leptin levels resulted in increased femur length and total femur bone volume but decreased cancellous bone volume fraction in lumbar vertebra. These latter findings imply that, in addition to increasing longitudinal bone growth, delivery of leptin into the hypothalamus results in increased bone formation as well as increased bone resorption. Thus, an imbalance between bone formation and resorption related to local environment (e.g., precursor cell populations, mechanical loads, paracrine factors, etc.) potentially explains the contrasting phenotypes that have been identified in bones of the limb and spine in ob/ob mice.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 25222,
+            "relations": [],
+            "sentences": [],
+            "text": "Bone- and bone compartment-specific changes in microarchitecture in response to hormonal regulators of bone metabolism and mechanical loading environment are not unique to leptin. For example, by regulating longitudinal and radial bone growth and bone turnover balance, estrogens, and androgens contribute to sexual dimorphism of the skeleton. In this regard, administration of estrogen to growing ovariectomized rats results in shorter bones with lower total bone mass but higher site-specific cancellous bone volume. Ovariectomized rats also experience increased MAT expansion. ob/ob mice of both genders are hypogonadal due to reduced GnRH secretion, a defect that is reversed following leptin treatment. Thus, it is possible that hypogonadism contributes to MAT expansion in ob/ob mice. Expansion of MAT during caloric restriction in WT mice was associated with increased circulation of glucocorticoids, while caloric restriction resulted in a further increase in the already high levels of MAT in leptin-deficient ob/ob mice. These findings provide evidence that multiple factors, including leptin, regulate MAT levels."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Bone- and bone compartment-specific changes in microarchitecture in response to hormonal regulators of bone metabolism and mechanical loading environment are not unique to leptin. For example, by regulating longitudinal and radial bone growth and bone turnover balance, estrogens, and androgens contribute to sexual dimorphism of the skeleton. In this regard, administration of estrogen to growing ovariectomized rats results in shorter bones with lower total bone mass but higher site-specific cancellous bone volume. Ovariectomized rats also experience increased MAT expansion. ob/ob mice of both genders are hypogonadal due to reduced GnRH secretion, a defect that is reversed following leptin treatment. Thus, it is possible that hypogonadism contributes to MAT expansion in ob/ob mice. Expansion of MAT during caloric restriction in WT mice was associated with increased circulation of glucocorticoids, while caloric restriction resulted in a further increase in the already high levels of MAT in leptin-deficient ob/ob mice. These findings provide evidence that multiple factors, including leptin, regulate MAT levels.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 26347,
+            "relations": [],
+            "sentences": [],
+            "text": "As previously mentioned, short-duration delivery of leptin into the hypothalamus increased bone formation. Similarly, hypothalamic leptin gene therapy increased serum osteocalcin levels and osteoblast perimeter in lumbar vertebra of ob/ob mice. In the present study, hypothalamic leptin gene therapy increased osteoblast perimeter in distal femur metaphysis in ob/ob mice 30 weeks following vector administration. These findings indicate that leptin promotes higher levels of bone formation prior to and following restoration of normal body weight and bone mass in ob/ob mice."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "As previously mentioned, short-duration delivery of leptin into the hypothalamus increased bone formation. Similarly, hypothalamic leptin gene therapy increased serum osteocalcin levels and osteoblast perimeter in lumbar vertebra of ob/ob mice. In the present study, hypothalamic leptin gene therapy increased osteoblast perimeter in distal femur metaphysis in ob/ob mice 30 weeks following vector administration. These findings indicate that leptin promotes higher levels of bone formation prior to and following restoration of normal body weight and bone mass in ob/ob mice.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 26926,
+            "relations": [],
+            "sentences": [],
+            "text": "The increased cancellous bone volume fraction observed at selected skeletal sites (lumbar vertebrae) in ob/ob mice was initially attributed to increased bone formation, suggesting that leptin was antiosteogenic. However, subsequent studies consistently reported decreased bone formation in ob/ob mice and leptin receptor-deficient db/db mice, and increased bone formation following intracerebroventricular delivery of leptin, leptin gene therapy, or subcutaneous administration of leptin in ob/ob mice. Leptin signaling-deficient (ob/ob and db/db) mice have normal or increased osteoclast number but exhibit evidence for impaired osteoclast function. As a consequence, these mice exhibit impaired skeletal maturation due to defective resorption of calcified cartilage. Specifically, the high cancellous bone volume fraction represents mild osteopetrosis. In the present study in ob/ob mice, rAAV-Lep resulted in increased osteoclast-lined bone perimeter. Thus, the failure to detect an increase in cancellous bone volume fraction in the femur metaphysis in response to higher leptin levels is likely due to parallel increases in bone formation and bone resorption."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The increased cancellous bone volume fraction observed at selected skeletal sites (lumbar vertebrae) in ob/ob mice was initially attributed to increased bone formation, suggesting that leptin was antiosteogenic. However, subsequent studies consistently reported decreased bone formation in ob/ob mice and leptin receptor-deficient db/db mice, and increased bone formation following intracerebroventricular delivery of leptin, leptin gene therapy, or subcutaneous administration of leptin in ob/ob mice. Leptin signaling-deficient (ob/ob and db/db) mice have normal or increased osteoclast number but exhibit evidence for impaired osteoclast function. As a consequence, these mice exhibit impaired skeletal maturation due to defective resorption of calcified cartilage. Specifically, the high cancellous bone volume fraction represents mild osteopetrosis. In the present study in ob/ob mice, rAAV-Lep resulted in increased osteoclast-lined bone perimeter. Thus, the failure to detect an increase in cancellous bone volume fraction in the femur metaphysis in response to higher leptin levels is likely due to parallel increases in bone formation and bone resorption.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 28091,
+            "relations": [],
+            "sentences": [],
+            "text": "High MAT levels in ob/ob mice are associated with low cancellous bone turnover. In the present study, rAAV-Lep resulted in increases in osteoclast-lined perimeter as well as osteoblast-lined bone perimeter and greatly reduced MAT with minimal change in cancellous bone area fraction. High MAT levels are not unique to leptin deficiency. Growth hormone deficiency in rats and mice induced by hypophysectomy or deletion of the gene for growth hormone, respectively, is also associated with high MAT and low bone turnover. In the case of growth hormone deficiency, parathyroid hormone was found to increase bone formation in hypophysectomized rats without impacting MAT levels, demonstrating that bone formation induced by bone anabolic agents is not suppressed by high levels of MAT. Similarly, although bone formation was increased, the absence of MAT in kitW/W-v mice did not protect against ovariectomy-induced bone loss. Taken together, these findings suggest that bone resorption as well as bone formation can be impacted during changes in MAT levels and interventions that target MAT may not necessarily change bone turnover balance."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "High MAT levels in ob/ob mice are associated with low cancellous bone turnover. In the present study, rAAV-Lep resulted in increases in osteoclast-lined perimeter as well as osteoblast-lined bone perimeter and greatly reduced MAT with minimal change in cancellous bone area fraction. High MAT levels are not unique to leptin deficiency. Growth hormone deficiency in rats and mice induced by hypophysectomy or deletion of the gene for growth hormone, respectively, is also associated with high MAT and low bone turnover. In the case of growth hormone deficiency, parathyroid hormone was found to increase bone formation in hypophysectomized rats without impacting MAT levels, demonstrating that bone formation induced by bone anabolic agents is not suppressed by high levels of MAT. Similarly, although bone formation was increased, the absence of MAT in kitW/W-v mice did not protect against ovariectomy-induced bone loss. Taken together, these findings suggest that bone resorption as well as bone formation can be impacted during changes in MAT levels and interventions that target MAT may not necessarily change bone turnover balance.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 29229,
+            "relations": [],
+            "sentences": [],
+            "text": "A positive association between body weight and bone mass was observed in ob/ob as well as WT mice. However, leptin appears to sensitize the skeleton to bone mechanical loading. This may explain why leptin-deficient mice have a low total bone mass even though they are morbidly obese and why the massive weight loss in ob/ob mice following leptin treatment is actually associated with a net increase in bone mass."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "A positive association between body weight and bone mass was observed in ob/ob as well as WT mice. However, leptin appears to sensitize the skeleton to bone mechanical loading. This may explain why leptin-deficient mice have a low total bone mass even though they are morbidly obese and why the massive weight loss in ob/ob mice following leptin treatment is actually associated with a net increase in bone mass.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 29642,
+            "relations": [],
+            "sentences": [],
+            "text": "Conditional knockout of the leptin receptor in bone marrow stromal cells has been reported to result in local increases in osteogenesis and decreased adipogenesis. It is difficult to reconcile these findings with the skeletal phenotype of leptin receptor-deficient mice or with the present results demonstrating that increasing hypothalamic leptin levels profoundly reduces MAT levels. Evidence that factors secondary to leptin deficiency are responsible for the discrepancy, as suggested by Yue et al., are presently lacking and correction of many of the metabolic abnormalities associated with leptin deficiency (e.g., hyperglycemia), rather than improving, actually worsens the skeletal phenotype of ob/ob mice. Also inexplicable by Yue et al. is the finding that adoptive transfer of leptin receptor-deficient db/db bone marrow cells into WT mice recapitulates the low bone formation skeletal phenotype of db/db mice without impacting food intake or weight gain. It is possible that the role of leptin receptors in regulating bone metabolism depends upon stage of stromal cell differentiation, but this requires additional research."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Conditional knockout of the leptin receptor in bone marrow stromal cells has been reported to result in local increases in osteogenesis and decreased adipogenesis. It is difficult to reconcile these findings with the skeletal phenotype of leptin receptor-deficient mice or with the present results demonstrating that increasing hypothalamic leptin levels profoundly reduces MAT levels. Evidence that factors secondary to leptin deficiency are responsible for the discrepancy, as suggested by Yue et al., are presently lacking and correction of many of the metabolic abnormalities associated with leptin deficiency (e.g., hyperglycemia), rather than improving, actually worsens the skeletal phenotype of ob/ob mice. Also inexplicable by Yue et al. is the finding that adoptive transfer of leptin receptor-deficient db/db bone marrow cells into WT mice recapitulates the low bone formation skeletal phenotype of db/db mice without impacting food intake or weight gain. It is possible that the role of leptin receptors in regulating bone metabolism depends upon stage of stromal cell differentiation, but this requires additional research.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 30779,
+            "relations": [],
+            "sentences": [],
+            "text": "A limitation of the present study is that MAT measurements were performed at a single skeletal site and MAT subtypes were not evaluated. The lipid composition and physiological function of MAT can vary with location and/or regulatory factors, such as growth hormone status. A further limitation of most studies, including the present study, is that they have been performed housing mice at room temperature. Thermoneutral (temperature range where basal rate of energy production is at equilibrium with heat loss) in mice ranges from 26 to 34°C. Mild cold stress induced by room temperature housing results in dramatic cancellous bone loss at the femur metaphysis. Interestingly, mice housed at 32°C consumed ~40% less food (fed ad libitum) but did not differ from room temperature-housed mice in weight. In addition to higher bone mass, mice housed at 32°C had greatly reduced UCP-1 gene expression in brown fat, higher serum leptin, higher MAT levels due to increased adipocyte number, higher bone formation rate to due higher osteoblast perimeter, and lower osteoclast perimeter. These findings suggest that non-shivering thermogenesis substantially influences the association between leptin, MAT, and bone cells."
+          },
+          {
+            "annotations": [],
+            "bioctype": "BioCPassage",
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "A limitation of the present study is that MAT measurements were performed at a single skeletal site and MAT subtypes were not evaluated. The lipid composition and physiological function of MAT can vary with location and/or regulatory factors, such as growth hormone status. A further limitation of most studies, including the present study, is that they have been performed housing mice at room temperature. Thermoneutral (temperature range where basal rate of energy production is at equilibrium with heat loss) in mice ranges from 26 to 34°C. Mild cold stress induced by room temperature housing results in dramatic cancellous bone loss at the femur metaphysis. Interestingly, mice housed at 32°C consumed ~40% less food (fed ad libitum) but did not differ from room temperature-housed mice in weight. In addition to higher bone mass, mice housed at 32°C had greatly reduced UCP-1 gene expression in brown fat, higher serum leptin, higher MAT levels due to increased adipocyte number, higher bone formation rate to due higher osteoblast perimeter, and lower osteoclast perimeter. These findings suggest that non-shivering thermogenesis substantially influences the association between leptin, MAT, and bone cells.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
-            "bioctype": "BioCPassage",
             "offset": 31998,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "In summary, hypothalamic leptin gene therapy maintained low MAT levels in ob/ob mice fed regular or high-fat diet. The reduction in MAT was accompanied by an increase in osteoblast-lined bone perimeter but not an increase in cancellous bone volume fraction. The increase in osteoclast-lined bone perimeter suggests that the increase in bone formation was matched by an increase in bone resorption. These findings provide further evidence that a deterministic model where reducing MAT will invariably lead to increased bone volume is not tenable. As a consequence, interventions targeted at reducing MAT may not be an effective strategy for increasing bone mass.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In summary, hypothalamic leptin gene therapy maintained low MAT levels in ob/ob mice fed regular or high-fat diet. The reduction in MAT was accompanied by an increase in osteoblast-lined bone perimeter but not an increase in cancellous bone volume fraction. The increase in osteoclast-lined bone perimeter suggests that the increase in bone formation was matched by an increase in bone resorption. These findings provide further evidence that a deterministic model where reducing MAT will invariably lead to increased bone volume is not tenable. As a consequence, interventions targeted at reducing MAT may not be an effective strategy for increasing bone mass."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "AUTH_CONT",
+              "type": "title_1"
+            },
             "offset": 32660,
-            "infons": {
-              "section_type": "AUTH_CONT",
-              "type": "title_1"
-            },
-            "text": "Author Contributions",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Author Contributions"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "AUTH_CONT",
+              "type": "paragraph"
+            },
             "offset": 32681,
-            "infons": {
-              "section_type": "AUTH_CONT",
-              "type": "paragraph"
-            },
-            "text": "Study design: SK. Data acquisition: LL, KP, and RT. Data analysis: AB. Data interpretation: LL, KP, AB, SK, RT, and UI. Drafting of manuscript: LL, RT, and UI. Revising manuscript content: LL, KP, AB, SK, RT, and UI. Approving final version of manuscript: LL, KP, AB, SK, RT, and UI. All authors take responsibility for the integrity of this work.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Study design: SK. Data acquisition: LL, KP, and RT. Data analysis: AB. Data interpretation: LL, KP, AB, SK, RT, and UI. Drafting of manuscript: LL, RT, and UI. Revising manuscript content: LL, KP, AB, SK, RT, and UI. Approving final version of manuscript: LL, KP, AB, SK, RT, and UI. All authors take responsibility for the integrity of this work."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "COMP_INT",
+              "type": "title_1"
+            },
             "offset": 33029,
-            "infons": {
-              "section_type": "COMP_INT",
-              "type": "title_1"
-            },
-            "text": "Conflict of Interest Statement",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Conflict of Interest Statement"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
+            "infons": {
+              "section_type": "COMP_INT",
+              "type": "paragraph"
+            },
             "offset": 33060,
-            "infons": {
-              "section_type": "COMP_INT",
-              "type": "paragraph"
-            },
-            "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33233,
             "infons": {
               "section_type": "ACK_FUND",
               "type": "title_1"
             },
-            "text": "Funding",
+            "offset": 33233,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Funding"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33241,
             "infons": {
               "section_type": "ACK_FUND",
               "type": "paragraph"
             },
-            "text": "This study was supported by NIH AR060913, NASA NNX12AL24, and USDA 38420-17804.",
+            "offset": 33241,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "This study was supported by NIH AR060913, NASA NNX12AL24, and USDA 38420-17804."
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33321,
             "infons": {
               "section_type": "REF",
               "type": "title"
             },
-            "text": "References",
+            "offset": 33321,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "References"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33332,
             "infons": {
               "fpage": "368",
               "lpage": "75",
@@ -896,14 +894,14 @@
               "volume": "20",
               "year": "2014"
             },
-            "text": "Bone marrow adipose tissue is an endocrine organ that contributes to increased circulating adiponectin during caloric restriction",
+            "offset": 33332,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone marrow adipose tissue is an endocrine organ that contributes to increased circulating adiponectin during caloric restriction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33462,
             "infons": {
               "fpage": "1524",
               "lpage": "7",
@@ -919,14 +917,14 @@
               "volume": "123",
               "year": "2010"
             },
-            "text": "Assessment of bone marrow changes in postmenopausal women with varying bone densities: magnetic resonance spectroscopy and diffusion magnetic resonance imaging",
+            "offset": 33462,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Assessment of bone marrow changes in postmenopausal women with varying bone densities: magnetic resonance spectroscopy and diffusion magnetic resonance imaging"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33622,
             "infons": {
               "fpage": "513",
               "lpage": "6",
@@ -944,14 +942,14 @@
               "volume": "32",
               "year": "2006"
             },
-            "text": "Precedence of the shift of body-fat distribution over the change in body composition after menopause",
+            "offset": 33622,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Precedence of the shift of body-fat distribution over the change in body composition after menopause"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33723,
             "infons": {
               "fpage": "71",
               "lpage": "4",
@@ -964,14 +962,14 @@
               "volume": "276",
               "year": "1997"
             },
-            "text": "Marrow stromal cells as stem cells for nonhematopoietic tissues",
+            "offset": 33723,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Marrow stromal cells as stem cells for nonhematopoietic tissues"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33787,
             "infons": {
               "fpage": "846",
               "lpage": "55",
@@ -989,14 +987,14 @@
               "volume": "113",
               "year": "2004"
             },
-            "text": "PPARgamma insufficiency enhances osteogenesis through osteoblast formation from bone marrow progenitors",
+            "offset": 33787,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "PPARgamma insufficiency enhances osteogenesis through osteoblast formation from bone marrow progenitors"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 33891,
             "infons": {
               "fpage": "1939",
               "lpage": "52",
@@ -1014,14 +1012,14 @@
               "volume": "26",
               "year": "2011"
             },
-            "text": "Osteoblast-targeted overexpression of PPARgamma inhibited bone mass gain in male mice and accelerated ovariectomy-induced bone loss in female mice",
+            "offset": 33891,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteoblast-targeted overexpression of PPARgamma inhibited bone mass gain in male mice and accelerated ovariectomy-induced bone loss in female mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34038,
             "infons": {
               "fpage": "277",
               "lpage": "82",
@@ -1039,14 +1037,14 @@
               "volume": "29",
               "year": "2010"
             },
-            "text": "Increased fat due to estrogen deficiency induces bone loss by elevating monocyte chemoattractant protein-1 (MCP-1) production",
+            "offset": 34038,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Increased fat due to estrogen deficiency induces bone loss by elevating monocyte chemoattractant protein-1 (MCP-1) production"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34164,
             "infons": {
               "fpage": "1529",
               "lpage": "38",
@@ -1064,14 +1062,14 @@
               "volume": "20",
               "year": "2009"
             },
-            "text": "Alcohol alters whole body composition, inhibits bone formation, and increases bone marrow adiposity in rats",
+            "offset": 34164,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Alcohol alters whole body composition, inhibits bone formation, and increases bone marrow adiposity in rats"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34272,
             "infons": {
               "fpage": "540",
               "lpage": "8",
@@ -1089,14 +1087,14 @@
               "volume": "107",
               "year": "2009"
             },
-            "text": "Bone marrow fat accumulation after 60 days of bed rest persisted 1 year after activities were resumed along with hemopoietic stimulation: the Women International Space Simulation for Exploration study",
+            "offset": 34272,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone marrow fat accumulation after 60 days of bed rest persisted 1 year after activities were resumed along with hemopoietic stimulation: the Women International Space Simulation for Exploration study"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34473,
             "infons": {
               "fpage": "2129",
               "lpage": "36",
@@ -1114,14 +1112,14 @@
               "volume": "94",
               "year": "2009"
             },
-            "text": "Increased bone marrow fat in anorexia nervosa",
+            "offset": 34473,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Increased bone marrow fat in anorexia nervosa"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34519,
             "infons": {
               "fpage": "30",
               "name_0": "surname:Cao;given-names:JJ",
@@ -1133,14 +1131,14 @@
               "volume": "6",
               "year": "2011"
             },
-            "text": "Effects of obesity on bone metabolism",
+            "offset": 34519,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of obesity on bone metabolism"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34557,
             "infons": {
               "fpage": "103",
               "lpage": "11",
@@ -1158,14 +1156,14 @@
               "volume": "26",
               "year": "2015"
             },
-            "text": "Women with severe obesity and relatively low bone mineral density have increased fracture risk",
+            "offset": 34557,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Women with severe obesity and relatively low bone mineral density have increased fracture risk"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34652,
             "infons": {
               "fpage": "R115",
               "lpage": "30",
@@ -1179,14 +1177,14 @@
               "volume": "230",
               "year": "2016"
             },
-            "text": "Influence of body weight on bone mass, architecture, and turnover",
+            "offset": 34652,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Influence of body weight on bone mass, architecture, and turnover"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34718,
             "infons": {
               "fpage": "763",
               "lpage": "70",
@@ -1200,14 +1198,14 @@
               "volume": "395",
               "year": "1998"
             },
-            "text": "Leptin and the regulation of body weight in mammals",
+            "offset": 34718,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin and the regulation of body weight in mammals"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34770,
             "infons": {
               "fpage": "73",
               "lpage": "8",
@@ -1224,14 +1222,14 @@
               "volume": "92",
               "year": "2000"
             },
-            "text": "Leptin is a potent stimulator of bone growth in ob/ob mice",
+            "offset": 34770,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin is a potent stimulator of bone growth in ob/ob mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34829,
             "infons": {
               "fpage": "22",
               "lpage": "34",
@@ -1249,14 +1247,14 @@
               "volume": "28",
               "year": "2013"
             },
-            "text": "Peripheral leptin regulates bone formation",
+            "offset": 34829,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Peripheral leptin regulates bone formation"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34872,
             "infons": {
               "fpage": "607",
               "lpage": "21",
@@ -1274,14 +1272,14 @@
               "volume": "37",
               "year": "2005"
             },
-            "text": "Leptin regulates chondrocyte differentiation and matrix maturation during endochondral ossification",
+            "offset": 34872,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin regulates chondrocyte differentiation and matrix maturation during endochondral ossification"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 34972,
             "infons": {
               "fpage": "M1",
               "lpage": "15",
@@ -1299,14 +1297,14 @@
               "volume": "223",
               "year": "2014"
             },
-            "text": "Morbid obesity attenuates the skeletal abnormalities associated with leptin deficiency in mice",
+            "offset": 34972,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Morbid obesity attenuates the skeletal abnormalities associated with leptin deficiency in mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35067,
             "infons": {
               "fpage": "660",
               "lpage": "7",
@@ -1324,14 +1322,14 @@
               "volume": "246",
               "year": "1998"
             },
-            "text": "Leptin regulation of peroxisome proliferator-activated receptor-gamma, tumor necrosis factor, and uncoupling protein-2 expression in adipose tissues",
+            "offset": 35067,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin regulation of peroxisome proliferator-activated receptor-gamma, tumor necrosis factor, and uncoupling protein-2 expression in adipose tissues"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35216,
             "infons": {
               "fpage": "E10",
               "lpage": "5",
@@ -1345,14 +1343,14 @@
               "volume": "285",
               "year": "2003"
             },
-            "text": "Impaired transport of leptin across the blood-brain barrier in obesity is acquired and reversible",
+            "offset": 35216,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impaired transport of leptin across the blood-brain barrier in obesity is acquired and reversible"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35314,
             "infons": {
               "fpage": "59",
               "lpage": "65",
@@ -1366,14 +1364,14 @@
               "volume": "39",
               "year": "2015"
             },
-            "text": "New insights in leptin resistance mechanisms in mice",
+            "offset": 35314,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "New insights in leptin resistance mechanisms in mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35367,
             "infons": {
               "fpage": "877",
               "lpage": "82",
@@ -1391,14 +1389,14 @@
               "volume": "21",
               "year": "2015"
             },
-            "text": "Diet-induced obese mice retain endogenous leptin action",
+            "offset": 35367,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Diet-induced obese mice retain endogenous leptin action"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35423,
             "infons": {
               "fpage": "115",
               "lpage": "23",
@@ -1416,14 +1414,14 @@
               "volume": "37",
               "year": "2010"
             },
-            "text": "Central leptin versus ghrelin: effects on bone marrow adiposity and gene expression",
+            "offset": 35423,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Central leptin versus ghrelin: effects on bone marrow adiposity and gene expression"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35507,
             "infons": {
               "fpage": "133",
               "lpage": "41",
@@ -1441,14 +1439,14 @@
               "volume": "327",
               "year": "2007"
             },
-            "text": "Injections of leptin into rat ventromedial hypothalamus increase adipocyte apoptosis in peripheral fat and in bone marrow",
+            "offset": 35507,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Injections of leptin into rat ventromedial hypothalamus increase adipocyte apoptosis in peripheral fat and in bone marrow"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35629,
             "infons": {
               "fpage": "1594",
               "lpage": "604",
@@ -1465,14 +1463,14 @@
               "volume": "28",
               "year": "2007"
             },
-            "text": "Leptin gene transfer in the hypothalamus enhances longevity in adult monogenic mutant mice in the absence of circulating leptin",
+            "offset": 35629,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin gene transfer in the hypothalamus enhances longevity in adult monogenic mutant mice in the absence of circulating leptin"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35757,
             "infons": {
               "fpage": "2032",
               "lpage": "7",
@@ -1490,14 +1488,14 @@
               "volume": "230",
               "year": "2015"
             },
-            "text": "A high fat diet increases bone marrow adipose tissue (MAT) but does not alter trabecular or cortical bone mass in C57BL/6J mice",
+            "offset": 35757,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A high fat diet increases bone marrow adipose tissue (MAT) but does not alter trabecular or cortical bone mass in C57BL/6J mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35885,
             "infons": {
               "fpage": "1197",
               "lpage": "207",
@@ -1513,14 +1511,14 @@
               "volume": "22",
               "year": "2007"
             },
-            "text": "Age-related changes in trabecular architecture differ in female and male C57BL/6J mice",
+            "offset": 35885,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Age-related changes in trabecular architecture differ in female and male C57BL/6J mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 35972,
             "infons": {
               "fpage": "1012",
               "lpage": "9",
@@ -1537,14 +1535,14 @@
               "volume": "28",
               "year": "2007"
             },
-            "text": "Central leptin gene therapy corrects skeletal abnormalities in leptin-deficient ob/ob mice",
+            "offset": 35972,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Central leptin gene therapy corrects skeletal abnormalities in leptin-deficient ob/ob mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36063,
             "infons": {
               "fpage": "3245",
               "lpage": "54",
@@ -1561,14 +1559,14 @@
               "volume": "27",
               "year": "2006"
             },
-            "text": "Hypothalamic clamp on insulin release by leptin-transgene expression",
+            "offset": 36063,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hypothalamic clamp on insulin release by leptin-transgene expression"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36132,
             "infons": {
               "fpage": "404",
               "lpage": "12",
@@ -1586,14 +1584,14 @@
               "volume": "44",
               "year": "2009"
             },
-            "text": "Body mass influences cortical bone mass independent of leptin signaling",
+            "offset": 36132,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Body mass influences cortical bone mass independent of leptin signaling"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36204,
             "infons": {
               "fpage": "189",
               "lpage": "98",
@@ -1609,14 +1607,14 @@
               "volume": "52",
               "year": "2002"
             },
-            "text": "Long-term suppression of weight gain, adiposity, and serum insulin by central leptin gene therapy in prepubertal rats: effects on serum ghrelin and appetite-regulating genes",
+            "offset": 36204,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Long-term suppression of weight gain, adiposity, and serum insulin by central leptin gene therapy in prepubertal rats: effects on serum ghrelin and appetite-regulating genes"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36378,
             "infons": {
               "fpage": "325",
               "lpage": "41",
@@ -1631,14 +1629,14 @@
               "volume": "447",
               "year": "2008"
             },
-            "text": "Histological analysis of bone",
+            "offset": 36378,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Histological analysis of bone"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36408,
             "infons": {
               "fpage": "757",
               "lpage": "68",
@@ -1656,14 +1654,14 @@
               "volume": "25",
               "year": "2010"
             },
-            "text": "Growth hormone regulates the balance between bone formation and bone marrow adiposity",
+            "offset": 36408,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Growth hormone regulates the balance between bone formation and bone marrow adiposity"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36494,
             "infons": {
               "fpage": "2",
               "lpage": "17",
@@ -1681,14 +1679,14 @@
               "volume": "28",
               "year": "2013"
             },
-            "text": "Standardized nomenclature, symbols, and units for bone histomorphometry: a 2012 update of the report of the ASBMR Histomorphometry Nomenclature Committee",
+            "offset": 36494,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Standardized nomenclature, symbols, and units for bone histomorphometry: a 2012 update of the report of the ASBMR Histomorphometry Nomenclature Committee"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36648,
             "infons": {
               "fpage": "289",
               "lpage": "300",
@@ -1700,14 +1698,14 @@
               "volume": "57",
               "year": "1995"
             },
-            "text": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+            "offset": 36648,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Controlling the false discovery rate: a practical and powerful approach to multiple testing"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36740,
             "infons": {
               "fpage": "1710",
               "lpage": "20",
@@ -1725,14 +1723,14 @@
               "volume": "26",
               "year": "2011"
             },
-            "text": "Central (ICV) leptin injection increases bone formation, bone mineral density, muscle mass, serum IGF-1, and the expression of osteogenic genes in leptin-deficient ob/ob mice",
+            "offset": 36740,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Central (ICV) leptin injection increases bone formation, bone mineral density, muscle mass, serum IGF-1, and the expression of osteogenic genes in leptin-deficient ob/ob mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 36915,
             "infons": {
               "fpage": "994",
               "lpage": "1001",
@@ -1750,14 +1748,14 @@
               "volume": "20",
               "year": "2005"
             },
-            "text": "Leptin treatment induces loss of bone marrow adipocytes and increases bone formation in leptin-deficient ob/ob mice",
+            "offset": 36915,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin treatment induces loss of bone marrow adipocytes and increases bone formation in leptin-deficient ob/ob mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37031,
             "infons": {
               "fpage": "1506",
               "lpage": "16",
@@ -1775,14 +1773,14 @@
               "volume": "26",
               "year": "2011"
             },
-            "text": "Hypothalamic leptin gene therapy prevents weight gain without long-term detrimental effects on bone in growing and skeletally mature female rats",
+            "offset": 37031,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hypothalamic leptin gene therapy prevents weight gain without long-term detrimental effects on bone in growing and skeletally mature female rats"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37176,
             "infons": {
               "fpage": "1575",
               "lpage": "80",
@@ -1799,14 +1797,14 @@
               "volume": "32",
               "year": "2011"
             },
-            "text": "Effects of increased hypothalamic leptin gene expression on ovariectomy-induced bone loss in rats",
+            "offset": 37176,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of increased hypothalamic leptin gene expression on ovariectomy-induced bone loss in rats"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37274,
             "infons": {
               "fpage": "3546",
               "lpage": "53",
@@ -1824,14 +1822,14 @@
               "volume": "142",
               "year": "2001"
             },
-            "text": "Leptin reduces ovariectomy-induced bone loss in rats",
+            "offset": 37274,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin reduces ovariectomy-induced bone loss in rats"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37327,
             "infons": {
               "fpage": "376",
               "lpage": "83",
@@ -1848,14 +1846,14 @@
               "volume": "34",
               "year": "2004"
             },
-            "text": "Leptin deficiency produces contrasting phenotypes in bones of the limb and spine",
+            "offset": 37327,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin deficiency produces contrasting phenotypes in bones of the limb and spine"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37408,
             "infons": {
               "fpage": "275",
               "lpage": "300",
@@ -1870,14 +1868,14 @@
               "volume": "15",
               "year": "1994"
             },
-            "text": "Skeletal effects of estrogen",
+            "offset": 37408,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Skeletal effects of estrogen"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37437,
             "infons": {
               "fpage": "9",
               "lpage": "18",
@@ -1893,14 +1891,14 @@
               "volume": "93",
               "year": "2011"
             },
-            "text": "Hypothalamic sites of leptin action linking metabolism and reproduction",
+            "offset": 37437,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hypothalamic sites of leptin action linking metabolism and reproduction"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37509,
             "infons": {
               "fpage": "967",
               "lpage": "73",
@@ -1915,14 +1913,14 @@
               "volume": "30",
               "year": "2009"
             },
-            "text": "Leptin increases osteoblast-specific osteocalcin release through a hypothalamic relay",
+            "offset": 37509,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin increases osteoblast-specific osteocalcin release through a hypothalamic relay"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37595,
             "infons": {
               "fpage": "197",
               "lpage": "207",
@@ -1940,14 +1938,14 @@
               "volume": "100",
               "year": "2000"
             },
-            "text": "Leptin inhibits bone formation through a hypothalamic relay: a central control of bone mass",
+            "offset": 37595,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin inhibits bone formation through a hypothalamic relay: a central control of bone mass"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37687,
             "infons": {
               "fpage": "145",
               "lpage": "53",
@@ -1961,14 +1959,14 @@
               "volume": "53",
               "year": "2013"
             },
-            "text": "Failure to generate bone marrow adipocytes does not protect mice from ovariectomy-induced osteopenia",
+            "offset": 37687,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Failure to generate bone marrow adipocytes does not protect mice from ovariectomy-induced osteopenia"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37788,
             "infons": {
               "fpage": "2018",
               "lpage": "29",
@@ -1985,14 +1983,14 @@
               "volume": "298",
               "year": "2015"
             },
-            "text": "Paradoxical effects of partial leptin deficiency on bone in growing female mice",
+            "offset": 37788,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Paradoxical effects of partial leptin deficiency on bone in growing female mice"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37868,
             "infons": {
               "fpage": "782",
               "lpage": "96",
@@ -2009,14 +2007,14 @@
               "volume": "18",
               "year": "2016"
             },
-            "text": "Leptin receptor promotes adipogenesis and reduces osteogenesis by regulating mesenchymal stromal cells in adult bone marrow",
+            "offset": 37868,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin receptor promotes adipogenesis and reduces osteogenesis by regulating mesenchymal stromal cells in adult bone marrow"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 37992,
             "infons": {
               "fpage": "1698",
               "lpage": "709",
@@ -2034,14 +2032,14 @@
               "volume": "26",
               "year": "2011"
             },
-            "text": "Skeletal phenotype of the leptin receptor-deficient db/db mouse",
+            "offset": 37992,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Skeletal phenotype of the leptin receptor-deficient db/db mouse"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38056,
             "infons": {
               "fpage": "1071",
               "lpage": "80",
@@ -2059,14 +2057,14 @@
               "volume": "28",
               "year": "2010"
             },
-            "text": "Leptin functions peripherally to regulate differentiation of mesenchymal progenitor cells",
+            "offset": 38056,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Leptin functions peripherally to regulate differentiation of mesenchymal progenitor cells"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38146,
             "infons": {
               "fpage": "7808",
               "name_0": "surname:Scheller;given-names:EL",
@@ -2083,14 +2081,14 @@
               "volume": "6",
               "year": "2015"
             },
-            "text": "Region-specific variation in the properties of skeletal adipocytes reveals regulated and constitutive marrow adipose tissues",
+            "offset": 38146,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Region-specific variation in the properties of skeletal adipocytes reveals regulated and constitutive marrow adipose tissues"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38271,
             "infons": {
               "name_0": "surname:Gordon;given-names:CJ",
               "section_type": "REF",
@@ -2098,14 +2096,14 @@
               "type": "ref",
               "year": "1993"
             },
-            "text": "",
+            "offset": 38271,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": ""
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 38272,
             "infons": {
               "name_0": "surname:Iwaniec;given-names:UT",
               "name_1": "surname:Philbrick;given-names:KA",
@@ -2120,15 +2118,18 @@
               "type": "ref",
               "year": "2016"
             },
-            "text": "Room temperature housing results in premature cancellous bone loss in growing female mice: implications for the mouse as a preclinical model for age-related bone loss",
+            "offset": 38272,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Room temperature housing results in premature cancellous bone loss in growing female mice: implications for the mouse as a preclinical model for age-related bone loss"
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC",
+    "version": "1.0"
   }
 ]

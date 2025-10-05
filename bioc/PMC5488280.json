@@ -1,18 +1,17 @@
 [
   {
-    "source": "PMC",
     "date": "20210103",
-    "key": "pmc.key",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
+        "full_text": "Osteocyte Apoptosis Caused by Hindlimb Unloading is Required to Trigger Osteocyte RANKL Production and Subsequent Resorption of Cortical and Trabecular Bone in Mice Femurs\nOsteocyte apoptosis is essential to activate bone remodeling in response to fatigue microdamage and estrogen withdrawal, such that apoptosis inhibition in vivo prevents the onset of osteoclastic resorption. Osteocyte apoptosis has also been spatially linked to bone resorption owing to disuse, but whether apoptosis plays a similar controlling role is unclear. We, therefore, 1) evaluated the spatial and temporal effects of disuse from hindlimb unloading (HLU) on osteocyte apoptosis, receptor activator of NF-κB ligand (RANKL) expression, bone resorption, and loss in mouse femora, and 2) tested whether osteocyte apoptosis was required to activate osteoclastic activity in cortical and trabecular bone by treating animals subjected to HLU with the pan-caspase apoptosis inhibitor, QVD (quinolyl-valyl-O-methylaspartyl-[-2,6-difluorophenoxy]-methylketone). Immunohistochemistry was used to identify apoptotic and RANKL-producing osteocytes in femoral diaphysis and distal trabecular bone, and μCT was used to determine the extent of trabecular bone loss owing to HLU. In both cortical and trabecular bone, 5 days of HLU increased osteocyte apoptosis significantly (3- and 4-fold, respectively, p < 0.05 versus Ctrl). At day 14, the apoptotic osteocyte number in femoral cortices declined to near control levels but remained elevated in trabeculae (3-fold versus Ctrl, p < 0.05). The number of osteocytes producing RANKL in both bone compartments was also significantly increased at day 5 of HLU (>1.5-fold versus Ctrl, p <0.05) and further increased by day 14. Increases in osteocyte apoptosis and RANKL production preceded increases in bone resorption at both endocortical and trabecular surfaces. QVD completely inhibited not only the HLU-triggered increases in osteocyte apoptosis but also RANKL production and activation of bone resorption at both sites. Finally, μCT studies revealed that apoptosis inhibition completely prevented the trabecular bone loss caused by HLU. Together these data indicate that osteocyte apoptosis plays a central and controlling role in triggering osteocyte RANKL production and the activation of new resorption leading to bone loss in disuse.\nIntroduction\nBone remodeling, the sequential resorption of a bone packet by osteoclasts followed by deposition of new tissue at the same site by osteoblasts, can be triggered by a variety of stimuli including microdamage, changes in endocrine status (eg, ovarian hormone depletion), and mechanical unloading or disuse. In each instance, the activation of bone remodeling has been spatially and temporally associated with osteocyte apoptosis, which precedes the recruitment of osteoclasts that resorb the region of bone containing the apoptotic osteocytes. Moreover, this osteocyte apoptosis plays a central and controlling role in triggering bone resorption in response to microdamage and estrogen loss. Pharmacological inhibition of osteocyte apoptosis after bone fatigue or estrogen loss completely prevented both the activation of bone resorption and the bone loss that occur in response to these challenges. Recent studies at microdamage sites in bone reveal that the dying osteocytes trigger viable, neighbor osteocytes to increase expression of the pro-osteoclastogenic cytokine receptor activator of NF-κB ligand (RANKL), thus activating focal resorption. Whether activation of resorption in other remodeling states, such as disuse or estrogen loss, operates through the same combination of osteocyte-based mechanisms (ie, apoptosis triggering resorption via activation of RANKL signaling from intact osteocytes) is unclear.\nMechanical loading is of paramount importance to the maintenance of adult bone mass and architecture and to bone health in general. Prolonged unloading from space flight, extended bed rest, or paralysis resulting from spinal cord injury results in extensive and often irreversible bone loss. Disuse stimulates aggressive and extensive bone resorption in both cortical and cancellous bone in humans and in animal models including primates and dogs, as well as mice and rats subjected to hindlimb unloading. Yet whether osteocyte apoptosis plays a causal role in activating bone resorption in disuse, as it does in microdamage and ovariectomy, is not fully resolved. Previously, Aguirre and colleagues had shown that osteocyte apoptosis occurs in vertebral bone of tail-suspended, hindlimb-unloaded mice, indicating adverse effects on osteocyte integrity in this model. A recent study by Plotkin and colleagues further concluded that dying osteocytes in lumbar vertebrae of hindlimb-unloaded mice do not significantly influence bone resorption. Here we report that, in contrast, both resorption activation and bone loss in long bones of mice subjected to hindlimb unloading are fully dependent on osteocyte apoptosis.\nMaterials and Methods\nTo test the hypothesis that osteocyte apoptosis controls the activation of bone resorption after disuse, we measured osteocyte apoptosis, increases in RANKL-producing osteocytes, and resorption activation in femoral cortical and trabecular bone of control and hindlimb-unloaded mice in the presence or absence of treatment with a pan-caspase inhibitor to suppress apoptosis.\nHindlimb unloading as a model for disuse\nC57BL/6J mice (male, age 4 months, n = 6 per group, Jackson Laboratory, Bar Harbor, ME, USA) were subjected to hindlimb unloading by tail suspension (HLU). The tail suspension model adjusted for mice was used, at a 30° tilt on a swiveling harness as detailed by Judex and colleagues. Animals were individually housed in standard cages at 25°C with unlimited rodent chow and water. Bones were examined after either 5 or 14 days of HLU. Day 5 captures the time at which increases in osteocyte apoptosis occur in both microdamage and ovariectomy, whereas day 14 samples the subsequent increases in osteoclastic activity. Age-matched non-HLU controls (cage controls) were allowed normal cage activity. All animal procedures were carried out under IACUC approved protocols from CCNY and Stony Brook University.\nIn vivo apoptosis inhibition\nTo assess whether osteocyte apoptosis is necessary for HLU-induced bone resorption, control and animals subjected to 14 days of HLU were treated with the pan-caspase inhibitor quinolyl-valyl-O-methylaspartyl-[-2,6-difluorophenoxy]-methyl-ketone (QVD-OMePhe or QVD, SM Biochemicals, Livermore, CA, USA; IP injection: 20 mg/kg weight in DMSO vehicle) or vehicle alone. QVD has been used in numerous previous studies to prevent osteocyte apoptosis in vivo after fatigue microdamage and estrogen loss. Animals were injected every other day throughout the experiment beginning on the day HLU was initiated. At the end of experiments, animals were euthanized by CO2, hindlimbs harvested, and bones fixed in 10% neutral-buffered formalin.\nPrevious studies indicate no direct effect of QVD on osteoclast formation by total marrow cultures in vitro or on existing resorption surfaces in vivo. In the current experiments, we further test whether QVD affects RANKL-induced osteoclast formation by the nonadherent mononuclear cell-enriched fraction of mouse bone marrow cells in vitro. In addition, we examined whether QVD directly alters osteocyte expression of RANKL, independent of its anti-apoptotic effects.\nQVD effects on osteoclastogenesis\nOsteoclasts were generated from marrow-derived mononuclear cells induced with RANKL and M-CSF, as in our previous studies. Femurs of 8-week-old C57BL/6J male mice (n = 4) were harvested, then bone marrow cells were flushed using a 26-gauge needle, collected in αMEM, and drawn through an 18-gauge needle to achieve single-cell suspensions. Subsequently, cells were washed in αMEM and plated in αMEM+10% FBS overnight. On the next day, nonadherent mononuclear cells were cultured in osteoclast differentiation media (αMEM, 10% FBS, 60 ng/mL RANKL, and 40 ng/mL M-CSF) with 0, 5, or 25 mM QVD or vehicle (DMSO) for 7 days with medium changes every 2 days. The high concentration of QVD examined (25 mM) approximates the instantaneous peak level of QVD that mice received in vivo at the time of injection. At the end of the study period, primary osteoclast cultures were washed twice with phosphate-buffered saline (PBS) and fixed with 10% glutaraldehyde solution for 15 minutes at 37°C. After two washes with PBS, cells were stained for TRAP activity for 10 to 15 minutes at 37°C (0.05 M sodium acetate, 0.025 M sodium tartrate, 0.125 mg/mL Fast Red Violet LB Salt, and 0.125 mg/mL Naphthol AS-MX phosphate) washed with water. Multinucleated, stained cells were counted using brightfield microscopy.\nQVD effects on osteocyte RANKL expression\nMLO-Y4 cells (gift from Dr L Bonewald), which normally express significant levels of RANKL, were cultured in αMEM medium supplemented with 5% calf serum (CS), 5% fetal bovine serum (FBS), and 1% penicillin-streptomycin to confluence, then shifted to serum-free medium with 1% bovine serum albumin (BSA) overnight. Cultures were treated with QVD at either 5 μM or 25 μM, or vehicle (DMSO) for 24 hours. RNA was isolated and expression of RANKL and GAPDH were assessed by RT-PCR, using procedures and primer sequences specific to mice, as previously described. The respective forward and reverse primers used were ACGCAGATTTCAGGACTCG and GGGCCACATCCAACCATGAG for RANKL, and CGTGCCGCCTGGA-GAAACC and TGGAAGAGTGGGAGTTGCTGTTG for GAPDH.\nBone architecture assessment via micro computed tomography (μCT)\nTrabecular bone architecture was assessed from μCT. Right femora were scanned with a high-resolution SkyScan 1172 μCT system (hardware version A, software version 1.5; Bruker microCT, Kontich, Belgium) and a Hamamatsu 10 Mp camera (Hamamatsu Photonics, Hamamatsu City, Japan) following the guidelines recommended in Bouxsein and colleagues. Images were acquired at 10-W power energy (100 KV and 100 mA), using a 0.5-mm aluminum filter and scanned at 6.7-μm pixel resolution. Five exposures per projection were used to produce high-contrast, low-noise images using a low-threshold value of 70 and all reconstruction parameters were applied identically to each scan. μCT studies were performed only on the distal femora to image trabecular bone, where the greatest bone loss occurs in the HLU mouse model. Trabecular bone was analyzed in a region of interest starting 400 μm from the end of the growth plate and extending 2 mm distally. Trabecular measurements included bone volume fraction (BV/TV, %), trabecular bone thickness (Tb.Th, mm), trabecular number (Tb. N, 1/mm), and trabecular separation (Tb.Sp, mm).\nImmunohistochemistry (IHC) for osteocyte apoptosis and RANKL expression\nFormalin-fixed left femora were decalcified with formic acid, dehydrated in 2-ethoxyethanol, and then embedded in ethyl methacrylate resin that allows for reliable immunostaining. Transverse sections (5 μm thick) were cut from the mid-diaphyses for cortical bone studies, and longitudinal frontal sections were cut from the distal femora for analysis of trabecular bone. Right femora were embedded without decalcification in PMMA and used for histomorphometric analyses of cortical bone and trabecular bone, respectively.\nSections were deplasticized in toluene and rehydrated with 2-ethoxyethanol and dH2O. Sections were incubated in a 3% hydrogen peroxide solution for 10 minutes at room temperature to quench intrinsic tissue peroxidases, then incubated in a methanol-sodium hydroxide–based solution for 30 minutes at room temperature (DeCal Retrieval Solution, Biogenex, San Ramon, CA, USA) for antigen retrieval. To prevent nonspecific tissue binding of antibodies, sections were incubated in Serum-Free Protein Block (Dako Agilent Technologies, Carpinteria, CA, USA; #X0909) solution for 10 minutes in room temperature. Sections were then incubated overnight at 4°C with either primary rabbit antibodies against cleaved caspase-3 to detect apoptotic osteocytes (Cell Signaling Technology, Danvers, MA, USA; #9661; 1:200 with Dako Antibody Diluent S3022) or RANKL (AbCam, Cambridge, MA, USA; ab9957; also at 1:200 dilution). Detection of primary antibodies was performed by incubation of sections in anti-rabbit IgG secondary antibody (Vector Laboratories, Burlingame, CA, USA; MP-7401) for 30 minutes followed by visualization using a DAB-horseradish peroxidase substrate detection system (Vector ImmPact DAB, SK-4105). Chondrocytes within the tibial growth plates of 10-week-old adolescent mice were used as positive controls to detect expression of cleaved caspase 3 and RANKL, and non-immune serum was used as the negative staining controls.\nHistomorphometry\nCaspase-3 and RANKL positively stained osteocytes were counted and expressed as a percentage of total number of osteocytes in each region (%Casp3+Ot and %RANKL+Ot, respectively). Osteocyte measurements were made in the 5-day and 14-day tail-suspended animal and appropriate control bones. Data were collected at ×400 magnification.\nCortical bone\nCasp3+Ot and RANKL+Ot and total osteocytes were counted in 0.025 to 0.035 mm2 sampling regions located at each principal anatomical quadrant of the femur (anterior, medial, posterior, lateral) as illustrated in Fig 1. In addition, data were collected for the radial distribution of each osteocyte category at each region from the endosteal to the periosteal surface.\nTrabecular bone\n%Casp3+Ot and %RANKL+Ot osteocytes were counted in the metaphyseal area corresponding to the region examined with μCT. Because Plotkin and colleagues reported increases in trabecular marrow–associated “osteoblast” RANKL staining with long-duration HLU, we also measured RANKL+ osteoblasts and marrow cells adjacent to bone surfaces in the distal femur.\nCortical bone resorption was assessed by measuring the percentage of eroded perimeter (Ec.Rs, %) at the endocortical surface of femoral mid-diaphyses, where cortical resorption occurs almost exclusively in this model. Measurements were performed on undecalcified cross sections (80 μm thick, two sections per bone) from the contralateral femurs (ie, opposite from those used for IHC studies) because obtaining dimensionally reliable surface measurements from decalcified diaphyseal cross sections is problematic, whereas thick sections used for surface measurements are unsuitable for counting osteoclast markers (Cathepsin K or TRAP). Trabecular bone active resorption was determined by measuring the percentage of bone perimeter (%CatK+Pm) with cells immunostained for the osteoclast marker Cathepsin K; IHC staining (AbCam ab19027, rabbit polyclonal antibody IgG, 1:200) followed the procedure described above. All osteocyte and bone histomorphometry data were collected using Osteomeasure (Osteometrics, Atlanta, GA, USA), and data were collected by a single observer.\nStatistical analysis\nDifferences in cortical osteocyte apoptosis as functions of anatomical region and time of HLU were examined by two-way ANOVA and post hoc differences tested using Tukey’s HSD. Differences in overall osteocyte apoptosis, osteocyte RANKL, and resorption with respect to single factors (time, QVD treatment) were assessed by one-way ANOVA with post hoc differences tested using Tukey’s HSD. The Kruskal-Wallis test was used to assess differences among in vitro cell responses to QVD dose levels. Data are shown as mean ± SD.\nResults\nCortical bone osteocyte apoptosis, osteocyte RANKL expression, and bone resorption with HLU\nHindlimb unloading caused a dramatic increase in the overall number of apoptotic osteocytes in femoral mid-diaphysis after 5 days of HLU, with %Casp3+Ot increased approximately 3-fold versus cage controls (p <0.05). Osteocyte apoptosis increased at all anatomical locations examined (Fig. 2), with the largest increase in the posterior cortex (approximately 5-fold versus cage controls, p <0.05) and approximately 2- to 3-fold increases versus cage controls in the anterior, medial, and lateral cortical regions as well (p >0.1). Significant differences in the radial distribution of osteocyte apoptosis were observed as well. Increases in overall %Casp3+Ot after 5 days of HLU were greatest near the endocortical surface (p <0.05; Fig. 2) but were similar to control levels moving toward the periosteum (p >0.4). Apoptotic osteocytes declined toward baseline levels by 14 days of HLU in all locations (Fig. 2). Pooled data for all anatomical locations were used to assess changes in osteocyte RANKL expression (%RANKL+Ot), endocortical resorption (%Ec.Rs.), as well as (%Casp3+Ot) over time of HLU (Fig. 3). After 14 days of HLU, osteocyte apoptosis declined toward baseline levels (Fig. 3, p >0.1). RANKL-expressing osteocytes increased markedly by 5 days of unloading (Fig. 3, p <0.05 versus cage Ctrl). However, in contrast to the decrease in apoptotic osteocytes found after 14 days of HLU, RANKL+ osteocytes remained significantly elevated after 14 days of HLU (p <0.05 versus cage Ctrl). Endocortical resorption was not increased at 5 days of HLU—the time of greatest osteocyte apoptosis—but was increased almost 5-fold over baseline after 14 days of HLU (Fig. 3, p <0.05).\nTrabecular bone osteocyte apoptosis, RANKL expression, and bone resorption after HLU\nUnloading caused a 4-fold increase in the percentage of apoptotic osteocytes in femoral trabecular bone after 5 days (p <0.05 versus Ctrl), and unlike cortical bone, trabecular apoptotic osteocytes remained highly elevated after 14 days of HLU (p <0.05 versus Ctrl). RANKL-expressing osteocytes increased after 5 days of HLU (p <0.05) and were further increased after 14 days of unloading (p <0.05 versus Ctrl). No increases in RANKL+ osteoblast or associated marrow cells were found with HLU. As in cortical bone, trabecular surface resorption was markedly increased only after 14 days of HLU (p <0.05 versus Ctrl), and more critically, only after the increases in osteocyte apoptosis and osteocyte RANKL expression had occurred. Data for trabecular bone osteocyte apoptosis, osteocyte RANKL, osteoblastic RANKL, and resorption surface are summarized in Fig. 4.\nEffects of the pan-caspase inhibitor QVD on osteoclastogenesis and osteocyte RANKL expression in vitro\nQVD had no effect on formation of TRAP+ multinucleated cells in vitro (Fig. 5, p >0.4). In addition, QVD had no effect on RANKL gene expression in MLO-Y4 osteocytes (Fig. 5, p >0.4). These data indicate that QVD effects in the current studies are mediated through its anti-apoptotic action and not through any direct off-target effects on osteoclastogenesis and RANKL signaling.\nIn vivo inhibition of osteocyte apoptosis\nAdministration of QVD (ApInh) completely prevented the increases in osteocyte apoptosis and osteocyte RANKL expression in cortical bone after 5 days of HLU apoptotic osteocytes, and prevented increased endocortical resorption caused by 14 days of HLU (Fig. 6). Similarly in trabecular bone, treatment with the apoptosis inhibitor during HLU also prevented the increases in osteocyte apoptosis, osteocyte RANKL expression, and trabecular bone resorption (Fig. 7). Moreover, HLU-induced losses of trabecular bone volume and architecture were effectively prevented by treatment with the apoptosis inhibitor (Fig. 8).\nDiscussion\nThe results of this study demonstrate that increases in resorption of both cortical and trabecular bone owing to hindlimb unloading in the femur are spatially and temporally associated with acutely increased levels of osteocyte apoptosis. These results are consistent with previous findings for the activation of bone resorption resulting from fatigue-induced microdamage and estrogen depletion in appendicular bone. The current studies further show that HLU caused an increase in RANKL-expressing osteocytes and that these occurred in the same regions where osteocyte apoptosis was observed. We also found that when osteocyte apoptosis was prevented with a caspase inhibitor, the increases in the number of RANKL-positive osteocytes in the same regions of bone were also prevented. These observations are consistent with recent studies by Kennedy and colleagues, who reported that pharmacological prevention of osteocyte apoptosis at microdamage sites also prevents triggering of RANKL expression by the viable neighboring osteocytes. Finally, pharmacological inhibition of osteocyte apoptosis prevented HLU-induced resorption increases in both cortical and cancellous bone. Indeed, cancellous bone loss in the femur after HLU was prevented by inhibition of osteocyte apoptosis.\nIncreased osteocyte apoptosis in HLU preceded resorption, as it did in models of fatigue microdamage and estrogen depletion and consistent with a role in triggering resorption. Yet although apoptotic cell numbers declined at 14 days in cortical bone, likely because of resorption of the tissue containing the apoptotic cells, the numbers of apoptotic cells remained high in trabecular bone. Because apoptotic cell degeneration is often rapid once effector caspases (like Caspase-3) are activated, this finding suggests that new osteocytes undergo apoptosis throughout HLU, particularly in trabecular bone. The stimuli responsible for long-term propagation of apoptosis in HLU and the basis for the differences between cortical and trabecular bone have yet to be established.\nWe also observed that the distribution of osteocyte apoptosis in the cortex in HLU was elevated in all anatomical regions of the femoral mid-diaphysis examined, a result that differs from the discrete, localized regions of osteocyte death found after estrogen withdrawal. Why these distinct resorption-activating challenges result in such different patterns of osteocyte apoptosis remains obscure at this time. Nevertheless, some critical insights can be gleaned. A focal injury mechanism can readily explain increased osteocyte apoptosis at bone micro-damage sites, whereas the regional localization of osteocyte apoptosis after ovariectomy appears to reflect the combination of oxidative stress from estrogen loss superimposed on older osteocytes that are found in characteristic locations in mouse diaphyseal cortical bone. In contrast, insufficient mechanical loading in disuse states like HLU leads to a more global impairment of fluid-solute transport to and from osteocytes in the lacunar-canalicular system (LCS) and consequently a generalized metabolic stress on all osteocytes in non-loaded bones. It seems reasonable to posit that the more extensive circumferential distribution of apoptotic osteocytes throughout the femoral cortex, compared with the regionally localized osteocyte apoptosis found in estrogen loss and microdamage, reflects this global stress scenario.\nOsteocytes depend completely on pericellular fluid for solute transport, including oxygen, nutrition, signaling proteins, and waste removal. Solute movement in the LCS fluid is dependent on molecular size. Small solutes under 1 kDa, eg, steroid hormones, glucose, ATP, NO, CO2, and O2, move easily by diffusion in the fluid space; however, for larger molecules like cytokines, convective transport resulting from normal mechanical loading of bone is required. Indeed, Gross and colleagues reported, using an ulnar-unloading model, that osteocyte HIF-1α expression, a cell stress marker, was acutely and uniformly elevated throughout the cortex, consistent with the idea of uniform stress on osteocytes from disuse. Interestingly, Gross and colleagues also found that although increases of HIF-1α-expressing osteocytes were uniform around the cortex, osteocyte HIF-1α expression in disuse was greatest in intracortical regions closest to blood vessels and near the endocortical surface. In the current studies, we also found that the highest levels of osteocyte apoptosis in cortical bone with HLU were closest to the endocortical surface—the region of highest blood flow in the rodent cortex; changes in marrow cavity pressure and venous stasis in the marrow cavity occur with disuse. That similar apoptotic levels do not occur for osteocytes nearer to the periosteal surface may indicate that their fluid transport system remains more effective in disuse, perhaps because of muscle contractions, which still operate during HLU. Indeed, the presence of elevated osteocyte apoptosis in all anatomical regions suggests a uniform, distributed stress in bone resulting from disuse, whereas the greater number of apoptotic osteocytes near the endocortical surface in disuse may suggest that these osteocytes are more in need of growth factors and survival cytokines than those further deep in the bone matrix.\nNakashima and colleagues and Xiong and colleagues demonstrated that RANKL from osteocytes is essential for normal bone resorption in growing mice, and its absence causes marked osteopetrosis. Kennedy and colleagues showed that osteocyte apoptosis at microdamage sites in bone triggered increased RANKL expression in viable osteocytes neighboring the zone of apoptosis and that this RANKL upregulation in turn activated intracortical resorption. The current studies showing that osteocyte RANKL expression with disuse is also triggered by osteocyte apoptosis and that the increases in both osteocyte RANKL expression and HLU-induced bone resorption did not occur when osteocyte apoptosis was inhibited pharmacologically are fully consistent with those previously reported scenarios.\nPlotkin and colleagues used a novel bisphosphonate to prevent osteocyte apoptosis in the lumbar vertebral bodies of HLU mice. They also found that preventing HLU-induced osteocyte death prevented the neighboring osteocytes from turning on RANKL production, consistent with the mechanisms reported by Kennedy and colleagues at bone microdamage sites and with the results found in the current studies. However, in contrast to the current and previous investigations, Plotkin and colleagues did not find any attenuation of bone resorption in their studies. They observed increased RANKL production in marrow osteoblast lineage cells that were not affected by apoptosis inhibition and suggested that this RANKL source was the principal driver of resorption. In the current studies, we did not find RANKL staining increases in the osteoblastic cells of the cancellous compartment in distal femurs with HLU. There are several possible reasons for the discrepancy between the current results and those of Plotkin and collegues. First, different classes of drugs were used to inhibit osteocyte apoptosis; we used a well-established pan-caspase inhibitor, which showed no effects on RANKL gene expression and osteoclastogenesis in our in vitro studies, whereas Plotkin and colleagues employed a novel bisphosphonate with anti-apoptotic properties. Further studies are needed to explore this possibility. More critical differences between these two studies are the biology and local mechanical loads that the bone study sites experienced. Plotkin and colleagues examined lumbar vertebrae, whereas in the current studies, we examined femurs. These two sites are elements of the axial and appendicular skeleton, respectively, with well-known differences in developmental, intrinsic remodeling rates and in the amounts of hematopoietic and fatty marrow they contain. Moreover, there is a fundamental difference between the mechanical stimuli these two sites experience in the HLU model, and this may be key to explaining the very different results of these studies. Tail suspension in rodents was designed specifically to unload the hindlimbs. However, because mice and rats are suspended by their tails in HLU, the lumbar and caudal vertebrae and associated tissues experience dramatically elevated tensile and torsional forces as the animal moves about the cage—forces that the rodent spine does not experience in normal mechanical loading. Indeed, Holguin and colleagues found that HLU suspension causes loss of intervertebral disc volume, which is the opposite of the increases in disc volume found in astronauts during spaceflight and in subjects during bed-rest studies. In fact, these HLU changes are typical of rapid intervertebral disc degeneration, and disc cells in degeneration produce a range of proinflammatory cytokines, including TNF, IL-1α, IL-1β, IL-6, and IL-17, that promote extracellular matrix degradation and also influence the adjacent vertebral bone. The full ramifications of the altered loading of the caudal and lumbar spine in HLU remain to be elucidated. However, it is clear that the lumbar vertebrae do not see an unloaded environment like that experienced by the hindlimbs in HLU, and such biomechanical differences combined with the locally elevated levels of inflammatory regulators would certainly influence resorption responses in bone.\nIn summary, the temporal and spatial coupling between osteocyte apoptosis and bone resorption after HLU strongly resemble that found in targeted remodeling of bone micro-damage and after estrogen loss in rodents. In all cases, osteocyte apoptosis triggers a rise in the number of RANKL-positive osteocytes and subsequent increases in osteoclast recruitment, the effects of which are found in increased bone resorption. After 5 days of unloading, the numbers of apoptotic osteocytes were four times more than that of controls in both cortical and trabecular bone compartments. Similarly, increases in RANKL-positive osteocytes were also detected in these bone regions, and by day 14 of unloading, there were significant increases in bone resorption not observed after 5 days of HLU, and especially apparent in the bone volume fraction losses in the distal femur trabecular bone. Dramatically, inhibition of apoptosis completely prevented the increases in the numbers of apoptotic and RANKL-producing osteocytes and the bone loss associated with unloading, providing further support for the concept that osteocyte apoptosis is a common final pathway for activating and targeting bone resorption in response to diverse stimuli.\n           Disclosures         \nAll authors state that they have no conflicts of interest.\nDeath of osteocytes turns off the inhibition of osteoclasts and triggers local bone resorption\nApoptotic bodies convey activity capable of initiating osteoclastogenesis and localized bone destruction\nCoupling the activities of bone formation and resorption: a multitude of signals within the basic multicellular unit\nBone remodeling in response to in vivo fatigue microdamage\nIntracortical remodeling in adult rat long bones after fatigue loading\nLoss of osteocyte integrity in association with microdamage and bone remodeling after fatigue in vivo\nSpatial distribution of Bax and Bcl-2 in osteocytes after bone fatigue: complementary roles in bone remodeling regulation?\nIdentification of apoptotic changes in osteocytes in normal and pathological human bone\nThe relationship between oestrogen status and bone loss in post-menopausal women\nThe reversibility of disuse osteoporosis. Studies of bone density, bone formation, and cell proliferation in bone tissue\nSex steroids and bone mass. A study of changes about the time of menopause\nSkeletal involution by age-associated oxidative stress and its acceleration by loss of sex steroids\nBone and muscle atrophy with suspension of the rat\nThe temporal response of bone to unloading\nThe response of bone to unloading\nIdentification of apoptotic changes in osteocytes in normal and pathological human bone\nOsteocyte apoptosis is induced by weightlessness in mice and precedes osteoclast recruitment and bone loss\nInhibition of osteocyte apoptosis prevents the increase in osteocytic RANKL but it does not stop bone resorption or the loss of bone induced by unloading\nOsteocyte apoptosis controls activation of intracortical resorption\nOsteocyte apoptosis and control of bone resorption following ovariectomy in mice\nActivation of resorption in fatigue-loaded bone involves both apoptosis and active pro-osteoclastogenic signaling by distinct osteocyte populations\nOsteocyte apoptosis is required for production of osteoclastogenic signals following bone fatigue in vivo\nInvestigation of the loss of bone mineral in patients with spinal cord injury\nLongitudinal study of the bone mineral content and of soft tissue composition after spinal cord section\nEffects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts\nBone loss from the human distal tibia epiphysis during 24 days of unilateral lower limb suspension\nTibial changes in experimental disuse osteoporosis in the monkey\nInhibition of cortical and trabecular bone formation in the long bones of immobilized monkeys\nReversibility of nontraumatic disuse osteoporosis during its active phase\nBone mineral density and turnover following forelimb immobilization and recovery in young adult dogs\nChanges in canine cortical and cancellous bone mechanical properties following immobilization and remobilization with exercise\nGenetically linked site-specificity of disuse osteoporosis\nMultiple exposures to unloading decrease bone’s responsivity but compound skeletal losses in C57BL/6 mice\nSpace-related bone mineral redistribution and lack of bone mass recovery after reambulation in young rats\nDiscordant recovery of bone mass and mechanical properties during prolonged recovery from disuse\nHindlimb unloading rodent model: technical aspects\nHindlimb unloading of growing rats: a model for predicting skeletal changes during space flight\nGenetic predisposition to low bone mass is paralleled by an enhanced sensitivity to signals anabolic to the skeleton\nInhibition of bone resorption by alendronate and risedronate does not require osteoclast apoptosis\nA novel systemically active caspase inhibitor attenuates the toxicities of MPTP, malonate, and 3NP in vivo\nLow levels of plasma IGF-1 inhibit intracortical bone remodeling during aging\nMLO-Y4 osteocyte-like cells support osteoclast formation and activation\nApoptotic osteocytes regulate osteoclast precursor recruitment and differentiation in vitro\nGuidelines for assessment of bone microstructure in rodents using micro-computed tomography\nLong-term disuse osteoporosis seems less sensitive to bisphosphonate treatment than other osteoporosis\nPeptide aldehyde inhibitors of cathepsin K inhibit bone resorption both in vitro and in vivo\nTransport mechanism operating between blood supply and osteocytes in long bones\nIn vivo tracer transport through the lacunocanalicular system of rat bone in an environment devoid of mechanical loading\nModeling tracer transport in an osteon under cyclic loading\nEffect of lacunocanalicular architecture on hydraulic conductance in bone tissue: implications for bone health and evolution\nNumerical modeling of oxygen distributions in cortical and cancellous bone: oxygen availability governs osteonal and trabecular dimensions\nSelected contribution: osteocytes upregulate HIF-1alpha in response to acute disuse and oxygen deprivation\nPressure gradients and transport in the murine femur upon hindlimb suspension\nMuscle forces or gravity: what predominates mechanical loading on bone?\nCombined effects of botulinum toxin injection and hind limb unloading on bone and muscle\nInterdependence of muscle atrophy and bone loss induced by mechanical unloading\nEvidence for osteocyte regulation of bone homeostasis through RANKL expression\nMatrix-embedded cells control osteoclast formation\nDifferential changes in bone mineral density of the appendicular and axial skeleton with aging: relationship to spinal osteoporosis\nDifferential effect of gender on the sizes of the bones in the axial and appendicular skeletons\nEffect of tail suspension (or simulated weightlessness) on the lumbar intervertebral disc: study of proteoglycans and collagen\nLow-intensity vibrations partially maintain intervertebral disc mechanics and spinal muscle area during deconditioning\nRole of cytokines in intervertebral disc degeneration: pain and disc content\nInflammatory kinetics and efficacy of anti-inflammatory treatments on human nucleus pulposus cells\nOsteocytes: master orchestrators of bone\n(A) Femoral mid-diaphyseal section showing the anatomical sampling regions examined. (B) Photomicrographs of mid-diaphyseal cortical bone sections from mice subjected to 5 days of unloading (5d HLU) stained by immunohistochemistry for activated caspase 3 (Casp3, top left), its negative control (Neg Ctrl, bottom left); RANKL (top right), and its negative control (bottom right). Arrows indicate positively stained osteocytes (+Ot); scale bars = 40 μm.\nCircumferential and radial distributions of apoptotic osteocytes (%Casp3+Ot) in femoral mid-diaphyses after HLU (*p <0.05 versus cage control). (A) Increases in apoptotic osteocytes in principal anatomical regions (posterior cortex p <0.05; anterior, medial, and lateral cortices p >0.1). (B) The radial distribution of apoptotic osteocytes from endocortical to periosteal surface as a percentage of cortical width (endocortical surface = 0%) with this highest concentration of apoptotic osteocytes toward the endocortical region.\nCortical bone (A) osteocyte apoptosis (%Casp3+Ot), (B) osteocyte RANKL expression (%RANKL+Ot), and (C) endocortical resorption surface (%Ec.Rs.) in femoral mid-diaphyses after HLU. Baseline (day 0) is age-matched cage control value (*p <0.05 versus baseline [day 0] control).\nTrabecular bone (A) osteocyte apoptosis (%Casp3+Ot), (B) osteocyte RANKL expression (%RANKL+Ot), (C) trabecular bone active resorption surface (%CatK+Pm), and (D) trabecular osteoblastic cell RANKL expression (%RANKL+Pm) after HLU. Baseline (day 0) is cage control value (*p <0.05 versus control).\nEffects of QVD on osteoclastogenesis and RANKL gene expression in vitro. (A) Number of osteoclasts (TRAP+ multinucleated cells) formed by nonadherent mouse bone marrow mononuclear cells; QVD or carrier (DMSO) was present throughout the differentiation period. (B) RANKL gene expression levels in MLO-Y4 osteocytes with and without QVD.\nEffects of apoptosis inhibition with QVD on femoral diaphyseal cortical bone after HLU versus treatment with vehicle (Veh) alone. (A) Changes in osteocyte apoptosis (%Casp3+Ot) with HLU, (B) changes in osteocytes RANKL expression (%RANKL+Ot) with HLU, and (C) the marked increase in endocortical resorption (%Ec.Rs.) after 14 days of HLU, which was prevented by QVD treatment (*p <0.05 versus cage controls [Ctrl]).\nEffects of apoptosis inhibition with QVD on trabecular bone after HLU versus treatment with vehicle (Veh) alone. (A) Changes in osteocyte apoptosis (%Casp3+Ot with HLU), (B) changes in osteocytes RANKL expression (%RANKL+Ot) with HLU, and (C) the marked increase in resorption surface (%CatK+Pm) after 14 days of HLU, which was prevented by QVD treatment (*p <0.05 versus cage controls [Ctrl]).\nμCT-based trabecular bone microarchitectural properties in mouse femora owing to HLU and apoptosis inhibition. Mice subjected to HLU or cage controls (Ctrl) were treated with DMSO vehicle (Veh) or the apoptosis inhibitor QVD (ApInh). (A) μCT images show conspicuous trabecular bone loss in HLU+Veh; HLU+ApInh bones appear similar to cage control (Ctrl) bones. (B–E) Summary data for trabecular bone architecture parameters. Inhibition of osteocyte apoptosis completely prevented HLU-induced bone loss (*p <0.05 versus Ctrl).",
         "id": "5488280",
         "infons": {
           "license": "author_manuscript"
         },
         "passages": [
           {
-            "offset": 0,
+            "annotations": [],
             "infons": {
               "article-id_doi": "10.1002/jbmr.2807",
               "article-id_manuscript": "NIHMS866074",
@@ -34,541 +33,541 @@
               "volume": "31",
               "year": "2017"
             },
-            "text": "Osteocyte Apoptosis Caused by Hindlimb Unloading is Required to Trigger Osteocyte RANKL Production and Subsequent Resorption of Cortical and Trabecular Bone in Mice Femurs",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocyte Apoptosis Caused by Hindlimb Unloading is Required to Trigger Osteocyte RANKL Production and Subsequent Resorption of Cortical and Trabecular Bone in Mice Femurs"
           },
           {
-            "offset": 172,
+            "annotations": [],
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "Osteocyte apoptosis is essential to activate bone remodeling in response to fatigue microdamage and estrogen withdrawal, such that apoptosis inhibition in vivo prevents the onset of osteoclastic resorption. Osteocyte apoptosis has also been spatially linked to bone resorption owing to disuse, but whether apoptosis plays a similar controlling role is unclear. We, therefore, 1) evaluated the spatial and temporal effects of disuse from hindlimb unloading (HLU) on osteocyte apoptosis, receptor activator of NF-κB ligand (RANKL) expression, bone resorption, and loss in mouse femora, and 2) tested whether osteocyte apoptosis was required to activate osteoclastic activity in cortical and trabecular bone by treating animals subjected to HLU with the pan-caspase apoptosis inhibitor, QVD (quinolyl-valyl-O-methylaspartyl-[-2,6-difluorophenoxy]-methylketone). Immunohistochemistry was used to identify apoptotic and RANKL-producing osteocytes in femoral diaphysis and distal trabecular bone, and μCT was used to determine the extent of trabecular bone loss owing to HLU. In both cortical and trabecular bone, 5 days of HLU increased osteocyte apoptosis significantly (3- and 4-fold, respectively, p < 0.05 versus Ctrl). At day 14, the apoptotic osteocyte number in femoral cortices declined to near control levels but remained elevated in trabeculae (3-fold versus Ctrl, p < 0.05). The number of osteocytes producing RANKL in both bone compartments was also significantly increased at day 5 of HLU (>1.5-fold versus Ctrl, p <0.05) and further increased by day 14. Increases in osteocyte apoptosis and RANKL production preceded increases in bone resorption at both endocortical and trabecular surfaces. QVD completely inhibited not only the HLU-triggered increases in osteocyte apoptosis but also RANKL production and activation of bone resorption at both sites. Finally, μCT studies revealed that apoptosis inhibition completely prevented the trabecular bone loss caused by HLU. Together these data indicate that osteocyte apoptosis plays a central and controlling role in triggering osteocyte RANKL production and the activation of new resorption leading to bone loss in disuse.",
+            "offset": 172,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocyte apoptosis is essential to activate bone remodeling in response to fatigue microdamage and estrogen withdrawal, such that apoptosis inhibition in vivo prevents the onset of osteoclastic resorption. Osteocyte apoptosis has also been spatially linked to bone resorption owing to disuse, but whether apoptosis plays a similar controlling role is unclear. We, therefore, 1) evaluated the spatial and temporal effects of disuse from hindlimb unloading (HLU) on osteocyte apoptosis, receptor activator of NF-κB ligand (RANKL) expression, bone resorption, and loss in mouse femora, and 2) tested whether osteocyte apoptosis was required to activate osteoclastic activity in cortical and trabecular bone by treating animals subjected to HLU with the pan-caspase apoptosis inhibitor, QVD (quinolyl-valyl-O-methylaspartyl-[-2,6-difluorophenoxy]-methylketone). Immunohistochemistry was used to identify apoptotic and RANKL-producing osteocytes in femoral diaphysis and distal trabecular bone, and μCT was used to determine the extent of trabecular bone loss owing to HLU. In both cortical and trabecular bone, 5 days of HLU increased osteocyte apoptosis significantly (3- and 4-fold, respectively, p < 0.05 versus Ctrl). At day 14, the apoptotic osteocyte number in femoral cortices declined to near control levels but remained elevated in trabeculae (3-fold versus Ctrl, p < 0.05). The number of osteocytes producing RANKL in both bone compartments was also significantly increased at day 5 of HLU (>1.5-fold versus Ctrl, p <0.05) and further increased by day 14. Increases in osteocyte apoptosis and RANKL production preceded increases in bone resorption at both endocortical and trabecular surfaces. QVD completely inhibited not only the HLU-triggered increases in osteocyte apoptosis but also RANKL production and activation of bone resorption at both sites. Finally, μCT studies revealed that apoptosis inhibition completely prevented the trabecular bone loss caused by HLU. Together these data indicate that osteocyte apoptosis plays a central and controlling role in triggering osteocyte RANKL production and the activation of new resorption leading to bone loss in disuse."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "INTRO",
+              "type": "title_1"
+            },
             "offset": 2357,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "title_1"
-            },
-            "text": "Introduction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Introduction"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 2370,
+            "relations": [],
+            "sentences": [],
+            "text": "Bone remodeling, the sequential resorption of a bone packet by osteoclasts followed by deposition of new tissue at the same site by osteoblasts, can be triggered by a variety of stimuli including microdamage, changes in endocrine status (eg, ovarian hormone depletion), and mechanical unloading or disuse. In each instance, the activation of bone remodeling has been spatially and temporally associated with osteocyte apoptosis, which precedes the recruitment of osteoclasts that resorb the region of bone containing the apoptotic osteocytes. Moreover, this osteocyte apoptosis plays a central and controlling role in triggering bone resorption in response to microdamage and estrogen loss. Pharmacological inhibition of osteocyte apoptosis after bone fatigue or estrogen loss completely prevented both the activation of bone resorption and the bone loss that occur in response to these challenges. Recent studies at microdamage sites in bone reveal that the dying osteocytes trigger viable, neighbor osteocytes to increase expression of the pro-osteoclastogenic cytokine receptor activator of NF-κB ligand (RANKL), thus activating focal resorption. Whether activation of resorption in other remodeling states, such as disuse or estrogen loss, operates through the same combination of osteocyte-based mechanisms (ie, apoptosis triggering resorption via activation of RANKL signaling from intact osteocytes) is unclear."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Bone remodeling, the sequential resorption of a bone packet by osteoclasts followed by deposition of new tissue at the same site by osteoblasts, can be triggered by a variety of stimuli including microdamage, changes in endocrine status (eg, ovarian hormone depletion), and mechanical unloading or disuse. In each instance, the activation of bone remodeling has been spatially and temporally associated with osteocyte apoptosis, which precedes the recruitment of osteoclasts that resorb the region of bone containing the apoptotic osteocytes. Moreover, this osteocyte apoptosis plays a central and controlling role in triggering bone resorption in response to microdamage and estrogen loss. Pharmacological inhibition of osteocyte apoptosis after bone fatigue or estrogen loss completely prevented both the activation of bone resorption and the bone loss that occur in response to these challenges. Recent studies at microdamage sites in bone reveal that the dying osteocytes trigger viable, neighbor osteocytes to increase expression of the pro-osteoclastogenic cytokine receptor activator of NF-κB ligand (RANKL), thus activating focal resorption. Whether activation of resorption in other remodeling states, such as disuse or estrogen loss, operates through the same combination of osteocyte-based mechanisms (ie, apoptosis triggering resorption via activation of RANKL signaling from intact osteocytes) is unclear.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 3793,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "Mechanical loading is of paramount importance to the maintenance of adult bone mass and architecture and to bone health in general. Prolonged unloading from space flight, extended bed rest, or paralysis resulting from spinal cord injury results in extensive and often irreversible bone loss. Disuse stimulates aggressive and extensive bone resorption in both cortical and cancellous bone in humans and in animal models including primates and dogs, as well as mice and rats subjected to hindlimb unloading. Yet whether osteocyte apoptosis plays a causal role in activating bone resorption in disuse, as it does in microdamage and ovariectomy, is not fully resolved. Previously, Aguirre and colleagues had shown that osteocyte apoptosis occurs in vertebral bone of tail-suspended, hindlimb-unloaded mice, indicating adverse effects on osteocyte integrity in this model. A recent study by Plotkin and colleagues further concluded that dying osteocytes in lumbar vertebrae of hindlimb-unloaded mice do not significantly influence bone resorption. Here we report that, in contrast, both resorption activation and bone loss in long bones of mice subjected to hindlimb unloading are fully dependent on osteocyte apoptosis.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Mechanical loading is of paramount importance to the maintenance of adult bone mass and architecture and to bone health in general. Prolonged unloading from space flight, extended bed rest, or paralysis resulting from spinal cord injury results in extensive and often irreversible bone loss. Disuse stimulates aggressive and extensive bone resorption in both cortical and cancellous bone in humans and in animal models including primates and dogs, as well as mice and rats subjected to hindlimb unloading. Yet whether osteocyte apoptosis plays a causal role in activating bone resorption in disuse, as it does in microdamage and ovariectomy, is not fully resolved. Previously, Aguirre and colleagues had shown that osteocyte apoptosis occurs in vertebral bone of tail-suspended, hindlimb-unloaded mice, indicating adverse effects on osteocyte integrity in this model. A recent study by Plotkin and colleagues further concluded that dying osteocytes in lumbar vertebrae of hindlimb-unloaded mice do not significantly influence bone resorption. Here we report that, in contrast, both resorption activation and bone loss in long bones of mice subjected to hindlimb unloading are fully dependent on osteocyte apoptosis."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_1"
+            },
             "offset": 5009,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_1"
-            },
-            "text": "Materials and Methods",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Materials and Methods"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 5031,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "To test the hypothesis that osteocyte apoptosis controls the activation of bone resorption after disuse, we measured osteocyte apoptosis, increases in RANKL-producing osteocytes, and resorption activation in femoral cortical and trabecular bone of control and hindlimb-unloaded mice in the presence or absence of treatment with a pan-caspase inhibitor to suppress apoptosis.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "To test the hypothesis that osteocyte apoptosis controls the activation of bone resorption after disuse, we measured osteocyte apoptosis, increases in RANKL-producing osteocytes, and resorption activation in femoral cortical and trabecular bone of control and hindlimb-unloaded mice in the presence or absence of treatment with a pan-caspase inhibitor to suppress apoptosis."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 5406,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Hindlimb unloading as a model for disuse",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hindlimb unloading as a model for disuse"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 5447,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "C57BL/6J mice (male, age 4 months, n = 6 per group, Jackson Laboratory, Bar Harbor, ME, USA) were subjected to hindlimb unloading by tail suspension (HLU). The tail suspension model adjusted for mice was used, at a 30° tilt on a swiveling harness as detailed by Judex and colleagues. Animals were individually housed in standard cages at 25°C with unlimited rodent chow and water. Bones were examined after either 5 or 14 days of HLU. Day 5 captures the time at which increases in osteocyte apoptosis occur in both microdamage and ovariectomy, whereas day 14 samples the subsequent increases in osteoclastic activity. Age-matched non-HLU controls (cage controls) were allowed normal cage activity. All animal procedures were carried out under IACUC approved protocols from CCNY and Stony Brook University.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "C57BL/6J mice (male, age 4 months, n = 6 per group, Jackson Laboratory, Bar Harbor, ME, USA) were subjected to hindlimb unloading by tail suspension (HLU). The tail suspension model adjusted for mice was used, at a 30° tilt on a swiveling harness as detailed by Judex and colleagues. Animals were individually housed in standard cages at 25°C with unlimited rodent chow and water. Bones were examined after either 5 or 14 days of HLU. Day 5 captures the time at which increases in osteocyte apoptosis occur in both microdamage and ovariectomy, whereas day 14 samples the subsequent increases in osteoclastic activity. Age-matched non-HLU controls (cage controls) were allowed normal cage activity. All animal procedures were carried out under IACUC approved protocols from CCNY and Stony Brook University."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 6255,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "In vivo apoptosis inhibition",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In vivo apoptosis inhibition"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 6284,
+            "relations": [],
+            "sentences": [],
+            "text": "To assess whether osteocyte apoptosis is necessary for HLU-induced bone resorption, control and animals subjected to 14 days of HLU were treated with the pan-caspase inhibitor quinolyl-valyl-O-methylaspartyl-[-2,6-difluorophenoxy]-methyl-ketone (QVD-OMePhe or QVD, SM Biochemicals, Livermore, CA, USA; IP injection: 20 mg/kg weight in DMSO vehicle) or vehicle alone. QVD has been used in numerous previous studies to prevent osteocyte apoptosis in vivo after fatigue microdamage and estrogen loss. Animals were injected every other day throughout the experiment beginning on the day HLU was initiated. At the end of experiments, animals were euthanized by CO2, hindlimbs harvested, and bones fixed in 10% neutral-buffered formalin."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "To assess whether osteocyte apoptosis is necessary for HLU-induced bone resorption, control and animals subjected to 14 days of HLU were treated with the pan-caspase inhibitor quinolyl-valyl-O-methylaspartyl-[-2,6-difluorophenoxy]-methyl-ketone (QVD-OMePhe or QVD, SM Biochemicals, Livermore, CA, USA; IP injection: 20 mg/kg weight in DMSO vehicle) or vehicle alone. QVD has been used in numerous previous studies to prevent osteocyte apoptosis in vivo after fatigue microdamage and estrogen loss. Animals were injected every other day throughout the experiment beginning on the day HLU was initiated. At the end of experiments, animals were euthanized by CO2, hindlimbs harvested, and bones fixed in 10% neutral-buffered formalin.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 7016,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Previous studies indicate no direct effect of QVD on osteoclast formation by total marrow cultures in vitro or on existing resorption surfaces in vivo. In the current experiments, we further test whether QVD affects RANKL-induced osteoclast formation by the nonadherent mononuclear cell-enriched fraction of mouse bone marrow cells in vitro. In addition, we examined whether QVD directly alters osteocyte expression of RANKL, independent of its anti-apoptotic effects.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Previous studies indicate no direct effect of QVD on osteoclast formation by total marrow cultures in vitro or on existing resorption surfaces in vivo. In the current experiments, we further test whether QVD affects RANKL-induced osteoclast formation by the nonadherent mononuclear cell-enriched fraction of mouse bone marrow cells in vitro. In addition, we examined whether QVD directly alters osteocyte expression of RANKL, independent of its anti-apoptotic effects."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 7485,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "QVD effects on osteoclastogenesis",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "QVD effects on osteoclastogenesis"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 7519,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Osteoclasts were generated from marrow-derived mononuclear cells induced with RANKL and M-CSF, as in our previous studies. Femurs of 8-week-old C57BL/6J male mice (n = 4) were harvested, then bone marrow cells were flushed using a 26-gauge needle, collected in αMEM, and drawn through an 18-gauge needle to achieve single-cell suspensions. Subsequently, cells were washed in αMEM and plated in αMEM+10% FBS overnight. On the next day, nonadherent mononuclear cells were cultured in osteoclast differentiation media (αMEM, 10% FBS, 60 ng/mL RANKL, and 40 ng/mL M-CSF) with 0, 5, or 25 mM QVD or vehicle (DMSO) for 7 days with medium changes every 2 days. The high concentration of QVD examined (25 mM) approximates the instantaneous peak level of QVD that mice received in vivo at the time of injection. At the end of the study period, primary osteoclast cultures were washed twice with phosphate-buffered saline (PBS) and fixed with 10% glutaraldehyde solution for 15 minutes at 37°C. After two washes with PBS, cells were stained for TRAP activity for 10 to 15 minutes at 37°C (0.05 M sodium acetate, 0.025 M sodium tartrate, 0.125 mg/mL Fast Red Violet LB Salt, and 0.125 mg/mL Naphthol AS-MX phosphate) washed with water. Multinucleated, stained cells were counted using brightfield microscopy.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteoclasts were generated from marrow-derived mononuclear cells induced with RANKL and M-CSF, as in our previous studies. Femurs of 8-week-old C57BL/6J male mice (n = 4) were harvested, then bone marrow cells were flushed using a 26-gauge needle, collected in αMEM, and drawn through an 18-gauge needle to achieve single-cell suspensions. Subsequently, cells were washed in αMEM and plated in αMEM+10% FBS overnight. On the next day, nonadherent mononuclear cells were cultured in osteoclast differentiation media (αMEM, 10% FBS, 60 ng/mL RANKL, and 40 ng/mL M-CSF) with 0, 5, or 25 mM QVD or vehicle (DMSO) for 7 days with medium changes every 2 days. The high concentration of QVD examined (25 mM) approximates the instantaneous peak level of QVD that mice received in vivo at the time of injection. At the end of the study period, primary osteoclast cultures were washed twice with phosphate-buffered saline (PBS) and fixed with 10% glutaraldehyde solution for 15 minutes at 37°C. After two washes with PBS, cells were stained for TRAP activity for 10 to 15 minutes at 37°C (0.05 M sodium acetate, 0.025 M sodium tartrate, 0.125 mg/mL Fast Red Violet LB Salt, and 0.125 mg/mL Naphthol AS-MX phosphate) washed with water. Multinucleated, stained cells were counted using brightfield microscopy."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 8833,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "QVD effects on osteocyte RANKL expression",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "QVD effects on osteocyte RANKL expression"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 8875,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "MLO-Y4 cells (gift from Dr L Bonewald), which normally express significant levels of RANKL, were cultured in αMEM medium supplemented with 5% calf serum (CS), 5% fetal bovine serum (FBS), and 1% penicillin-streptomycin to confluence, then shifted to serum-free medium with 1% bovine serum albumin (BSA) overnight. Cultures were treated with QVD at either 5 μM or 25 μM, or vehicle (DMSO) for 24 hours. RNA was isolated and expression of RANKL and GAPDH were assessed by RT-PCR, using procedures and primer sequences specific to mice, as previously described. The respective forward and reverse primers used were ACGCAGATTTCAGGACTCG and GGGCCACATCCAACCATGAG for RANKL, and CGTGCCGCCTGGA-GAAACC and TGGAAGAGTGGGAGTTGCTGTTG for GAPDH.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "MLO-Y4 cells (gift from Dr L Bonewald), which normally express significant levels of RANKL, were cultured in αMEM medium supplemented with 5% calf serum (CS), 5% fetal bovine serum (FBS), and 1% penicillin-streptomycin to confluence, then shifted to serum-free medium with 1% bovine serum albumin (BSA) overnight. Cultures were treated with QVD at either 5 μM or 25 μM, or vehicle (DMSO) for 24 hours. RNA was isolated and expression of RANKL and GAPDH were assessed by RT-PCR, using procedures and primer sequences specific to mice, as previously described. The respective forward and reverse primers used were ACGCAGATTTCAGGACTCG and GGGCCACATCCAACCATGAG for RANKL, and CGTGCCGCCTGGA-GAAACC and TGGAAGAGTGGGAGTTGCTGTTG for GAPDH."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 9613,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Bone architecture assessment via micro computed tomography (μCT)",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone architecture assessment via micro computed tomography (μCT)"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 9679,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Trabecular bone architecture was assessed from μCT. Right femora were scanned with a high-resolution SkyScan 1172 μCT system (hardware version A, software version 1.5; Bruker microCT, Kontich, Belgium) and a Hamamatsu 10 Mp camera (Hamamatsu Photonics, Hamamatsu City, Japan) following the guidelines recommended in Bouxsein and colleagues. Images were acquired at 10-W power energy (100 KV and 100 mA), using a 0.5-mm aluminum filter and scanned at 6.7-μm pixel resolution. Five exposures per projection were used to produce high-contrast, low-noise images using a low-threshold value of 70 and all reconstruction parameters were applied identically to each scan. μCT studies were performed only on the distal femora to image trabecular bone, where the greatest bone loss occurs in the HLU mouse model. Trabecular bone was analyzed in a region of interest starting 400 μm from the end of the growth plate and extending 2 mm distally. Trabecular measurements included bone volume fraction (BV/TV, %), trabecular bone thickness (Tb.Th, mm), trabecular number (Tb. N, 1/mm), and trabecular separation (Tb.Sp, mm).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Trabecular bone architecture was assessed from μCT. Right femora were scanned with a high-resolution SkyScan 1172 μCT system (hardware version A, software version 1.5; Bruker microCT, Kontich, Belgium) and a Hamamatsu 10 Mp camera (Hamamatsu Photonics, Hamamatsu City, Japan) following the guidelines recommended in Bouxsein and colleagues. Images were acquired at 10-W power energy (100 KV and 100 mA), using a 0.5-mm aluminum filter and scanned at 6.7-μm pixel resolution. Five exposures per projection were used to produce high-contrast, low-noise images using a low-threshold value of 70 and all reconstruction parameters were applied identically to each scan. μCT studies were performed only on the distal femora to image trabecular bone, where the greatest bone loss occurs in the HLU mouse model. Trabecular bone was analyzed in a region of interest starting 400 μm from the end of the growth plate and extending 2 mm distally. Trabecular measurements included bone volume fraction (BV/TV, %), trabecular bone thickness (Tb.Th, mm), trabecular number (Tb. N, 1/mm), and trabecular separation (Tb.Sp, mm)."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 10796,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Immunohistochemistry (IHC) for osteocyte apoptosis and RANKL expression",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Immunohistochemistry (IHC) for osteocyte apoptosis and RANKL expression"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 10868,
+            "relations": [],
+            "sentences": [],
+            "text": "Formalin-fixed left femora were decalcified with formic acid, dehydrated in 2-ethoxyethanol, and then embedded in ethyl methacrylate resin that allows for reliable immunostaining. Transverse sections (5 μm thick) were cut from the mid-diaphyses for cortical bone studies, and longitudinal frontal sections were cut from the distal femora for analysis of trabecular bone. Right femora were embedded without decalcification in PMMA and used for histomorphometric analyses of cortical bone and trabecular bone, respectively."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Formalin-fixed left femora were decalcified with formic acid, dehydrated in 2-ethoxyethanol, and then embedded in ethyl methacrylate resin that allows for reliable immunostaining. Transverse sections (5 μm thick) were cut from the mid-diaphyses for cortical bone studies, and longitudinal frontal sections were cut from the distal femora for analysis of trabecular bone. Right femora were embedded without decalcification in PMMA and used for histomorphometric analyses of cortical bone and trabecular bone, respectively.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 11391,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Sections were deplasticized in toluene and rehydrated with 2-ethoxyethanol and dH2O. Sections were incubated in a 3% hydrogen peroxide solution for 10 minutes at room temperature to quench intrinsic tissue peroxidases, then incubated in a methanol-sodium hydroxide–based solution for 30 minutes at room temperature (DeCal Retrieval Solution, Biogenex, San Ramon, CA, USA) for antigen retrieval. To prevent nonspecific tissue binding of antibodies, sections were incubated in Serum-Free Protein Block (Dako Agilent Technologies, Carpinteria, CA, USA; #X0909) solution for 10 minutes in room temperature. Sections were then incubated overnight at 4°C with either primary rabbit antibodies against cleaved caspase-3 to detect apoptotic osteocytes (Cell Signaling Technology, Danvers, MA, USA; #9661; 1:200 with Dako Antibody Diluent S3022) or RANKL (AbCam, Cambridge, MA, USA; ab9957; also at 1:200 dilution). Detection of primary antibodies was performed by incubation of sections in anti-rabbit IgG secondary antibody (Vector Laboratories, Burlingame, CA, USA; MP-7401) for 30 minutes followed by visualization using a DAB-horseradish peroxidase substrate detection system (Vector ImmPact DAB, SK-4105). Chondrocytes within the tibial growth plates of 10-week-old adolescent mice were used as positive controls to detect expression of cleaved caspase 3 and RANKL, and non-immune serum was used as the negative staining controls.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Sections were deplasticized in toluene and rehydrated with 2-ethoxyethanol and dH2O. Sections were incubated in a 3% hydrogen peroxide solution for 10 minutes at room temperature to quench intrinsic tissue peroxidases, then incubated in a methanol-sodium hydroxide–based solution for 30 minutes at room temperature (DeCal Retrieval Solution, Biogenex, San Ramon, CA, USA) for antigen retrieval. To prevent nonspecific tissue binding of antibodies, sections were incubated in Serum-Free Protein Block (Dako Agilent Technologies, Carpinteria, CA, USA; #X0909) solution for 10 minutes in room temperature. Sections were then incubated overnight at 4°C with either primary rabbit antibodies against cleaved caspase-3 to detect apoptotic osteocytes (Cell Signaling Technology, Danvers, MA, USA; #9661; 1:200 with Dako Antibody Diluent S3022) or RANKL (AbCam, Cambridge, MA, USA; ab9957; also at 1:200 dilution). Detection of primary antibodies was performed by incubation of sections in anti-rabbit IgG secondary antibody (Vector Laboratories, Burlingame, CA, USA; MP-7401) for 30 minutes followed by visualization using a DAB-horseradish peroxidase substrate detection system (Vector ImmPact DAB, SK-4105). Chondrocytes within the tibial growth plates of 10-week-old adolescent mice were used as positive controls to detect expression of cleaved caspase 3 and RANKL, and non-immune serum was used as the negative staining controls."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 12822,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Histomorphometry",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Histomorphometry"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 12839,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Caspase-3 and RANKL positively stained osteocytes were counted and expressed as a percentage of total number of osteocytes in each region (%Casp3+Ot and %RANKL+Ot, respectively). Osteocyte measurements were made in the 5-day and 14-day tail-suspended animal and appropriate control bones. Data were collected at ×400 magnification.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Caspase-3 and RANKL positively stained osteocytes were counted and expressed as a percentage of total number of osteocytes in each region (%Casp3+Ot and %RANKL+Ot, respectively). Osteocyte measurements were made in the 5-day and 14-day tail-suspended animal and appropriate control bones. Data were collected at ×400 magnification."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_3"
+            },
             "offset": 13172,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_3"
-            },
-            "text": "Cortical bone",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cortical bone"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 13186,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Casp3+Ot and RANKL+Ot and total osteocytes were counted in 0.025 to 0.035 mm2 sampling regions located at each principal anatomical quadrant of the femur (anterior, medial, posterior, lateral) as illustrated in Fig 1. In addition, data were collected for the radial distribution of each osteocyte category at each region from the endosteal to the periosteal surface.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Casp3+Ot and RANKL+Ot and total osteocytes were counted in 0.025 to 0.035 mm2 sampling regions located at each principal anatomical quadrant of the femur (anterior, medial, posterior, lateral) as illustrated in Fig 1. In addition, data were collected for the radial distribution of each osteocyte category at each region from the endosteal to the periosteal surface."
           },
           {
-            "offset": 13553,
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "title_3"
             },
-            "text": "Trabecular bone",
+            "offset": 13553,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Trabecular bone"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 13569,
+            "relations": [],
+            "sentences": [],
+            "text": "%Casp3+Ot and %RANKL+Ot osteocytes were counted in the metaphyseal area corresponding to the region examined with μCT. Because Plotkin and colleagues reported increases in trabecular marrow–associated “osteoblast” RANKL staining with long-duration HLU, we also measured RANKL+ osteoblasts and marrow cells adjacent to bone surfaces in the distal femur."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "%Casp3+Ot and %RANKL+Ot osteocytes were counted in the metaphyseal area corresponding to the region examined with μCT. Because Plotkin and colleagues reported increases in trabecular marrow–associated “osteoblast” RANKL staining with long-duration HLU, we also measured RANKL+ osteoblasts and marrow cells adjacent to bone surfaces in the distal femur.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 13929,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Cortical bone resorption was assessed by measuring the percentage of eroded perimeter (Ec.Rs, %) at the endocortical surface of femoral mid-diaphyses, where cortical resorption occurs almost exclusively in this model. Measurements were performed on undecalcified cross sections (80 μm thick, two sections per bone) from the contralateral femurs (ie, opposite from those used for IHC studies) because obtaining dimensionally reliable surface measurements from decalcified diaphyseal cross sections is problematic, whereas thick sections used for surface measurements are unsuitable for counting osteoclast markers (Cathepsin K or TRAP). Trabecular bone active resorption was determined by measuring the percentage of bone perimeter (%CatK+Pm) with cells immunostained for the osteoclast marker Cathepsin K; IHC staining (AbCam ab19027, rabbit polyclonal antibody IgG, 1:200) followed the procedure described above. All osteocyte and bone histomorphometry data were collected using Osteomeasure (Osteometrics, Atlanta, GA, USA), and data were collected by a single observer.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cortical bone resorption was assessed by measuring the percentage of eroded perimeter (Ec.Rs, %) at the endocortical surface of femoral mid-diaphyses, where cortical resorption occurs almost exclusively in this model. Measurements were performed on undecalcified cross sections (80 μm thick, two sections per bone) from the contralateral femurs (ie, opposite from those used for IHC studies) because obtaining dimensionally reliable surface measurements from decalcified diaphyseal cross sections is problematic, whereas thick sections used for surface measurements are unsuitable for counting osteoclast markers (Cathepsin K or TRAP). Trabecular bone active resorption was determined by measuring the percentage of bone perimeter (%CatK+Pm) with cells immunostained for the osteoclast marker Cathepsin K; IHC staining (AbCam ab19027, rabbit polyclonal antibody IgG, 1:200) followed the procedure described above. All osteocyte and bone histomorphometry data were collected using Osteomeasure (Osteometrics, Atlanta, GA, USA), and data were collected by a single observer."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 15003,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Statistical analysis",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Statistical analysis"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 15024,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Differences in cortical osteocyte apoptosis as functions of anatomical region and time of HLU were examined by two-way ANOVA and post hoc differences tested using Tukey’s HSD. Differences in overall osteocyte apoptosis, osteocyte RANKL, and resorption with respect to single factors (time, QVD treatment) were assessed by one-way ANOVA with post hoc differences tested using Tukey’s HSD. The Kruskal-Wallis test was used to assess differences among in vitro cell responses to QVD dose levels. Data are shown as mean ± SD.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Differences in cortical osteocyte apoptosis as functions of anatomical region and time of HLU were examined by two-way ANOVA and post hoc differences tested using Tukey’s HSD. Differences in overall osteocyte apoptosis, osteocyte RANKL, and resorption with respect to single factors (time, QVD treatment) were assessed by one-way ANOVA with post hoc differences tested using Tukey’s HSD. The Kruskal-Wallis test was used to assess differences among in vitro cell responses to QVD dose levels. Data are shown as mean ± SD."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_1"
+            },
             "offset": 15551,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_1"
-            },
-            "text": "Results",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Results"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 15559,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "Cortical bone osteocyte apoptosis, osteocyte RANKL expression, and bone resorption with HLU",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cortical bone osteocyte apoptosis, osteocyte RANKL expression, and bone resorption with HLU"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 15651,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "Hindlimb unloading caused a dramatic increase in the overall number of apoptotic osteocytes in femoral mid-diaphysis after 5 days of HLU, with %Casp3+Ot increased approximately 3-fold versus cage controls (p <0.05). Osteocyte apoptosis increased at all anatomical locations examined (Fig. 2), with the largest increase in the posterior cortex (approximately 5-fold versus cage controls, p <0.05) and approximately 2- to 3-fold increases versus cage controls in the anterior, medial, and lateral cortical regions as well (p >0.1). Significant differences in the radial distribution of osteocyte apoptosis were observed as well. Increases in overall %Casp3+Ot after 5 days of HLU were greatest near the endocortical surface (p <0.05; Fig. 2) but were similar to control levels moving toward the periosteum (p >0.4). Apoptotic osteocytes declined toward baseline levels by 14 days of HLU in all locations (Fig. 2). Pooled data for all anatomical locations were used to assess changes in osteocyte RANKL expression (%RANKL+Ot), endocortical resorption (%Ec.Rs.), as well as (%Casp3+Ot) over time of HLU (Fig. 3). After 14 days of HLU, osteocyte apoptosis declined toward baseline levels (Fig. 3, p >0.1). RANKL-expressing osteocytes increased markedly by 5 days of unloading (Fig. 3, p <0.05 versus cage Ctrl). However, in contrast to the decrease in apoptotic osteocytes found after 14 days of HLU, RANKL+ osteocytes remained significantly elevated after 14 days of HLU (p <0.05 versus cage Ctrl). Endocortical resorption was not increased at 5 days of HLU—the time of greatest osteocyte apoptosis—but was increased almost 5-fold over baseline after 14 days of HLU (Fig. 3, p <0.05).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hindlimb unloading caused a dramatic increase in the overall number of apoptotic osteocytes in femoral mid-diaphysis after 5 days of HLU, with %Casp3+Ot increased approximately 3-fold versus cage controls (p <0.05). Osteocyte apoptosis increased at all anatomical locations examined (Fig. 2), with the largest increase in the posterior cortex (approximately 5-fold versus cage controls, p <0.05) and approximately 2- to 3-fold increases versus cage controls in the anterior, medial, and lateral cortical regions as well (p >0.1). Significant differences in the radial distribution of osteocyte apoptosis were observed as well. Increases in overall %Casp3+Ot after 5 days of HLU were greatest near the endocortical surface (p <0.05; Fig. 2) but were similar to control levels moving toward the periosteum (p >0.4). Apoptotic osteocytes declined toward baseline levels by 14 days of HLU in all locations (Fig. 2). Pooled data for all anatomical locations were used to assess changes in osteocyte RANKL expression (%RANKL+Ot), endocortical resorption (%Ec.Rs.), as well as (%Casp3+Ot) over time of HLU (Fig. 3). After 14 days of HLU, osteocyte apoptosis declined toward baseline levels (Fig. 3, p >0.1). RANKL-expressing osteocytes increased markedly by 5 days of unloading (Fig. 3, p <0.05 versus cage Ctrl). However, in contrast to the decrease in apoptotic osteocytes found after 14 days of HLU, RANKL+ osteocytes remained significantly elevated after 14 days of HLU (p <0.05 versus cage Ctrl). Endocortical resorption was not increased at 5 days of HLU—the time of greatest osteocyte apoptosis—but was increased almost 5-fold over baseline after 14 days of HLU (Fig. 3, p <0.05)."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 17336,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "Trabecular bone osteocyte apoptosis, RANKL expression, and bone resorption after HLU",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Trabecular bone osteocyte apoptosis, RANKL expression, and bone resorption after HLU"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 17421,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "Unloading caused a 4-fold increase in the percentage of apoptotic osteocytes in femoral trabecular bone after 5 days (p <0.05 versus Ctrl), and unlike cortical bone, trabecular apoptotic osteocytes remained highly elevated after 14 days of HLU (p <0.05 versus Ctrl). RANKL-expressing osteocytes increased after 5 days of HLU (p <0.05) and were further increased after 14 days of unloading (p <0.05 versus Ctrl). No increases in RANKL+ osteoblast or associated marrow cells were found with HLU. As in cortical bone, trabecular surface resorption was markedly increased only after 14 days of HLU (p <0.05 versus Ctrl), and more critically, only after the increases in osteocyte apoptosis and osteocyte RANKL expression had occurred. Data for trabecular bone osteocyte apoptosis, osteocyte RANKL, osteoblastic RANKL, and resorption surface are summarized in Fig. 4.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Unloading caused a 4-fold increase in the percentage of apoptotic osteocytes in femoral trabecular bone after 5 days (p <0.05 versus Ctrl), and unlike cortical bone, trabecular apoptotic osteocytes remained highly elevated after 14 days of HLU (p <0.05 versus Ctrl). RANKL-expressing osteocytes increased after 5 days of HLU (p <0.05) and were further increased after 14 days of unloading (p <0.05 versus Ctrl). No increases in RANKL+ osteoblast or associated marrow cells were found with HLU. As in cortical bone, trabecular surface resorption was markedly increased only after 14 days of HLU (p <0.05 versus Ctrl), and more critically, only after the increases in osteocyte apoptosis and osteocyte RANKL expression had occurred. Data for trabecular bone osteocyte apoptosis, osteocyte RANKL, osteoblastic RANKL, and resorption surface are summarized in Fig. 4."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 18284,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "Effects of the pan-caspase inhibitor QVD on osteoclastogenesis and osteocyte RANKL expression in vitro",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of the pan-caspase inhibitor QVD on osteoclastogenesis and osteocyte RANKL expression in vitro"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 18387,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "QVD had no effect on formation of TRAP+ multinucleated cells in vitro (Fig. 5, p >0.4). In addition, QVD had no effect on RANKL gene expression in MLO-Y4 osteocytes (Fig. 5, p >0.4). These data indicate that QVD effects in the current studies are mediated through its anti-apoptotic action and not through any direct off-target effects on osteoclastogenesis and RANKL signaling.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "QVD had no effect on formation of TRAP+ multinucleated cells in vitro (Fig. 5, p >0.4). In addition, QVD had no effect on RANKL gene expression in MLO-Y4 osteocytes (Fig. 5, p >0.4). These data indicate that QVD effects in the current studies are mediated through its anti-apoptotic action and not through any direct off-target effects on osteoclastogenesis and RANKL signaling."
           },
           {
-            "offset": 18766,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "In vivo inhibition of osteocyte apoptosis",
+            "offset": 18766,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In vivo inhibition of osteocyte apoptosis"
           },
           {
-            "offset": 18808,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Administration of QVD (ApInh) completely prevented the increases in osteocyte apoptosis and osteocyte RANKL expression in cortical bone after 5 days of HLU apoptotic osteocytes, and prevented increased endocortical resorption caused by 14 days of HLU (Fig. 6). Similarly in trabecular bone, treatment with the apoptosis inhibitor during HLU also prevented the increases in osteocyte apoptosis, osteocyte RANKL expression, and trabecular bone resorption (Fig. 7). Moreover, HLU-induced losses of trabecular bone volume and architecture were effectively prevented by treatment with the apoptosis inhibitor (Fig. 8).",
+            "offset": 18808,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Administration of QVD (ApInh) completely prevented the increases in osteocyte apoptosis and osteocyte RANKL expression in cortical bone after 5 days of HLU apoptotic osteocytes, and prevented increased endocortical resorption caused by 14 days of HLU (Fig. 6). Similarly in trabecular bone, treatment with the apoptosis inhibitor during HLU also prevented the increases in osteocyte apoptosis, osteocyte RANKL expression, and trabecular bone resorption (Fig. 7). Moreover, HLU-induced losses of trabecular bone volume and architecture were effectively prevented by treatment with the apoptosis inhibitor (Fig. 8)."
           },
           {
-            "offset": 19422,
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "title_1"
             },
-            "text": "Discussion",
+            "offset": 19422,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Discussion"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 19433,
+            "relations": [],
+            "sentences": [],
+            "text": "The results of this study demonstrate that increases in resorption of both cortical and trabecular bone owing to hindlimb unloading in the femur are spatially and temporally associated with acutely increased levels of osteocyte apoptosis. These results are consistent with previous findings for the activation of bone resorption resulting from fatigue-induced microdamage and estrogen depletion in appendicular bone. The current studies further show that HLU caused an increase in RANKL-expressing osteocytes and that these occurred in the same regions where osteocyte apoptosis was observed. We also found that when osteocyte apoptosis was prevented with a caspase inhibitor, the increases in the number of RANKL-positive osteocytes in the same regions of bone were also prevented. These observations are consistent with recent studies by Kennedy and colleagues, who reported that pharmacological prevention of osteocyte apoptosis at microdamage sites also prevents triggering of RANKL expression by the viable neighboring osteocytes. Finally, pharmacological inhibition of osteocyte apoptosis prevented HLU-induced resorption increases in both cortical and cancellous bone. Indeed, cancellous bone loss in the femur after HLU was prevented by inhibition of osteocyte apoptosis."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The results of this study demonstrate that increases in resorption of both cortical and trabecular bone owing to hindlimb unloading in the femur are spatially and temporally associated with acutely increased levels of osteocyte apoptosis. These results are consistent with previous findings for the activation of bone resorption resulting from fatigue-induced microdamage and estrogen depletion in appendicular bone. The current studies further show that HLU caused an increase in RANKL-expressing osteocytes and that these occurred in the same regions where osteocyte apoptosis was observed. We also found that when osteocyte apoptosis was prevented with a caspase inhibitor, the increases in the number of RANKL-positive osteocytes in the same regions of bone were also prevented. These observations are consistent with recent studies by Kennedy and colleagues, who reported that pharmacological prevention of osteocyte apoptosis at microdamage sites also prevents triggering of RANKL expression by the viable neighboring osteocytes. Finally, pharmacological inhibition of osteocyte apoptosis prevented HLU-induced resorption increases in both cortical and cancellous bone. Indeed, cancellous bone loss in the femur after HLU was prevented by inhibition of osteocyte apoptosis.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 20713,
+            "relations": [],
+            "sentences": [],
+            "text": "Increased osteocyte apoptosis in HLU preceded resorption, as it did in models of fatigue microdamage and estrogen depletion and consistent with a role in triggering resorption. Yet although apoptotic cell numbers declined at 14 days in cortical bone, likely because of resorption of the tissue containing the apoptotic cells, the numbers of apoptotic cells remained high in trabecular bone. Because apoptotic cell degeneration is often rapid once effector caspases (like Caspase-3) are activated, this finding suggests that new osteocytes undergo apoptosis throughout HLU, particularly in trabecular bone. The stimuli responsible for long-term propagation of apoptosis in HLU and the basis for the differences between cortical and trabecular bone have yet to be established."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Increased osteocyte apoptosis in HLU preceded resorption, as it did in models of fatigue microdamage and estrogen depletion and consistent with a role in triggering resorption. Yet although apoptotic cell numbers declined at 14 days in cortical bone, likely because of resorption of the tissue containing the apoptotic cells, the numbers of apoptotic cells remained high in trabecular bone. Because apoptotic cell degeneration is often rapid once effector caspases (like Caspase-3) are activated, this finding suggests that new osteocytes undergo apoptosis throughout HLU, particularly in trabecular bone. The stimuli responsible for long-term propagation of apoptosis in HLU and the basis for the differences between cortical and trabecular bone have yet to be established.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 21488,
+            "relations": [],
+            "sentences": [],
+            "text": "We also observed that the distribution of osteocyte apoptosis in the cortex in HLU was elevated in all anatomical regions of the femoral mid-diaphysis examined, a result that differs from the discrete, localized regions of osteocyte death found after estrogen withdrawal. Why these distinct resorption-activating challenges result in such different patterns of osteocyte apoptosis remains obscure at this time. Nevertheless, some critical insights can be gleaned. A focal injury mechanism can readily explain increased osteocyte apoptosis at bone micro-damage sites, whereas the regional localization of osteocyte apoptosis after ovariectomy appears to reflect the combination of oxidative stress from estrogen loss superimposed on older osteocytes that are found in characteristic locations in mouse diaphyseal cortical bone. In contrast, insufficient mechanical loading in disuse states like HLU leads to a more global impairment of fluid-solute transport to and from osteocytes in the lacunar-canalicular system (LCS) and consequently a generalized metabolic stress on all osteocytes in non-loaded bones. It seems reasonable to posit that the more extensive circumferential distribution of apoptotic osteocytes throughout the femoral cortex, compared with the regionally localized osteocyte apoptosis found in estrogen loss and microdamage, reflects this global stress scenario."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "We also observed that the distribution of osteocyte apoptosis in the cortex in HLU was elevated in all anatomical regions of the femoral mid-diaphysis examined, a result that differs from the discrete, localized regions of osteocyte death found after estrogen withdrawal. Why these distinct resorption-activating challenges result in such different patterns of osteocyte apoptosis remains obscure at this time. Nevertheless, some critical insights can be gleaned. A focal injury mechanism can readily explain increased osteocyte apoptosis at bone micro-damage sites, whereas the regional localization of osteocyte apoptosis after ovariectomy appears to reflect the combination of oxidative stress from estrogen loss superimposed on older osteocytes that are found in characteristic locations in mouse diaphyseal cortical bone. In contrast, insufficient mechanical loading in disuse states like HLU leads to a more global impairment of fluid-solute transport to and from osteocytes in the lacunar-canalicular system (LCS) and consequently a generalized metabolic stress on all osteocytes in non-loaded bones. It seems reasonable to posit that the more extensive circumferential distribution of apoptotic osteocytes throughout the femoral cortex, compared with the regionally localized osteocyte apoptosis found in estrogen loss and microdamage, reflects this global stress scenario.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 22870,
+            "relations": [],
+            "sentences": [],
+            "text": "Osteocytes depend completely on pericellular fluid for solute transport, including oxygen, nutrition, signaling proteins, and waste removal. Solute movement in the LCS fluid is dependent on molecular size. Small solutes under 1 kDa, eg, steroid hormones, glucose, ATP, NO, CO2, and O2, move easily by diffusion in the fluid space; however, for larger molecules like cytokines, convective transport resulting from normal mechanical loading of bone is required. Indeed, Gross and colleagues reported, using an ulnar-unloading model, that osteocyte HIF-1α expression, a cell stress marker, was acutely and uniformly elevated throughout the cortex, consistent with the idea of uniform stress on osteocytes from disuse. Interestingly, Gross and colleagues also found that although increases of HIF-1α-expressing osteocytes were uniform around the cortex, osteocyte HIF-1α expression in disuse was greatest in intracortical regions closest to blood vessels and near the endocortical surface. In the current studies, we also found that the highest levels of osteocyte apoptosis in cortical bone with HLU were closest to the endocortical surface—the region of highest blood flow in the rodent cortex; changes in marrow cavity pressure and venous stasis in the marrow cavity occur with disuse. That similar apoptotic levels do not occur for osteocytes nearer to the periosteal surface may indicate that their fluid transport system remains more effective in disuse, perhaps because of muscle contractions, which still operate during HLU. Indeed, the presence of elevated osteocyte apoptosis in all anatomical regions suggests a uniform, distributed stress in bone resulting from disuse, whereas the greater number of apoptotic osteocytes near the endocortical surface in disuse may suggest that these osteocytes are more in need of growth factors and survival cytokines than those further deep in the bone matrix."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Osteocytes depend completely on pericellular fluid for solute transport, including oxygen, nutrition, signaling proteins, and waste removal. Solute movement in the LCS fluid is dependent on molecular size. Small solutes under 1 kDa, eg, steroid hormones, glucose, ATP, NO, CO2, and O2, move easily by diffusion in the fluid space; however, for larger molecules like cytokines, convective transport resulting from normal mechanical loading of bone is required. Indeed, Gross and colleagues reported, using an ulnar-unloading model, that osteocyte HIF-1α expression, a cell stress marker, was acutely and uniformly elevated throughout the cortex, consistent with the idea of uniform stress on osteocytes from disuse. Interestingly, Gross and colleagues also found that although increases of HIF-1α-expressing osteocytes were uniform around the cortex, osteocyte HIF-1α expression in disuse was greatest in intracortical regions closest to blood vessels and near the endocortical surface. In the current studies, we also found that the highest levels of osteocyte apoptosis in cortical bone with HLU were closest to the endocortical surface—the region of highest blood flow in the rodent cortex; changes in marrow cavity pressure and venous stasis in the marrow cavity occur with disuse. That similar apoptotic levels do not occur for osteocytes nearer to the periosteal surface may indicate that their fluid transport system remains more effective in disuse, perhaps because of muscle contractions, which still operate during HLU. Indeed, the presence of elevated osteocyte apoptosis in all anatomical regions suggests a uniform, distributed stress in bone resulting from disuse, whereas the greater number of apoptotic osteocytes near the endocortical surface in disuse may suggest that these osteocytes are more in need of growth factors and survival cytokines than those further deep in the bone matrix.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 24787,
+            "relations": [],
+            "sentences": [],
+            "text": "Nakashima and colleagues and Xiong and colleagues demonstrated that RANKL from osteocytes is essential for normal bone resorption in growing mice, and its absence causes marked osteopetrosis. Kennedy and colleagues showed that osteocyte apoptosis at microdamage sites in bone triggered increased RANKL expression in viable osteocytes neighboring the zone of apoptosis and that this RANKL upregulation in turn activated intracortical resorption. The current studies showing that osteocyte RANKL expression with disuse is also triggered by osteocyte apoptosis and that the increases in both osteocyte RANKL expression and HLU-induced bone resorption did not occur when osteocyte apoptosis was inhibited pharmacologically are fully consistent with those previously reported scenarios."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Nakashima and colleagues and Xiong and colleagues demonstrated that RANKL from osteocytes is essential for normal bone resorption in growing mice, and its absence causes marked osteopetrosis. Kennedy and colleagues showed that osteocyte apoptosis at microdamage sites in bone triggered increased RANKL expression in viable osteocytes neighboring the zone of apoptosis and that this RANKL upregulation in turn activated intracortical resorption. The current studies showing that osteocyte RANKL expression with disuse is also triggered by osteocyte apoptosis and that the increases in both osteocyte RANKL expression and HLU-induced bone resorption did not occur when osteocyte apoptosis was inhibited pharmacologically are fully consistent with those previously reported scenarios.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 25569,
+            "relations": [],
+            "sentences": [],
+            "text": "Plotkin and colleagues used a novel bisphosphonate to prevent osteocyte apoptosis in the lumbar vertebral bodies of HLU mice. They also found that preventing HLU-induced osteocyte death prevented the neighboring osteocytes from turning on RANKL production, consistent with the mechanisms reported by Kennedy and colleagues at bone microdamage sites and with the results found in the current studies. However, in contrast to the current and previous investigations, Plotkin and colleagues did not find any attenuation of bone resorption in their studies. They observed increased RANKL production in marrow osteoblast lineage cells that were not affected by apoptosis inhibition and suggested that this RANKL source was the principal driver of resorption. In the current studies, we did not find RANKL staining increases in the osteoblastic cells of the cancellous compartment in distal femurs with HLU. There are several possible reasons for the discrepancy between the current results and those of Plotkin and collegues. First, different classes of drugs were used to inhibit osteocyte apoptosis; we used a well-established pan-caspase inhibitor, which showed no effects on RANKL gene expression and osteoclastogenesis in our in vitro studies, whereas Plotkin and colleagues employed a novel bisphosphonate with anti-apoptotic properties. Further studies are needed to explore this possibility. More critical differences between these two studies are the biology and local mechanical loads that the bone study sites experienced. Plotkin and colleagues examined lumbar vertebrae, whereas in the current studies, we examined femurs. These two sites are elements of the axial and appendicular skeleton, respectively, with well-known differences in developmental, intrinsic remodeling rates and in the amounts of hematopoietic and fatty marrow they contain. Moreover, there is a fundamental difference between the mechanical stimuli these two sites experience in the HLU model, and this may be key to explaining the very different results of these studies. Tail suspension in rodents was designed specifically to unload the hindlimbs. However, because mice and rats are suspended by their tails in HLU, the lumbar and caudal vertebrae and associated tissues experience dramatically elevated tensile and torsional forces as the animal moves about the cage—forces that the rodent spine does not experience in normal mechanical loading. Indeed, Holguin and colleagues found that HLU suspension causes loss of intervertebral disc volume, which is the opposite of the increases in disc volume found in astronauts during spaceflight and in subjects during bed-rest studies. In fact, these HLU changes are typical of rapid intervertebral disc degeneration, and disc cells in degeneration produce a range of proinflammatory cytokines, including TNF, IL-1α, IL-1β, IL-6, and IL-17, that promote extracellular matrix degradation and also influence the adjacent vertebral bone. The full ramifications of the altered loading of the caudal and lumbar spine in HLU remain to be elucidated. However, it is clear that the lumbar vertebrae do not see an unloaded environment like that experienced by the hindlimbs in HLU, and such biomechanical differences combined with the locally elevated levels of inflammatory regulators would certainly influence resorption responses in bone."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Plotkin and colleagues used a novel bisphosphonate to prevent osteocyte apoptosis in the lumbar vertebral bodies of HLU mice. They also found that preventing HLU-induced osteocyte death prevented the neighboring osteocytes from turning on RANKL production, consistent with the mechanisms reported by Kennedy and colleagues at bone microdamage sites and with the results found in the current studies. However, in contrast to the current and previous investigations, Plotkin and colleagues did not find any attenuation of bone resorption in their studies. They observed increased RANKL production in marrow osteoblast lineage cells that were not affected by apoptosis inhibition and suggested that this RANKL source was the principal driver of resorption. In the current studies, we did not find RANKL staining increases in the osteoblastic cells of the cancellous compartment in distal femurs with HLU. There are several possible reasons for the discrepancy between the current results and those of Plotkin and collegues. First, different classes of drugs were used to inhibit osteocyte apoptosis; we used a well-established pan-caspase inhibitor, which showed no effects on RANKL gene expression and osteoclastogenesis in our in vitro studies, whereas Plotkin and colleagues employed a novel bisphosphonate with anti-apoptotic properties. Further studies are needed to explore this possibility. More critical differences between these two studies are the biology and local mechanical loads that the bone study sites experienced. Plotkin and colleagues examined lumbar vertebrae, whereas in the current studies, we examined femurs. These two sites are elements of the axial and appendicular skeleton, respectively, with well-known differences in developmental, intrinsic remodeling rates and in the amounts of hematopoietic and fatty marrow they contain. Moreover, there is a fundamental difference between the mechanical stimuli these two sites experience in the HLU model, and this may be key to explaining the very different results of these studies. Tail suspension in rodents was designed specifically to unload the hindlimbs. However, because mice and rats are suspended by their tails in HLU, the lumbar and caudal vertebrae and associated tissues experience dramatically elevated tensile and torsional forces as the animal moves about the cage—forces that the rodent spine does not experience in normal mechanical loading. Indeed, Holguin and colleagues found that HLU suspension causes loss of intervertebral disc volume, which is the opposite of the increases in disc volume found in astronauts during spaceflight and in subjects during bed-rest studies. In fact, these HLU changes are typical of rapid intervertebral disc degeneration, and disc cells in degeneration produce a range of proinflammatory cytokines, including TNF, IL-1α, IL-1β, IL-6, and IL-17, that promote extracellular matrix degradation and also influence the adjacent vertebral bone. The full ramifications of the altered loading of the caudal and lumbar spine in HLU remain to be elucidated. However, it is clear that the lumbar vertebrae do not see an unloaded environment like that experienced by the hindlimbs in HLU, and such biomechanical differences combined with the locally elevated levels of inflammatory regulators would certainly influence resorption responses in bone.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 28937,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "In summary, the temporal and spatial coupling between osteocyte apoptosis and bone resorption after HLU strongly resemble that found in targeted remodeling of bone micro-damage and after estrogen loss in rodents. In all cases, osteocyte apoptosis triggers a rise in the number of RANKL-positive osteocytes and subsequent increases in osteoclast recruitment, the effects of which are found in increased bone resorption. After 5 days of unloading, the numbers of apoptotic osteocytes were four times more than that of controls in both cortical and trabecular bone compartments. Similarly, increases in RANKL-positive osteocytes were also detected in these bone regions, and by day 14 of unloading, there were significant increases in bone resorption not observed after 5 days of HLU, and especially apparent in the bone volume fraction losses in the distal femur trabecular bone. Dramatically, inhibition of apoptosis completely prevented the increases in the numbers of apoptotic and RANKL-producing osteocytes and the bone loss associated with unloading, providing further support for the concept that osteocyte apoptosis is a common final pathway for activating and targeting bone resorption in response to diverse stimuli.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In summary, the temporal and spatial coupling between osteocyte apoptosis and bone resorption after HLU strongly resemble that found in targeted remodeling of bone micro-damage and after estrogen loss in rodents. In all cases, osteocyte apoptosis triggers a rise in the number of RANKL-positive osteocytes and subsequent increases in osteoclast recruitment, the effects of which are found in increased bone resorption. After 5 days of unloading, the numbers of apoptotic osteocytes were four times more than that of controls in both cortical and trabecular bone compartments. Similarly, increases in RANKL-positive osteocytes were also detected in these bone regions, and by day 14 of unloading, there were significant increases in bone resorption not observed after 5 days of HLU, and especially apparent in the bone volume fraction losses in the distal femur trabecular bone. Dramatically, inhibition of apoptosis completely prevented the increases in the numbers of apoptotic and RANKL-producing osteocytes and the bone loss associated with unloading, providing further support for the concept that osteocyte apoptosis is a common final pathway for activating and targeting bone resorption in response to diverse stimuli."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "footnote"
+            },
             "offset": 30162,
+            "relations": [],
+            "sentences": [],
+            "text": "           Disclosures         "
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "footnote"
             },
-            "text": "           Disclosures         ",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 30194,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "footnote"
-            },
-            "text": "All authors state that they have no conflicts of interest.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "All authors state that they have no conflicts of interest."
           },
           {
-            "offset": 30253,
+            "annotations": [],
             "infons": {
               "fpage": "1095",
               "issue": "4",
@@ -585,13 +584,13 @@
               "volume": "335",
               "year": "2005"
             },
-            "text": "Death of osteocytes turns off the inhibition of osteoclasts and triggers local bone resorption",
+            "offset": 30253,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Death of osteocytes turns off the inhibition of osteoclasts and triggers local bone resorption"
           },
           {
-            "offset": 30348,
+            "annotations": [],
             "infons": {
               "fpage": "915",
               "issue": "6",
@@ -606,13 +605,13 @@
               "volume": "23",
               "year": "2008"
             },
-            "text": "Apoptotic bodies convey activity capable of initiating osteoclastogenesis and localized bone destruction",
+            "offset": 30348,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Apoptotic bodies convey activity capable of initiating osteoclastogenesis and localized bone destruction"
           },
           {
-            "offset": 30453,
+            "annotations": [],
             "infons": {
               "fpage": "481",
               "name_0": "surname:Sims;given-names:NA",
@@ -624,13 +623,13 @@
               "volume": "3",
               "year": "2014"
             },
-            "text": "Coupling the activities of bone formation and resorption: a multitude of signals within the basic multicellular unit",
+            "offset": 30453,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Coupling the activities of bone formation and resorption: a multitude of signals within the basic multicellular unit"
           },
           {
-            "offset": 30570,
+            "annotations": [],
             "infons": {
               "fpage": "189",
               "issue": "3",
@@ -646,13 +645,13 @@
               "volume": "18",
               "year": "1985"
             },
-            "text": "Bone remodeling in response to in vivo fatigue microdamage",
+            "offset": 30570,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone remodeling in response to in vivo fatigue microdamage"
           },
           {
-            "offset": 30629,
+            "annotations": [],
             "infons": {
               "fpage": "275",
               "issue": "3",
@@ -670,13 +669,13 @@
               "volume": "23",
               "year": "1998"
             },
-            "text": "Intracortical remodeling in adult rat long bones after fatigue loading",
+            "offset": 30629,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Intracortical remodeling in adult rat long bones after fatigue loading"
           },
           {
-            "offset": 30700,
+            "annotations": [],
             "infons": {
               "fpage": "60",
               "issue": "1",
@@ -691,13 +690,13 @@
               "volume": "15",
               "year": "2000"
             },
-            "text": "Loss of osteocyte integrity in association with microdamage and bone remodeling after fatigue in vivo",
+            "offset": 30700,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Loss of osteocyte integrity in association with microdamage and bone remodeling after fatigue in vivo"
           },
           {
-            "offset": 30802,
+            "annotations": [],
             "infons": {
               "fpage": "907",
               "issue": "5",
@@ -713,13 +712,13 @@
               "volume": "17",
               "year": "2002"
             },
-            "text": "Spatial distribution of Bax and Bcl-2 in osteocytes after bone fatigue: complementary roles in bone remodeling regulation?",
+            "offset": 30802,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Spatial distribution of Bax and Bcl-2 in osteocytes after bone fatigue: complementary roles in bone remodeling regulation?"
           },
           {
-            "offset": 30925,
+            "annotations": [],
             "infons": {
               "fpage": "273",
               "issue": "3",
@@ -735,13 +734,13 @@
               "volume": "20",
               "year": "1997"
             },
-            "text": "Identification of apoptotic changes in osteocytes in normal and pathological human bone",
+            "offset": 30925,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Identification of apoptotic changes in osteocytes in normal and pathological human bone"
           },
           {
-            "offset": 31013,
+            "annotations": [],
             "infons": {
               "fpage": "353S",
               "issue": "Suppl",
@@ -757,13 +756,13 @@
               "volume": "5",
               "year": "1976"
             },
-            "text": "The relationship between oestrogen status and bone loss in post-menopausal women",
+            "offset": 31013,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The relationship between oestrogen status and bone loss in post-menopausal women"
           },
           {
-            "offset": 31094,
+            "annotations": [],
             "infons": {
               "fpage": "179",
               "issue": "2",
@@ -777,13 +776,13 @@
               "volume": "23",
               "year": "1977"
             },
-            "text": "The reversibility of disuse osteoporosis. Studies of bone density, bone formation, and cell proliferation in bone tissue",
+            "offset": 31094,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The reversibility of disuse osteoporosis. Studies of bone density, bone formation, and cell proliferation in bone tissue"
           },
           {
-            "offset": 31215,
+            "annotations": [],
             "infons": {
               "fpage": "1261",
               "issue": "5",
@@ -799,13 +798,13 @@
               "volume": "80",
               "year": "1987"
             },
-            "text": "Sex steroids and bone mass. A study of changes about the time of menopause",
+            "offset": 31215,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Sex steroids and bone mass. A study of changes about the time of menopause"
           },
           {
-            "offset": 31290,
+            "annotations": [],
             "infons": {
               "fpage": "27285",
               "issue": "37",
@@ -820,13 +819,13 @@
               "volume": "282",
               "year": "2007"
             },
-            "text": "Skeletal involution by age-associated oxidative stress and its acceleration by loss of sex steroids",
+            "offset": 31290,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Skeletal involution by age-associated oxidative stress and its acceleration by loss of sex steroids"
           },
           {
-            "offset": 31390,
+            "annotations": [],
             "infons": {
               "fpage": "1669",
               "issue": "5",
@@ -844,13 +843,13 @@
               "volume": "58",
               "year": "1985"
             },
-            "text": "Bone and muscle atrophy with suspension of the rat",
+            "offset": 31390,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone and muscle atrophy with suspension of the rat"
           },
           {
-            "offset": 31441,
+            "annotations": [],
             "infons": {
               "fpage": "733",
               "issue": "2",
@@ -864,13 +863,13 @@
               "volume": "118",
               "year": "1996"
             },
-            "text": "The temporal response of bone to unloading",
+            "offset": 31441,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The temporal response of bone to unloading"
           },
           {
-            "offset": 31484,
+            "annotations": [],
             "infons": {
               "fpage": "233",
               "issue": "4",
@@ -884,13 +883,13 @@
               "volume": "17",
               "year": "1999"
             },
-            "text": "The response of bone to unloading",
+            "offset": 31484,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The response of bone to unloading"
           },
           {
-            "offset": 31518,
+            "annotations": [],
             "infons": {
               "fpage": "273",
               "issue": "3",
@@ -906,13 +905,13 @@
               "volume": "20",
               "year": "1997"
             },
-            "text": "Identification of apoptotic changes in osteocytes in normal and pathological human bone",
+            "offset": 31518,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Identification of apoptotic changes in osteocytes in normal and pathological human bone"
           },
           {
-            "offset": 31606,
+            "annotations": [],
             "infons": {
               "fpage": "605",
               "issue": "4",
@@ -927,13 +926,13 @@
               "volume": "21",
               "year": "2006"
             },
-            "text": "Osteocyte apoptosis is induced by weightlessness in mice and precedes osteoclast recruitment and bone loss",
+            "offset": 31606,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocyte apoptosis is induced by weightlessness in mice and precedes osteoclast recruitment and bone loss"
           },
           {
-            "offset": 31713,
+            "annotations": [],
             "infons": {
               "fpage": "18934",
               "issue": "31",
@@ -948,13 +947,13 @@
               "volume": "290",
               "year": "2015"
             },
-            "text": "Inhibition of osteocyte apoptosis prevents the increase in osteocytic RANKL but it does not stop bone resorption or the loss of bone induced by unloading",
+            "offset": 31713,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Inhibition of osteocyte apoptosis prevents the increase in osteocytic RANKL but it does not stop bone resorption or the loss of bone induced by unloading"
           },
           {
-            "offset": 31867,
+            "annotations": [],
             "infons": {
               "fpage": "597",
               "lpage": "605",
@@ -971,13 +970,13 @@
               "volume": "24",
               "year": "2009"
             },
-            "text": "Osteocyte apoptosis controls activation of intracortical resorption",
+            "offset": 31867,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocyte apoptosis controls activation of intracortical resorption"
           },
           {
-            "offset": 31935,
+            "annotations": [],
             "infons": {
               "fpage": "577",
               "issue": "3",
@@ -992,13 +991,13 @@
               "volume": "46",
               "year": "2010"
             },
-            "text": "Osteocyte apoptosis and control of bone resorption following ovariectomy in mice",
+            "offset": 31935,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocyte apoptosis and control of bone resorption following ovariectomy in mice"
           },
           {
-            "offset": 32016,
+            "annotations": [],
             "infons": {
               "fpage": "1115",
               "issue": "5",
@@ -1016,13 +1015,13 @@
               "volume": "50",
               "year": "2012"
             },
-            "text": "Activation of resorption in fatigue-loaded bone involves both apoptosis and active pro-osteoclastogenic signaling by distinct osteocyte populations",
+            "offset": 32016,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Activation of resorption in fatigue-loaded bone involves both apoptosis and active pro-osteoclastogenic signaling by distinct osteocyte populations"
           },
           {
-            "offset": 32164,
+            "annotations": [],
             "infons": {
               "fpage": "132",
               "issue": "7",
@@ -1038,13 +1037,13 @@
               "volume": "64",
               "year": "2014"
             },
-            "text": "Osteocyte apoptosis is required for production of osteoclastogenic signals following bone fatigue in vivo",
+            "offset": 32164,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocyte apoptosis is required for production of osteoclastogenic signals following bone fatigue in vivo"
           },
           {
-            "offset": 32270,
+            "annotations": [],
             "infons": {
               "fpage": "207",
               "issue": "3",
@@ -1059,13 +1058,13 @@
               "volume": "14",
               "year": "1976"
             },
-            "text": "Investigation of the loss of bone mineral in patients with spinal cord injury",
+            "offset": 32270,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Investigation of the loss of bone mineral in patients with spinal cord injury"
           },
           {
-            "offset": 32348,
+            "annotations": [],
             "infons": {
               "fpage": "674",
               "issue": "11",
@@ -1082,13 +1081,13 @@
               "volume": "33",
               "year": "1995"
             },
-            "text": "Longitudinal study of the bone mineral content and of soft tissue composition after spinal cord section",
+            "offset": 32348,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Longitudinal study of the bone mineral content and of soft tissue composition after spinal cord section"
           },
           {
-            "offset": 32452,
+            "annotations": [],
             "infons": {
               "fpage": "1607",
               "issue": "9215",
@@ -1103,13 +1102,13 @@
               "volume": "355",
               "year": "2000"
             },
-            "text": "Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts",
+            "offset": 32452,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts"
           },
           {
-            "offset": 32557,
+            "annotations": [],
             "infons": {
               "fpage": "331",
               "issue": "Pt 1",
@@ -1124,13 +1123,13 @@
               "volume": "577",
               "year": "2006"
             },
-            "text": "Bone loss from the human distal tibia epiphysis during 24 days of unilateral lower limb suspension",
+            "offset": 32557,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone loss from the human distal tibia epiphysis during 24 days of unilateral lower limb suspension"
           },
           {
-            "offset": 32656,
+            "annotations": [],
             "infons": {
               "fpage": "304",
               "issue": "3",
@@ -1145,13 +1144,13 @@
               "volume": "35",
               "year": "1983"
             },
-            "text": "Tibial changes in experimental disuse osteoporosis in the monkey",
+            "offset": 32656,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tibial changes in experimental disuse osteoporosis in the monkey"
           },
           {
-            "offset": 32721,
+            "annotations": [],
             "infons": {
               "fpage": "269",
               "lpage": "76",
@@ -1163,13 +1162,13 @@
               "volume": "181",
               "year": "1983"
             },
-            "text": "Inhibition of cortical and trabecular bone formation in the long bones of immobilized monkeys",
+            "offset": 32721,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Inhibition of cortical and trabecular bone formation in the long bones of immobilized monkeys"
           },
           {
-            "offset": 32815,
+            "annotations": [],
             "infons": {
               "fpage": "431",
               "issue": "6",
@@ -1183,13 +1182,13 @@
               "volume": "7",
               "year": "1986"
             },
-            "text": "Reversibility of nontraumatic disuse osteoporosis during its active phase",
+            "offset": 32815,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Reversibility of nontraumatic disuse osteoporosis during its active phase"
           },
           {
-            "offset": 32889,
+            "annotations": [],
             "infons": {
               "fpage": "401",
               "issue": "5",
@@ -1206,13 +1205,13 @@
               "volume": "59",
               "year": "1996"
             },
-            "text": "Bone mineral density and turnover following forelimb immobilization and recovery in young adult dogs",
+            "offset": 32889,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bone mineral density and turnover following forelimb immobilization and recovery in young adult dogs"
           },
           {
-            "offset": 32990,
+            "annotations": [],
             "infons": {
               "fpage": "419",
               "issue": "5",
@@ -1227,13 +1226,13 @@
               "volume": "21",
               "year": "1997"
             },
-            "text": "Changes in canine cortical and cancellous bone mechanical properties following immobilization and remobilization with exercise",
+            "offset": 32990,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Changes in canine cortical and cancellous bone mechanical properties following immobilization and remobilization with exercise"
           },
           {
-            "offset": 33117,
+            "annotations": [],
             "infons": {
               "fpage": "607",
               "issue": "4",
@@ -1251,13 +1250,13 @@
               "volume": "19",
               "year": "2004"
             },
-            "text": "Genetically linked site-specificity of disuse osteoporosis",
+            "offset": 33117,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetically linked site-specificity of disuse osteoporosis"
           },
           {
-            "offset": 33176,
+            "annotations": [],
             "infons": {
               "fpage": "R159",
               "issue": "2",
@@ -1273,13 +1272,13 @@
               "volume": "303",
               "year": "2012"
             },
-            "text": "Multiple exposures to unloading decrease bone’s responsivity but compound skeletal losses in C57BL/6 mice",
+            "offset": 33176,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Multiple exposures to unloading decrease bone’s responsivity but compound skeletal losses in C57BL/6 mice"
           },
           {
-            "offset": 33284,
+            "annotations": [],
             "infons": {
               "fpage": "R324",
               "issue": "2 Pt 2",
@@ -1297,13 +1296,13 @@
               "volume": "274",
               "year": "1998"
             },
-            "text": "Space-related bone mineral redistribution and lack of bone mass recovery after reambulation in young rats",
+            "offset": 33284,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Space-related bone mineral redistribution and lack of bone mass recovery after reambulation in young rats"
           },
           {
-            "offset": 33390,
+            "annotations": [],
             "infons": {
               "fpage": "433",
               "issue": "1",
@@ -1319,13 +1318,13 @@
               "volume": "52",
               "year": "2013"
             },
-            "text": "Discordant recovery of bone mass and mechanical properties during prolonged recovery from disuse",
+            "offset": 33390,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Discordant recovery of bone mass and mechanical properties during prolonged recovery from disuse"
           },
           {
-            "offset": 33487,
+            "annotations": [],
             "infons": {
               "fpage": "1367",
               "issue": "4",
@@ -1339,13 +1338,13 @@
               "volume": "92",
               "year": "2002"
             },
-            "text": "Hindlimb unloading rodent model: technical aspects",
+            "offset": 33487,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hindlimb unloading rodent model: technical aspects"
           },
           {
-            "offset": 33538,
+            "annotations": [],
             "infons": {
               "fpage": "83S",
               "issue": "5 Suppl",
@@ -1359,13 +1358,13 @@
               "volume": "22",
               "year": "1998"
             },
-            "text": "Hindlimb unloading of growing rats: a model for predicting skeletal changes during space flight",
+            "offset": 33538,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hindlimb unloading of growing rats: a model for predicting skeletal changes during space flight"
           },
           {
-            "offset": 33634,
+            "annotations": [],
             "infons": {
               "fpage": "1280",
               "issue": "10",
@@ -1380,13 +1379,13 @@
               "volume": "16",
               "year": "2002"
             },
-            "text": "Genetic predisposition to low bone mass is paralleled by an enhanced sensitivity to signals anabolic to the skeleton",
+            "offset": 33634,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic predisposition to low bone mass is paralleled by an enhanced sensitivity to signals anabolic to the skeleton"
           },
           {
-            "offset": 33751,
+            "annotations": [],
             "infons": {
               "fpage": "553",
               "issue": "6",
@@ -1401,13 +1400,13 @@
               "volume": "29",
               "year": "2001"
             },
-            "text": "Inhibition of bone resorption by alendronate and risedronate does not require osteoclast apoptosis",
+            "offset": 33751,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Inhibition of bone resorption by alendronate and risedronate does not require osteoclast apoptosis"
           },
           {
-            "offset": 33850,
+            "annotations": [],
             "infons": {
               "fpage": "250",
               "issue": "2",
@@ -1422,13 +1421,13 @@
               "volume": "17",
               "year": "2004"
             },
-            "text": "A novel systemically active caspase inhibitor attenuates the toxicities of MPTP, malonate, and 3NP in vivo",
+            "offset": 33850,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A novel systemically active caspase inhibitor attenuates the toxicities of MPTP, malonate, and 3NP in vivo"
           },
           {
-            "offset": 33957,
+            "annotations": [],
             "infons": {
               "fpage": "1691",
               "issue": "5",
@@ -1443,13 +1442,13 @@
               "volume": "35",
               "year": "2013"
             },
-            "text": "Low levels of plasma IGF-1 inhibit intracortical bone remodeling during aging",
+            "offset": 33957,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Low levels of plasma IGF-1 inhibit intracortical bone remodeling during aging"
           },
           {
-            "offset": 34035,
+            "annotations": [],
             "infons": {
               "fpage": "2068",
               "issue": "11",
@@ -1466,13 +1465,13 @@
               "volume": "17",
               "year": "2002"
             },
-            "text": "MLO-Y4 osteocyte-like cells support osteoclast formation and activation",
+            "offset": 34035,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "MLO-Y4 osteocyte-like cells support osteoclast formation and activation"
           },
           {
-            "offset": 34107,
+            "annotations": [],
             "infons": {
               "fpage": "2412",
               "issue": "9",
@@ -1490,13 +1489,13 @@
               "volume": "112",
               "year": "2011"
             },
-            "text": "Apoptotic osteocytes regulate osteoclast precursor recruitment and differentiation in vitro",
+            "offset": 34107,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Apoptotic osteocytes regulate osteoclast precursor recruitment and differentiation in vitro"
           },
           {
-            "offset": 34199,
+            "annotations": [],
             "infons": {
               "fpage": "1468",
               "issue": "7",
@@ -1514,13 +1513,13 @@
               "volume": "25",
               "year": "2010"
             },
-            "text": "Guidelines for assessment of bone microstructure in rodents using micro-computed tomography",
+            "offset": 34199,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Guidelines for assessment of bone microstructure in rodents using micro-computed tomography"
           },
           {
-            "offset": 34291,
+            "annotations": [],
             "infons": {
               "fpage": "117",
               "issue": "1",
@@ -1535,13 +1534,13 @@
               "volume": "20",
               "year": "2005"
             },
-            "text": "Long-term disuse osteoporosis seems less sensitive to bisphosphonate treatment than other osteoporosis",
+            "offset": 34291,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Long-term disuse osteoporosis seems less sensitive to bisphosphonate treatment than other osteoporosis"
           },
           {
-            "offset": 34394,
+            "annotations": [],
             "infons": {
               "fpage": "1396",
               "issue": "9",
@@ -1556,13 +1555,13 @@
               "volume": "12",
               "year": "1997"
             },
-            "text": "Peptide aldehyde inhibitors of cathepsin K inhibit bone resorption both in vitro and in vivo",
+            "offset": 34394,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Peptide aldehyde inhibitors of cathepsin K inhibit bone resorption both in vitro and in vivo"
           },
           {
-            "offset": 34487,
+            "annotations": [],
             "infons": {
               "fpage": "80",
               "issue": "5623",
@@ -1576,13 +1575,13 @@
               "volume": "269",
               "year": "1977"
             },
-            "text": "Transport mechanism operating between blood supply and osteocytes in long bones",
+            "offset": 34487,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Transport mechanism operating between blood supply and osteocytes in long bones"
           },
           {
-            "offset": 34567,
+            "annotations": [],
             "infons": {
               "fpage": "107",
               "issue": "2",
@@ -1597,13 +1596,13 @@
               "volume": "22",
               "year": "1998"
             },
-            "text": "In vivo tracer transport through the lacunocanalicular system of rat bone in an environment devoid of mechanical loading",
+            "offset": 34567,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In vivo tracer transport through the lacunocanalicular system of rat bone in an environment devoid of mechanical loading"
           },
           {
-            "offset": 34688,
+            "annotations": [],
             "infons": {
               "fpage": "1200",
               "issue": "10",
@@ -1619,13 +1618,13 @@
               "volume": "28",
               "year": "2000"
             },
-            "text": "Modeling tracer transport in an osteon under cyclic loading",
+            "offset": 34688,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Modeling tracer transport in an osteon under cyclic loading"
           },
           {
-            "offset": 34748,
+            "annotations": [],
             "infons": {
               "fpage": "752",
               "issue": "2",
@@ -1639,13 +1638,13 @@
               "volume": "273",
               "year": "2003"
             },
-            "text": "Effect of lacunocanalicular architecture on hydraulic conductance in bone tissue: implications for bone health and evolution",
+            "offset": 34748,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effect of lacunocanalicular architecture on hydraulic conductance in bone tissue: implications for bone health and evolution"
           },
           {
-            "offset": 34873,
+            "annotations": [],
             "infons": {
               "fpage": "C922",
               "issue": "5",
@@ -1660,13 +1659,13 @@
               "volume": "299",
               "year": "2010"
             },
-            "text": "Numerical modeling of oxygen distributions in cortical and cancellous bone: oxygen availability governs osteonal and trabecular dimensions",
+            "offset": 34873,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Numerical modeling of oxygen distributions in cortical and cancellous bone: oxygen availability governs osteonal and trabecular dimensions"
           },
           {
-            "offset": 35012,
+            "annotations": [],
             "infons": {
               "fpage": "2514",
               "issue": "6",
@@ -1681,13 +1680,13 @@
               "volume": "90",
               "year": "2001"
             },
-            "text": "Selected contribution: osteocytes upregulate HIF-1alpha in response to acute disuse and oxygen deprivation",
+            "offset": 35012,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Selected contribution: osteocytes upregulate HIF-1alpha in response to acute disuse and oxygen deprivation"
           },
           {
-            "offset": 35119,
+            "annotations": [],
             "infons": {
               "fpage": "565",
               "issue": "3",
@@ -1702,13 +1701,13 @@
               "volume": "39",
               "year": "2006"
             },
-            "text": "Pressure gradients and transport in the murine femur upon hindlimb suspension",
+            "offset": 35119,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Pressure gradients and transport in the murine femur upon hindlimb suspension"
           },
           {
-            "offset": 35197,
+            "annotations": [],
             "infons": {
               "fpage": "2050",
               "issue": "11",
@@ -1723,13 +1722,13 @@
               "volume": "41",
               "year": "2009"
             },
-            "text": "Muscle forces or gravity: what predominates mechanical loading on bone?",
+            "offset": 35197,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Muscle forces or gravity: what predominates mechanical loading on bone?"
           },
           {
-            "offset": 35269,
+            "annotations": [],
             "infons": {
               "fpage": "327",
               "issue": "3",
@@ -1744,13 +1743,13 @@
               "volume": "94",
               "year": "2014"
             },
-            "text": "Combined effects of botulinum toxin injection and hind limb unloading on bone and muscle",
+            "offset": 35269,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Combined effects of botulinum toxin injection and hind limb unloading on bone and muscle"
           },
           {
-            "offset": 35358,
+            "annotations": [],
             "infons": {
               "fpage": "1118",
               "issue": "5",
@@ -1765,13 +1764,13 @@
               "volume": "29",
               "year": "2014"
             },
-            "text": "Interdependence of muscle atrophy and bone loss induced by mechanical unloading",
+            "offset": 35358,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Interdependence of muscle atrophy and bone loss induced by mechanical unloading"
           },
           {
-            "offset": 35438,
+            "annotations": [],
             "infons": {
               "fpage": "1231",
               "issue": "10",
@@ -1786,13 +1785,13 @@
               "volume": "17",
               "year": "2011"
             },
-            "text": "Evidence for osteocyte regulation of bone homeostasis through RANKL expression",
+            "offset": 35438,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Evidence for osteocyte regulation of bone homeostasis through RANKL expression"
           },
           {
-            "offset": 35517,
+            "annotations": [],
             "infons": {
               "fpage": "1235",
               "issue": "10",
@@ -1810,13 +1809,13 @@
               "volume": "17",
               "year": "2011"
             },
-            "text": "Matrix-embedded cells control osteoclast formation",
+            "offset": 35517,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Matrix-embedded cells control osteoclast formation"
           },
           {
-            "offset": 35568,
+            "annotations": [],
             "infons": {
               "fpage": "328",
               "issue": "2",
@@ -1834,13 +1833,13 @@
               "volume": "67",
               "year": "1981"
             },
-            "text": "Differential changes in bone mineral density of the appendicular and axial skeleton with aging: relationship to spinal osteoporosis",
+            "offset": 35568,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Differential changes in bone mineral density of the appendicular and axial skeleton with aging: relationship to spinal osteoporosis"
           },
           {
-            "offset": 35700,
+            "annotations": [],
             "infons": {
               "fpage": "1603",
               "issue": "5",
@@ -1858,13 +1857,13 @@
               "volume": "82",
               "year": "1997"
             },
-            "text": "Differential effect of gender on the sizes of the bones in the axial and appendicular skeletons",
+            "offset": 35700,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Differential effect of gender on the sizes of the bones in the axial and appendicular skeletons"
           },
           {
-            "offset": 35796,
+            "annotations": [],
             "infons": {
               "fpage": "1286",
               "issue": "12",
@@ -1879,13 +1878,13 @@
               "volume": "27",
               "year": "2002"
             },
-            "text": "Effect of tail suspension (or simulated weightlessness) on the lumbar intervertebral disc: study of proteoglycans and collagen",
+            "offset": 35796,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effect of tail suspension (or simulated weightlessness) on the lumbar intervertebral disc: study of proteoglycans and collagen"
           },
           {
-            "offset": 35923,
+            "annotations": [],
             "infons": {
               "fpage": "428",
               "issue": "4",
@@ -1901,13 +1900,13 @@
               "volume": "13",
               "year": "2013"
             },
-            "text": "Low-intensity vibrations partially maintain intervertebral disc mechanics and spinal muscle area during deconditioning",
+            "offset": 35923,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Low-intensity vibrations partially maintain intervertebral disc mechanics and spinal muscle area during deconditioning"
           },
           {
-            "offset": 36042,
+            "annotations": [],
             "infons": {
               "fpage": "44",
               "issue": "1",
@@ -1921,13 +1920,13 @@
               "volume": "10",
               "year": "2014"
             },
-            "text": "Role of cytokines in intervertebral disc degeneration: pain and disc content",
+            "offset": 36042,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Role of cytokines in intervertebral disc degeneration: pain and disc content"
           },
           {
-            "offset": 36119,
+            "annotations": [],
             "infons": {
               "fpage": "955",
               "issue": "13",
@@ -1942,13 +1941,13 @@
               "volume": "40",
               "year": "2015"
             },
-            "text": "Inflammatory kinetics and efficacy of anti-inflammatory treatments on human nucleus pulposus cells",
+            "offset": 36119,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Inflammatory kinetics and efficacy of anti-inflammatory treatments on human nucleus pulposus cells"
           },
           {
-            "offset": 36218,
+            "annotations": [],
             "infons": {
               "fpage": "5",
               "issue": "1",
@@ -1964,119 +1963,121 @@
               "volume": "94",
               "year": "2014"
             },
-            "text": "Osteocytes: master orchestrators of bone",
+            "offset": 36218,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Osteocytes: master orchestrators of bone"
           },
           {
-            "offset": 36259,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f1.jpg",
               "id": "F1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "(A) Femoral mid-diaphyseal section showing the anatomical sampling regions examined. (B) Photomicrographs of mid-diaphyseal cortical bone sections from mice subjected to 5 days of unloading (5d HLU) stained by immunohistochemistry for activated caspase 3 (Casp3, top left), its negative control (Neg Ctrl, bottom left); RANKL (top right), and its negative control (bottom right). Arrows indicate positively stained osteocytes (+Ot); scale bars = 40 μm.",
+            "offset": 36259,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "(A) Femoral mid-diaphyseal section showing the anatomical sampling regions examined. (B) Photomicrographs of mid-diaphyseal cortical bone sections from mice subjected to 5 days of unloading (5d HLU) stained by immunohistochemistry for activated caspase 3 (Casp3, top left), its negative control (Neg Ctrl, bottom left); RANKL (top right), and its negative control (bottom right). Arrows indicate positively stained osteocytes (+Ot); scale bars = 40 μm."
           },
           {
-            "offset": 36713,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f2.jpg",
               "id": "F2",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Circumferential and radial distributions of apoptotic osteocytes (%Casp3+Ot) in femoral mid-diaphyses after HLU (*p <0.05 versus cage control). (A) Increases in apoptotic osteocytes in principal anatomical regions (posterior cortex p <0.05; anterior, medial, and lateral cortices p >0.1). (B) The radial distribution of apoptotic osteocytes from endocortical to periosteal surface as a percentage of cortical width (endocortical surface = 0%) with this highest concentration of apoptotic osteocytes toward the endocortical region.",
+            "offset": 36713,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Circumferential and radial distributions of apoptotic osteocytes (%Casp3+Ot) in femoral mid-diaphyses after HLU (*p <0.05 versus cage control). (A) Increases in apoptotic osteocytes in principal anatomical regions (posterior cortex p <0.05; anterior, medial, and lateral cortices p >0.1). (B) The radial distribution of apoptotic osteocytes from endocortical to periosteal surface as a percentage of cortical width (endocortical surface = 0%) with this highest concentration of apoptotic osteocytes toward the endocortical region."
           },
           {
-            "offset": 37244,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f3.jpg",
               "id": "F3",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Cortical bone (A) osteocyte apoptosis (%Casp3+Ot), (B) osteocyte RANKL expression (%RANKL+Ot), and (C) endocortical resorption surface (%Ec.Rs.) in femoral mid-diaphyses after HLU. Baseline (day 0) is age-matched cage control value (*p <0.05 versus baseline [day 0] control).",
+            "offset": 37244,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cortical bone (A) osteocyte apoptosis (%Casp3+Ot), (B) osteocyte RANKL expression (%RANKL+Ot), and (C) endocortical resorption surface (%Ec.Rs.) in femoral mid-diaphyses after HLU. Baseline (day 0) is age-matched cage control value (*p <0.05 versus baseline [day 0] control)."
           },
           {
-            "offset": 37520,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f4.jpg",
               "id": "F4",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Trabecular bone (A) osteocyte apoptosis (%Casp3+Ot), (B) osteocyte RANKL expression (%RANKL+Ot), (C) trabecular bone active resorption surface (%CatK+Pm), and (D) trabecular osteoblastic cell RANKL expression (%RANKL+Pm) after HLU. Baseline (day 0) is cage control value (*p <0.05 versus control).",
+            "offset": 37520,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Trabecular bone (A) osteocyte apoptosis (%Casp3+Ot), (B) osteocyte RANKL expression (%RANKL+Ot), (C) trabecular bone active resorption surface (%CatK+Pm), and (D) trabecular osteoblastic cell RANKL expression (%RANKL+Pm) after HLU. Baseline (day 0) is cage control value (*p <0.05 versus control)."
           },
           {
-            "offset": 37818,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f5.jpg",
               "id": "F5",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Effects of QVD on osteoclastogenesis and RANKL gene expression in vitro. (A) Number of osteoclasts (TRAP+ multinucleated cells) formed by nonadherent mouse bone marrow mononuclear cells; QVD or carrier (DMSO) was present throughout the differentiation period. (B) RANKL gene expression levels in MLO-Y4 osteocytes with and without QVD.",
+            "offset": 37818,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of QVD on osteoclastogenesis and RANKL gene expression in vitro. (A) Number of osteoclasts (TRAP+ multinucleated cells) formed by nonadherent mouse bone marrow mononuclear cells; QVD or carrier (DMSO) was present throughout the differentiation period. (B) RANKL gene expression levels in MLO-Y4 osteocytes with and without QVD."
           },
           {
-            "offset": 38154,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f6.jpg",
               "id": "F6",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Effects of apoptosis inhibition with QVD on femoral diaphyseal cortical bone after HLU versus treatment with vehicle (Veh) alone. (A) Changes in osteocyte apoptosis (%Casp3+Ot) with HLU, (B) changes in osteocytes RANKL expression (%RANKL+Ot) with HLU, and (C) the marked increase in endocortical resorption (%Ec.Rs.) after 14 days of HLU, which was prevented by QVD treatment (*p <0.05 versus cage controls [Ctrl]).",
+            "offset": 38154,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of apoptosis inhibition with QVD on femoral diaphyseal cortical bone after HLU versus treatment with vehicle (Veh) alone. (A) Changes in osteocyte apoptosis (%Casp3+Ot) with HLU, (B) changes in osteocytes RANKL expression (%RANKL+Ot) with HLU, and (C) the marked increase in endocortical resorption (%Ec.Rs.) after 14 days of HLU, which was prevented by QVD treatment (*p <0.05 versus cage controls [Ctrl])."
           },
           {
-            "offset": 38570,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f7.jpg",
               "id": "F7",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Effects of apoptosis inhibition with QVD on trabecular bone after HLU versus treatment with vehicle (Veh) alone. (A) Changes in osteocyte apoptosis (%Casp3+Ot with HLU), (B) changes in osteocytes RANKL expression (%RANKL+Ot) with HLU, and (C) the marked increase in resorption surface (%CatK+Pm) after 14 days of HLU, which was prevented by QVD treatment (*p <0.05 versus cage controls [Ctrl]).",
+            "offset": 38570,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of apoptosis inhibition with QVD on trabecular bone after HLU versus treatment with vehicle (Veh) alone. (A) Changes in osteocyte apoptosis (%Casp3+Ot with HLU), (B) changes in osteocytes RANKL expression (%RANKL+Ot) with HLU, and (C) the marked increase in resorption surface (%CatK+Pm) after 14 days of HLU, which was prevented by QVD treatment (*p <0.05 versus cage controls [Ctrl])."
           },
           {
-            "offset": 38965,
+            "annotations": [],
             "infons": {
               "file": "nihms866074f8.jpg",
               "id": "F8",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "μCT-based trabecular bone microarchitectural properties in mouse femora owing to HLU and apoptosis inhibition. Mice subjected to HLU or cage controls (Ctrl) were treated with DMSO vehicle (Veh) or the apoptosis inhibitor QVD (ApInh). (A) μCT images show conspicuous trabecular bone loss in HLU+Veh; HLU+ApInh bones appear similar to cage control (Ctrl) bones. (B–E) Summary data for trabecular bone architecture parameters. Inhibition of osteocyte apoptosis completely prevented HLU-induced bone loss (*p <0.05 versus Ctrl).",
+            "offset": 38965,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "μCT-based trabecular bone microarchitectural properties in mouse femora owing to HLU and apoptosis inhibition. Mice subjected to HLU or cage controls (Ctrl) were treated with DMSO vehicle (Veh) or the apoptosis inhibitor QVD (ApInh). (A) μCT images show conspicuous trabecular bone loss in HLU+Veh; HLU+ApInh bones appear similar to cage control (Ctrl) bones. (B–E) Summary data for trabecular bone architecture parameters. Inhibition of osteocyte apoptosis completely prevented HLU-induced bone loss (*p <0.05 versus Ctrl)."
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC"
   }
 ]

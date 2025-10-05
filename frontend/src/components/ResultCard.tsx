@@ -32,7 +32,6 @@ const ResultCard: React.FC<ResultCardProps> = ({
     }
     await toggleFavorite(publication.id);
   };
-
   const handleSave = async (e: React.MouseEvent) => {
     e.stopPropagation();
     if (!user) {
@@ -48,9 +47,7 @@ const ResultCard: React.FC<ResultCardProps> = ({
       openAuthModal();
       return;
     }
-    
     if (publication.pdfUrl) {
-      // Trigger download
       const link = document.createElement('a');
       link.href = publication.pdfUrl;
       link.download = `${publication.id}.pdf`;
@@ -58,7 +55,6 @@ const ResultCard: React.FC<ResultCardProps> = ({
       link.click();
       document.body.removeChild(link);
     } else {
-      // Show tooltip or notification that no PDF is available
       alert('No PDF available for this publication');
     }
   };
@@ -85,19 +81,11 @@ const ResultCard: React.FC<ResultCardProps> = ({
     .join(', ') + (publication.authors.length > 3 ? ' et al.' : '');
 
   return (
-    <motion.div
+    <motion.article
       variants={cardVariants}
       initial="initial"
       animate="animate"
       exit="exit"
-      className={`
-        glass-dark rounded-xl p-6 cursor-pointer transition-all duration-300 hover:scale-[1.02] border
-        ${isSelected 
-          ? 'border-cosmic-400 neon-glow' 
-          : 'border-slate-700/50 hover:border-slate-600/50'
-        }
-        ${viewMode === 'list' ? 'flex gap-6 items-start' : ''}
-      `}
       onClick={onSelect}
       role="article"
       tabIndex={0}
@@ -108,119 +96,100 @@ const ResultCard: React.FC<ResultCardProps> = ({
         }
       }}
       aria-label={`Publication: ${publication.title}`}
+      className={`group relative cursor-pointer transform transition-all duration-500 hover:scale-[1.03] hover:-rotate-[0.5deg] 
+        ${viewMode === 'list' ? 'flex gap-6 items-start' : ''}
+        ${isSelected ? 'z-20' : 'z-10'}
+        focus:outline-none focus-visible:ring-2 focus-visible:ring-cosmic-400/60 rounded-3xl`}
     >
-      {/* Content */}
-      <div className={`flex-1 ${viewMode === 'list' ? '' : 'mb-4'}`}>
-        <div className="flex justify-between items-start mb-3">
-          <div className="flex-1">
-            <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2 hover:text-cosmic-300 transition-colors">
-              {publication.title}
-            </h3>
-            <p className="text-slate-400 text-sm mb-2">
-              {authorNames}
-            </p>
+      <div className={`rounded-3xl border shadow-2xl duration-700 relative backdrop-blur-xl overflow-hidden w-full bg-semantic-surface-1/95
+        ${isSelected ? 'border-semantic-border-accent shadow-[0_0_0_1px_var(--color-border-accent),0_8px_28px_-8px_rgba(0,0,0,0.45)]' : 'border-semantic-border-muted hover:border-semantic-border-accent/60'}
+      `}>
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-400/10 via-bio-400/5 to-transparent opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
+          <div style={{animationDelay: '0.4s'}} className="absolute -bottom-24 -left-24 w-56 h-56 rounded-full bg-gradient-to-tr from-bio-400/20 to-transparent blur-3xl opacity-20 group-hover:opacity-40 transform group-hover:scale-110 transition-all duration-700" />
+            <div className="absolute top-10 left-10 w-16 h-16 rounded-full bg-cosmic-400/15 blur-xl animate-pulse" />
+            <div style={{animationDelay: '0.8s'}} className="absolute bottom-16 right-16 w-14 h-14 rounded-full bg-bio-400/15 blur-lg animate-pulse" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cosmic-400/20 to-transparent transform -skew-x-12 translate-x-full group-hover:translate-x-[-220%] transition-transform duration-[1600ms]" />
+        </div>
+
+        <div className={`relative z-10 p-6 ${viewMode === 'list' ? 'flex-1' : ''}`}>
+          <div className="flex justify-between items-start mb-4">
+            <div className="flex-1">
+              <div className="relative mb-2">
+                <h3 className="text-lg font-semibold line-clamp-2 group-hover:tracking-wide transition-all duration-500 text-semantic-text-primary">
+                  {publication.title}
+                </h3>
+                <span className="absolute -inset-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-r from-cosmic-400/0 via-cosmic-400/30 to-bio-400/0 blur" />
+              </div>
+              <p className="text-semantic-text-secondary text-sm mb-2 group-hover:text-accent transition-colors">
+                {authorNames}
+              </p>
+            </div>
+            <div className="text-right text-semantic-text-dim text-xs ml-4 space-y-1">
+              <div className="font-mono tracking-tight text-accent group-hover:text-accent-alt transition-colors">{publication.pmc || publication.pmid || publication.id}</div>
+              <div className="text-semantic-text-secondary group-hover:text-accent-secondary transition-colors">{publication.year}</div>
+            </div>
           </div>
-          <div className="text-right text-slate-400 text-sm ml-4">
-            <div className="font-mono">{publication.pmc || publication.pmid || publication.id}</div>
-            <div>{publication.year}</div>
+
+          <p className="text-semantic-text-secondary text-sm mb-4 line-clamp-3 group-hover:text-semantic-text-primary transition-colors">
+            {publication.abstract}
+          </p>
+
+          <div className="flex flex-wrap gap-2 mb-4">
+            {[publication.organism, publication.assay, publication.mission, publication.source]
+              .filter(Boolean)
+              .map((val, i) => (
+                <span
+                  key={i}
+                  className="px-2 py-1 rounded-full bg-semantic-surface-2/70 text-semantic-text-dim group-hover:text-semantic-text-secondary text-[11px] font-medium tracking-wide border border-semantic-border-muted hover:border-semantic-border-accent transition-colors"
+                >
+                  {val}
+                </span>
+              ))}
           </div>
+
+          <div className={`flex ${viewMode === 'list' ? 'flex-col gap-2 items-start' : 'items-center justify-between'}`}>
+            <div className="flex gap-2">
+              {[{
+                icon: <Star className={`w-4 h-4 ${isFavorited ? 'fill-cosmic-300' : ''}`} />, handler: handleFavorite, active: isFavorited, label: 'favorite'
+              }, {
+                icon: <Bookmark className={`w-4 h-4 ${isSaved ? 'fill-bio-300' : ''}`} />, handler: handleSave, active: isSaved, label: 'save'
+              }, {
+                icon: <Download className="w-4 h-4" />, handler: handleDownload, disabled: !publication.pdfUrl, label: 'download'
+              }, {
+                icon: <Eye className="w-4 h-4" />, handler: handleInspect, label: 'inspect'
+              }, {
+                icon: <ExternalLink className="w-4 h-4" />, handler: handleViewDetails, label: 'details'
+              }].map((btn, i) => (
+                <motion.button
+                  key={i}
+                  onClick={btn.handler}
+                  disabled={btn.disabled}
+                  className={`relative p-2 rounded-xl transition-all duration-300 border border-semantic-border-muted hover:border-semantic-border-accent
+                    ${btn.disabled ? 'text-semantic-text-dim cursor-not-allowed' : 'text-semantic-text-secondary hover:text-semantic-text-primary'}
+                    ${btn.active ? 'bg-semantic-surface-2/70 text-semantic-text-primary border-semantic-border-accent shadow-inner' : 'bg-semantic-surface-2/30 hover:bg-semantic-surface-2/60'}
+                  `}
+                  whileHover={!btn.disabled ? { scale: 1.05 } : {}}
+                  whileTap={!btn.disabled ? { scale: 0.9 } : {}}
+                  title={btn.label}
+                  aria-label={btn.label}
+                >
+                  {btn.icon}
+                </motion.button>
+              ))}
+            </div>
+          </div>
+          <div className="mt-5 w-1/3 h-0.5 bg-gradient-to-r from-transparent via-cosmic-400/40 to-transparent rounded-full group-hover:w-1/2 group-hover:h-[3px] transition-all duration-700" />
         </div>
 
-        {/* Abstract */}
-        <p className="text-slate-300 text-sm mb-4 line-clamp-3">
-          {publication.abstract}
-        </p>
+  <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-cosmic-400/20 to-transparent rounded-br-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+  <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-tl from-bio-400/20 to-transparent rounded-tl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-        {/* Badges */}
-        <div className="flex flex-wrap gap-2 mb-4">
-          <span className="px-2 py-1 bg-bio-500/20 text-bio-300 rounded text-xs font-medium">
-            {publication.organism}
-          </span>
-          <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs font-medium">
-            {publication.assay}
-          </span>
-          <span className="px-2 py-1 bg-cosmic-500/20 text-cosmic-300 rounded text-xs font-medium">
-            {publication.mission}
-          </span>
-          <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs font-medium">
-            {publication.source}
-          </span>
-        </div>
+        {isSelected && (
+          <div className="pointer-events-none absolute inset-0 rounded-3xl ring-2 ring-cosmic-400/40 ring-offset-0 animate-pulse" />
+        )}
       </div>
-
-      {/* Actions */}
-      <div className={`flex ${viewMode === 'list' ? 'flex-col gap-2' : 'justify-between items-center'}`}>
-        <div className="flex gap-2">
-          <motion.button
-            onClick={handleFavorite}
-            className={`p-2 rounded-lg transition-all duration-200 ${
-              isFavorited 
-                ? 'bg-yellow-500/20 text-yellow-400 hover:bg-yellow-500/30' 
-                : 'text-slate-400 hover:text-yellow-400 hover:bg-yellow-500/10'
-            }`}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            title={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
-            aria-label={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
-          >
-            <Star className={`w-4 h-4 ${isFavorited ? 'fill-current' : ''}`} />
-          </motion.button>
-
-          <motion.button
-            onClick={handleSave}
-            className={`p-2 rounded-lg transition-all duration-200 ${
-              isSaved 
-                ? 'bg-blue-500/20 text-blue-400 hover:bg-blue-500/30' 
-                : 'text-slate-400 hover:text-blue-400 hover:bg-blue-500/10'
-            }`}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            title={isSaved ? 'Remove from library' : 'Save to library'}
-            aria-label={isSaved ? 'Remove from library' : 'Save to library'}
-          >
-            <Bookmark className={`w-4 h-4 ${isSaved ? 'fill-current' : ''}`} />
-          </motion.button>
-
-          <motion.button
-            onClick={handleDownload}
-            className={`p-2 rounded-lg transition-all duration-200 ${
-              publication.pdfUrl
-                ? 'text-slate-400 hover:text-green-400 hover:bg-green-500/10'
-                : 'text-slate-600 cursor-not-allowed'
-            }`}
-            whileHover={publication.pdfUrl ? { scale: 1.1 } : {}}
-            whileTap={publication.pdfUrl ? { scale: 0.9 } : {}}
-            disabled={!publication.pdfUrl}
-            title={publication.pdfUrl ? 'Download PDF' : 'No PDF available'}
-            aria-label={publication.pdfUrl ? 'Download PDF' : 'No PDF available'}
-          >
-            <Download className="w-4 h-4" />
-          </motion.button>
-
-          <motion.button
-            onClick={handleInspect}
-            className="p-2 rounded-lg text-slate-400 hover:text-cosmic-400 hover:bg-cosmic-500/10 transition-all duration-200"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            title="Inspect"
-            aria-label="Open inspector"
-          >
-            <Eye className="w-4 h-4" />
-          </motion.button>
-
-          <motion.button
-            onClick={handleViewDetails}
-            className="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-700/50 transition-all duration-200"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            title="View Details"
-            aria-label="View publication details"
-          >
-            <ExternalLink className="w-4 h-4" />
-          </motion.button>
-        </div>
-      </div>
-    </motion.div>
+    </motion.article>
   );
 };
 

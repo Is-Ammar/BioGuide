@@ -1,18 +1,17 @@
 [
   {
-    "source": "PMC",
     "date": "20210102",
-    "key": "pmc.key",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
+        "full_text": "Intrauterine exposure to maternal stress alters Bdnf IV DNA methylation and telomere length in the brain of adult rat offspring\nDNA methylation (addition of methyl groups to cytosines) and changes in telomere length (TTAGGG repeats on the ends of chromosomes) are two molecular modifications that result from stress and could contribute to the long-term effects of intrauterine exposure to maternal stress on offspring behavior. Here, we measured methylation of DNA associated with the Brain-derived neurotrophic factor (Bdnf) gene, a gene important in development and plasticity, and telomere length in the brains of adult rat male and female offspring whose mothers were exposed to unpredictable and variable stressors throughout gestation. Males exposed to prenatal stress had greater methylation (Bdnf IV) in the medial prefrontal cortex (mPFC) compared to non-stressed male controls and stressed females. Further, prenatally-stressed animals had shorter telomeres than controls in the mPFC. Together findings indicate a long-term impact of prenatal stress on brain DNA methylation and telomere biology with relevance for behavioral and health outcomes, and contribute to a growing literature linking stress to intergenerational molecular changes.\n1. Introduction\nPerturbations during gestation in the form of malnutrition, infection, or psychosocial stress have devastating consequences on the physical and mental well-being of offspring. For example, individuals exposed to famine during gestation (such as that of the Dutch Famine of 1944) have significant physical health problems including cardiovascular disease and high blood pressure. Gestational famine exposure also produces long-lasting neurobiological and behavioral consequences, including an increased incidence of schizophrenia. Psychosocial stress experienced by the mother during gestation likewise produces vulnerability to psychopathology in offspring, including increased risk for schizophrenia and depression. Further, work from various animal models provides additional evidence that a suboptimal intrauterine environment has long-term physical and behavioral consequences for offspring (for reviews see).\nOne way that prenatal stress could affect brain function and behavior is through epigenetic modifications, including DNA methylation. DNA methylation is characterized by the addition of methyl groups to cytosines, typically at cytosine-guanine dinucleotides (CG sites), which can dampen transcriptional activity through the blockade of transcription factors or the recruitment of transcriptional silencing machinery. Recent studies have also highlighted the role of active DNA demethylation in regulating transcription within the CNS, and candidates thought to reverse DNA methylation include ten-eleven-translocation (TET) proteins, GADD45b, and MBD2. Though historically associated with early cell development and differentiation, there is now a vast literature showing that DNA methylation/demethylation remains an active process even occurring in mature neurons. Further, studies in humans and animal models have highlighted the ability of prenatal stress to alter DNA methylation at various gene loci, including the Brain-derived neurotrophic factor (Bdnf) gene. BDNF is crucial for development and plasticity in the developing and adult brain and is implicated in various psychiatric disorders, including depression, schizophrenia, and PTSD. Given the widespread functioning of BDNF across brain regions throughout early development, this locus may play a role in translating prenatal stress to adult phenotypic outcomes including psychopathology.\nRecent work has also sought to characterize the detrimental impact of early-life stress by examining changes in telomere length –stretches of TTAGGG repeats located on the ends of chromosomes (for a comprehensive review, see). Studies continue to show that various forms of early-life stress (e.g., perinatal complications, psychological stress, physical abuse, etc.) during the prenatal or postnatal period shorten telomere length in the periphery. Given that telomeres are dynamically regulated during the first years of life, examining neural changes in telomere length following prenatal stress is another important avenue for understanding how stress experienced in early-life may relate to future mental well-being.\nIn daily life, humans tend to be exposed to unpredictable challenges that vary in magnitude and duration. Studies of prenatal stress in rodents often employ repeated presentations of a single, non-varying stressor, most frequently, immobilization stress, a well-known stressor in rodents. Rodent studies however provide evidence for habituation to predictable, non-varying stressors. In contrast, chronic variable stress in adult males is associated with greater HPA axis responses, including baseline hypersecretion of corticosterone, adrenocorticotropic hormone, and prolactin, as well as adrenal hypertrophy. Repeated exposure of pregnant rats to uncontrollable stress elicited a prolonged (24–48hr) increase in plasma concentrations of glucocorticoids from gestational day 4 to 20, an effect also observed in day 20 fetuses, suggesting that habituation to variable stressors across the rat’s three week pregnancy is minimal. Importantly, as compared to studies employing presentations of a single, non-varying stressor, studies employing variable prenatal stress paradigms have reported etiological changes that may be more closely linked to psychiatric disorders. Collectively, these findings suggest that variable, unpredictable stress may model the human condition with greater fidelity than invariant stress paradigms.\nThe current study was designed to characterize changes in Bdnf IV DNA methylation and telomere length across multiple discrete brain regions of the adult rat following unpredictable variable prenatal stress (UVPS). We chose to focus on the mPFC, ventral hippocampus, dorsal hippocampus, and central/basolateral amygdala, as our prior work showed changes in Bdnf IV DNA methylation and telomere length in these regions in adult animals subjected to adverse caregiving conditions during the first postnatal week. Changes in Bdnf IV DNA methylation have also been found in these same brain regions in other models of prenatal stress, and changes at this locus within these same brain regions are known to regulate neural function and behavior including fear conditioning and extinction.\n2. Materials and Methods\n2.1 Subjects\nFemale Sprague-Dawley (SD) rats and their offspring were used (n=6 control animals per sex, 7 UVPS animals per sex derived from 13 dams, with only one male and one female offspring from each control and UVPS litter). To avoid stress associated with shipping during pregnancy, dams were ordered (Taconic Farms, Germantown, NY) and time-mated in our breeding colony. Pregnancy was determined by daily vaginal lavage with the presence of spermatozoa indicating Gestational day zero (G0). Throughout pregnancy, dams were housed in groups of three in standard maternity cages (47cm × 26cm × 21cm) lined with corncob bedding and maintained under standard colony conditions (12:12 light/dark cycle [0600:1800]; 21 +/− 1° C at 30 – 50% humidity). Rat chow (Purina #5102) and water were available ad libitum. On G21, dams were singly housed. Animal experimentation was conducted in full accordance with the NRC Guide for the Care and Use of Laboratory Animals (National Academy of Sciences, copyright 2011). All procedures were approved by the Wake Forest School of Medicine Animal Care and Use Committee (ACUC).\n2.2 Unpredictable, Variable Prenatal Stress (UVPS) Paradigm\nOn G0, pregnant dams were randomly assigned to either control or UVPS treatment conditions (Body weight: CNTL, 288 ± 26g; UVPS, 292 ± 23g, ns). Each group was then transported to its own colony room. Beginning on G1, daily stress was applied to UVPS dams only within their own colony room. UVPS dams were exposed during each 24hr period to three stressors, one during each of three discrete time periods varying in duration (Time periods, Early: 0600–1200, Mid: 1200–1800, Late: 1800–600; Duration, 15, 30 or 60 minutes). Stressors included tube restraint (PVC tube, length × diameter: 21.6 × 6.4 cm), high-frequency strobe light (60Hz, 3.5W, 85mA), and white-noise induced stress (80db). Stimulus presentation was block randomized across pregnancy and spanned G1 – G21. Control dams were handled briefly each day to match UVPS handling. To eliminate potential confounds of altered postnatal maternal care by UVPS dams on experimental endpoints, offspring in both conditions were fostered at birth to non-manipulated, newly parturient dams.\n2.3 Tissue Collection and Processing\nOn postnatal day (PN) 90, rats were euthanized and flash frozen. Brains were extracted and later sectioned into 300 μm slices on a cryostat. DNA and RNA were simultaneously extracted (Qiagen Inc., Valencia, CA) from homogenized tissue from the mPFC (consisting of infralimbic and prelimbic cortices), dorsal hippocampus, ventral hippocampus, or central/basolateral amygdala. Tissue was dissected using the following stereotaxic coordinates from bregma (according to): mPFC, +2.52 to +5.16 mm; dorsal hippocampus, −2.16 to −3.36 mm; ventral hippocampus, −4.36 to −6.00 mm; and central/basolateral amygdala, −2.16 to −3.00 mm. Quantity and quality (DNA, 260/280 ratio of ~1.8 [range 1.8–2.0]; RNA, 260/280 ratio of ~2.0 ([ange 2.0–2.1]) of nucleic acids were determined using spectrophotometry (Nanodrop 2000), which were then frozen at −80°C for later processing.\n2.4 Bdnf DNA Methylation and Gene Expression Assays\nFor methylation assays, DNA was bisulfite-converted (Epitect Bisulfite Kit, Qiagen, Inc., Valencia, CA) and direct bisulfite-sequencing PCR (BSP) was used to measure methylation at 11 CG sites in Bdnf exon IV as previously reported. PCR products were purified (Diffinity Genomics, RapidTip) and sequenced using reverse primers at the Delaware Biotechnology Institute. The electropherogram was read on Chromas software, where the percent methylation of each CG site was determined by the ratio between peak values of G and A (G/[G +A]). We confirmed the accuracy of this technique by assessing methylated standards (Rat Pre-mixed Calibration Standards, Epigendx) ranging from 0–100% methylation and performing a linear regression on methylation values (F1,40=228.9, p<0.001, r2=0.8512).\nFor gene expression assays, RNA was reverse transcribed using a cDNA synthesis kit (Qiagen, Inc., Valencia, CA) and amplified via real-time PCR using Taqman probes (ThermoFisher Scientific, Grand Island, NY) to target Bdnf IV-containing transcripts (Taqman probe Rn01435337_g1). Tubulin (Taqman probe Rn01484927_m1) was used as a reference gene and all reactions were run in triplicate. The comparative Ct method was used to obtain the relative Bdnf IV mRNA fold change in experimental (UVPS) relative to control animals.\n2.5 Telomere Length and Telomerase assays\nDNA was assessed for purity, and diluted to 10ng/uL via Nanodrop spectrophotometry following procedures used previously. Quantitative real-time PCR was conducted with the following primers targeting telomeres (T; ForwardTEL:5′-CGGTTTGTTTGGGTTTGGGTTTGGGTTTGGGTTTGGGTT-3′ and ReverseTEL:5′-GGCTTGCCTTACCCTTACCCTTACCCTTACCCTTACCCT-3′) and a single copy control gene (S, the angiotensin receptor gene NCBI M86912.1, ForwardAT1: 5′- ACGTGTCTCAGCATCGACCGCTACC-3′ and ReverseAT1: 5′-AGAATGATAAGGAAAGGGAACAAGAAGCCC-3′). Each PCR well contained a final concentration of 1x Power Sybr Green Master Mix (ThermoFisher Scientific, Grand Island, NY), 100 nM forward primer, 100 nM reverse primer, and 20ng of sample DNA. The experimenter was blind to a sample’s group identification when loading the PCR plate. For each sample, the telomere and AT1 qPCR assays were carried out in triplicate in the same well position on different 96-well plates. All male and female samples for a particular brain region were run on the same 96-well PCR plate. Given that plates did not contain a standard, we did not statistically contrast brain regions across PCR plates. All samples were assayed in triplicate and any replicate that deviated ± 1 cycle threshold (Ct) beyond the triplicate average (~ 4.3% of all replicates) was excluded from the final Ct average. Eight samples failed to amplify in the amygdala (2 females and 2 males in the control condition and 1 female and 3 males in the UVPS condition) and were thus excluded from analyses. Relative telomere length was calculated as a ratio of telomeres (T) to single copy gene (S) by the formula T/S = (2ΔCt tel)/(2ΔCt AT1). The T/S ratio was then transformed into a proportionate score against the unstressed control condition for each brain region.\nSimilar to Bdnf IV mRNA assays, cDNA was amplified via real-time PCR using Taqman probes (ThermoFisher Scientific, Grand Island, NY) that targeted telomerase exons 7–9-containing transcripts (Taqman probe Rn01409457_m1). Tubulin was also used as a reference gene and all reactions were run in duplicate. The comparative Ct method was used to obtain the relative mRNA fold change in experimental (UVPS) relative to control animals.\n2.6 Statistical Analyses\nUpon assignment to treatment groups, dam body weights were compared using a one-way ANOVA. Following birth, median litter sizes were analyzed using the Wilcoxon Signed-Ranks Test. For each brain region, BSP data were analyzed with two-way ANOVAs comparing average methylation (across all 11 sites) between treatment group and sex (2 × 2), as well as two-way ANOVAs on each of the 11 CG sites [treatment group (2) × sex (2)]. Telomere length between conditions and sexes was likewise analyzed with two-way ANOVAs for each brain region. Bonferroni multiple comparison tests were used when appropriate for post hoc analyses. Differences in Bdnf or telomerase mRNA levels were analyzed by one-sample t-tests (for comparison of UVPS subjects to controls). Differences were considered to be statistically significant for p≤0.05.\n3. Results\n3.1. Pregnancy Outcome\nBoth UVPS and Control dams gave birth at the expected time, during the period spanning late G21 through early G22. Litter sizes ranged from 11–16 for the UVPS group and 11–17 for the Control group. A Wilcoxon Signed-Ranks Test indicated that the median UVPS ranks, Mdn=13.5, were significantly lower than the median Control ranks, Mdn = 15.5 (W=0, p < 0.05).\n3.2. Bdnf IV DNA methylation\nTo assess the effects of UVPS on adult DNA methylation patterns, we measured methylation of Bdnf IV in adult (PN90) male and female rats. The primer set we used targeted 3 CG sites that are upstream of the exon start site, encompassing a transcription factor binding site, and 8 CG sites within the beginning of the exon. We targeted this region as there are ample data indicating that this portion of DNA is especially sensitive to a range of physical or psychosocial factors.\nMedial prefrontal cortex (mPFC)\nUVPS males had higher levels of methylation in the mPFC (Figure 1A). A two-way ANOVA comparing average methylation values for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction (F1,19=18.19, p<0.01). UVPS males had higher overall methylation than control males (t19=3.512, p=0.01) and UVPS females (t19=3.374, p=0.02). UVPS males also had higher methylation at several individual CG sites. A two-way ANOVA comparing methylation values at CG site 1 for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction (F1,19=16.66, p<0.01). UVPS males had higher methylation than control males (t19=3.165, p=0.03) and UVPS females (t19=3.552, p=0.01). A two-way ANOVA comparing methylation values at CG site 2 for both treatment and sex revealed a significant interaction (F1,19=12.31, p<0.01), but all post hoc analyses failed to reach statistical significance. A two-way ANOVA comparing methylation values at CG site 3 for both treatment and sex revealed a significant interaction (F1,19=16.75, p<0.01). UVPS males had higher methylation than control males (t19=2.921, p=0.05) and UVPS females (t19=3.366, p=0.02). A two-way ANOVA comparing methylation values at CG site 4 for both treatment and sex revealed a significant main effect of treatment (F1,17=13.75 p<0.01), sex (F1,17=6.453, p=0.02), and an interaction (F1,17=25.35, p<0.01). UVPS males had higher methylation than control males (t17=6.052, p<0.01), control females (t17=4.325, p<0.01), and UVPS females (t17=5.477, p<0.01). Finally, a two-way ANOVA comparing methylation values at CG site 7 for both treatment and sex revealed a significant interaction (F1,19=14.38, p<0.01). UVPS males had higher methylation than control males (t19=3.452, p=0.02) and UVPS females (t19=3.145, p=0.03).\nDorsal hippocampus, ventral hippocampus, and amygdala\nThere were no main effects of treatment or sex, nor any interaction effects for average methylation levels or methylation at individual CG sites within the dorsal or ventral hippocampus or central/basolateral amygdala. A two-way ANOVA comparing methylation values at individual sites within the ventral hippocampus for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction at CG site 1 (F1,22=5.672, p=0.03) and CG site 2 (F1,21=4.935, p=0.04), but all post hoc analyses failed to reach statistical significance.\n3.3. Bdnf IV gene expression\nAs one way to envision the functional relevance of our changes in DNA methylation induced by UVPS within the mPFC, we measured steady-state gene expression of Bdnf IV-containing transcripts. No significant differences in Bdnf IV mRNA levels were detected between UVPS males and controls (t6=1.900, p=0.11) nor UVPS females and controls (t6=1.693, p=0.14). These data however do not necessarily mean our observed methylation changes are not functionally relevant in terms of gene expression. DNA methylation changes do not always result in steady-state changes in gene expression, but can instead prime transcriptional responses to subsequent stimuli and neural activation. Thus these methylation changes may be functionally relevant in terms of activity-dependent gene expression, which would occur for example when an animal is challenged with a stressor or learning event.\n3.4. Telomere length\nMedial prefrontal cortex (mPFC) telomere length\nUVPS had a significant effect on telomere length in the mPFC (Figure 2). A two-way ANOVA revealed a main effect of treatment (UVPS vs. control) on telomere length in the mPFC (F1,22=7.847, p=0.01), with a shorter telomere length present in animals that experienced UVPS.\nVentral hippocampus, dorsal hippocampus, and amygdala telomere length\nIn the hippocampus and central/basolateral amygdala there were no main effects of treatment or sex, nor any interaction effects on telomere length.\n3.5. Medial prefrontal cortex (mPFC) telomerase mRNA\nGiven the differences observed in telomere length within the mPFC, we also wanted to selectively examine telomerase mRNA in this brain region. No significant differences in telomerase mRNA were detected between UVPS males vs. controls (t6=1.807, p=0.12) or UVPS females compared to control females (t6=2.265, p=0.06).\n4. Discussion\nHere we used a rodent model of unpredictable, variable prenatal stress to test the hypothesis that a stressful environment in utero can render epigenetic and telomeric changes in the brain of offspring. We observed that Bdnf IV DNA methylation patterns in offspring at age PN90 varied depending on prenatal condition, sex, and brain region. Specifically, males from prenatally stressed mothers had significantly higher levels of methylation in the mPFC compared to male controls and females from prenatally stressed mothers. No differences in Bdnf IV DNA methylation were found in the dorsal hippocampus, ventral hippocampus, or amygdala in the stressed group compared to controls for either sex. Additionally, brain-region specific stress-induced effects on telomere length were detected with UVPS offspring exhibiting shorter telomeres in the mPFC.\nWhile decades of research have shown the detrimental effects of prenatal stress on brain function and behavior, there remains much to elucidate regarding the molecular mechanisms underlying these effects. A large drawback of this field as a whole is the variance in prenatal stress paradigms used, which makes direct comparisons between studies difficult. The timing of gestational stress, predictability of stressor, and the stressors used vary greatly between studies, but are extremely important factors when considering the neurobiological changes induced by prenatal stress.\nStudying PN21 and PN80 male offspring of pregnant rats subjected to a different variable stress paradigm (beginning on G14, dams were subjected to a mixture of restraint stress, forced swim, cold exposure, social stress, and light exposure overnight) than the one we employed here, another lab found that prenatally stressed males at both ages had higher Bdnf IV DNA methylation in the amygdala and hippocampus (only a site-specific change at PN80). One CG site showed higher methylation within the PFC of prenatally stressed males at PN21, however no methylation differences were detected in the PFC of PN80 offspring. Studying PN75 male offspring of pregnant mice subjected to restraint stress under bright light conditions (45 minutes three times per day from G7 through delivery), another lab observed significantly higher levels of methylation (as well as hydroxymethylation) for DNA associated with Bdnf IV in the frontal cortex. Finally, studying PN90 male and female offspring of pregnant mice exposed to predator stress (from G11–18 dams were daily exposed to three different predator urines), another lab found lower methylation of Bdnf IV DNA (at only one CG site) in the hippocampus of female offspring.\nDifferences between these studies and ours may be attributable to differences in the type and timing of prenatal stress. Our study is unique in that we employed a block randomized program of three stressors (light, sound, and restraint) presented early- and mid-day during the lights on phase of the cycle and once during the dark phase for varying durations ranging from 15 to 60 minutes for the entire span of gestation. In addition, examining methylation within the entire prefrontal cortex, amygdala, and hippocampus instead of the specific divisions within could produce different results. Nonetheless, data altogether are consistent with the notion that stress experienced by the dam is able to produce long-term epigenetic changes in offspring at a gene well-linked to neuroplasticity and cognition (e.g.) and mental health (e.g.). Our study and that from the McGowan lab shed light on the sex-specific epigenetic changes inducible by intrauterine exposure to stress.\nHere we also found that prenatally stressed animals exhibited shorter telomeres in the mPFC compared to controls. A number of studies have demonstrated a strong relationship between early-life stress, reduced peripheral telomere length, and future mental-health. The effects of stress on telomere length in the brain are less clear. Telomeres shorten with age in the cortex of rodents, but this shortening likely reflects changes occurring within glial cells given their increased mitotic potential relative to neurons. We did not distinguish between neurons and glia in measuring telomere length or methylation in the present study, although recent studies from our lab suggest that developmental (postnatal) stress induces changes in mPFC Bdnf IV DNA methylation primarily in neurons.\nRats selectively bred for enhanced depressive-like symptoms (i.e., the Flinders-sensitive line) show reduced telomere length in the hippocampus - supporting a role for telomere shortening in the brain. In contrast, other studies have found that postnatal stress (e.g., maternal separation or caregiver maltreatment) is associated with longer telomeres in the ventral hippocampus and medial prefrontal cortex. The findings here complement our previous work with regard to stress effects on a common brain region (i.e., the mPFC), but differ in the direction of telomere change. Similar to methylation, it is likely that the type (maltreatment vs. maternal separation vs. variable stress) and timing (pre- vs. postnatal) of stress can differentially affect brain telomere length, and future studies are certainly warranted to better understand the parameters affecting brain telomere length. How our telomere data functionally link to our methylation data is not known, but telomerase activity is necessary for the cell survival-promoting effects of BDNF in neurons. Further evidence of a putative link between BDNF and telomeres is the observation of a reduction in hippocampal telomerase activity, telomere length, and Bdnf expression in a rodent model of depression.\nIn summary our findings highlight the capacity of in utero stress to leave its epigenetic and telomeric mark within specific regions of the brain, providing important new insights into how gestational stress may have far reaching behavioral consequences for progeny. Indeed, behavioral analysis of the prenatally stressed and non-stressed subjects used in this report revealed robust sex-specific (male-biased) effects on anxiety responses (Ronca, unpublished). These findings are consistent with reports that prenatal stress leads to heightened stress sensitivity, especially among males, including studies employing variable prenatal stress paradigms. In accord with previous research linking prenatal stress with changes in body weight regulation and metabolic disorders, adult body weights of prenatally stressed male (but not female) offspring of the present study were significantly elevated relative to non-stressed offspring (Ronca, unpublished). Our findings indicate that, in addition to brain epigenetic and telomeric changes, unpredictable, variable gestational stress exerts clear sex-specific programming effects on the physical and behavioral health of the offspring. It is unclear whether our data reported here are consistent with the notion that males are more susceptible or females are more resilient to stress, but evidence for sex-based vulnerability and resilience to a variety of stressors continues to grow.\nThe study reported herein provides seminal evidence in a rodent model for an enduring influence of prenatal stress on both brain DNA methylation and telomere length in adulthood. Going forward, the challenge will be to identify the specific role(s) of these molecular brain changes in relation to the diverse effects of early-life stressors. Recent progress characterizing physiological and structural changes in the brain associated with prenatal stress, and their sex-specificity, may provide important new insights. Neuronal changes are highly region-specific with the most dramatic changes occurring in limbic and prefrontal cortical areas, those involved in cognition and emotional behavior. Altered neurogenesis, neuronal density, neuronal arborization, dendritic architecture, synaptic connectivity, and myelination have all been reported in animal models of prenatal stress. Prenatal stress also disrupts sex-specific maturation of the PFC that normally occurs in adolescence, thus our results could reflect not only sensitivity of the developing PFC to gestational stress but also a disruption of normative periadolescent maturation. Telomere length may be related to cellular changes in a variety of cell-types throughout the brain, including glia. Relating cellular alterations to epigenetic and telomeric changes in specific brain regions (including those epigenetic and telomeric observations reported here, and of course other presumed concomitant changes) are certain to produce a deeper understanding of the far-reaching effects of prenatal stress.\nWhile extensive progress has been made in the understanding of the role of early-life adversity in the development of psychiatric and metabolic disorders, more detailed research on sex-specific, epigenetic, brain structural and behavioral changes is warranted. In particular, consistency across gestational stress paradigms, including the predictability and timing of stressor, the use of common behavioral and endpoint measures, and comparisons between male and females are vital for uncovering consistent and meaningful patterns of neurobiological changes induced by prenatal stress. Our present findings may have relevance for behavioral and health outcomes, and contribute to a growing literature linking stress to early developmental programming, intergenerational epigenetic transmission of environmental exposures, and telomere biology. Illuminating molecular mechanisms underlying multigenerational programming of stress responses and mental and physical health outcomes are important first steps toward establishing therapeutic interventions to halt the generational persistence of pathological outcomes associated with early life adversity.\nThe hypothalamic-pituitary-adrenal axis: what can it tell us about stressors?\nInfant-caregiver experiences alter telomere length in the brain\nParental responsiveness moderates the association between early-life stress and reduced telomere length\nActivation of BDNF signaling prevents the return of fear in female mice\nDynamic DNA methylation: a prime candidate for genomic metaplasticity and behavioral adaptation\nReviews: BDNF and memory formation and storage\nThe relationship between maternal depressive, anxious, and stress symptoms during pregnancy and adult offspring behavioral and emotional problems\nThe long-term impact of adverse caregiving environments on epigenetic modifications and telomeres\nCaregiver maltreatment causes altered neuronal DNA methylation in female rodents\nDifferential methylation of genes in the medial prefrontal cortex of developing and adult rats following exposure to maltreatment or nurturing care during infancy\nStress in utero: prenatal programming of brain plasticity and cognition\nPrenatal stress decreases Bdnf expression and increases methylation of Bdnf exon IV in rats\nThe impact of voluntary exercise on relative telomere length in a rat model of developmental stress\nPrenatal stress-induced increases in placental inflammation and offspring hyperactivity are male-specific and ameliorated by maternal antiinflammatory treatment\nDNA methylation signatures triggered by prenatal maternal stress exposure to a natural disaster: project Ice Storm\nExogenous application of glucose induces aging in rat cerebral oligodendrocytes as revealed by alteration in telomere length\nChronic stress-induced effects of corticosterone on brain: direct and indirect\nComparison of the effects of single and daily repeated immobilization stress on resting activity and heterotypic sensitization of the hypothalamic–pituitary–adrenal axis\nPrenatal stress produces social behavior deficits and alters the number of oxytocin and vasopressin neurons in adult rats\nPromoter-specific activation and demethylation by MBD2/demethylase\nThe role of BDNF in the development of fear learning\nBDNF epigenetic modifications associated with schizophrenia-like phenotype induced by prenatal stress in mice\nStudying longitudinal trajectories in animal models of psychiatric illness and their translation to the human condition\nStress exposure in intrauterine life is associated with shorter telomere length in young adulthood\nMaternal psychosocial stress during pregnancy is associated with newborn leukocyte telomere length\nTelomeres shorten with age in rat cerebellum and cortex in vivo\nTelomerase mediates the cell survival-promoting actions of brain-derived neurotrophic factor and secreted amyloid precursor protein in developing hippocampal neurons\nDNA methylation profiles of the brain-derived neurotrophic factor (BDNF) gene as a potent diagnostic biomarker in major depression\nSex differences in the HPA axis\nRegulatory changes in neuroendocrine stress-integrative circuitry produced by a variable stress paradigm\nSchizoid personality disorder after prenatal exposure to famine\nEpigenetic effects of prenatal stress on 11β-Hydroxysteroid Dehydrogenase-2 in the placenta and fetal brain\nChildhood adversities are associated with shorter telomere length at adult age both in individuals with an anxiety disorder and controls\nIncreased BDNF promoter methylation in the Wernicke area of suicide subjects\nChildhood adversity heightens the impact of later-life caregiving stress on telomere length and inflammation\nPrenatal exposure to a repeated variable stress paradigm elicits behavioral and neuroendocrinological changes in the adult offspring: potential relevance to schizophrenia\nTET enzymes, TDG and the dynamics of DNA demethylation\nEpigenetic perspective on the developmental effects of bisphenol A\nSex-specific and strain-dependent effects of early life adversity on behavioral and epigenetic outcomes\nLong-term effects of early life deprivation on brain glia in Fischer rats\nTelomere shortening leads to earlier age of onset in ALS mice\nAnalysis of relative gene expression data using real-time quantitative PCR and the 2−ΔΔCT method\nEpigenetic regulation of Bdnf gene transcription in the consolidation of fear memory\nEffects of stress throughout the lifespan on the brain, behaviour and cognition\nNeuronal activity-induced Gadd45b promotes epigenetic DNA demethylation and adult neurogenesis\nAcute maternal stress in pregnancy and schizophrenia in offspring: a cohort prospective study\nPrenatal stress and newborn telomere length\nPeriadolescent maturation of the prefrontal cortex is sex-specific and is disrupted by prenatal stress\nDNA methylation-related chromatin remodeling in activity-dependent Bdnf gene regulation\nNew insights into BDNF function in depression and anxiety\nEpigenetic modifications of GABAergic interneurons are associated with the schizophrenia-like phenotype induced by prenatal stress in mice\nMechanisms of stress in the brain\nStress effects on morphology and function of the hippocampus\nEarly prenatal stress epigenetically programs dysmasculinization in second-generation offspring via the paternal lineage\nEarly prenatal stress impact on coping strategies and learning performance is sex dependent\nSex-specific programming of offspring emotionality after stress early in pregnancy\nInvestigating epigenetic effects of prenatal exposure to toxic metals in newborns: challenges and benefits\nA quantitative PCR method for measuring absolute telomere length\nChildhood trauma associated with short leukocyte telomere length in posttraumatic stress disorder\nTransgenerational effects of prenatal exposure to the Dutch famine on neonatal adiposity and health in later life\nRestraint stress in biomedical research: A review\n\nResponse to psychotherapy in borderline personality disorder and methylation status of the BDNF gene\nPeripheral and central mechanisms of stress resilience\nChronic stress and brain plasticity: Mechanisms underlying adaptive and maladaptive changes and implications for stress-related CNS disorders\nHungry in the womb: what are the consequences? Lessons from the Dutch famine\nLasting epigenetic influence of early-life adversity on the BDNF gene\nBdnf DNA methylation modifications in the hippocampus and amygdala of male and female rats exposed to different caregiving environments outside the homecage\nEpigenetic modification of hippocampal Bdnf DNA in adult rats in an animal model of post-traumatic stress disorder\nNeurodevelopmental consequences of maternal distress: what do we really know?\nPerinatal complications and aging indicators by midlife\nInternalizing disorders and leukocyte telomere erosion: A prospective study of depression, generalized anxiety disorder and post-traumatic stress disorder\nPrenatal stress produces sex-specific changes in depression-like behavior in rats: implications for increased vulnerability in females\nGenetic determination of telomere size in humans: a twin study of three age groups\nDifferential immune system DNA methylation and cytokine regulation in post-traumatic stress disorder\nGender- and anxiety level-dependent effects of perinatal stress exposure on medial prefrontal cortex\nProgramming of stress-related behavior and epigenetic neural gene regulation in mice offspring through maternal exposure to predator odor\nShortened telomere length in white matter oligodendrocytes in major depression: potential role of oxidative stress\nProlonged stress-induced elevation in plasma corticosterone during pregnancy in the rat: implications for prenatal stress studies\nTelomere length in white blood cells, buccal cells and brain tissue and its variation with ageing and Alzheimer’s disease\nChildhood maltreatment and telomere shortening: preliminary support for an effect of early stress on cellular aging\nTelomerase dysregulation in the hippocampus of a rat model of depression: normalization by lithium\nVariable prenatal stress results in impairments of sustained attention and inhibitory response control in a 5-choice serial reaction time task in rats\nExposure to variable prenatal stress in rats: Effects on anxiety-related behaviors, innate and contextual fear, and fear extinction\nRapid telomere shortening in children\nBdnf IV DNA methylation in the medial prefrontal cortex. UVPS male offspring had significantly higher methylation compared to control males and UVPS females across most CG sites within the medial prefrontal cortex. *p<0.05, **p<0.01, ***p<0.001; n=6–7/sex/condition; error bars represent SEM.\nTelomere length in the adult medial prefrontal cortex. Animals that experienced UVPS had significantly shorter telomeres compared to controls. **p=0.01; n=6–7/sex/condition; error bars represent SEM.",
         "id": "5600826",
         "infons": {
           "license": "author_manuscript"
         },
         "passages": [
           {
-            "offset": 0,
+            "annotations": [],
             "infons": {
               "article-id_doi": "10.1016/j.ijdevneu.2017.03.007",
               "article-id_manuscript": "NIHMS873339",
@@ -34,563 +33,563 @@
               "volume": "62",
               "year": "2018"
             },
-            "text": "Intrauterine exposure to maternal stress alters Bdnf IV DNA methylation and telomere length in the brain of adult rat offspring",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Intrauterine exposure to maternal stress alters Bdnf IV DNA methylation and telomere length in the brain of adult rat offspring"
           },
           {
-            "offset": 128,
+            "annotations": [],
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "DNA methylation (addition of methyl groups to cytosines) and changes in telomere length (TTAGGG repeats on the ends of chromosomes) are two molecular modifications that result from stress and could contribute to the long-term effects of intrauterine exposure to maternal stress on offspring behavior. Here, we measured methylation of DNA associated with the Brain-derived neurotrophic factor (Bdnf) gene, a gene important in development and plasticity, and telomere length in the brains of adult rat male and female offspring whose mothers were exposed to unpredictable and variable stressors throughout gestation. Males exposed to prenatal stress had greater methylation (Bdnf IV) in the medial prefrontal cortex (mPFC) compared to non-stressed male controls and stressed females. Further, prenatally-stressed animals had shorter telomeres than controls in the mPFC. Together findings indicate a long-term impact of prenatal stress on brain DNA methylation and telomere biology with relevance for behavioral and health outcomes, and contribute to a growing literature linking stress to intergenerational molecular changes.",
+            "offset": 128,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "DNA methylation (addition of methyl groups to cytosines) and changes in telomere length (TTAGGG repeats on the ends of chromosomes) are two molecular modifications that result from stress and could contribute to the long-term effects of intrauterine exposure to maternal stress on offspring behavior. Here, we measured methylation of DNA associated with the Brain-derived neurotrophic factor (Bdnf) gene, a gene important in development and plasticity, and telomere length in the brains of adult rat male and female offspring whose mothers were exposed to unpredictable and variable stressors throughout gestation. Males exposed to prenatal stress had greater methylation (Bdnf IV) in the medial prefrontal cortex (mPFC) compared to non-stressed male controls and stressed females. Further, prenatally-stressed animals had shorter telomeres than controls in the mPFC. Together findings indicate a long-term impact of prenatal stress on brain DNA methylation and telomere biology with relevance for behavioral and health outcomes, and contribute to a growing literature linking stress to intergenerational molecular changes."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "INTRO",
+              "type": "title_1"
+            },
             "offset": 1252,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "title_1"
-            },
-            "text": "1. Introduction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "1. Introduction"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 1268,
+            "relations": [],
+            "sentences": [],
+            "text": "Perturbations during gestation in the form of malnutrition, infection, or psychosocial stress have devastating consequences on the physical and mental well-being of offspring. For example, individuals exposed to famine during gestation (such as that of the Dutch Famine of 1944) have significant physical health problems including cardiovascular disease and high blood pressure. Gestational famine exposure also produces long-lasting neurobiological and behavioral consequences, including an increased incidence of schizophrenia. Psychosocial stress experienced by the mother during gestation likewise produces vulnerability to psychopathology in offspring, including increased risk for schizophrenia and depression. Further, work from various animal models provides additional evidence that a suboptimal intrauterine environment has long-term physical and behavioral consequences for offspring (for reviews see)."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Perturbations during gestation in the form of malnutrition, infection, or psychosocial stress have devastating consequences on the physical and mental well-being of offspring. For example, individuals exposed to famine during gestation (such as that of the Dutch Famine of 1944) have significant physical health problems including cardiovascular disease and high blood pressure. Gestational famine exposure also produces long-lasting neurobiological and behavioral consequences, including an increased incidence of schizophrenia. Psychosocial stress experienced by the mother during gestation likewise produces vulnerability to psychopathology in offspring, including increased risk for schizophrenia and depression. Further, work from various animal models provides additional evidence that a suboptimal intrauterine environment has long-term physical and behavioral consequences for offspring (for reviews see).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 2182,
+            "relations": [],
+            "sentences": [],
+            "text": "One way that prenatal stress could affect brain function and behavior is through epigenetic modifications, including DNA methylation. DNA methylation is characterized by the addition of methyl groups to cytosines, typically at cytosine-guanine dinucleotides (CG sites), which can dampen transcriptional activity through the blockade of transcription factors or the recruitment of transcriptional silencing machinery. Recent studies have also highlighted the role of active DNA demethylation in regulating transcription within the CNS, and candidates thought to reverse DNA methylation include ten-eleven-translocation (TET) proteins, GADD45b, and MBD2. Though historically associated with early cell development and differentiation, there is now a vast literature showing that DNA methylation/demethylation remains an active process even occurring in mature neurons. Further, studies in humans and animal models have highlighted the ability of prenatal stress to alter DNA methylation at various gene loci, including the Brain-derived neurotrophic factor (Bdnf) gene. BDNF is crucial for development and plasticity in the developing and adult brain and is implicated in various psychiatric disorders, including depression, schizophrenia, and PTSD. Given the widespread functioning of BDNF across brain regions throughout early development, this locus may play a role in translating prenatal stress to adult phenotypic outcomes including psychopathology."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "One way that prenatal stress could affect brain function and behavior is through epigenetic modifications, including DNA methylation. DNA methylation is characterized by the addition of methyl groups to cytosines, typically at cytosine-guanine dinucleotides (CG sites), which can dampen transcriptional activity through the blockade of transcription factors or the recruitment of transcriptional silencing machinery. Recent studies have also highlighted the role of active DNA demethylation in regulating transcription within the CNS, and candidates thought to reverse DNA methylation include ten-eleven-translocation (TET) proteins, GADD45b, and MBD2. Though historically associated with early cell development and differentiation, there is now a vast literature showing that DNA methylation/demethylation remains an active process even occurring in mature neurons. Further, studies in humans and animal models have highlighted the ability of prenatal stress to alter DNA methylation at various gene loci, including the Brain-derived neurotrophic factor (Bdnf) gene. BDNF is crucial for development and plasticity in the developing and adult brain and is implicated in various psychiatric disorders, including depression, schizophrenia, and PTSD. Given the widespread functioning of BDNF across brain regions throughout early development, this locus may play a role in translating prenatal stress to adult phenotypic outcomes including psychopathology.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 3636,
+            "relations": [],
+            "sentences": [],
+            "text": "Recent work has also sought to characterize the detrimental impact of early-life stress by examining changes in telomere length –stretches of TTAGGG repeats located on the ends of chromosomes (for a comprehensive review, see). Studies continue to show that various forms of early-life stress (e.g., perinatal complications, psychological stress, physical abuse, etc.) during the prenatal or postnatal period shorten telomere length in the periphery. Given that telomeres are dynamically regulated during the first years of life, examining neural changes in telomere length following prenatal stress is another important avenue for understanding how stress experienced in early-life may relate to future mental well-being."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Recent work has also sought to characterize the detrimental impact of early-life stress by examining changes in telomere length –stretches of TTAGGG repeats located on the ends of chromosomes (for a comprehensive review, see). Studies continue to show that various forms of early-life stress (e.g., perinatal complications, psychological stress, physical abuse, etc.) during the prenatal or postnatal period shorten telomere length in the periphery. Given that telomeres are dynamically regulated during the first years of life, examining neural changes in telomere length following prenatal stress is another important avenue for understanding how stress experienced in early-life may relate to future mental well-being.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 4360,
+            "relations": [],
+            "sentences": [],
+            "text": "In daily life, humans tend to be exposed to unpredictable challenges that vary in magnitude and duration. Studies of prenatal stress in rodents often employ repeated presentations of a single, non-varying stressor, most frequently, immobilization stress, a well-known stressor in rodents. Rodent studies however provide evidence for habituation to predictable, non-varying stressors. In contrast, chronic variable stress in adult males is associated with greater HPA axis responses, including baseline hypersecretion of corticosterone, adrenocorticotropic hormone, and prolactin, as well as adrenal hypertrophy. Repeated exposure of pregnant rats to uncontrollable stress elicited a prolonged (24–48hr) increase in plasma concentrations of glucocorticoids from gestational day 4 to 20, an effect also observed in day 20 fetuses, suggesting that habituation to variable stressors across the rat’s three week pregnancy is minimal. Importantly, as compared to studies employing presentations of a single, non-varying stressor, studies employing variable prenatal stress paradigms have reported etiological changes that may be more closely linked to psychiatric disorders. Collectively, these findings suggest that variable, unpredictable stress may model the human condition with greater fidelity than invariant stress paradigms."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "In daily life, humans tend to be exposed to unpredictable challenges that vary in magnitude and duration. Studies of prenatal stress in rodents often employ repeated presentations of a single, non-varying stressor, most frequently, immobilization stress, a well-known stressor in rodents. Rodent studies however provide evidence for habituation to predictable, non-varying stressors. In contrast, chronic variable stress in adult males is associated with greater HPA axis responses, including baseline hypersecretion of corticosterone, adrenocorticotropic hormone, and prolactin, as well as adrenal hypertrophy. Repeated exposure of pregnant rats to uncontrollable stress elicited a prolonged (24–48hr) increase in plasma concentrations of glucocorticoids from gestational day 4 to 20, an effect also observed in day 20 fetuses, suggesting that habituation to variable stressors across the rat’s three week pregnancy is minimal. Importantly, as compared to studies employing presentations of a single, non-varying stressor, studies employing variable prenatal stress paradigms have reported etiological changes that may be more closely linked to psychiatric disorders. Collectively, these findings suggest that variable, unpredictable stress may model the human condition with greater fidelity than invariant stress paradigms.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 5691,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "The current study was designed to characterize changes in Bdnf IV DNA methylation and telomere length across multiple discrete brain regions of the adult rat following unpredictable variable prenatal stress (UVPS). We chose to focus on the mPFC, ventral hippocampus, dorsal hippocampus, and central/basolateral amygdala, as our prior work showed changes in Bdnf IV DNA methylation and telomere length in these regions in adult animals subjected to adverse caregiving conditions during the first postnatal week. Changes in Bdnf IV DNA methylation have also been found in these same brain regions in other models of prenatal stress, and changes at this locus within these same brain regions are known to regulate neural function and behavior including fear conditioning and extinction.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The current study was designed to characterize changes in Bdnf IV DNA methylation and telomere length across multiple discrete brain regions of the adult rat following unpredictable variable prenatal stress (UVPS). We chose to focus on the mPFC, ventral hippocampus, dorsal hippocampus, and central/basolateral amygdala, as our prior work showed changes in Bdnf IV DNA methylation and telomere length in these regions in adult animals subjected to adverse caregiving conditions during the first postnatal week. Changes in Bdnf IV DNA methylation have also been found in these same brain regions in other models of prenatal stress, and changes at this locus within these same brain regions are known to regulate neural function and behavior including fear conditioning and extinction."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_1"
+            },
             "offset": 6475,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_1"
-            },
-            "text": "2. Materials and Methods",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2. Materials and Methods"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 6500,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "2.1 Subjects",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2.1 Subjects"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 6513,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Female Sprague-Dawley (SD) rats and their offspring were used (n=6 control animals per sex, 7 UVPS animals per sex derived from 13 dams, with only one male and one female offspring from each control and UVPS litter). To avoid stress associated with shipping during pregnancy, dams were ordered (Taconic Farms, Germantown, NY) and time-mated in our breeding colony. Pregnancy was determined by daily vaginal lavage with the presence of spermatozoa indicating Gestational day zero (G0). Throughout pregnancy, dams were housed in groups of three in standard maternity cages (47cm × 26cm × 21cm) lined with corncob bedding and maintained under standard colony conditions (12:12 light/dark cycle [0600:1800]; 21 +/− 1° C at 30 – 50% humidity). Rat chow (Purina #5102) and water were available ad libitum. On G21, dams were singly housed. Animal experimentation was conducted in full accordance with the NRC Guide for the Care and Use of Laboratory Animals (National Academy of Sciences, copyright 2011). All procedures were approved by the Wake Forest School of Medicine Animal Care and Use Committee (ACUC).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Female Sprague-Dawley (SD) rats and their offspring were used (n=6 control animals per sex, 7 UVPS animals per sex derived from 13 dams, with only one male and one female offspring from each control and UVPS litter). To avoid stress associated with shipping during pregnancy, dams were ordered (Taconic Farms, Germantown, NY) and time-mated in our breeding colony. Pregnancy was determined by daily vaginal lavage with the presence of spermatozoa indicating Gestational day zero (G0). Throughout pregnancy, dams were housed in groups of three in standard maternity cages (47cm × 26cm × 21cm) lined with corncob bedding and maintained under standard colony conditions (12:12 light/dark cycle [0600:1800]; 21 +/− 1° C at 30 – 50% humidity). Rat chow (Purina #5102) and water were available ad libitum. On G21, dams were singly housed. Animal experimentation was conducted in full accordance with the NRC Guide for the Care and Use of Laboratory Animals (National Academy of Sciences, copyright 2011). All procedures were approved by the Wake Forest School of Medicine Animal Care and Use Committee (ACUC)."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 7624,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "2.2 Unpredictable, Variable Prenatal Stress (UVPS) Paradigm",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2.2 Unpredictable, Variable Prenatal Stress (UVPS) Paradigm"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 7684,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "On G0, pregnant dams were randomly assigned to either control or UVPS treatment conditions (Body weight: CNTL, 288 ± 26g; UVPS, 292 ± 23g, ns). Each group was then transported to its own colony room. Beginning on G1, daily stress was applied to UVPS dams only within their own colony room. UVPS dams were exposed during each 24hr period to three stressors, one during each of three discrete time periods varying in duration (Time periods, Early: 0600–1200, Mid: 1200–1800, Late: 1800–600; Duration, 15, 30 or 60 minutes). Stressors included tube restraint (PVC tube, length × diameter: 21.6 × 6.4 cm), high-frequency strobe light (60Hz, 3.5W, 85mA), and white-noise induced stress (80db). Stimulus presentation was block randomized across pregnancy and spanned G1 – G21. Control dams were handled briefly each day to match UVPS handling. To eliminate potential confounds of altered postnatal maternal care by UVPS dams on experimental endpoints, offspring in both conditions were fostered at birth to non-manipulated, newly parturient dams.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "On G0, pregnant dams were randomly assigned to either control or UVPS treatment conditions (Body weight: CNTL, 288 ± 26g; UVPS, 292 ± 23g, ns). Each group was then transported to its own colony room. Beginning on G1, daily stress was applied to UVPS dams only within their own colony room. UVPS dams were exposed during each 24hr period to three stressors, one during each of three discrete time periods varying in duration (Time periods, Early: 0600–1200, Mid: 1200–1800, Late: 1800–600; Duration, 15, 30 or 60 minutes). Stressors included tube restraint (PVC tube, length × diameter: 21.6 × 6.4 cm), high-frequency strobe light (60Hz, 3.5W, 85mA), and white-noise induced stress (80db). Stimulus presentation was block randomized across pregnancy and spanned G1 – G21. Control dams were handled briefly each day to match UVPS handling. To eliminate potential confounds of altered postnatal maternal care by UVPS dams on experimental endpoints, offspring in both conditions were fostered at birth to non-manipulated, newly parturient dams."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 8737,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "2.3 Tissue Collection and Processing",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2.3 Tissue Collection and Processing"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 8774,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "On postnatal day (PN) 90, rats were euthanized and flash frozen. Brains were extracted and later sectioned into 300 μm slices on a cryostat. DNA and RNA were simultaneously extracted (Qiagen Inc., Valencia, CA) from homogenized tissue from the mPFC (consisting of infralimbic and prelimbic cortices), dorsal hippocampus, ventral hippocampus, or central/basolateral amygdala. Tissue was dissected using the following stereotaxic coordinates from bregma (according to): mPFC, +2.52 to +5.16 mm; dorsal hippocampus, −2.16 to −3.36 mm; ventral hippocampus, −4.36 to −6.00 mm; and central/basolateral amygdala, −2.16 to −3.00 mm. Quantity and quality (DNA, 260/280 ratio of ~1.8 [range 1.8–2.0]; RNA, 260/280 ratio of ~2.0 ([ange 2.0–2.1]) of nucleic acids were determined using spectrophotometry (Nanodrop 2000), which were then frozen at −80°C for later processing.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "On postnatal day (PN) 90, rats were euthanized and flash frozen. Brains were extracted and later sectioned into 300 μm slices on a cryostat. DNA and RNA were simultaneously extracted (Qiagen Inc., Valencia, CA) from homogenized tissue from the mPFC (consisting of infralimbic and prelimbic cortices), dorsal hippocampus, ventral hippocampus, or central/basolateral amygdala. Tissue was dissected using the following stereotaxic coordinates from bregma (according to): mPFC, +2.52 to +5.16 mm; dorsal hippocampus, −2.16 to −3.36 mm; ventral hippocampus, −4.36 to −6.00 mm; and central/basolateral amygdala, −2.16 to −3.00 mm. Quantity and quality (DNA, 260/280 ratio of ~1.8 [range 1.8–2.0]; RNA, 260/280 ratio of ~2.0 ([ange 2.0–2.1]) of nucleic acids were determined using spectrophotometry (Nanodrop 2000), which were then frozen at −80°C for later processing."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 9657,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "2.4 Bdnf DNA Methylation and Gene Expression Assays",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2.4 Bdnf DNA Methylation and Gene Expression Assays"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 9709,
+            "relations": [],
+            "sentences": [],
+            "text": "For methylation assays, DNA was bisulfite-converted (Epitect Bisulfite Kit, Qiagen, Inc., Valencia, CA) and direct bisulfite-sequencing PCR (BSP) was used to measure methylation at 11 CG sites in Bdnf exon IV as previously reported. PCR products were purified (Diffinity Genomics, RapidTip) and sequenced using reverse primers at the Delaware Biotechnology Institute. The electropherogram was read on Chromas software, where the percent methylation of each CG site was determined by the ratio between peak values of G and A (G/[G +A]). We confirmed the accuracy of this technique by assessing methylated standards (Rat Pre-mixed Calibration Standards, Epigendx) ranging from 0–100% methylation and performing a linear regression on methylation values (F1,40=228.9, p<0.001, r2=0.8512)."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "For methylation assays, DNA was bisulfite-converted (Epitect Bisulfite Kit, Qiagen, Inc., Valencia, CA) and direct bisulfite-sequencing PCR (BSP) was used to measure methylation at 11 CG sites in Bdnf exon IV as previously reported. PCR products were purified (Diffinity Genomics, RapidTip) and sequenced using reverse primers at the Delaware Biotechnology Institute. The electropherogram was read on Chromas software, where the percent methylation of each CG site was determined by the ratio between peak values of G and A (G/[G +A]). We confirmed the accuracy of this technique by assessing methylated standards (Rat Pre-mixed Calibration Standards, Epigendx) ranging from 0–100% methylation and performing a linear regression on methylation values (F1,40=228.9, p<0.001, r2=0.8512).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 10497,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "For gene expression assays, RNA was reverse transcribed using a cDNA synthesis kit (Qiagen, Inc., Valencia, CA) and amplified via real-time PCR using Taqman probes (ThermoFisher Scientific, Grand Island, NY) to target Bdnf IV-containing transcripts (Taqman probe Rn01435337_g1). Tubulin (Taqman probe Rn01484927_m1) was used as a reference gene and all reactions were run in triplicate. The comparative Ct method was used to obtain the relative Bdnf IV mRNA fold change in experimental (UVPS) relative to control animals.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "For gene expression assays, RNA was reverse transcribed using a cDNA synthesis kit (Qiagen, Inc., Valencia, CA) and amplified via real-time PCR using Taqman probes (ThermoFisher Scientific, Grand Island, NY) to target Bdnf IV-containing transcripts (Taqman probe Rn01435337_g1). Tubulin (Taqman probe Rn01484927_m1) was used as a reference gene and all reactions were run in triplicate. The comparative Ct method was used to obtain the relative Bdnf IV mRNA fold change in experimental (UVPS) relative to control animals."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 11019,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "2.5 Telomere Length and Telomerase assays",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2.5 Telomere Length and Telomerase assays"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 11061,
+            "relations": [],
+            "sentences": [],
+            "text": "DNA was assessed for purity, and diluted to 10ng/uL via Nanodrop spectrophotometry following procedures used previously. Quantitative real-time PCR was conducted with the following primers targeting telomeres (T; ForwardTEL:5′-CGGTTTGTTTGGGTTTGGGTTTGGGTTTGGGTTTGGGTT-3′ and ReverseTEL:5′-GGCTTGCCTTACCCTTACCCTTACCCTTACCCTTACCCT-3′) and a single copy control gene (S, the angiotensin receptor gene NCBI M86912.1, ForwardAT1: 5′- ACGTGTCTCAGCATCGACCGCTACC-3′ and ReverseAT1: 5′-AGAATGATAAGGAAAGGGAACAAGAAGCCC-3′). Each PCR well contained a final concentration of 1x Power Sybr Green Master Mix (ThermoFisher Scientific, Grand Island, NY), 100 nM forward primer, 100 nM reverse primer, and 20ng of sample DNA. The experimenter was blind to a sample’s group identification when loading the PCR plate. For each sample, the telomere and AT1 qPCR assays were carried out in triplicate in the same well position on different 96-well plates. All male and female samples for a particular brain region were run on the same 96-well PCR plate. Given that plates did not contain a standard, we did not statistically contrast brain regions across PCR plates. All samples were assayed in triplicate and any replicate that deviated ± 1 cycle threshold (Ct) beyond the triplicate average (~ 4.3% of all replicates) was excluded from the final Ct average. Eight samples failed to amplify in the amygdala (2 females and 2 males in the control condition and 1 female and 3 males in the UVPS condition) and were thus excluded from analyses. Relative telomere length was calculated as a ratio of telomeres (T) to single copy gene (S) by the formula T/S = (2ΔCt tel)/(2ΔCt AT1). The T/S ratio was then transformed into a proportionate score against the unstressed control condition for each brain region."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "DNA was assessed for purity, and diluted to 10ng/uL via Nanodrop spectrophotometry following procedures used previously. Quantitative real-time PCR was conducted with the following primers targeting telomeres (T; ForwardTEL:5′-CGGTTTGTTTGGGTTTGGGTTTGGGTTTGGGTTTGGGTT-3′ and ReverseTEL:5′-GGCTTGCCTTACCCTTACCCTTACCCTTACCCTTACCCT-3′) and a single copy control gene (S, the angiotensin receptor gene NCBI M86912.1, ForwardAT1: 5′- ACGTGTCTCAGCATCGACCGCTACC-3′ and ReverseAT1: 5′-AGAATGATAAGGAAAGGGAACAAGAAGCCC-3′). Each PCR well contained a final concentration of 1x Power Sybr Green Master Mix (ThermoFisher Scientific, Grand Island, NY), 100 nM forward primer, 100 nM reverse primer, and 20ng of sample DNA. The experimenter was blind to a sample’s group identification when loading the PCR plate. For each sample, the telomere and AT1 qPCR assays were carried out in triplicate in the same well position on different 96-well plates. All male and female samples for a particular brain region were run on the same 96-well PCR plate. Given that plates did not contain a standard, we did not statistically contrast brain regions across PCR plates. All samples were assayed in triplicate and any replicate that deviated ± 1 cycle threshold (Ct) beyond the triplicate average (~ 4.3% of all replicates) was excluded from the final Ct average. Eight samples failed to amplify in the amygdala (2 females and 2 males in the control condition and 1 female and 3 males in the UVPS condition) and were thus excluded from analyses. Relative telomere length was calculated as a ratio of telomeres (T) to single copy gene (S) by the formula T/S = (2ΔCt tel)/(2ΔCt AT1). The T/S ratio was then transformed into a proportionate score against the unstressed control condition for each brain region.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 12863,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Similar to Bdnf IV mRNA assays, cDNA was amplified via real-time PCR using Taqman probes (ThermoFisher Scientific, Grand Island, NY) that targeted telomerase exons 7–9-containing transcripts (Taqman probe Rn01409457_m1). Tubulin was also used as a reference gene and all reactions were run in duplicate. The comparative Ct method was used to obtain the relative mRNA fold change in experimental (UVPS) relative to control animals.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Similar to Bdnf IV mRNA assays, cDNA was amplified via real-time PCR using Taqman probes (ThermoFisher Scientific, Grand Island, NY) that targeted telomerase exons 7–9-containing transcripts (Taqman probe Rn01409457_m1). Tubulin was also used as a reference gene and all reactions were run in duplicate. The comparative Ct method was used to obtain the relative mRNA fold change in experimental (UVPS) relative to control animals."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 13296,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "2.6 Statistical Analyses",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "2.6 Statistical Analyses"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 13321,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Upon assignment to treatment groups, dam body weights were compared using a one-way ANOVA. Following birth, median litter sizes were analyzed using the Wilcoxon Signed-Ranks Test. For each brain region, BSP data were analyzed with two-way ANOVAs comparing average methylation (across all 11 sites) between treatment group and sex (2 × 2), as well as two-way ANOVAs on each of the 11 CG sites [treatment group (2) × sex (2)]. Telomere length between conditions and sexes was likewise analyzed with two-way ANOVAs for each brain region. Bonferroni multiple comparison tests were used when appropriate for post hoc analyses. Differences in Bdnf or telomerase mRNA levels were analyzed by one-sample t-tests (for comparison of UVPS subjects to controls). Differences were considered to be statistically significant for p≤0.05.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Upon assignment to treatment groups, dam body weights were compared using a one-way ANOVA. Following birth, median litter sizes were analyzed using the Wilcoxon Signed-Ranks Test. For each brain region, BSP data were analyzed with two-way ANOVAs comparing average methylation (across all 11 sites) between treatment group and sex (2 × 2), as well as two-way ANOVAs on each of the 11 CG sites [treatment group (2) × sex (2)]. Telomere length between conditions and sexes was likewise analyzed with two-way ANOVAs for each brain region. Bonferroni multiple comparison tests were used when appropriate for post hoc analyses. Differences in Bdnf or telomerase mRNA levels were analyzed by one-sample t-tests (for comparison of UVPS subjects to controls). Differences were considered to be statistically significant for p≤0.05."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_1"
+            },
             "offset": 14148,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_1"
-            },
-            "text": "3. Results",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "3. Results"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 14159,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "3.1. Pregnancy Outcome",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "3.1. Pregnancy Outcome"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 14182,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "Both UVPS and Control dams gave birth at the expected time, during the period spanning late G21 through early G22. Litter sizes ranged from 11–16 for the UVPS group and 11–17 for the Control group. A Wilcoxon Signed-Ranks Test indicated that the median UVPS ranks, Mdn=13.5, were significantly lower than the median Control ranks, Mdn = 15.5 (W=0, p < 0.05).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Both UVPS and Control dams gave birth at the expected time, during the period spanning late G21 through early G22. Litter sizes ranged from 11–16 for the UVPS group and 11–17 for the Control group. A Wilcoxon Signed-Ranks Test indicated that the median UVPS ranks, Mdn=13.5, were significantly lower than the median Control ranks, Mdn = 15.5 (W=0, p < 0.05)."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 14545,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "3.2. Bdnf IV DNA methylation",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "3.2. Bdnf IV DNA methylation"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 14574,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "To assess the effects of UVPS on adult DNA methylation patterns, we measured methylation of Bdnf IV in adult (PN90) male and female rats. The primer set we used targeted 3 CG sites that are upstream of the exon start site, encompassing a transcription factor binding site, and 8 CG sites within the beginning of the exon. We targeted this region as there are ample data indicating that this portion of DNA is especially sensitive to a range of physical or psychosocial factors.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "To assess the effects of UVPS on adult DNA methylation patterns, we measured methylation of Bdnf IV in adult (PN90) male and female rats. The primer set we used targeted 3 CG sites that are upstream of the exon start site, encompassing a transcription factor binding site, and 8 CG sites within the beginning of the exon. We targeted this region as there are ample data indicating that this portion of DNA is especially sensitive to a range of physical or psychosocial factors."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_3"
+            },
             "offset": 15052,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_3"
-            },
-            "text": "Medial prefrontal cortex (mPFC)",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Medial prefrontal cortex (mPFC)"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 15084,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "UVPS males had higher levels of methylation in the mPFC (Figure 1A). A two-way ANOVA comparing average methylation values for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction (F1,19=18.19, p<0.01). UVPS males had higher overall methylation than control males (t19=3.512, p=0.01) and UVPS females (t19=3.374, p=0.02). UVPS males also had higher methylation at several individual CG sites. A two-way ANOVA comparing methylation values at CG site 1 for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction (F1,19=16.66, p<0.01). UVPS males had higher methylation than control males (t19=3.165, p=0.03) and UVPS females (t19=3.552, p=0.01). A two-way ANOVA comparing methylation values at CG site 2 for both treatment and sex revealed a significant interaction (F1,19=12.31, p<0.01), but all post hoc analyses failed to reach statistical significance. A two-way ANOVA comparing methylation values at CG site 3 for both treatment and sex revealed a significant interaction (F1,19=16.75, p<0.01). UVPS males had higher methylation than control males (t19=2.921, p=0.05) and UVPS females (t19=3.366, p=0.02). A two-way ANOVA comparing methylation values at CG site 4 for both treatment and sex revealed a significant main effect of treatment (F1,17=13.75 p<0.01), sex (F1,17=6.453, p=0.02), and an interaction (F1,17=25.35, p<0.01). UVPS males had higher methylation than control males (t17=6.052, p<0.01), control females (t17=4.325, p<0.01), and UVPS females (t17=5.477, p<0.01). Finally, a two-way ANOVA comparing methylation values at CG site 7 for both treatment and sex revealed a significant interaction (F1,19=14.38, p<0.01). UVPS males had higher methylation than control males (t19=3.452, p=0.02) and UVPS females (t19=3.145, p=0.03).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "UVPS males had higher levels of methylation in the mPFC (Figure 1A). A two-way ANOVA comparing average methylation values for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction (F1,19=18.19, p<0.01). UVPS males had higher overall methylation than control males (t19=3.512, p=0.01) and UVPS females (t19=3.374, p=0.02). UVPS males also had higher methylation at several individual CG sites. A two-way ANOVA comparing methylation values at CG site 1 for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction (F1,19=16.66, p<0.01). UVPS males had higher methylation than control males (t19=3.165, p=0.03) and UVPS females (t19=3.552, p=0.01). A two-way ANOVA comparing methylation values at CG site 2 for both treatment and sex revealed a significant interaction (F1,19=12.31, p<0.01), but all post hoc analyses failed to reach statistical significance. A two-way ANOVA comparing methylation values at CG site 3 for both treatment and sex revealed a significant interaction (F1,19=16.75, p<0.01). UVPS males had higher methylation than control males (t19=2.921, p=0.05) and UVPS females (t19=3.366, p=0.02). A two-way ANOVA comparing methylation values at CG site 4 for both treatment and sex revealed a significant main effect of treatment (F1,17=13.75 p<0.01), sex (F1,17=6.453, p=0.02), and an interaction (F1,17=25.35, p<0.01). UVPS males had higher methylation than control males (t17=6.052, p<0.01), control females (t17=4.325, p<0.01), and UVPS females (t17=5.477, p<0.01). Finally, a two-way ANOVA comparing methylation values at CG site 7 for both treatment and sex revealed a significant interaction (F1,19=14.38, p<0.01). UVPS males had higher methylation than control males (t19=3.452, p=0.02) and UVPS females (t19=3.145, p=0.03)."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_3"
+            },
             "offset": 16914,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_3"
-            },
-            "text": "Dorsal hippocampus, ventral hippocampus, and amygdala",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Dorsal hippocampus, ventral hippocampus, and amygdala"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 16968,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "There were no main effects of treatment or sex, nor any interaction effects for average methylation levels or methylation at individual CG sites within the dorsal or ventral hippocampus or central/basolateral amygdala. A two-way ANOVA comparing methylation values at individual sites within the ventral hippocampus for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction at CG site 1 (F1,22=5.672, p=0.03) and CG site 2 (F1,21=4.935, p=0.04), but all post hoc analyses failed to reach statistical significance.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "There were no main effects of treatment or sex, nor any interaction effects for average methylation levels or methylation at individual CG sites within the dorsal or ventral hippocampus or central/basolateral amygdala. A two-way ANOVA comparing methylation values at individual sites within the ventral hippocampus for both treatment (UVPS vs. control) and sex (males vs. females) revealed a significant interaction at CG site 1 (F1,22=5.672, p=0.03) and CG site 2 (F1,21=4.935, p=0.04), but all post hoc analyses failed to reach statistical significance."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 17524,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "3.3. Bdnf IV gene expression",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "3.3. Bdnf IV gene expression"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 17553,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "As one way to envision the functional relevance of our changes in DNA methylation induced by UVPS within the mPFC, we measured steady-state gene expression of Bdnf IV-containing transcripts. No significant differences in Bdnf IV mRNA levels were detected between UVPS males and controls (t6=1.900, p=0.11) nor UVPS females and controls (t6=1.693, p=0.14). These data however do not necessarily mean our observed methylation changes are not functionally relevant in terms of gene expression. DNA methylation changes do not always result in steady-state changes in gene expression, but can instead prime transcriptional responses to subsequent stimuli and neural activation. Thus these methylation changes may be functionally relevant in terms of activity-dependent gene expression, which would occur for example when an animal is challenged with a stressor or learning event.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "As one way to envision the functional relevance of our changes in DNA methylation induced by UVPS within the mPFC, we measured steady-state gene expression of Bdnf IV-containing transcripts. No significant differences in Bdnf IV mRNA levels were detected between UVPS males and controls (t6=1.900, p=0.11) nor UVPS females and controls (t6=1.693, p=0.14). These data however do not necessarily mean our observed methylation changes are not functionally relevant in terms of gene expression. DNA methylation changes do not always result in steady-state changes in gene expression, but can instead prime transcriptional responses to subsequent stimuli and neural activation. Thus these methylation changes may be functionally relevant in terms of activity-dependent gene expression, which would occur for example when an animal is challenged with a stressor or learning event."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 18428,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "3.4. Telomere length",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "3.4. Telomere length"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_3"
+            },
             "offset": 18449,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_3"
-            },
-            "text": "Medial prefrontal cortex (mPFC) telomere length",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Medial prefrontal cortex (mPFC) telomere length"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 18497,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "UVPS had a significant effect on telomere length in the mPFC (Figure 2). A two-way ANOVA revealed a main effect of treatment (UVPS vs. control) on telomere length in the mPFC (F1,22=7.847, p=0.01), with a shorter telomere length present in animals that experienced UVPS.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "UVPS had a significant effect on telomere length in the mPFC (Figure 2). A two-way ANOVA revealed a main effect of treatment (UVPS vs. control) on telomere length in the mPFC (F1,22=7.847, p=0.01), with a shorter telomere length present in animals that experienced UVPS."
           },
           {
-            "offset": 18768,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "title_3"
             },
-            "text": "Ventral hippocampus, dorsal hippocampus, and amygdala telomere length",
+            "offset": 18768,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ventral hippocampus, dorsal hippocampus, and amygdala telomere length"
           },
           {
-            "offset": 18838,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "In the hippocampus and central/basolateral amygdala there were no main effects of treatment or sex, nor any interaction effects on telomere length.",
+            "offset": 18838,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In the hippocampus and central/basolateral amygdala there were no main effects of treatment or sex, nor any interaction effects on telomere length."
           },
           {
-            "offset": 18986,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "3.5. Medial prefrontal cortex (mPFC) telomerase mRNA",
+            "offset": 18986,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "3.5. Medial prefrontal cortex (mPFC) telomerase mRNA"
           },
           {
-            "offset": 19039,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Given the differences observed in telomere length within the mPFC, we also wanted to selectively examine telomerase mRNA in this brain region. No significant differences in telomerase mRNA were detected between UVPS males vs. controls (t6=1.807, p=0.12) or UVPS females compared to control females (t6=2.265, p=0.06).",
+            "offset": 19039,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Given the differences observed in telomere length within the mPFC, we also wanted to selectively examine telomerase mRNA in this brain region. No significant differences in telomerase mRNA were detected between UVPS males vs. controls (t6=1.807, p=0.12) or UVPS females compared to control females (t6=2.265, p=0.06)."
           },
           {
-            "offset": 19357,
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "title_1"
             },
-            "text": "4. Discussion",
+            "offset": 19357,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "4. Discussion"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 19371,
+            "relations": [],
+            "sentences": [],
+            "text": "Here we used a rodent model of unpredictable, variable prenatal stress to test the hypothesis that a stressful environment in utero can render epigenetic and telomeric changes in the brain of offspring. We observed that Bdnf IV DNA methylation patterns in offspring at age PN90 varied depending on prenatal condition, sex, and brain region. Specifically, males from prenatally stressed mothers had significantly higher levels of methylation in the mPFC compared to male controls and females from prenatally stressed mothers. No differences in Bdnf IV DNA methylation were found in the dorsal hippocampus, ventral hippocampus, or amygdala in the stressed group compared to controls for either sex. Additionally, brain-region specific stress-induced effects on telomere length were detected with UVPS offspring exhibiting shorter telomeres in the mPFC."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Here we used a rodent model of unpredictable, variable prenatal stress to test the hypothesis that a stressful environment in utero can render epigenetic and telomeric changes in the brain of offspring. We observed that Bdnf IV DNA methylation patterns in offspring at age PN90 varied depending on prenatal condition, sex, and brain region. Specifically, males from prenatally stressed mothers had significantly higher levels of methylation in the mPFC compared to male controls and females from prenatally stressed mothers. No differences in Bdnf IV DNA methylation were found in the dorsal hippocampus, ventral hippocampus, or amygdala in the stressed group compared to controls for either sex. Additionally, brain-region specific stress-induced effects on telomere length were detected with UVPS offspring exhibiting shorter telomeres in the mPFC.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 20222,
+            "relations": [],
+            "sentences": [],
+            "text": "While decades of research have shown the detrimental effects of prenatal stress on brain function and behavior, there remains much to elucidate regarding the molecular mechanisms underlying these effects. A large drawback of this field as a whole is the variance in prenatal stress paradigms used, which makes direct comparisons between studies difficult. The timing of gestational stress, predictability of stressor, and the stressors used vary greatly between studies, but are extremely important factors when considering the neurobiological changes induced by prenatal stress."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "While decades of research have shown the detrimental effects of prenatal stress on brain function and behavior, there remains much to elucidate regarding the molecular mechanisms underlying these effects. A large drawback of this field as a whole is the variance in prenatal stress paradigms used, which makes direct comparisons between studies difficult. The timing of gestational stress, predictability of stressor, and the stressors used vary greatly between studies, but are extremely important factors when considering the neurobiological changes induced by prenatal stress.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 20802,
+            "relations": [],
+            "sentences": [],
+            "text": "Studying PN21 and PN80 male offspring of pregnant rats subjected to a different variable stress paradigm (beginning on G14, dams were subjected to a mixture of restraint stress, forced swim, cold exposure, social stress, and light exposure overnight) than the one we employed here, another lab found that prenatally stressed males at both ages had higher Bdnf IV DNA methylation in the amygdala and hippocampus (only a site-specific change at PN80). One CG site showed higher methylation within the PFC of prenatally stressed males at PN21, however no methylation differences were detected in the PFC of PN80 offspring. Studying PN75 male offspring of pregnant mice subjected to restraint stress under bright light conditions (45 minutes three times per day from G7 through delivery), another lab observed significantly higher levels of methylation (as well as hydroxymethylation) for DNA associated with Bdnf IV in the frontal cortex. Finally, studying PN90 male and female offspring of pregnant mice exposed to predator stress (from G11–18 dams were daily exposed to three different predator urines), another lab found lower methylation of Bdnf IV DNA (at only one CG site) in the hippocampus of female offspring."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Studying PN21 and PN80 male offspring of pregnant rats subjected to a different variable stress paradigm (beginning on G14, dams were subjected to a mixture of restraint stress, forced swim, cold exposure, social stress, and light exposure overnight) than the one we employed here, another lab found that prenatally stressed males at both ages had higher Bdnf IV DNA methylation in the amygdala and hippocampus (only a site-specific change at PN80). One CG site showed higher methylation within the PFC of prenatally stressed males at PN21, however no methylation differences were detected in the PFC of PN80 offspring. Studying PN75 male offspring of pregnant mice subjected to restraint stress under bright light conditions (45 minutes three times per day from G7 through delivery), another lab observed significantly higher levels of methylation (as well as hydroxymethylation) for DNA associated with Bdnf IV in the frontal cortex. Finally, studying PN90 male and female offspring of pregnant mice exposed to predator stress (from G11–18 dams were daily exposed to three different predator urines), another lab found lower methylation of Bdnf IV DNA (at only one CG site) in the hippocampus of female offspring.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 22020,
+            "relations": [],
+            "sentences": [],
+            "text": "Differences between these studies and ours may be attributable to differences in the type and timing of prenatal stress. Our study is unique in that we employed a block randomized program of three stressors (light, sound, and restraint) presented early- and mid-day during the lights on phase of the cycle and once during the dark phase for varying durations ranging from 15 to 60 minutes for the entire span of gestation. In addition, examining methylation within the entire prefrontal cortex, amygdala, and hippocampus instead of the specific divisions within could produce different results. Nonetheless, data altogether are consistent with the notion that stress experienced by the dam is able to produce long-term epigenetic changes in offspring at a gene well-linked to neuroplasticity and cognition (e.g.) and mental health (e.g.). Our study and that from the McGowan lab shed light on the sex-specific epigenetic changes inducible by intrauterine exposure to stress."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Differences between these studies and ours may be attributable to differences in the type and timing of prenatal stress. Our study is unique in that we employed a block randomized program of three stressors (light, sound, and restraint) presented early- and mid-day during the lights on phase of the cycle and once during the dark phase for varying durations ranging from 15 to 60 minutes for the entire span of gestation. In addition, examining methylation within the entire prefrontal cortex, amygdala, and hippocampus instead of the specific divisions within could produce different results. Nonetheless, data altogether are consistent with the notion that stress experienced by the dam is able to produce long-term epigenetic changes in offspring at a gene well-linked to neuroplasticity and cognition (e.g.) and mental health (e.g.). Our study and that from the McGowan lab shed light on the sex-specific epigenetic changes inducible by intrauterine exposure to stress.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 22995,
+            "relations": [],
+            "sentences": [],
+            "text": "Here we also found that prenatally stressed animals exhibited shorter telomeres in the mPFC compared to controls. A number of studies have demonstrated a strong relationship between early-life stress, reduced peripheral telomere length, and future mental-health. The effects of stress on telomere length in the brain are less clear. Telomeres shorten with age in the cortex of rodents, but this shortening likely reflects changes occurring within glial cells given their increased mitotic potential relative to neurons. We did not distinguish between neurons and glia in measuring telomere length or methylation in the present study, although recent studies from our lab suggest that developmental (postnatal) stress induces changes in mPFC Bdnf IV DNA methylation primarily in neurons."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Here we also found that prenatally stressed animals exhibited shorter telomeres in the mPFC compared to controls. A number of studies have demonstrated a strong relationship between early-life stress, reduced peripheral telomere length, and future mental-health. The effects of stress on telomere length in the brain are less clear. Telomeres shorten with age in the cortex of rodents, but this shortening likely reflects changes occurring within glial cells given their increased mitotic potential relative to neurons. We did not distinguish between neurons and glia in measuring telomere length or methylation in the present study, although recent studies from our lab suggest that developmental (postnatal) stress induces changes in mPFC Bdnf IV DNA methylation primarily in neurons.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 23782,
+            "relations": [],
+            "sentences": [],
+            "text": "Rats selectively bred for enhanced depressive-like symptoms (i.e., the Flinders-sensitive line) show reduced telomere length in the hippocampus - supporting a role for telomere shortening in the brain. In contrast, other studies have found that postnatal stress (e.g., maternal separation or caregiver maltreatment) is associated with longer telomeres in the ventral hippocampus and medial prefrontal cortex. The findings here complement our previous work with regard to stress effects on a common brain region (i.e., the mPFC), but differ in the direction of telomere change. Similar to methylation, it is likely that the type (maltreatment vs. maternal separation vs. variable stress) and timing (pre- vs. postnatal) of stress can differentially affect brain telomere length, and future studies are certainly warranted to better understand the parameters affecting brain telomere length. How our telomere data functionally link to our methylation data is not known, but telomerase activity is necessary for the cell survival-promoting effects of BDNF in neurons. Further evidence of a putative link between BDNF and telomeres is the observation of a reduction in hippocampal telomerase activity, telomere length, and Bdnf expression in a rodent model of depression."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Rats selectively bred for enhanced depressive-like symptoms (i.e., the Flinders-sensitive line) show reduced telomere length in the hippocampus - supporting a role for telomere shortening in the brain. In contrast, other studies have found that postnatal stress (e.g., maternal separation or caregiver maltreatment) is associated with longer telomeres in the ventral hippocampus and medial prefrontal cortex. The findings here complement our previous work with regard to stress effects on a common brain region (i.e., the mPFC), but differ in the direction of telomere change. Similar to methylation, it is likely that the type (maltreatment vs. maternal separation vs. variable stress) and timing (pre- vs. postnatal) of stress can differentially affect brain telomere length, and future studies are certainly warranted to better understand the parameters affecting brain telomere length. How our telomere data functionally link to our methylation data is not known, but telomerase activity is necessary for the cell survival-promoting effects of BDNF in neurons. Further evidence of a putative link between BDNF and telomeres is the observation of a reduction in hippocampal telomerase activity, telomere length, and Bdnf expression in a rodent model of depression.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 25050,
+            "relations": [],
+            "sentences": [],
+            "text": "In summary our findings highlight the capacity of in utero stress to leave its epigenetic and telomeric mark within specific regions of the brain, providing important new insights into how gestational stress may have far reaching behavioral consequences for progeny. Indeed, behavioral analysis of the prenatally stressed and non-stressed subjects used in this report revealed robust sex-specific (male-biased) effects on anxiety responses (Ronca, unpublished). These findings are consistent with reports that prenatal stress leads to heightened stress sensitivity, especially among males, including studies employing variable prenatal stress paradigms. In accord with previous research linking prenatal stress with changes in body weight regulation and metabolic disorders, adult body weights of prenatally stressed male (but not female) offspring of the present study were significantly elevated relative to non-stressed offspring (Ronca, unpublished). Our findings indicate that, in addition to brain epigenetic and telomeric changes, unpredictable, variable gestational stress exerts clear sex-specific programming effects on the physical and behavioral health of the offspring. It is unclear whether our data reported here are consistent with the notion that males are more susceptible or females are more resilient to stress, but evidence for sex-based vulnerability and resilience to a variety of stressors continues to grow."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "In summary our findings highlight the capacity of in utero stress to leave its epigenetic and telomeric mark within specific regions of the brain, providing important new insights into how gestational stress may have far reaching behavioral consequences for progeny. Indeed, behavioral analysis of the prenatally stressed and non-stressed subjects used in this report revealed robust sex-specific (male-biased) effects on anxiety responses (Ronca, unpublished). These findings are consistent with reports that prenatal stress leads to heightened stress sensitivity, especially among males, including studies employing variable prenatal stress paradigms. In accord with previous research linking prenatal stress with changes in body weight regulation and metabolic disorders, adult body weights of prenatally stressed male (but not female) offspring of the present study were significantly elevated relative to non-stressed offspring (Ronca, unpublished). Our findings indicate that, in addition to brain epigenetic and telomeric changes, unpredictable, variable gestational stress exerts clear sex-specific programming effects on the physical and behavioral health of the offspring. It is unclear whether our data reported here are consistent with the notion that males are more susceptible or females are more resilient to stress, but evidence for sex-based vulnerability and resilience to a variety of stressors continues to grow.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 26483,
+            "relations": [],
+            "sentences": [],
+            "text": "The study reported herein provides seminal evidence in a rodent model for an enduring influence of prenatal stress on both brain DNA methylation and telomere length in adulthood. Going forward, the challenge will be to identify the specific role(s) of these molecular brain changes in relation to the diverse effects of early-life stressors. Recent progress characterizing physiological and structural changes in the brain associated with prenatal stress, and their sex-specificity, may provide important new insights. Neuronal changes are highly region-specific with the most dramatic changes occurring in limbic and prefrontal cortical areas, those involved in cognition and emotional behavior. Altered neurogenesis, neuronal density, neuronal arborization, dendritic architecture, synaptic connectivity, and myelination have all been reported in animal models of prenatal stress. Prenatal stress also disrupts sex-specific maturation of the PFC that normally occurs in adolescence, thus our results could reflect not only sensitivity of the developing PFC to gestational stress but also a disruption of normative periadolescent maturation. Telomere length may be related to cellular changes in a variety of cell-types throughout the brain, including glia. Relating cellular alterations to epigenetic and telomeric changes in specific brain regions (including those epigenetic and telomeric observations reported here, and of course other presumed concomitant changes) are certain to produce a deeper understanding of the far-reaching effects of prenatal stress."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The study reported herein provides seminal evidence in a rodent model for an enduring influence of prenatal stress on both brain DNA methylation and telomere length in adulthood. Going forward, the challenge will be to identify the specific role(s) of these molecular brain changes in relation to the diverse effects of early-life stressors. Recent progress characterizing physiological and structural changes in the brain associated with prenatal stress, and their sex-specificity, may provide important new insights. Neuronal changes are highly region-specific with the most dramatic changes occurring in limbic and prefrontal cortical areas, those involved in cognition and emotional behavior. Altered neurogenesis, neuronal density, neuronal arborization, dendritic architecture, synaptic connectivity, and myelination have all been reported in animal models of prenatal stress. Prenatal stress also disrupts sex-specific maturation of the PFC that normally occurs in adolescence, thus our results could reflect not only sensitivity of the developing PFC to gestational stress but also a disruption of normative periadolescent maturation. Telomere length may be related to cellular changes in a variety of cell-types throughout the brain, including glia. Relating cellular alterations to epigenetic and telomeric changes in specific brain regions (including those epigenetic and telomeric observations reported here, and of course other presumed concomitant changes) are certain to produce a deeper understanding of the far-reaching effects of prenatal stress.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 28048,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "While extensive progress has been made in the understanding of the role of early-life adversity in the development of psychiatric and metabolic disorders, more detailed research on sex-specific, epigenetic, brain structural and behavioral changes is warranted. In particular, consistency across gestational stress paradigms, including the predictability and timing of stressor, the use of common behavioral and endpoint measures, and comparisons between male and females are vital for uncovering consistent and meaningful patterns of neurobiological changes induced by prenatal stress. Our present findings may have relevance for behavioral and health outcomes, and contribute to a growing literature linking stress to early developmental programming, intergenerational epigenetic transmission of environmental exposures, and telomere biology. Illuminating molecular mechanisms underlying multigenerational programming of stress responses and mental and physical health outcomes are important first steps toward establishing therapeutic interventions to halt the generational persistence of pathological outcomes associated with early life adversity.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "While extensive progress has been made in the understanding of the role of early-life adversity in the development of psychiatric and metabolic disorders, more detailed research on sex-specific, epigenetic, brain structural and behavioral changes is warranted. In particular, consistency across gestational stress paradigms, including the predictability and timing of stressor, the use of common behavioral and endpoint measures, and comparisons between male and females are vital for uncovering consistent and meaningful patterns of neurobiological changes induced by prenatal stress. Our present findings may have relevance for behavioral and health outcomes, and contribute to a growing literature linking stress to early developmental programming, intergenerational epigenetic transmission of environmental exposures, and telomere biology. Illuminating molecular mechanisms underlying multigenerational programming of stress responses and mental and physical health outcomes are important first steps toward establishing therapeutic interventions to halt the generational persistence of pathological outcomes associated with early life adversity."
           },
           {
-            "offset": 29199,
+            "annotations": [],
             "infons": {
               "fpage": "485",
               "lpage": "501",
@@ -602,13 +601,13 @@
               "volume": "5",
               "year": "2006"
             },
-            "text": "The hypothalamic-pituitary-adrenal axis: what can it tell us about stressors?",
+            "offset": 29199,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The hypothalamic-pituitary-adrenal axis: what can it tell us about stressors?"
           },
           {
-            "offset": 29277,
+            "annotations": [],
             "infons": {
               "fpage": "e101437",
               "name_0": "surname:Asok;given-names:A",
@@ -623,13 +622,13 @@
               "volume": "9",
               "year": "2014"
             },
-            "text": "Infant-caregiver experiences alter telomere length in the brain",
+            "offset": 29277,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Infant-caregiver experiences alter telomere length in the brain"
           },
           {
-            "offset": 29341,
+            "annotations": [],
             "infons": {
               "fpage": "577",
               "lpage": "585",
@@ -645,13 +644,13 @@
               "volume": "25",
               "year": "2013"
             },
-            "text": "Parental responsiveness moderates the association between early-life stress and reduced telomere length",
+            "offset": 29341,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Parental responsiveness moderates the association between early-life stress and reduced telomere length"
           },
           {
-            "offset": 29445,
+            "annotations": [],
             "infons": {
               "fpage": "237",
               "lpage": "240",
@@ -665,13 +664,13 @@
               "volume": "20",
               "year": "2013a"
             },
-            "text": "Activation of BDNF signaling prevents the return of fear in female mice",
+            "offset": 29445,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Activation of BDNF signaling prevents the return of fear in female mice"
           },
           {
-            "offset": 29517,
+            "annotations": [],
             "infons": {
               "fpage": "3",
               "lpage": "13",
@@ -685,13 +684,13 @@
               "volume": "36",
               "year": "2013b"
             },
-            "text": "Dynamic DNA methylation: a prime candidate for genomic metaplasticity and behavioral adaptation",
+            "offset": 29517,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Dynamic DNA methylation: a prime candidate for genomic metaplasticity and behavioral adaptation"
           },
           {
-            "offset": 29613,
+            "annotations": [],
             "infons": {
               "fpage": "147",
               "lpage": "156",
@@ -706,13 +705,13 @@
               "volume": "14",
               "year": "2008"
             },
-            "text": "Reviews: BDNF and memory formation and storage",
+            "offset": 29613,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Reviews: BDNF and memory formation and storage"
           },
           {
-            "offset": 29660,
+            "annotations": [],
             "infons": {
               "fpage": "82",
               "lpage": "90",
@@ -727,13 +726,13 @@
               "volume": "32",
               "year": "2015"
             },
-            "text": "The relationship between maternal depressive, anxious, and stress symptoms during pregnancy and adult offspring behavioral and emotional problems",
+            "offset": 29660,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The relationship between maternal depressive, anxious, and stress symptoms during pregnancy and adult offspring behavioral and emotional problems"
           },
           {
-            "offset": 29806,
+            "annotations": [],
             "infons": {
               "fpage": "79",
               "name_0": "surname:Blaze;given-names:J",
@@ -746,13 +745,13 @@
               "volume": "9",
               "year": "2015"
             },
-            "text": "The long-term impact of adverse caregiving environments on epigenetic modifications and telomeres",
+            "offset": 29806,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The long-term impact of adverse caregiving environments on epigenetic modifications and telomeres"
           },
           {
-            "offset": 29904,
+            "annotations": [],
             "infons": {
               "fpage": "477",
               "lpage": "489",
@@ -765,13 +764,13 @@
               "volume": "29",
               "year": "2017"
             },
-            "text": "Caregiver maltreatment causes altered neuronal DNA methylation in female rodents",
+            "offset": 29904,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Caregiver maltreatment causes altered neuronal DNA methylation in female rodents"
           },
           {
-            "offset": 29985,
+            "annotations": [],
             "infons": {
               "fpage": "306",
               "lpage": "316",
@@ -785,13 +784,13 @@
               "volume": "35",
               "year": "2013"
             },
-            "text": "Differential methylation of genes in the medial prefrontal cortex of developing and adult rats following exposure to maltreatment or nurturing care during infancy",
+            "offset": 29985,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Differential methylation of genes in the medial prefrontal cortex of developing and adult rats following exposure to maltreatment or nurturing care during infancy"
           },
           {
-            "offset": 30148,
+            "annotations": [],
             "infons": {
               "fpage": "315",
               "lpage": "326",
@@ -806,13 +805,13 @@
               "volume": "78",
               "year": "2015"
             },
-            "text": "Stress in utero: prenatal programming of brain plasticity and cognition",
+            "offset": 30148,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Stress in utero: prenatal programming of brain plasticity and cognition"
           },
           {
-            "offset": 30220,
+            "annotations": [],
             "infons": {
               "fpage": "437",
               "lpage": "447",
@@ -830,13 +829,13 @@
               "volume": "9",
               "year": "2014"
             },
-            "text": "Prenatal stress decreases Bdnf expression and increases methylation of Bdnf exon IV in rats",
+            "offset": 30220,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prenatal stress decreases Bdnf expression and increases methylation of Bdnf exon IV in rats"
           },
           {
-            "offset": 30312,
+            "annotations": [],
             "infons": {
               "fpage": "697",
               "name_0": "surname:Botha;given-names:M",
@@ -853,13 +852,13 @@
               "volume": "5",
               "year": "2012"
             },
-            "text": "The impact of voluntary exercise on relative telomere length in a rat model of developmental stress",
+            "offset": 30312,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The impact of voluntary exercise on relative telomere length in a rat model of developmental stress"
           },
           {
-            "offset": 30412,
+            "annotations": [],
             "infons": {
               "fpage": "2635",
               "lpage": "2646",
@@ -872,13 +871,13 @@
               "volume": "155",
               "year": "2014"
             },
-            "text": "Prenatal stress-induced increases in placental inflammation and offspring hyperactivity are male-specific and ameliorated by maternal antiinflammatory treatment",
+            "offset": 30412,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prenatal stress-induced increases in placental inflammation and offspring hyperactivity are male-specific and ameliorated by maternal antiinflammatory treatment"
           },
           {
-            "offset": 30573,
+            "annotations": [],
             "infons": {
               "fpage": "e107653",
               "name_0": "surname:Cao-Lei;given-names:L",
@@ -896,13 +895,13 @@
               "volume": "9",
               "year": "2014"
             },
-            "text": "DNA methylation signatures triggered by prenatal maternal stress exposure to a natural disaster: project Ice Storm",
+            "offset": 30573,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "DNA methylation signatures triggered by prenatal maternal stress exposure to a natural disaster: project Ice Storm"
           },
           {
-            "offset": 30688,
+            "annotations": [],
             "infons": {
               "fpage": "68",
               "lpage": "72",
@@ -919,13 +918,13 @@
               "volume": "368",
               "year": "2004"
             },
-            "text": "Exogenous application of glucose induces aging in rat cerebral oligodendrocytes as revealed by alteration in telomere length",
+            "offset": 30688,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Exogenous application of glucose induces aging in rat cerebral oligodendrocytes as revealed by alteration in telomere length"
           },
           {
-            "offset": 30813,
+            "annotations": [],
             "infons": {
               "fpage": "141",
               "lpage": "150",
@@ -944,13 +943,13 @@
               "volume": "1018",
               "year": "2004"
             },
-            "text": "Chronic stress-induced effects of corticosterone on brain: direct and indirect",
+            "offset": 30813,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Chronic stress-induced effects of corticosterone on brain: direct and indirect"
           },
           {
-            "offset": 30892,
+            "annotations": [],
             "infons": {
               "fpage": "176",
               "lpage": "185",
@@ -965,13 +964,13 @@
               "volume": "17",
               "year": "2014"
             },
-            "text": "Comparison of the effects of single and daily repeated immobilization stress on resting activity and heterotypic sensitization of the hypothalamic–pituitary–adrenal axis",
+            "offset": 30892,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Comparison of the effects of single and daily repeated immobilization stress on resting activity and heterotypic sensitization of the hypothalamic–pituitary–adrenal axis"
           },
           {
-            "offset": 31066,
+            "annotations": [],
             "infons": {
               "fpage": "1479",
               "lpage": "1489",
@@ -989,13 +988,13 @@
               "volume": "38",
               "year": "2013"
             },
-            "text": "Prenatal stress produces social behavior deficits and alters the number of oxytocin and vasopressin neurons in adult rats",
+            "offset": 31066,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prenatal stress produces social behavior deficits and alters the number of oxytocin and vasopressin neurons in adult rats"
           },
           {
-            "offset": 31188,
+            "annotations": [],
             "infons": {
               "fpage": "35791",
               "lpage": "35794",
@@ -1009,13 +1008,13 @@
               "volume": "277",
               "year": "2002"
             },
-            "text": "Promoter-specific activation and demethylation by MBD2/demethylase",
+            "offset": 31188,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Promoter-specific activation and demethylation by MBD2/demethylase"
           },
           {
-            "offset": 31255,
+            "annotations": [],
             "infons": {
               "fpage": "907",
               "lpage": "916",
@@ -1029,13 +1028,13 @@
               "volume": "33",
               "year": "2016"
             },
-            "text": "The role of BDNF in the development of fear learning",
+            "offset": 31255,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The role of BDNF in the development of fear learning"
           },
           {
-            "offset": 31308,
+            "annotations": [],
             "infons": {
               "name_0": "surname:Dong;given-names:E",
               "name_1": "surname:Dzitoyeva;given-names:SG",
@@ -1049,13 +1048,13 @@
               "volume": "77",
               "year": "2015"
             },
-            "text": "BDNF epigenetic modifications associated with schizophrenia-like phenotype induced by prenatal stress in mice",
+            "offset": 31308,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "BDNF epigenetic modifications associated with schizophrenia-like phenotype induced by prenatal stress in mice"
           },
           {
-            "offset": 31418,
+            "annotations": [],
             "infons": {
               "fpage": "67",
               "lpage": "77",
@@ -1068,13 +1067,13 @@
               "volume": "102",
               "year": "2016"
             },
-            "text": "Studying longitudinal trajectories in animal models of psychiatric illness and their translation to the human condition",
+            "offset": 31418,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Studying longitudinal trajectories in animal models of psychiatric illness and their translation to the human condition"
           },
           {
-            "offset": 31538,
+            "annotations": [],
             "infons": {
               "fpage": "E513",
               "lpage": "E518",
@@ -1093,13 +1092,13 @@
               "volume": "108",
               "year": "2011"
             },
-            "text": "Stress exposure in intrauterine life is associated with shorter telomere length in young adulthood",
+            "offset": 31538,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Stress exposure in intrauterine life is associated with shorter telomere length in young adulthood"
           },
           {
-            "offset": 31637,
+            "annotations": [],
             "infons": {
               "fpage": "e7",
               "name_0": "surname:Entringer;given-names:S",
@@ -1116,13 +1115,13 @@
               "volume": "208",
               "year": "2013"
             },
-            "text": "Maternal psychosocial stress during pregnancy is associated with newborn leukocyte telomere length",
+            "offset": 31637,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Maternal psychosocial stress during pregnancy is associated with newborn leukocyte telomere length"
           },
           {
-            "offset": 31736,
+            "annotations": [],
             "infons": {
               "fpage": "299",
               "lpage": "308",
@@ -1135,13 +1134,13 @@
               "volume": "6",
               "year": "2003"
             },
-            "text": "Telomeres shorten with age in rat cerebellum and cortex in vivo",
+            "offset": 31736,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Telomeres shorten with age in rat cerebellum and cortex in vivo"
           },
           {
-            "offset": 31800,
+            "annotations": [],
             "infons": {
               "fpage": "10710",
               "lpage": "10719",
@@ -1155,13 +1154,13 @@
               "volume": "22",
               "year": "2002"
             },
-            "text": "Telomerase mediates the cell survival-promoting actions of brain-derived neurotrophic factor and secreted amyloid precursor protein in developing hippocampal neurons",
+            "offset": 31800,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Telomerase mediates the cell survival-promoting actions of brain-derived neurotrophic factor and secreted amyloid precursor protein in developing hippocampal neurons"
           },
           {
-            "offset": 31966,
+            "annotations": [],
             "infons": {
               "fpage": "e23881",
               "name_0": "surname:Fuchikami;given-names:M",
@@ -1182,13 +1181,13 @@
               "volume": "6",
               "year": "2011"
             },
-            "text": "DNA methylation profiles of the brain-derived neurotrophic factor (BDNF) gene as a potent diagnostic biomarker in major depression",
+            "offset": 31966,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "DNA methylation profiles of the brain-derived neurotrophic factor (BDNF) gene as a potent diagnostic biomarker in major depression"
           },
           {
-            "offset": 32097,
+            "annotations": [],
             "infons": {
               "fpage": "1121",
               "lpage": "1155",
@@ -1203,13 +1202,13 @@
               "volume": "4",
               "year": "2011"
             },
-            "text": "Sex differences in the HPA axis",
+            "offset": 32097,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Sex differences in the HPA axis"
           },
           {
-            "offset": 32129,
+            "annotations": [],
             "infons": {
               "fpage": "180",
               "lpage": "190",
@@ -1223,13 +1222,13 @@
               "volume": "61",
               "year": "1995"
             },
-            "text": "Regulatory changes in neuroendocrine stress-integrative circuitry produced by a variable stress paradigm",
+            "offset": 32129,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Regulatory changes in neuroendocrine stress-integrative circuitry produced by a variable stress paradigm"
           },
           {
-            "offset": 32234,
+            "annotations": [],
             "infons": {
               "fpage": "1637",
               "lpage": "1639",
@@ -1246,13 +1245,13 @@
               "volume": "153",
               "year": "1996"
             },
-            "text": "Schizoid personality disorder after prenatal exposure to famine",
+            "offset": 32234,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Schizoid personality disorder after prenatal exposure to famine"
           },
           {
-            "offset": 32298,
+            "annotations": [],
             "infons": {
               "fpage": "e39791",
               "name_0": "surname:Jensen Peña;given-names:C",
@@ -1265,13 +1264,13 @@
               "volume": "7",
               "year": "2012"
             },
-            "text": "Epigenetic effects of prenatal stress on 11β-Hydroxysteroid Dehydrogenase-2 in the placenta and fetal brain",
+            "offset": 32298,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Epigenetic effects of prenatal stress on 11β-Hydroxysteroid Dehydrogenase-2 in the placenta and fetal brain"
           },
           {
-            "offset": 32409,
+            "annotations": [],
             "infons": {
               "fpage": "e10826",
               "name_0": "surname:Kananen;given-names:L",
@@ -1289,13 +1288,13 @@
               "volume": "5",
               "year": "2010"
             },
-            "text": "Childhood adversities are associated with shorter telomere length at adult age both in individuals with an anxiety disorder and controls",
+            "offset": 32409,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Childhood adversities are associated with shorter telomere length at adult age both in individuals with an anxiety disorder and controls"
           },
           {
-            "offset": 32546,
+            "annotations": [],
             "infons": {
               "fpage": "258",
               "lpage": "267",
@@ -1309,13 +1308,13 @@
               "volume": "67",
               "year": "2010"
             },
-            "text": "Increased BDNF promoter methylation in the Wernicke area of suicide subjects",
+            "offset": 32546,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Increased BDNF promoter methylation in the Wernicke area of suicide subjects"
           },
           {
-            "offset": 32623,
+            "annotations": [],
             "infons": {
               "fpage": "16",
               "lpage": "22",
@@ -1332,13 +1331,13 @@
               "volume": "73",
               "year": "2011"
             },
-            "text": "Childhood adversity heightens the impact of later-life caregiving stress on telomere length and inflammation",
+            "offset": 32623,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Childhood adversity heightens the impact of later-life caregiving stress on telomere length and inflammation"
           },
           {
-            "offset": 32732,
+            "annotations": [],
             "infons": {
               "fpage": "251",
               "lpage": "261",
@@ -1357,13 +1356,13 @@
               "volume": "156",
               "year": "2005"
             },
-            "text": "Prenatal exposure to a repeated variable stress paradigm elicits behavioral and neuroendocrinological changes in the adult offspring: potential relevance to schizophrenia",
+            "offset": 32732,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prenatal exposure to a repeated variable stress paradigm elicits behavioral and neuroendocrinological changes in the adult offspring: potential relevance to schizophrenia"
           },
           {
-            "offset": 32903,
+            "annotations": [],
             "infons": {
               "fpage": "472",
               "lpage": "479",
@@ -1376,13 +1375,13 @@
               "volume": "502",
               "year": "2013"
             },
-            "text": "TET enzymes, TDG and the dynamics of DNA demethylation",
+            "offset": 32903,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "TET enzymes, TDG and the dynamics of DNA demethylation"
           },
           {
-            "offset": 32958,
+            "annotations": [],
             "infons": {
               "fpage": "1084",
               "lpage": "1093",
@@ -1394,13 +1393,13 @@
               "volume": "25",
               "year": "2011"
             },
-            "text": "Epigenetic perspective on the developmental effects of bisphenol A",
+            "offset": 32958,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Epigenetic perspective on the developmental effects of bisphenol A"
           },
           {
-            "offset": 33025,
+            "annotations": [],
             "infons": {
               "name_0": "surname:Kundakovic;given-names:M",
               "name_1": "surname:Lim;given-names:S",
@@ -1412,13 +1411,13 @@
               "volume": "4",
               "year": "2013"
             },
-            "text": "Sex-specific and strain-dependent effects of early life adversity on behavioral and epigenetic outcomes",
+            "offset": 33025,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Sex-specific and strain-dependent effects of early life adversity on behavioral and epigenetic outcomes"
           },
           {
-            "offset": 33129,
+            "annotations": [],
             "infons": {
               "fpage": "119",
               "lpage": "126",
@@ -1435,13 +1434,13 @@
               "volume": "1142",
               "year": "2007"
             },
-            "text": "Long-term effects of early life deprivation on brain glia in Fischer rats",
+            "offset": 33129,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Long-term effects of early life deprivation on brain glia in Fischer rats"
           },
           {
-            "offset": 33203,
+            "annotations": [],
             "infons": {
               "fpage": "382",
               "lpage": "393",
@@ -1462,13 +1461,13 @@
               "volume": "8",
               "year": "2016"
             },
-            "text": "Telomere shortening leads to earlier age of onset in ALS mice",
+            "offset": 33203,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Telomere shortening leads to earlier age of onset in ALS mice"
           },
           {
-            "offset": 33265,
+            "annotations": [],
             "infons": {
               "fpage": "402",
               "lpage": "408",
@@ -1481,13 +1480,13 @@
               "volume": "25",
               "year": "2001"
             },
-            "text": "Analysis of relative gene expression data using real-time quantitative PCR and the 2−ΔΔCT method",
+            "offset": 33265,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Analysis of relative gene expression data using real-time quantitative PCR and the 2−ΔΔCT method"
           },
           {
-            "offset": 33370,
+            "annotations": [],
             "infons": {
               "fpage": "10576",
               "lpage": "10586",
@@ -1501,13 +1500,13 @@
               "volume": "28",
               "year": "2008"
             },
-            "text": "Epigenetic regulation of Bdnf gene transcription in the consolidation of fear memory",
+            "offset": 33370,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Epigenetic regulation of Bdnf gene transcription in the consolidation of fear memory"
           },
           {
-            "offset": 33455,
+            "annotations": [],
             "infons": {
               "fpage": "434",
               "lpage": "445",
@@ -1522,13 +1521,13 @@
               "volume": "10",
               "year": "2009"
             },
-            "text": "Effects of stress throughout the lifespan on the brain, behaviour and cognition",
+            "offset": 33455,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Effects of stress throughout the lifespan on the brain, behaviour and cognition"
           },
           {
-            "offset": 33535,
+            "annotations": [],
             "infons": {
               "fpage": "1074",
               "lpage": "1077",
@@ -1549,13 +1548,13 @@
               "volume": "323",
               "year": "2009"
             },
-            "text": "Neuronal activity-induced Gadd45b promotes epigenetic DNA demethylation and adult neurogenesis",
+            "offset": 33535,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Neuronal activity-induced Gadd45b promotes epigenetic DNA demethylation and adult neurogenesis"
           },
           {
-            "offset": 33630,
+            "annotations": [],
             "infons": {
               "fpage": "71",
               "name_0": "surname:Malaspina;given-names:D",
@@ -1573,13 +1572,13 @@
               "volume": "8",
               "year": "2008"
             },
-            "text": "Acute maternal stress in pregnancy and schizophrenia in offspring: a cohort prospective study",
+            "offset": 33630,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Acute maternal stress in pregnancy and schizophrenia in offspring: a cohort prospective study"
           },
           {
-            "offset": 33724,
+            "annotations": [],
             "infons": {
               "fpage": "94.e91",
               "lpage": "94.e98",
@@ -1597,13 +1596,13 @@
               "volume": "215",
               "year": "2016"
             },
-            "text": "Prenatal stress and newborn telomere length",
+            "offset": 33724,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prenatal stress and newborn telomere length"
           },
           {
-            "offset": 33768,
+            "annotations": [],
             "infons": {
               "fpage": "1828",
               "lpage": "1843",
@@ -1617,13 +1616,13 @@
               "volume": "521",
               "year": "2013"
             },
-            "text": "Periadolescent maturation of the prefrontal cortex is sex-specific and is disrupted by prenatal stress",
+            "offset": 33768,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Periadolescent maturation of the prefrontal cortex is sex-specific and is disrupted by prenatal stress"
           },
           {
-            "offset": 33871,
+            "annotations": [],
             "infons": {
               "fpage": "890",
               "lpage": "893",
@@ -1642,13 +1641,13 @@
               "volume": "302",
               "year": "2003"
             },
-            "text": "DNA methylation-related chromatin remodeling in activity-dependent Bdnf gene regulation",
+            "offset": 33871,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "DNA methylation-related chromatin remodeling in activity-dependent Bdnf gene regulation"
           },
           {
-            "offset": 33959,
+            "annotations": [],
             "infons": {
               "fpage": "1089",
               "lpage": "1093",
@@ -1662,13 +1661,13 @@
               "volume": "10",
               "year": "2007"
             },
-            "text": "New insights into BDNF function in depression and anxiety",
+            "offset": 33959,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "New insights into BDNF function in depression and anxiety"
           },
           {
-            "offset": 34017,
+            "annotations": [],
             "infons": {
               "fpage": "184",
               "lpage": "194",
@@ -1687,13 +1686,13 @@
               "volume": "68",
               "year": "2013"
             },
-            "text": "Epigenetic modifications of GABAergic interneurons are associated with the schizophrenia-like phenotype induced by prenatal stress in mice",
+            "offset": 34017,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Epigenetic modifications of GABAergic interneurons are associated with the schizophrenia-like phenotype induced by prenatal stress in mice"
           },
           {
-            "offset": 34156,
+            "annotations": [],
             "infons": {
               "fpage": "1353",
               "lpage": "1363",
@@ -1711,13 +1710,13 @@
               "volume": "18",
               "year": "2015"
             },
-            "text": "Mechanisms of stress in the brain",
+            "offset": 34156,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Mechanisms of stress in the brain"
           },
           {
-            "offset": 34190,
+            "annotations": [],
             "infons": {
               "fpage": "271",
               "lpage": "284",
@@ -1730,13 +1729,13 @@
               "volume": "821",
               "year": "1997"
             },
-            "text": "Stress effects on morphology and function of the hippocampus",
+            "offset": 34190,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Stress effects on morphology and function of the hippocampus"
           },
           {
-            "offset": 34251,
+            "annotations": [],
             "infons": {
               "fpage": "11748",
               "lpage": "11755",
@@ -1749,13 +1748,13 @@
               "volume": "31",
               "year": "2011"
             },
-            "text": "Early prenatal stress epigenetically programs dysmasculinization in second-generation offspring via the paternal lineage",
+            "offset": 34251,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Early prenatal stress epigenetically programs dysmasculinization in second-generation offspring via the paternal lineage"
           },
           {
-            "offset": 34372,
+            "annotations": [],
             "infons": {
               "fpage": "55",
               "lpage": "65",
@@ -1768,13 +1767,13 @@
               "volume": "91",
               "year": "2007"
             },
-            "text": "Early prenatal stress impact on coping strategies and learning performance is sex dependent",
+            "offset": 34372,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Early prenatal stress impact on coping strategies and learning performance is sex dependent"
           },
           {
-            "offset": 34464,
+            "annotations": [],
             "infons": {
               "fpage": "9055",
               "lpage": "9065",
@@ -1787,13 +1786,13 @@
               "volume": "28",
               "year": "2008"
             },
-            "text": "Sex-specific programming of offspring emotionality after stress early in pregnancy",
+            "offset": 34464,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Sex-specific programming of offspring emotionality after stress early in pregnancy"
           },
           {
-            "offset": 34547,
+            "annotations": [],
             "infons": {
               "fpage": "53",
               "lpage": "59",
@@ -1808,13 +1807,13 @@
               "volume": "2",
               "year": "2014"
             },
-            "text": "Investigating epigenetic effects of prenatal exposure to toxic metals in newborns: challenges and benefits",
+            "offset": 34547,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Investigating epigenetic effects of prenatal exposure to toxic metals in newborns: challenges and benefits"
           },
           {
-            "offset": 34654,
+            "annotations": [],
             "infons": {
               "fpage": "3",
               "name_0": "surname:O’Callaghan;given-names:NJ",
@@ -1826,13 +1825,13 @@
               "volume": "13",
               "year": "2011"
             },
-            "text": "A quantitative PCR method for measuring absolute telomere length",
+            "offset": 34654,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A quantitative PCR method for measuring absolute telomere length"
           },
           {
-            "offset": 34719,
+            "annotations": [],
             "infons": {
               "fpage": "465",
               "lpage": "471",
@@ -1853,13 +1852,13 @@
               "volume": "70",
               "year": "2011"
             },
-            "text": "Childhood trauma associated with short leukocyte telomere length in posttraumatic stress disorder",
+            "offset": 34719,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Childhood trauma associated with short leukocyte telomere length in posttraumatic stress disorder"
           },
           {
-            "offset": 34817,
+            "annotations": [],
             "infons": {
               "fpage": "1243",
               "lpage": "1249",
@@ -1876,13 +1875,13 @@
               "volume": "115",
               "year": "2008"
             },
-            "text": "Transgenerational effects of prenatal exposure to the Dutch famine on neonatal adiposity and health in later life",
+            "offset": 34817,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Transgenerational effects of prenatal exposure to the Dutch famine on neonatal adiposity and health in later life"
           },
           {
-            "offset": 34931,
+            "annotations": [],
             "infons": {
               "fpage": "339",
               "lpage": "370",
@@ -1895,13 +1894,13 @@
               "volume": "10",
               "year": "1986"
             },
-            "text": "Restraint stress in biomedical research: A review",
+            "offset": 34931,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Restraint stress in biomedical research: A review"
           },
           {
-            "offset": 34981,
+            "annotations": [],
             "infons": {
               "name_0": "surname:Paxinos;given-names:G",
               "name_1": "surname:Watson;given-names:C",
@@ -1910,13 +1909,13 @@
               "type": "ref",
               "year": "2007"
             },
-            "text": "",
+            "offset": 34981,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": ""
           },
           {
-            "offset": 34982,
+            "annotations": [],
             "infons": {
               "fpage": "e207",
               "name_0": "surname:Perroud;given-names:N",
@@ -1936,13 +1935,13 @@
               "volume": "3",
               "year": "2013"
             },
-            "text": "Response to psychotherapy in borderline personality disorder and methylation status of the BDNF gene",
+            "offset": 34982,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Response to psychotherapy in borderline personality disorder and methylation status of the BDNF gene"
           },
           {
-            "offset": 35083,
+            "annotations": [],
             "infons": {
               "fpage": "66",
               "lpage": "79",
@@ -1955,13 +1954,13 @@
               "volume": "1",
               "year": "2015"
             },
-            "text": "Peripheral and central mechanisms of stress resilience",
+            "offset": 35083,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Peripheral and central mechanisms of stress resilience"
           },
           {
-            "offset": 35138,
+            "annotations": [],
             "infons": {
               "fpage": "79",
               "lpage": "91",
@@ -1976,13 +1975,13 @@
               "volume": "58",
               "year": "2015"
             },
-            "text": "Chronic stress and brain plasticity: Mechanisms underlying adaptive and maladaptive changes and implications for stress-related CNS disorders",
+            "offset": 35138,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Chronic stress and brain plasticity: Mechanisms underlying adaptive and maladaptive changes and implications for stress-related CNS disorders"
           },
           {
-            "offset": 35280,
+            "annotations": [],
             "infons": {
               "fpage": "141",
               "lpage": "145",
@@ -1998,13 +1997,13 @@
               "volume": "70",
               "year": "2011"
             },
-            "text": "Hungry in the womb: what are the consequences? Lessons from the Dutch famine",
+            "offset": 35280,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Hungry in the womb: what are the consequences? Lessons from the Dutch famine"
           },
           {
-            "offset": 35357,
+            "annotations": [],
             "infons": {
               "fpage": "760",
               "lpage": "769",
@@ -2019,13 +2018,13 @@
               "volume": "65",
               "year": "2009"
             },
-            "text": "Lasting epigenetic influence of early-life adversity on the BDNF gene",
+            "offset": 35357,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Lasting epigenetic influence of early-life adversity on the BDNF gene"
           },
           {
-            "offset": 35427,
+            "annotations": [],
             "infons": {
               "fpage": "1755",
               "lpage": "1763",
@@ -2040,13 +2039,13 @@
               "volume": "56",
               "year": "2014"
             },
-            "text": "Bdnf DNA methylation modifications in the hippocampus and amygdala of male and female rats exposed to different caregiving environments outside the homecage",
+            "offset": 35427,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bdnf DNA methylation modifications in the hippocampus and amygdala of male and female rats exposed to different caregiving environments outside the homecage"
           },
           {
-            "offset": 35584,
+            "annotations": [],
             "infons": {
               "fpage": "919",
               "lpage": "926",
@@ -2061,13 +2060,13 @@
               "volume": "45",
               "year": "2011"
             },
-            "text": "Epigenetic modification of hippocampal Bdnf DNA in adult rats in an animal model of post-traumatic stress disorder",
+            "offset": 35584,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Epigenetic modification of hippocampal Bdnf DNA in adult rats in an animal model of post-traumatic stress disorder"
           },
           {
-            "offset": 35699,
+            "annotations": [],
             "infons": {
               "fpage": "108",
               "lpage": "117",
@@ -2080,13 +2079,13 @@
               "volume": "83",
               "year": "2013"
             },
-            "text": "Neurodevelopmental consequences of maternal distress: what do we really know?",
+            "offset": 35699,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Neurodevelopmental consequences of maternal distress: what do we really know?"
           },
           {
-            "offset": 35777,
+            "annotations": [],
             "infons": {
               "fpage": "e1315",
               "lpage": "e1323",
@@ -2111,13 +2110,13 @@
               "volume": "134",
               "year": "2014a"
             },
-            "text": "Perinatal complications and aging indicators by midlife",
+            "offset": 35777,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Perinatal complications and aging indicators by midlife"
           },
           {
-            "offset": 35833,
+            "annotations": [],
             "infons": {
               "fpage": "1163",
               "lpage": "1170",
@@ -2142,13 +2141,13 @@
               "volume": "19",
               "year": "2014b"
             },
-            "text": "Internalizing disorders and leukocyte telomere erosion: A prospective study of depression, generalized anxiety disorder and post-traumatic stress disorder",
+            "offset": 35833,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Internalizing disorders and leukocyte telomere erosion: A prospective study of depression, generalized anxiety disorder and post-traumatic stress disorder"
           },
           {
-            "offset": 35988,
+            "annotations": [],
             "infons": {
               "fpage": "462",
               "lpage": "474",
@@ -2164,13 +2163,13 @@
               "volume": "6",
               "year": "2015"
             },
-            "text": "Prenatal stress produces sex-specific changes in depression-like behavior in rats: implications for increased vulnerability in females",
+            "offset": 35988,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prenatal stress produces sex-specific changes in depression-like behavior in rats: implications for increased vulnerability in females"
           },
           {
-            "offset": 36123,
+            "annotations": [],
             "infons": {
               "fpage": "876",
               "name_0": "surname:Slagboom;given-names:PE",
@@ -2183,13 +2182,13 @@
               "volume": "55",
               "year": "1994"
             },
-            "text": "Genetic determination of telomere size in humans: a twin study of three age groups",
+            "offset": 36123,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genetic determination of telomere size in humans: a twin study of three age groups"
           },
           {
-            "offset": 36206,
+            "annotations": [],
             "infons": {
               "fpage": "700",
               "lpage": "708",
@@ -2209,13 +2208,13 @@
               "volume": "156",
               "year": "2011"
             },
-            "text": "Differential immune system DNA methylation and cytokine regulation in post-traumatic stress disorder",
+            "offset": 36206,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Differential immune system DNA methylation and cytokine regulation in post-traumatic stress disorder"
           },
           {
-            "offset": 36307,
+            "annotations": [],
             "infons": {
               "fpage": "274",
               "issue": "Part 2",
@@ -2230,13 +2229,13 @@
               "volume": "275",
               "year": "2016"
             },
-            "text": "Gender- and anxiety level-dependent effects of perinatal stress exposure on medial prefrontal cortex",
+            "offset": 36307,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Gender- and anxiety level-dependent effects of perinatal stress exposure on medial prefrontal cortex"
           },
           {
-            "offset": 36408,
+            "annotations": [],
             "infons": {
               "name_0": "surname:St-Cyr;given-names:S",
               "name_1": "surname:McGowan;given-names:PO",
@@ -2246,13 +2245,13 @@
               "volume": "9",
               "year": "2015"
             },
-            "text": "Programming of stress-related behavior and epigenetic neural gene regulation in mice offspring through maternal exposure to predator odor",
+            "offset": 36408,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Programming of stress-related behavior and epigenetic neural gene regulation in mice offspring through maternal exposure to predator odor"
           },
           {
-            "offset": 36546,
+            "annotations": [],
             "infons": {
               "fpage": "1579",
               "lpage": "1589",
@@ -2270,13 +2269,13 @@
               "volume": "17",
               "year": "2014"
             },
-            "text": "Shortened telomere length in white matter oligodendrocytes in major depression: potential role of oxidative stress",
+            "offset": 36546,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Shortened telomere length in white matter oligodendrocytes in major depression: potential role of oxidative stress"
           },
           {
-            "offset": 36661,
+            "annotations": [],
             "infons": {
               "fpage": "571",
               "lpage": "581",
@@ -2290,13 +2289,13 @@
               "volume": "23",
               "year": "1998"
             },
-            "text": "Prolonged stress-induced elevation in plasma corticosterone during pregnancy in the rat: implications for prenatal stress studies",
+            "offset": 36661,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Prolonged stress-induced elevation in plasma corticosterone during pregnancy in the rat: implications for prenatal stress studies"
           },
           {
-            "offset": 36791,
+            "annotations": [],
             "infons": {
               "fpage": "183",
               "lpage": "190",
@@ -2310,13 +2309,13 @@
               "volume": "129",
               "year": "2008"
             },
-            "text": "Telomere length in white blood cells, buccal cells and brain tissue and its variation with ageing and Alzheimer’s disease",
+            "offset": 36791,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Telomere length in white blood cells, buccal cells and brain tissue and its variation with ageing and Alzheimer’s disease"
           },
           {
-            "offset": 36915,
+            "annotations": [],
             "infons": {
               "fpage": "531",
               "lpage": "534",
@@ -2333,13 +2332,13 @@
               "volume": "67",
               "year": "2010"
             },
-            "text": "Childhood maltreatment and telomere shortening: preliminary support for an effect of early stress on cellular aging",
+            "offset": 36915,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Childhood maltreatment and telomere shortening: preliminary support for an effect of early stress on cellular aging"
           },
           {
-            "offset": 37031,
+            "annotations": [],
             "infons": {
               "fpage": "1",
               "lpage": "8",
@@ -2354,13 +2353,13 @@
               "volume": "18",
               "year": "2015"
             },
-            "text": "Telomerase dysregulation in the hippocampus of a rat model of depression: normalization by lithium",
+            "offset": 37031,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Telomerase dysregulation in the hippocampus of a rat model of depression: normalization by lithium"
           },
           {
-            "offset": 37130,
+            "annotations": [],
             "infons": {
               "fpage": "126",
               "lpage": "137",
@@ -2374,13 +2373,13 @@
               "volume": "218",
               "year": "2012"
             },
-            "text": "Variable prenatal stress results in impairments of sustained attention and inhibitory response control in a 5-choice serial reaction time task in rats",
+            "offset": 37130,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Variable prenatal stress results in impairments of sustained attention and inhibitory response control in a 5-choice serial reaction time task in rats"
           },
           {
-            "offset": 37281,
+            "annotations": [],
             "infons": {
               "fpage": "279",
               "lpage": "288",
@@ -2394,13 +2393,13 @@
               "volume": "238",
               "year": "2013"
             },
-            "text": "Exposure to variable prenatal stress in rats: Effects on anxiety-related behaviors, innate and contextual fear, and fear extinction",
+            "offset": 37281,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Exposure to variable prenatal stress in rats: Effects on anxiety-related behaviors, innate and contextual fear, and fear extinction"
           },
           {
-            "offset": 37413,
+            "annotations": [],
             "infons": {
               "fpage": "2824",
               "lpage": "2830",
@@ -2420,41 +2419,43 @@
               "volume": "93",
               "year": "1999"
             },
-            "text": "Rapid telomere shortening in children",
+            "offset": 37413,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Rapid telomere shortening in children"
           },
           {
-            "offset": 37451,
+            "annotations": [],
             "infons": {
               "file": "nihms873339f1.jpg",
               "id": "F1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Bdnf IV DNA methylation in the medial prefrontal cortex. UVPS male offspring had significantly higher methylation compared to control males and UVPS females across most CG sites within the medial prefrontal cortex. *p<0.05, **p<0.01, ***p<0.001; n=6–7/sex/condition; error bars represent SEM.",
+            "offset": 37451,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Bdnf IV DNA methylation in the medial prefrontal cortex. UVPS male offspring had significantly higher methylation compared to control males and UVPS females across most CG sites within the medial prefrontal cortex. *p<0.05, **p<0.01, ***p<0.001; n=6–7/sex/condition; error bars represent SEM."
           },
           {
-            "offset": 37746,
+            "annotations": [],
             "infons": {
               "file": "nihms873339f2.jpg",
               "id": "F2",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Telomere length in the adult medial prefrontal cortex. Animals that experienced UVPS had significantly shorter telomeres compared to controls. **p=0.01; n=6–7/sex/condition; error bars represent SEM.",
+            "offset": 37746,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Telomere length in the adult medial prefrontal cortex. Animals that experienced UVPS had significantly shorter telomeres compared to controls. **p=0.01; n=6–7/sex/condition; error bars represent SEM."
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC"
   }
 ]

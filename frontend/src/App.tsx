@@ -2,7 +2,9 @@ import React, { Suspense, useState, useEffect, useRef, useCallback } from 'react
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AuthProvider, useAuth } from './lib/auth';
+import { ThemeProvider } from './lib/theme';
 import LoadingSpinner from './components/LoadingSpinner';
+import Navigation from './components/Navigation';
 import ChatPanel from './components/ChatPanel';
 import ChatButton from './components/ChatButton';
 import RequireAuth from './components/RequireAuth';
@@ -14,6 +16,8 @@ const PublicationDetail = React.lazy(() => import('./pages/PublicationDetail'));
 const Profile = React.lazy(() => import('./pages/Profile'));
 const Login = React.lazy(() => import('./pages/Login'));
 const AuthCallback = React.lazy(() => import('./pages/AuthCallback'));
+const About = React.lazy(() => import('./pages/About'));
+const Contact = React.lazy(() => import('./pages/Contact'));
 
 const PageWrapper = ({ children }: { children: React.ReactNode }) => (
   <motion.div
@@ -176,7 +180,8 @@ function InnerApp() {
   }, []);
 
   return (
-      <div className="min-h-screen bg-slate-950">
+  <div className="min-h-screen bg-semantic-surface-0 text-semantic-text-primary transition-colors">
+    <Navigation />
         <AnimatePresence mode="wait">
           <Suspense fallback={<LoadingSpinner />}>
             <Routes>
@@ -187,19 +192,21 @@ function InnerApp() {
               } />
               <Route path="/dashboard" element={
                 <PageWrapper>
-                  <RequireAuth>
-                    <Dashboard />
-                  </RequireAuth>
+                  <Dashboard />
                 </PageWrapper>
               } />
               <Route path="/publication/:id" element={
                 <PageWrapper>
-                  <PublicationDetail />
+                  <RequireAuth>
+                    <PublicationDetail />
+                  </RequireAuth>
                 </PageWrapper>
               } />
               <Route path="/profile" element={
                 <PageWrapper>
-                  <Profile />
+                  <RequireAuth>
+                    <Profile />
+                  </RequireAuth>
                 </PageWrapper>
               } />
               <Route path="/login" element={
@@ -210,6 +217,16 @@ function InnerApp() {
               <Route path="/auth/callback" element={
                 <PageWrapper>
                   <AuthCallback />
+                </PageWrapper>
+              } />
+              <Route path="/about" element={
+                <PageWrapper>
+                  <About />
+                </PageWrapper>
+              } />
+              <Route path="/contact" element={
+                <PageWrapper>
+                  <Contact />
                 </PageWrapper>
               } />
               <Route path="*" element={<Navigate to="/" replace />} />
@@ -243,11 +260,13 @@ function InnerApp() {
 
 function App() {
   return (
-    <AuthProvider>
-      {/* Toasts */}
-      <ToastViewport />
-      <InnerApp />
-    </AuthProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        {/* Toasts */}
+        <ToastViewport />
+        <InnerApp />
+      </AuthProvider>
+    </ThemeProvider>
   );
 }
 

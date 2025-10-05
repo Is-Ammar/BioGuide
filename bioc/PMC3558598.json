@@ -1,18 +1,17 @@
 [
   {
-    "source": "PMC",
     "date": "20201231",
-    "key": "pmc.key",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
+        "full_text": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster\nEhrlichia chaffeensis is a Gram-negative, obligate intracellular bacterium which causes the tick-borne disease human monocytic ehrlichiosis. In vertebrates, E. chaffeensis replicates in monocytes and macrophages. However, no clear cell or tissue tropism has been defined in arthropods. Our group identified two host genes that control E. chaffeensis replication and infection in vivo in Drosophila, Uridine cytidine kinase and separation anxiety. Using the UAS-GAL4 RNAi system, we generated F1 flies (UAS-gene of interest RNAi x tissue-GAL4 flies) that have Uck2 or san silenced in ubiquitous or tissue-specific fashion. When Uck2 or san were suppressed in the hemocytes or in the fat body, E. chaffeensis replicated poorly and caused significantly less severe infections. Silencing of these genes in the eyes, wings, or the salivary glands did not impact fly susceptibility or bacterial replication. Our data suggest that in Drosophila, E. chaffeensis replicates within the hemocytes, the insect homolog of mammalian macrophages, and in the fat body, the liver homolog of mammals.\nIntroduction\nHuman monocytic ehrlichiosis (HME) is a tick-borne, zoonotic disease caused by the Gram-negative, obligate intracellular bacterium, Ehrlichia chaffeensis. E. chaffeensis is primarily vectored by Amblyomma americanum (lone star tick) and is transmitted transstadially in ticks. A. americanum has a 3-host life cycle. For progression from one stage to the next (larva to nymph to adult), the tick requires a vertebrate blood meal. The major natural reservoir of E. chaffeensis in the United States is white-tailed deer (Odocoileus virginianus). However, several other vertebrates, too, act as reservoirs including domestic dog, domestic goat, white-footed mouse, red fox, raccoon, and coyote. Humans can also become accidental hosts when bitten by ticks. In humans, the bacteria are monocytotropic, meaning they are primarily found in monocytes and macrophages, and there is a good understanding of where the bacteria replicate. Although it is clear that ticks can transmit Ehrlichia organisms to vertebrate hosts, and Ehrlichia bacteria have been detected in the salivary glands microscopically and by PCR, it is less clear about bacteria replication in ticks. Although genetic tools for working with ticks are currently being developed, the available tools do not begin to approach those that are available in other arthropods such as Drosophila melanogaster.\nIn adult D. melanogaster, hemocytes contribute to host immune defenses against E. chaffeensis. In vertebrates, monocytes and macrophages contribute to host resistance even though the bacteria are monocytotropic. Our group has discovered that D. melanogaster genes, separation anxiety (san) and Uridine cytidine kinase 2 (Uck2), are required for E. chaffeensis infections in flies. Flies carrying mutations in the coding regions of these genes do not support infection after needle injection. Therefore, to see if bacterial replication in arthropods parallels bacterial replication in vertebrates after needle injection, we took advantage of Drosophila UAS-GAL4 RNAi system that allowed for tissue-specific silencing of san and Uck2 to determine host sites of bacterial replication. Here, we show that similar to vertebrate hosts, in Drosophila the bacteria require optimal host conditions (i.e. expression of Uck2 or san) in the immune tissues, hemocytes, and fat body, for optimal replication.\nMaterials and methods\nCell lines and E. chaffeensis infections\nE. chaffeensis (Arkansas isolate) was propagated in DH82 cells (American Type Culture collection, #CRL-10389, Rockville, Md.). The DH82 cells were grown in Eagle’s minimal essential medium supplemented with 3.5% fetal bovine serum (Atlanta Biologicals, Atlanta, GA), 3.5% NuSerum (BD, Franklin Lakes, NJ), and Glutamine plus (2 mM, Atlanta Biologicals) (EMEM7). Cells were grown at 37°C in an 8% CO2/92% air atmosphere. The level of infection was determined by examining cyto-centrifuged cells stained with Dif-Quik stain (Fisher Scientific Company, Kalamazoo, MI). When more than 80% of cells were infected, the cells were removed with a cell scraper and frozen at −80°C in cryogenic vials. Bacteria numbers were quantified using a TaqMan-based quantitative reverse transcriptase PCR (qRT-PCR) assay as described below. Purification of host cell-free bacteria was carried out as follows. Cells were scraped from tissue culture dishes. The recovered infected cells were placed in a 50-ml, sterile centrifuge tube and shaken with glass beads. The preparation was centrifuged at 600 × g for 20 min. The supernatant with host cell-free bacteria was transferred into a sterile tube and centrifuged at 15,000 × g for 20 min. The bacterial pellet was resuspended in sterile phosphate-buffered saline (PBS) mixed with blue food dye at a ratio of 0.6 ml dye for every 1 ml of PBS to help us visualize the inoculum during fly injections. Most flies were injected with 6000 bacteria per fly, however, some early experiments were done with 1500 bacteria per fly. Although the severity of infections was different with the different inocula, the experimental trends were similar.\nD. melanogaster\nD. melanogaster flies were raised on standard dextrose/molasses/yeast medium at 18–29°C. The following fly lines were used: yellow white (yw) and arm-GAL4, Hml-GAL4, YP1-GAL4, MS1096-GAL4, Gmr-GAL4, Fhk-GAL4, UAS-Uck2RNAi (w[1118]; P{GD2761}v16719)and UAS-sanRNAi (w[1118]; P{GD7580}v31742). The yw fly line was maintained at Kansas State University and used as a wild type in these experiments. The armadillo (arm)-Gal fly line was obtained from Joan Hooper (University of Colorado, Anchutz Medical campus, Denver, CO). The Fhk-GAL4 and YP1-GAL4 were obtained from Tony Ip (The University of Massachusetts Medical School, Worcester, MA). The Hml-GAL4 fly line was obtained from Michael Galko (MD Anderson Cancer Center, Houston, TX). The MS1096 and Gmr-GAL4 fly lines were obtained from the Bloomington Drosophila Stock Center at Indiana University, Bloomington, IN. UAS-dsRNA transgenic fly lines were obtained from the Vienna Drosophila RNAi Center (VDRC). Five to seven virgin females carrying the GAL4 promoter were crossed with 3–4 males carrying different UAS-dsRNA transgenes to generate F1 flies that had tissue-specific or ubiquitous knockdown of Uck2 or san genes.\nRNA extraction\nThe TriReagent (Molecular Research Center, Cincinnati, OH) RNA extraction method, as was previously described by our group, was used to extract RNA from flies or host cell-free bacteria. Pelleted bacteria or fly homogenates were resuspended in 1 ml of TriReagent. Preparations were transferred to 2.0 ml, Heavy Phase Lock Gel tubes (5 Prime/Eppendorf, Westbury, New York; #2302830). Three hundred microliters (300 μl) of chloroform were added, and the mixture was vortexed for 15 s. The samples were centrifuged at 12,000 × g for 10 min at 4°C, and the aqueous phase was transferred to clean 1.5 ml tubes. Five hundred microliters (500 μl) of isopropanol were added, and RNA was precipitated at −20°C for 24 h. Samples were subsequently centrifuged at 12,000 × g for 10 min at 4°C. The RNA pellet was washed with 1 ml of 70% ethanol, and samples were centrifuged at 7400 × g for 5 min at 4°C. The 70% ethanol was decanted from the pellet, and residual ethanol was allowed to evaporate for 5 min. RNA was resuspended in 50 μl of nuclease-free water. RNA concentrations were determined spectrophotometrically (NanoDrop Technologies, Wilmington, DE).\nQuantification of bacterial numbers for infection/injection and in infected flies\nRNA from host cell-free Ehrlichia was extracted as described above. A TaqMan-based, real-time reverse transcriptase PCR (RT-PCR) was used to quantify bacterial numbers. A total of 500–1000 ng of RNA was used for each reaction. Real-time quantitative RT-PCR (qRT-PCR) was performed using the Invitrogen’s One-Step Platinum qRT-PCR kit (#11732) in a Cepheid Smart Cycler (Cepheid, Sunnyvale, CA). E. chaffeensis RNA was detected using primers specific for the 16S ribosomal RNA gene (NCBI Accession # M73222). Custom-synthesized primers and probes were obtained from Integrated DNA Technologies (IDT, Coralville, IA) and were used. The sequence of the primers used were: forward primer, RRG3 (5′ CAATTGCTTATAACCTTTTGGTTATAAAT 3′) and reverse primer, RRG27 (5′ GTATTACCGCGGCTGCTGGCAC3′). Serial 10-fold dilutions of the RNA from infected DH82 cells were used to generate standard curves plotting log number of bacteria versus the corresponding Ct value. The cycling conditions used for the assay were: 48°C for 30 min, 94°C for 4 min, then 35 cycles of 94°C for 30 s, 52°C for 30 s, and 72°C for 1 min. To quantify bacterial numbers in injected/infected flies, anesthetized flies were transferred to 1.5-ml tubes (Kimble Chase, Vineland, NJ) and crushed with disposable pestles in 1 ml of TriReagent as previously described. Bacteria numbers were estimated from RNA samples using quantitative RT-PCR (qRT-PCR) as described above. Drosophila ribosomal protein 15a (NCBI Accession #NM_136772) gene was used as used as housekeeping. The sequence of the primers used were: forward primer (5′ TGGACCACGAGGAGGCTAGG 3′) and reverse primer (5′ GTTGGTGCATGGTCGGTGA 3′) and Taqman probe (5′-56-FAM/TGGGAGGCAAAATTCTCGGCTTC/36-TAMsp-3′). The cycling conditions used for the assay were: 48°C for 45 min, 94°C for 2 min, and then 35 cycles of 94°C for 45 s, 50°C for 1 min, and 72°C for 1.5 min.\nEstimation of silencing efficiency\nTo quantify the level of transcriptional silencing in RNAi flies, whole-flies or specific fly tissues were used to probe for specific transcript levels. Fly tissues were transferred to 1.5-ml tubes and crushed with disposable pestles in 1 ml of TriReagent for RNA extraction. Transcript levels of the gene of interest in F1 flies were assessed in the following whole-flies: ubiquitous (UAS-sanRNAi X arm-GAL4 or UAS-Uck2RNAi X arm-GAL4); hemocytes (UAS-sanRNAi X Hml-GAL4 or UAS-Uck2RNAi X Hml-GAL4); fat body (UAS-sanRNAi X YP1-GAL4 or UAS-Uck2RNAi X YP1-GAL4). For wing-specific and eye-specific knockdown, fly heads or wings were used. For fat body-specific and salivary gland-specific knockdown, fat body or salivary glands dissected from wandering third-instar larvae were used. RNA from homogenates was extracted as described above. Transcript levels were determined in RNA samples using qRT-PCR using the Invitrogen’s Superscript III Platinum SYBR Green One-Step qRT-PCR kit in. Primers were obtained from IDT. Drosophila ribosomal protein 15a was used as used as the housekeeping gene. Drosophila Uck2 (NCBI Accession #NM_142984) was detected using forward primer (5′ TGTCCATCAGTCAGGACAGC 3′) and reverse primer (5′ CTCCACTTTGTGGCCCTTTA 3′). The cycling conditions used for the assay were 48°C for 30 min, 95°C for 3 min, and then 45 cycles of 95°C for 15 s, 56°C for 30 s, and 60°C for 1 min. The Drosophila san gene (NCBI Accession # NM_080040) was detected using forward primer (5′ ACCCGAACAATCAGGAACAG 3′) and reverse primer (5′ ACCCGAACAATCAGGAACAG 3′). The cycling conditions used for the assay were 48°C for 30 min, 95°C for 3 min, and then 45 cycles of 95°C for 15 s, 50°C for 30 s, and 60°C for 1 min.\nTo calculate knockdown efficiency serial 10-fold dilutions of RNA and corresponding Ct values were used to plot standard curves (mean of 3 experiments). Primer efficiency was calculated using the following equation:  \nPrimer efficiency values were used to calculate the relative change in gene expression by the following equation:  \nParental lines (UAS and GAL4 constructs) and yw flies served as normal controls and were set at 100% expression for the gene of interest. Relative level of gene expression in RNAi flies as compared to controls was calculated to estimate the knockdown efficiency.\nInfections\nAdult flies were used to assess the effect of gene knockdown on E. chaffeensis infections. Male and female flies were anesthetized on a CO2 anesthesia pad (Genesee Scientific, San Diego, CA; model# 59-119). Flies were injected in the thorax with 51 nl of sterile PBS-blue food dye solution or Ehrlichia resuspended in PBS-blue food dye solution. Injections were made in the abdomen of the fly with pulled glass capillary needles using a Nanoject II (Drummond Scientific Company, Broomall, PA). Following injection, flies were maintained in clean bottles with molasses/yeast caps. Survival was monitored daily for 4 days. Twenty flies were injected per treatment group per experiment with 3–4 independent experiments for survival data. Four to five flies were used to determine bacterial infection.\nStatistics\nSurvival data were analyzed for significance using the log-rank test of Kaplan Meier plots using Prism Graphpad software (La Jolla, CA). Data are presented as the mean ± standard error (SE) of independent experiments unless otherwise stated. P values of <0.05 were considered highly significant. Bacterial numbers were analyzed by Student’s t test (two-tailed, general) by using the StatMost Statistical Package (Data XIOM, Los Angeles, CA, USA). Unless indicated, data are presented as the mean ± standard error (SE) of independent experiments.\nResults\nUck2 and san are required for in vivo E. chaffeensis replication in adult D. melanogaster\nE. chaffeensis is capable of infecting and completing its life cycle in Drosophila S2 cells and adult flies. Recent work by our group found that several host genes control the replication of Ehrlichia in vivo. We found that flies carrying mutations in coding regions of these genes were poorly infected by E. chaffeensis. In particular, 2 genes that are relevant to humans and ticks were chosen for this study, Uck2 and san. Uck2 functions as a uridine-cytidine kinase and is orthologous to the mammalian UCK2 gene and the Ixodes scapularis SCW003812 gene. san is the ortholog to the human NAA50 gene and encodes the N(α)-acetyltransferase 50 protein. It is orthologous to the I. scapularis SCW002560 gene.\nIn vertebrates, E. chaffeensis exhibits a tropism for monocytes and macrophages. However, no clear requirements for cell or tissue tropism have been defined in ticks or other arthropods. To investigate where E. chaffeensis replicates in arthropods, we employed whole-organism in vivo RNAi in D. melanogaster to do tissue-specific inactivation of Uck2 and san using a fly collection that consists of expressed RNAi transgenes where the inverted repeats produce a dsRNA hairpin that produces the RNAi effect. These tools allowed us to silence Uck2 and san genes in a tissue-specific manner through the binary GAL4-UAS system to determine what tissues must be permissive (via their expression of Uck2 or san) for E. chaffeensis replication.\nTo determine whether Uck2 and san could be efficiently silenced using the UAS-GAL4 system, we individually crossed transgenic flies carrying inverted repeats of the Uck2 and san genes under the control of UAS to flies carrying armadillo (arm)-GAL4 (ubiquitous GAL4 insertions) to silence Uck2 or san in the F1 progeny. We consistently averaged 78% or better transcript reduction of Uck2 or san in the RNAi flies in comparison to wild-type flies and parental lines using qRT-PCR (Table 1). When wild-type flies, parental line flies, and Uck2- and san-RNAi flies were experimentally challenged with E. chaffeensis in the abdomen, we observed that there was approximately 48% death in wild-type and parental lines after 96 h. This rate of death was significantly increased compared to control flies injected with PBS or flies which had ubiquitous tissue expression of Uck2-or san-RNAi (Fig. 1A and 1B) (P<0.05, log rank test). When we assessed the effect of infection on RNAi flies where Uck2 or san were knocked down ubiquitously, we detected significantly fewer bacteria at 96 hpi (P<0.05, t-test) compared to wild-type or parental fly controls (Fig. 2A and 2B). These experiments confirmed that the UAS-GAL4 technique could be used to efficiently silence Uck2 and san in adult flies and that E. chaffeensis infection in flies was dependent on functional Uck2 and san genes.\nE. chaffeensis replication in adult D. melanogaster\nUbiquitous tissue silencing of Uck2 and san impaired E. chaffeensis infection in adult D. melanogaster. Therefore, we screened an array of tissues to determine if Uck2 or san expression were necessary in those tissues for bacterial replication. In vertebrates, E. chaffeensis exhibits a tropism for monocytes and macrophages. Therefore, we hypothesized that E. chaffeensis replicates in hemocytes, the insect equivalent to mammalian macrophages. To test this hypothesis, we silenced Uck2 and san in the eyes, wings, hemocytes, fat body, and salivary glands in a tissue-specific manner in adult flies. We used eye-specific (Gmr-GAL4), wing-specific (MS1096-GAL4), hemocyte-specific (Hml-GAL4), fat body-specific (YP1-Gal), or salivary gland-specific (Fhk-GAL4) GAL4 fly lines to generate F1 flies. To confirm the tissue-specific knockdown of targeted genes, we dissected whole heads and wings from adult flies to assess eye-specific and wing-specific adult knockdown. We observed an average ≥74% reduction in transcript levels of Uck2 and san in whole heads or wings of F1 transgenic flies using eye- or wing-specific GAL4 constructs (Table 2). In comparison, the average knockdown of Uck2 or san in the whole body minus the respective eyes or wings never averaged >15% knockdown (Table 2). These data confirmed the tissue-specific targeting of both Uck2 and san genes.\nWe used whole adult flies to assess hemocyte-specific knockdown using the hemocyte-specific GAL4 line to express Uck2 and san-RNAi transgenes specifically in hemocytes. We found that RNA levels were reduced by an average of 79±6% and 62±4%, respectively, when compared to experimental controls (Table 1). Because the Hml-Gal4 line is highly specific for expression in the hemocytes, we can reasonably assume that the reduction in RNA levels in these whole flies is due to specific knockdown of the transcript in hemocytes and not other tissues. The fat body and salivary glands are difficult to dissect from adult flies. Since the RNAi effect is applicable at all stages of the Drosophila lifespan, we isolated the fat bodies and salivary glands from 3rd instar larvae to assess the silencing efficiency specifically in the fat body and salivary glands of our RNAi flies. In the dissected fat body from fat body-specific Uck2 and san-RNAi third instar larvae, there was an average of 77±8% and 66±12% reduction in transcript levels, respectively, compared to dissected fat body from 3rd instar control larvae from wild-type or parental flies (Table 1). Similarly, transcript levels in dissected salivary glands from salivary gland-specific Uck2 and san-RNAi 3rd instar larvae showed that RNA levels were reduced >90% in comparison to dissected salivary glands from control larvae from wild-type or parental flies (Table 2). In contrast, there was <29% knockdown of san or Uck2 in RNA samples extracted from non-salivary gland tissue isolated from 3rd instar larvae in comparison to non-salivary gland tissue from control larvae from wild-type or parental flies (Table 2).\nAfter confirming tissue-specific RNAi silencing effect of Uck2 and san, control and RNAi flies were experimentally challenged with E. chaffeensis. We observed that eye- (Fig. 3A and 3B), salivary gland- (Fig. 3C and 3D), and wing- (Fig. 3E and 3F) specific knockdown of Uck2 and san did not impact fly survival. These RNAi flies were as susceptible to E. chaffeensis infection as wild-type and parental controls (Fig. 3; P>0.05, log-rank tests). In contrast, hemocyte- and fat body-specific Uck2- (Fig. 4A and 4C)and san- (Fig. 4B and 4D) RNAi flies survived significantly better (P<0.05, log-rank test) than the control flies after infection with Ehrlichia (Fig. 4A–D). Ninety-six hours after infection, >80% of hemocyte-specific Uck2-RNAi and San-RNAi flies survived in comparison to an average of 50% of wild-type and parental control flies. When we assessed F1 RNAi flies for bacteria load, there were no differences in bacteria number in eye-specific (Fig. 5A and 5B), salivary gland-specific (Fig. 5C and 5D), and wing-specific (Fig. 5E and 5F) Uck2 and san F1 RNAi flies compared to control flies (P>0.05, t-test). However, F1 RNAi flies with hemocyte-specific (Fig. 6A and 6B) or fat body-specific (Fig. 6C and 6D) knockdown of Uck2 or san had significantly fewer bacteria (P<0.05, t-test). At the 96-h time point, there were greater than 95% fewer bacteria in hemocyte-specific (Fig. 6A and 6B) or fat body-specific (Fig. 6C and 6D) Uck2- or san-RNAi flies, respectively, compared to controls.\nDiscussion\nE. chaffeensis is transmitted from ticks to vertebrate hosts when the tick takes a blood meal. One remaining question is where do the bacteria replicate in the tick? Because the genetic tools in ticks have not been developed to the same extent as they have in Drosophila, we addressed a more general question about where the bacteria replicate in dipteran arthropods. Indeed, this study provides insights about E. chaffeensis replication in arthropods. Our data confirm that Uck2 and san are needed for E. chaffeensis replication and support the hypothesis that the bacteria replicate in the hemocytes or the fat body in adult D. melanogaster. Infection was poorer in flies that had hemocyte- or fat body-specific knockdown of Uck2 or san. We concede that fruit flies and ticks have different life cycles, feeding habits, and environments, and this may not allow extrapolation of the results to the tick system. Nevertheless, this is a valuable study because it identifies sites where the bacteria replicate in a model arthropod system using experimental methods which would not have been possible in the tick system.\nWe demonstrated that E. chaffeensis replicated when Uck2 and san were expressed in hemocytes and the fat body, but not when these genes were silenced in those tissues. Silencing of Uck2 and san in the eyes, wings, or the salivary glands of adult D. melanogaster did not affect infection. Because of the tissue-specific knockdown of the genes in these tissues, the data suggest that bacterial replication occurs predominantly in the hemocytes and the fat body. These data are consistent with the vertebrate tropism for macrophages and monocytes. Hemocytes are the arthropod host equivalent of macrophages. The fat body is functionally equivalent to mammalian liver. These data are also consistent with the previous observation that Rickettsia rickettsii invade hemocytes in ixodid ticks. Previously, our group found that E. chaffeensis is capable of replicating in hemocyte-like phagocytic S2 cells. S2 cells have hemocyte-like properties and express a variety of hemocyte markers such as Hemolectin (Hml), Hemese (He), Drosophila scavenger receptor-CI (dSR-CI), and croquemort, a member of the CD36 superfamily. However, because these cells have combined properties of plasmatocytes and crystal cells, we could not conclude that they are hemocytes. We also found that E. chaffeensis labeled with the pH-sensitive dye pHrodo fluoresced red after injection into adult flies, presumably because they were in the low pH environment of the hemocytes. Therefore, these new in vivo data add to the growing evidence that E. chaffeensis is capable of replicating in the hemocytes of adult D. melanogaster. Furthermore, these data are consistent with the behavior of other intracellular pathogens which are capable of avoiding the phagocytic pathway and replicate within Drosophila hemocytes. These pathogens include Salmonella typhimurium, Listeria monocytogenes, Mycobacterium marinum, Legionella pneumophila, and Francisella tularensis.\nThe expression of Uck2 or san in the salivary glands of adult D. melanogaster was not necessary for E. chaffeensis infection. These findings were intriguing since A. phagocytophilum, a bacterium closely related to E. chaffeensis, and E. chaffeensis have been detected in the salivary glands of experimentally infected ticks. In our experiments, Drosophila were infected by needle injection in the abdomen; not the natural route of infection in a tick. Ticks acquire the infection from a vertebrate host during their blood meal. Thus, the dissemination of E. chaffeensis to assorted tissues may vary due to differences in route of infection. Interestingly, in ticks, needle injection does result in bacteria in the salivary glands. However, it is possible that salivary gland and host physiology may vary among arthropods depending on the life cycle. In nature, Drosophila live on yeast growing on decaying fruit and food. This could suggest that their salivary glands are better adapted to fight potential pathogenic microorganisms and extrapolation of the data from Drosophila to ticks needs to be done cautiously.\nWe observed 97% fewer bacteria 96 h post infection in fat body-specific Uck2 or san- F1 RNAi flies compared to wild-type and parental controls. Because there is tissue-specific knockdown in the fat body, some residual bacterial replication should occur in the hemocytes of the flies. Indeed, this might have been the case. In general, when one looks at the bacteria growth kinetics in tissues that are not affected by Uck2 or san knockdown (eyes, wings, salivary glands), bacterial numbers generally increase over time after infection (Fig. 5). In contrast, when Uck2 or san genes were silenced in hemocytes, bacteria failed to grow (Fig. 6A and 6B). However, when Uck2 or san genes were silenced specifically in the fat body, the bacteria growth kinetics showed an initial increase in bacterial numbers for 24 h that paralleled the growth of the bacteria in the parental (non-RNAi control) fly lines (Fig. 6A and 6B). Subsequently, the bacterial numbers were reduced (Fig. 6C and 6D). These data suggest that the bacteria were replicating during the early part of the infection in the hemocytes, but because the bacteria were not replicating in the fat body, the activation of the fly immune system was able to respond more effectively against E. chaffeensis than when the bacteria replicate in both hemocytes and the fat body. We have previously found that hemocytes in adult flies as well as toll and IMD defense pathways are actively involved in host defense against E. chaffeensis. Alternatively, the failure of bacteria to thrive even in the presence of functional Uck2 and san genes in hemocytes might be because there is coordination between the hemocytes and the fat body. Several observations indicate that hemocytes can signal to the fat body to regulate the humoral immune response. Thus, signaling between the hemocytes and other immunocompetent tissue such as the fat body may play a critical role in coordinating the cellular and humoral immune response to ensure efficient defense of the organism.\nOur results suggest that the tissue tropism of E. chaffeensis for phagocytic cells arose approximately 600 million years ago, since that is when mammals and dipterans last shared a common ancestor. Ticks and dipterans last shared a common ancestor approximately 500 million years ago. Therefore, one would expect the tropism for hemocytes to be similar in ticks. However, genetic drift could have occurred in the Ecdysozoa, Arthropoda, or later in the Chelicerata. There is 59.5% identity between D. melanogaster and I. scapularis Uck2 gene products and 83.6% identity between D. melanogaster and I. scapularis san gene products. Therefore, it is not clear, whether this tropism will also be seen in A. americanum, the vector of E. chaffeensis. Additional experiments are needed to confirm this hypothesis.\nIn conclusion, we have used UAS-GAL4 RNAi system in D. melanogaster to show that functional Uck2 and san genes are required for in vivo E. chaffeensis replication. Moreover, we have successfully identified intracellular niches where E. chaffeensis replicates in dipteran arthopods; the hemocytes and fat body of adult D. melanogaster. We hope that understanding the tissue targets of E. chaffeensis in arthropods will help in drug design and RNAi therapeutics for HME and other tick- and arthropod-borne diseases.\nThis is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.\nSignaling role of hemocytes in Drosophila JAK/STAT-dependent response to septic injury\nAmblyomma americanum: a potential vector of human ehrlichiosis\nTargeted gene expression as a means of altering cell fates and generating dominant phenotypes\nSecreted bacterial effectors and host-produced Eiger/TNF drive death in a Salmonella-infected fruit fly\nPsidin is required in Drosophila blood cells for both phagocytic degradation and immune activation of the fat body\nDefining the immune response to Ehrlichia species using murine models\nElimination of plasmatocytes by targeted apoptosis reveals their role in multiple aspects of the Drosophila immune response\nThe transcriptional diversity of 25 Drosophila cell lines\nSusceptibility of red and gray foxes to infection by Ehrlichia chaffeensis\nWhite-tailed deer as a potential reservoir of Ehrlichia spp\nA genome-wide transgenic RNAi library for conditional gene inactivation in Drosophila\nDrosophila calcineurin promotes induction of innate immune responses\nDrosophila melanogaster is a genetically tractable model host for Mycobacterium marinum\nRNA interference analysis of Legionella in Drosophila cells: exploitation of early secretory apparatus dynamics\nDetection of Ehrlichia spp. in raccoons (Procyon lotor) from Georgia\nNatural infection of domestic goats with Ehrlichia chaffeensis\nExperimental transmission of Ehrlichia chaffeensis (Rickettsiales: Ehrlichieae) among white-tailed deer by Amblyomma americanum (Acari: Ixodidae)\nRequirement for croquemort in phagocytosis of apoptotic cells in Drosophila\nPersistent Ehrlichia chaffeensis infection occurs in the absence of functional MHCII genes\nRNAi for insect-proof plants\nLaboratory-infected Ehrlichia chaffeensis female adult Amblyomma americanum salivary glands reveal differential gene expression\nNaturally occurring Ehrlichia chaffeensis infection in coyotes from Oklahoma\nVectorBase: a data resource for invertebrate vector genomics\nSpecification of Drosophila hematopoietic lineage by conserved transcription factors\nThe host defense of Drosophila melanogaster\nIsolation of Ehrlichia chaffeensis from wild white-tailed deer (Odocoileus virginianus) confirms their role as natural reservoir hosts\nUse of Drosophila S2 cells as a model for studying Ehrlichia chaffeensis infections\nEhrlichia chaffeensis infections in Drosophila melanogaster\nAntibodies to multiple tick-borne pathogens of babesiosis, ehrlichiosis, and Lyme borreliosis in white-footed mice\nExploration of host-pathogen interactions using Listeria monocytogenes and Drosophila melanogaster\nFlyBase 101 – the basics of navigating FlyBase\nEhrlichia chaffeensis: a prototypical emerging pathogen\nTick genomics: The Ixodes genome project and beyond\nTick- and flea-borne rickettsial emerging zoonoses\nExpression cloning of dSR-CI, a class C macrophage-specific scavenger receptor from Drosophila melanogaster\nGlutamine synthetase gene evolution: a good molecular clock\nA new mathematical model for relative quantification in real-time RT-PCR\nMechanisms of obligatory intracellular infection with Anaplasma phagocytophilum\nUncoupling cadherin-based adhesion from wingless signalling in Drosophila\nToll-dependent antimicrobial responses in Drosophila larval fat body require Spätzle secreted by haemocytes\nMultiplex detection of Ehrlichia and Anaplasma species pathogens in peripheral blood by real-time reverse transcriptase-polymerase chain reaction\nDevelopment of Ehrlichia canis, causative agent of canine ehrlichiosis, in the tick Rhipicephalus sanguineus and its differentiation from a symbiotic Rickettsia\nThe relationship between spotted fever group Rickettsiae and ixodid ticks\nAnimal model of fatal human monocytotropic ehrlichiosis\nGenome size and organization in the blacklegged tick, Ixodes scapularis and the Southern cattle tick, Boophilus microplus\nTransmission of Ehrlichia chaffeensis from lone star ticks (Amblyomma americanum) to white-tailed deer (Odocoileus virginianus)\nIdentification of critical host mitochondrial-associated genes during Ehrlichia chaffeensis infections\nInd represses msh expression in the intermediate column of the Drosophila neuroectoderm, through direct interaction with upstream regulatory DNA\nDrosophila melanogaster as a model for elucidating the pathogenicity of Francisella tularensis\nEhrlichia chaffeensis infection in dogs in South Korea\nImpact of ubiquitous expression of Uck2 (A) or san (B) hairpin RNA on E. chaffeensis infection. Ubiquitous knockdown of Uck2 or san was accomplished using UAS and GAL4 constructs as described in ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05).\nImpact of ubiquitous expression of Uck2 (A) or san (B) hairpin RNA on bacterial clearance. Ubiquitous knockdown of Uck2 and san was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s(●) compared to other EC -infected flies is represented by * (P<0.05).\nImpact of eye-, salivary gland- or wing-specific expression of Uck2 or san hairpin RNA on E. chaffeensis infection. Eye (A and B), salivary gland (C and D), or wing (E and F) -specific knockdown of Uck2 (A, C, and E) or san (B, D, and F) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05).\nImpact of hemocyte or fat body expression of Uck2 or san hairpin RNA on E. chaffeensis infection. Hemocyte-specific (A and B) or fat body (C and D) -specific knockdown of Uck2(A and C) or san(B and D) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05).\nImpact of eye-, salivary gland-, or wing-specific expression of Uck2 or san hairpin RNA on bacterial clearance. Eye (A and B), salivary gland (C and D), or wing (E and F) -specific knockdown of Uck2 (A, C, and E) or san (B, D, and F) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s(●) compared to other EC -infected flies is represented by * (P<0.05).\nImpact of hemocyte or fat body expression of Uck2 or san hairpin RNA on bacterial clearance. Hemocyte-specific (A and B) or fat body (C and D)-specific knockdown of Uck2(A and C) or san(B and D) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s (●) compared to other EC-infected flies is represented by * (P<0.05).\nSilencing. Silencing efficiency of target genes that had ubiquitously expressed hairpin RNA or hairpin RNA expressed specifically in hemocytes or the fat bodya.\nTissues in which the target gene was knocked down\tTissue assayedb\tTarget Gene\t% knockdown efficiency of target gene in F1 progeny compared to wild-type (yw) controlsc\t% knockdown efficiency of target gene in F1 progeny compared to UAS construct (parental line 1)c\t% knockdown efficiency of target gene in F1 progeny compared to GAL4 construct (parental line 2)c\tAverage % knockdown efficiency of target gene in F1 progeny compared to control fliesd\t \tUbiquitous (arm-Gal4)\tWhole adult body\tUck2\t86 ± 4\t90 ± 5\t89 ± 9\t88 ± 2\t \tWhole adult body\tsan\t86 ± 2\t86 ±5\t78 ± 4\t83 ± 5\t \tHemocytes (Hml-Gal4)\tWhole adult body\tUck2\t76 ± 8\t85 ± 5\t73 ± 3\t79 ± 6\t \tWhole adult body\tsan\t61 ± 0\t59 ± 2\t66 ± 1\t62 ± 4\t \tFat Body (YP1-Gal4)\tWhole adult body\tUck2\t55 ± 1\t26 ± 9\t23 ± 1\t35 ±18\t \tWhole adult body\tsan\t46 ± 2\t28 ± 4\t52 ± 3\t42 ± 12\t \tFat body (YP1-Gal4)\tFat body, 3rd instar larvae\tUck2\t75\t85\t70\t77 ± 8\t \tFat body (YP1-Gal4)\tFat body, 3rd instar larvae\tsan\t79\t57\t62\t66 ± 12\t \t\nPercent (%) knockdown efficiency of target gene in RNAi flies (F1’s) compared to wild type and parental lines (UAS and GAL4 constructs).\nRNA was isolated from a pool of 10–12 whole flies or isolated fat bodies. Analysis of transcript level was done using qRT-PCR results as described in the ‘Materials and methods’.\nData presented represent the mean ± SD of one or 3 independent experiments.\nNumbers presented represent the mean ± SD of yw and parental fly lines 1 and 2 (columns 4–6).\nDetermination of off-target silencing in wings, eyes, and bodya,b.\nTissues in which the target gene was knocked down\tExperiment\tTarget gene\t% knockdown efficiency of target gene in F1 progeny compared to wild-type (yw) controlsc\t% knockdown efficiency of target gene in F1 progeny compared to UAS construct (parental line 1)c\t% knockdown efficiency of target gene in F1 progeny compared to GAL4 construct (parental line 2)c\tAverage % knockdown efficiency of target gene in F1 progeny compared to control fliesd\t \tWings (MS1096-GAL4)\t1\tUck2\t81 ±2\t66 ± 6\t81 ± 7\t76 ± 9\t \t1\tsan\t77 ± 7\t82 ± 22\t86 ± 14\t82 ± 5\t \tBody (MS1096-GAL4)\t1\tUck2\t−26 ± 11\t−8 ± 3\t11 ± 2\t−8 ± 19\t \t1\tsan\t−41\t17\t20\t−1 ± 34\t \tWhole heads (Gmr-GAL4)\t2\tUck2\t86 ± 4\t88 ± 5\t89 ± 9\t88 ± 2\t \t2\tsan\t57 ± 2\t85 ±7\t81 ± 7\t74 ±15\t \tBody (Gmr-GAL4)\t2\tUck2\t23 ± 4\t12 ± 3\t8 ± 3\t14 ± 8\t \t2\tsan\t10 ± 0\t25 ± 6\t9 ± 3\t15 ± 10\t \tSalivary glands (Fhk-GAL4)\t3\tUck2\t92\t97\t96\t95 ± 2\t \t3\tsan\t93\t96\t82\t90 ± 6\t \tBody (Fhk-GAL4)\t3\tUck2\t16\t32\t36\t28 ± 9\t \t3\tsan\t18\t22\t30\t23 ± 5\t \t\nComparison of knockdown efficiency of target genes in F1 RNAi flies in wings compared to whole body (without wings) generated using MS1096-GAL4 flies (Experiment 1), whole heads compared to whole-body tissue (abdomen and thorax) generated using Gmr-GAL4 flies (Experiment 2), or salivary glands from 3rd instar larvae compared to whole-body tissue (without salivary glands) generated using Fhk- GAL4 flies (Experiment 2) in comparison to wild type and parental lines (UAS and GAL4 constructs).\nAnalysis of transcript level was done using qRT-PCR as described in the ‘Materials and methods’. Negative numbers indicate higher transcript levels.\nNumbers presented represent the mean ± SD of one or 3 independent experiments.\nNumbers presented represent the mean ± SD of yw and parental lines 1 and 2 (columns 4–6).",
         "id": "3558598",
         "infons": {
           "license": "author_manuscript"
         },
         "passages": [
           {
-            "offset": 0,
+            "annotations": [],
             "infons": {
               "article-id_doi": "10.1016/j.ijmm.2012.12.002",
               "article-id_manuscript": "NIHMS430600",
@@ -31,442 +30,442 @@
               "volume": "303",
               "year": "2014"
             },
-            "text": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ehrlichia chaffeensis replication sites in adult Drosophila melanogaster"
           },
           {
-            "offset": 73,
+            "annotations": [],
             "infons": {
               "section_type": "ABSTRACT",
               "type": "abstract"
             },
-            "text": "Ehrlichia chaffeensis is a Gram-negative, obligate intracellular bacterium which causes the tick-borne disease human monocytic ehrlichiosis. In vertebrates, E. chaffeensis replicates in monocytes and macrophages. However, no clear cell or tissue tropism has been defined in arthropods. Our group identified two host genes that control E. chaffeensis replication and infection in vivo in Drosophila, Uridine cytidine kinase and separation anxiety. Using the UAS-GAL4 RNAi system, we generated F1 flies (UAS-gene of interest RNAi x tissue-GAL4 flies) that have Uck2 or san silenced in ubiquitous or tissue-specific fashion. When Uck2 or san were suppressed in the hemocytes or in the fat body, E. chaffeensis replicated poorly and caused significantly less severe infections. Silencing of these genes in the eyes, wings, or the salivary glands did not impact fly susceptibility or bacterial replication. Our data suggest that in Drosophila, E. chaffeensis replicates within the hemocytes, the insect homolog of mammalian macrophages, and in the fat body, the liver homolog of mammals.",
+            "offset": 73,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ehrlichia chaffeensis is a Gram-negative, obligate intracellular bacterium which causes the tick-borne disease human monocytic ehrlichiosis. In vertebrates, E. chaffeensis replicates in monocytes and macrophages. However, no clear cell or tissue tropism has been defined in arthropods. Our group identified two host genes that control E. chaffeensis replication and infection in vivo in Drosophila, Uridine cytidine kinase and separation anxiety. Using the UAS-GAL4 RNAi system, we generated F1 flies (UAS-gene of interest RNAi x tissue-GAL4 flies) that have Uck2 or san silenced in ubiquitous or tissue-specific fashion. When Uck2 or san were suppressed in the hemocytes or in the fat body, E. chaffeensis replicated poorly and caused significantly less severe infections. Silencing of these genes in the eyes, wings, or the salivary glands did not impact fly susceptibility or bacterial replication. Our data suggest that in Drosophila, E. chaffeensis replicates within the hemocytes, the insect homolog of mammalian macrophages, and in the fat body, the liver homolog of mammals."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "INTRO",
+              "type": "title_1"
+            },
             "offset": 1156,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "title_1"
-            },
-            "text": "Introduction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Introduction"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "INTRO",
+              "type": "paragraph"
+            },
             "offset": 1169,
+            "relations": [],
+            "sentences": [],
+            "text": "Human monocytic ehrlichiosis (HME) is a tick-borne, zoonotic disease caused by the Gram-negative, obligate intracellular bacterium, Ehrlichia chaffeensis. E. chaffeensis is primarily vectored by Amblyomma americanum (lone star tick) and is transmitted transstadially in ticks. A. americanum has a 3-host life cycle. For progression from one stage to the next (larva to nymph to adult), the tick requires a vertebrate blood meal. The major natural reservoir of E. chaffeensis in the United States is white-tailed deer (Odocoileus virginianus). However, several other vertebrates, too, act as reservoirs including domestic dog, domestic goat, white-footed mouse, red fox, raccoon, and coyote. Humans can also become accidental hosts when bitten by ticks. In humans, the bacteria are monocytotropic, meaning they are primarily found in monocytes and macrophages, and there is a good understanding of where the bacteria replicate. Although it is clear that ticks can transmit Ehrlichia organisms to vertebrate hosts, and Ehrlichia bacteria have been detected in the salivary glands microscopically and by PCR, it is less clear about bacteria replication in ticks. Although genetic tools for working with ticks are currently being developed, the available tools do not begin to approach those that are available in other arthropods such as Drosophila melanogaster."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Human monocytic ehrlichiosis (HME) is a tick-borne, zoonotic disease caused by the Gram-negative, obligate intracellular bacterium, Ehrlichia chaffeensis. E. chaffeensis is primarily vectored by Amblyomma americanum (lone star tick) and is transmitted transstadially in ticks. A. americanum has a 3-host life cycle. For progression from one stage to the next (larva to nymph to adult), the tick requires a vertebrate blood meal. The major natural reservoir of E. chaffeensis in the United States is white-tailed deer (Odocoileus virginianus). However, several other vertebrates, too, act as reservoirs including domestic dog, domestic goat, white-footed mouse, red fox, raccoon, and coyote. Humans can also become accidental hosts when bitten by ticks. In humans, the bacteria are monocytotropic, meaning they are primarily found in monocytes and macrophages, and there is a good understanding of where the bacteria replicate. Although it is clear that ticks can transmit Ehrlichia organisms to vertebrate hosts, and Ehrlichia bacteria have been detected in the salivary glands microscopically and by PCR, it is less clear about bacteria replication in ticks. Although genetic tools for working with ticks are currently being developed, the available tools do not begin to approach those that are available in other arthropods such as Drosophila melanogaster.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 2529,
-            "infons": {
-              "section_type": "INTRO",
-              "type": "paragraph"
-            },
-            "text": "In adult D. melanogaster, hemocytes contribute to host immune defenses against E. chaffeensis. In vertebrates, monocytes and macrophages contribute to host resistance even though the bacteria are monocytotropic. Our group has discovered that D. melanogaster genes, separation anxiety (san) and Uridine cytidine kinase 2 (Uck2), are required for E. chaffeensis infections in flies. Flies carrying mutations in the coding regions of these genes do not support infection after needle injection. Therefore, to see if bacterial replication in arthropods parallels bacterial replication in vertebrates after needle injection, we took advantage of Drosophila UAS-GAL4 RNAi system that allowed for tissue-specific silencing of san and Uck2 to determine host sites of bacterial replication. Here, we show that similar to vertebrate hosts, in Drosophila the bacteria require optimal host conditions (i.e. expression of Uck2 or san) in the immune tissues, hemocytes, and fat body, for optimal replication.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In adult D. melanogaster, hemocytes contribute to host immune defenses against E. chaffeensis. In vertebrates, monocytes and macrophages contribute to host resistance even though the bacteria are monocytotropic. Our group has discovered that D. melanogaster genes, separation anxiety (san) and Uridine cytidine kinase 2 (Uck2), are required for E. chaffeensis infections in flies. Flies carrying mutations in the coding regions of these genes do not support infection after needle injection. Therefore, to see if bacterial replication in arthropods parallels bacterial replication in vertebrates after needle injection, we took advantage of Drosophila UAS-GAL4 RNAi system that allowed for tissue-specific silencing of san and Uck2 to determine host sites of bacterial replication. Here, we show that similar to vertebrate hosts, in Drosophila the bacteria require optimal host conditions (i.e. expression of Uck2 or san) in the immune tissues, hemocytes, and fat body, for optimal replication."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_1"
+            },
             "offset": 3524,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_1"
-            },
-            "text": "Materials and methods",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Materials and methods"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 3546,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Cell lines and E. chaffeensis infections",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Cell lines and E. chaffeensis infections"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 3587,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "E. chaffeensis (Arkansas isolate) was propagated in DH82 cells (American Type Culture collection, #CRL-10389, Rockville, Md.). The DH82 cells were grown in Eagle’s minimal essential medium supplemented with 3.5% fetal bovine serum (Atlanta Biologicals, Atlanta, GA), 3.5% NuSerum (BD, Franklin Lakes, NJ), and Glutamine plus (2 mM, Atlanta Biologicals) (EMEM7). Cells were grown at 37°C in an 8% CO2/92% air atmosphere. The level of infection was determined by examining cyto-centrifuged cells stained with Dif-Quik stain (Fisher Scientific Company, Kalamazoo, MI). When more than 80% of cells were infected, the cells were removed with a cell scraper and frozen at −80°C in cryogenic vials. Bacteria numbers were quantified using a TaqMan-based quantitative reverse transcriptase PCR (qRT-PCR) assay as described below. Purification of host cell-free bacteria was carried out as follows. Cells were scraped from tissue culture dishes. The recovered infected cells were placed in a 50-ml, sterile centrifuge tube and shaken with glass beads. The preparation was centrifuged at 600 × g for 20 min. The supernatant with host cell-free bacteria was transferred into a sterile tube and centrifuged at 15,000 × g for 20 min. The bacterial pellet was resuspended in sterile phosphate-buffered saline (PBS) mixed with blue food dye at a ratio of 0.6 ml dye for every 1 ml of PBS to help us visualize the inoculum during fly injections. Most flies were injected with 6000 bacteria per fly, however, some early experiments were done with 1500 bacteria per fly. Although the severity of infections was different with the different inocula, the experimental trends were similar.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "E. chaffeensis (Arkansas isolate) was propagated in DH82 cells (American Type Culture collection, #CRL-10389, Rockville, Md.). The DH82 cells were grown in Eagle’s minimal essential medium supplemented with 3.5% fetal bovine serum (Atlanta Biologicals, Atlanta, GA), 3.5% NuSerum (BD, Franklin Lakes, NJ), and Glutamine plus (2 mM, Atlanta Biologicals) (EMEM7). Cells were grown at 37°C in an 8% CO2/92% air atmosphere. The level of infection was determined by examining cyto-centrifuged cells stained with Dif-Quik stain (Fisher Scientific Company, Kalamazoo, MI). When more than 80% of cells were infected, the cells were removed with a cell scraper and frozen at −80°C in cryogenic vials. Bacteria numbers were quantified using a TaqMan-based quantitative reverse transcriptase PCR (qRT-PCR) assay as described below. Purification of host cell-free bacteria was carried out as follows. Cells were scraped from tissue culture dishes. The recovered infected cells were placed in a 50-ml, sterile centrifuge tube and shaken with glass beads. The preparation was centrifuged at 600 × g for 20 min. The supernatant with host cell-free bacteria was transferred into a sterile tube and centrifuged at 15,000 × g for 20 min. The bacterial pellet was resuspended in sterile phosphate-buffered saline (PBS) mixed with blue food dye at a ratio of 0.6 ml dye for every 1 ml of PBS to help us visualize the inoculum during fly injections. Most flies were injected with 6000 bacteria per fly, however, some early experiments were done with 1500 bacteria per fly. Although the severity of infections was different with the different inocula, the experimental trends were similar."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 5263,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "D. melanogaster",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "D. melanogaster"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 5279,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "D. melanogaster flies were raised on standard dextrose/molasses/yeast medium at 18–29°C. The following fly lines were used: yellow white (yw) and arm-GAL4, Hml-GAL4, YP1-GAL4, MS1096-GAL4, Gmr-GAL4, Fhk-GAL4, UAS-Uck2RNAi (w[1118]; P{GD2761}v16719)and UAS-sanRNAi (w[1118]; P{GD7580}v31742). The yw fly line was maintained at Kansas State University and used as a wild type in these experiments. The armadillo (arm)-Gal fly line was obtained from Joan Hooper (University of Colorado, Anchutz Medical campus, Denver, CO). The Fhk-GAL4 and YP1-GAL4 were obtained from Tony Ip (The University of Massachusetts Medical School, Worcester, MA). The Hml-GAL4 fly line was obtained from Michael Galko (MD Anderson Cancer Center, Houston, TX). The MS1096 and Gmr-GAL4 fly lines were obtained from the Bloomington Drosophila Stock Center at Indiana University, Bloomington, IN. UAS-dsRNA transgenic fly lines were obtained from the Vienna Drosophila RNAi Center (VDRC). Five to seven virgin females carrying the GAL4 promoter were crossed with 3–4 males carrying different UAS-dsRNA transgenes to generate F1 flies that had tissue-specific or ubiquitous knockdown of Uck2 or san genes.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "D. melanogaster flies were raised on standard dextrose/molasses/yeast medium at 18–29°C. The following fly lines were used: yellow white (yw) and arm-GAL4, Hml-GAL4, YP1-GAL4, MS1096-GAL4, Gmr-GAL4, Fhk-GAL4, UAS-Uck2RNAi (w[1118]; P{GD2761}v16719)and UAS-sanRNAi (w[1118]; P{GD7580}v31742). The yw fly line was maintained at Kansas State University and used as a wild type in these experiments. The armadillo (arm)-Gal fly line was obtained from Joan Hooper (University of Colorado, Anchutz Medical campus, Denver, CO). The Fhk-GAL4 and YP1-GAL4 were obtained from Tony Ip (The University of Massachusetts Medical School, Worcester, MA). The Hml-GAL4 fly line was obtained from Michael Galko (MD Anderson Cancer Center, Houston, TX). The MS1096 and Gmr-GAL4 fly lines were obtained from the Bloomington Drosophila Stock Center at Indiana University, Bloomington, IN. UAS-dsRNA transgenic fly lines were obtained from the Vienna Drosophila RNAi Center (VDRC). Five to seven virgin females carrying the GAL4 promoter were crossed with 3–4 males carrying different UAS-dsRNA transgenes to generate F1 flies that had tissue-specific or ubiquitous knockdown of Uck2 or san genes."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 6460,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "RNA extraction",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "RNA extraction"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 6475,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "The TriReagent (Molecular Research Center, Cincinnati, OH) RNA extraction method, as was previously described by our group, was used to extract RNA from flies or host cell-free bacteria. Pelleted bacteria or fly homogenates were resuspended in 1 ml of TriReagent. Preparations were transferred to 2.0 ml, Heavy Phase Lock Gel tubes (5 Prime/Eppendorf, Westbury, New York; #2302830). Three hundred microliters (300 μl) of chloroform were added, and the mixture was vortexed for 15 s. The samples were centrifuged at 12,000 × g for 10 min at 4°C, and the aqueous phase was transferred to clean 1.5 ml tubes. Five hundred microliters (500 μl) of isopropanol were added, and RNA was precipitated at −20°C for 24 h. Samples were subsequently centrifuged at 12,000 × g for 10 min at 4°C. The RNA pellet was washed with 1 ml of 70% ethanol, and samples were centrifuged at 7400 × g for 5 min at 4°C. The 70% ethanol was decanted from the pellet, and residual ethanol was allowed to evaporate for 5 min. RNA was resuspended in 50 μl of nuclease-free water. RNA concentrations were determined spectrophotometrically (NanoDrop Technologies, Wilmington, DE).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The TriReagent (Molecular Research Center, Cincinnati, OH) RNA extraction method, as was previously described by our group, was used to extract RNA from flies or host cell-free bacteria. Pelleted bacteria or fly homogenates were resuspended in 1 ml of TriReagent. Preparations were transferred to 2.0 ml, Heavy Phase Lock Gel tubes (5 Prime/Eppendorf, Westbury, New York; #2302830). Three hundred microliters (300 μl) of chloroform were added, and the mixture was vortexed for 15 s. The samples were centrifuged at 12,000 × g for 10 min at 4°C, and the aqueous phase was transferred to clean 1.5 ml tubes. Five hundred microliters (500 μl) of isopropanol were added, and RNA was precipitated at −20°C for 24 h. Samples were subsequently centrifuged at 12,000 × g for 10 min at 4°C. The RNA pellet was washed with 1 ml of 70% ethanol, and samples were centrifuged at 7400 × g for 5 min at 4°C. The 70% ethanol was decanted from the pellet, and residual ethanol was allowed to evaporate for 5 min. RNA was resuspended in 50 μl of nuclease-free water. RNA concentrations were determined spectrophotometrically (NanoDrop Technologies, Wilmington, DE)."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 7635,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Quantification of bacterial numbers for infection/injection and in infected flies",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Quantification of bacterial numbers for infection/injection and in infected flies"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 7717,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "RNA from host cell-free Ehrlichia was extracted as described above. A TaqMan-based, real-time reverse transcriptase PCR (RT-PCR) was used to quantify bacterial numbers. A total of 500–1000 ng of RNA was used for each reaction. Real-time quantitative RT-PCR (qRT-PCR) was performed using the Invitrogen’s One-Step Platinum qRT-PCR kit (#11732) in a Cepheid Smart Cycler (Cepheid, Sunnyvale, CA). E. chaffeensis RNA was detected using primers specific for the 16S ribosomal RNA gene (NCBI Accession # M73222). Custom-synthesized primers and probes were obtained from Integrated DNA Technologies (IDT, Coralville, IA) and were used. The sequence of the primers used were: forward primer, RRG3 (5′ CAATTGCTTATAACCTTTTGGTTATAAAT 3′) and reverse primer, RRG27 (5′ GTATTACCGCGGCTGCTGGCAC3′). Serial 10-fold dilutions of the RNA from infected DH82 cells were used to generate standard curves plotting log number of bacteria versus the corresponding Ct value. The cycling conditions used for the assay were: 48°C for 30 min, 94°C for 4 min, then 35 cycles of 94°C for 30 s, 52°C for 30 s, and 72°C for 1 min. To quantify bacterial numbers in injected/infected flies, anesthetized flies were transferred to 1.5-ml tubes (Kimble Chase, Vineland, NJ) and crushed with disposable pestles in 1 ml of TriReagent as previously described. Bacteria numbers were estimated from RNA samples using quantitative RT-PCR (qRT-PCR) as described above. Drosophila ribosomal protein 15a (NCBI Accession #NM_136772) gene was used as used as housekeeping. The sequence of the primers used were: forward primer (5′ TGGACCACGAGGAGGCTAGG 3′) and reverse primer (5′ GTTGGTGCATGGTCGGTGA 3′) and Taqman probe (5′-56-FAM/TGGGAGGCAAAATTCTCGGCTTC/36-TAMsp-3′). The cycling conditions used for the assay were: 48°C for 45 min, 94°C for 2 min, and then 35 cycles of 94°C for 45 s, 50°C for 1 min, and 72°C for 1.5 min.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "RNA from host cell-free Ehrlichia was extracted as described above. A TaqMan-based, real-time reverse transcriptase PCR (RT-PCR) was used to quantify bacterial numbers. A total of 500–1000 ng of RNA was used for each reaction. Real-time quantitative RT-PCR (qRT-PCR) was performed using the Invitrogen’s One-Step Platinum qRT-PCR kit (#11732) in a Cepheid Smart Cycler (Cepheid, Sunnyvale, CA). E. chaffeensis RNA was detected using primers specific for the 16S ribosomal RNA gene (NCBI Accession # M73222). Custom-synthesized primers and probes were obtained from Integrated DNA Technologies (IDT, Coralville, IA) and were used. The sequence of the primers used were: forward primer, RRG3 (5′ CAATTGCTTATAACCTTTTGGTTATAAAT 3′) and reverse primer, RRG27 (5′ GTATTACCGCGGCTGCTGGCAC3′). Serial 10-fold dilutions of the RNA from infected DH82 cells were used to generate standard curves plotting log number of bacteria versus the corresponding Ct value. The cycling conditions used for the assay were: 48°C for 30 min, 94°C for 4 min, then 35 cycles of 94°C for 30 s, 52°C for 30 s, and 72°C for 1 min. To quantify bacterial numbers in injected/infected flies, anesthetized flies were transferred to 1.5-ml tubes (Kimble Chase, Vineland, NJ) and crushed with disposable pestles in 1 ml of TriReagent as previously described. Bacteria numbers were estimated from RNA samples using quantitative RT-PCR (qRT-PCR) as described above. Drosophila ribosomal protein 15a (NCBI Accession #NM_136772) gene was used as used as housekeeping. The sequence of the primers used were: forward primer (5′ TGGACCACGAGGAGGCTAGG 3′) and reverse primer (5′ GTTGGTGCATGGTCGGTGA 3′) and Taqman probe (5′-56-FAM/TGGGAGGCAAAATTCTCGGCTTC/36-TAMsp-3′). The cycling conditions used for the assay were: 48°C for 45 min, 94°C for 2 min, and then 35 cycles of 94°C for 45 s, 50°C for 1 min, and 72°C for 1.5 min."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 9630,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Estimation of silencing efficiency",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Estimation of silencing efficiency"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 9665,
+            "relations": [],
+            "sentences": [],
+            "text": "To quantify the level of transcriptional silencing in RNAi flies, whole-flies or specific fly tissues were used to probe for specific transcript levels. Fly tissues were transferred to 1.5-ml tubes and crushed with disposable pestles in 1 ml of TriReagent for RNA extraction. Transcript levels of the gene of interest in F1 flies were assessed in the following whole-flies: ubiquitous (UAS-sanRNAi X arm-GAL4 or UAS-Uck2RNAi X arm-GAL4); hemocytes (UAS-sanRNAi X Hml-GAL4 or UAS-Uck2RNAi X Hml-GAL4); fat body (UAS-sanRNAi X YP1-GAL4 or UAS-Uck2RNAi X YP1-GAL4). For wing-specific and eye-specific knockdown, fly heads or wings were used. For fat body-specific and salivary gland-specific knockdown, fat body or salivary glands dissected from wandering third-instar larvae were used. RNA from homogenates was extracted as described above. Transcript levels were determined in RNA samples using qRT-PCR using the Invitrogen’s Superscript III Platinum SYBR Green One-Step qRT-PCR kit in. Primers were obtained from IDT. Drosophila ribosomal protein 15a was used as used as the housekeeping gene. Drosophila Uck2 (NCBI Accession #NM_142984) was detected using forward primer (5′ TGTCCATCAGTCAGGACAGC 3′) and reverse primer (5′ CTCCACTTTGTGGCCCTTTA 3′). The cycling conditions used for the assay were 48°C for 30 min, 95°C for 3 min, and then 45 cycles of 95°C for 15 s, 56°C for 30 s, and 60°C for 1 min. The Drosophila san gene (NCBI Accession # NM_080040) was detected using forward primer (5′ ACCCGAACAATCAGGAACAG 3′) and reverse primer (5′ ACCCGAACAATCAGGAACAG 3′). The cycling conditions used for the assay were 48°C for 30 min, 95°C for 3 min, and then 45 cycles of 95°C for 15 s, 50°C for 30 s, and 60°C for 1 min."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "To quantify the level of transcriptional silencing in RNAi flies, whole-flies or specific fly tissues were used to probe for specific transcript levels. Fly tissues were transferred to 1.5-ml tubes and crushed with disposable pestles in 1 ml of TriReagent for RNA extraction. Transcript levels of the gene of interest in F1 flies were assessed in the following whole-flies: ubiquitous (UAS-sanRNAi X arm-GAL4 or UAS-Uck2RNAi X arm-GAL4); hemocytes (UAS-sanRNAi X Hml-GAL4 or UAS-Uck2RNAi X Hml-GAL4); fat body (UAS-sanRNAi X YP1-GAL4 or UAS-Uck2RNAi X YP1-GAL4). For wing-specific and eye-specific knockdown, fly heads or wings were used. For fat body-specific and salivary gland-specific knockdown, fat body or salivary glands dissected from wandering third-instar larvae were used. RNA from homogenates was extracted as described above. Transcript levels were determined in RNA samples using qRT-PCR using the Invitrogen’s Superscript III Platinum SYBR Green One-Step qRT-PCR kit in. Primers were obtained from IDT. Drosophila ribosomal protein 15a was used as used as the housekeeping gene. Drosophila Uck2 (NCBI Accession #NM_142984) was detected using forward primer (5′ TGTCCATCAGTCAGGACAGC 3′) and reverse primer (5′ CTCCACTTTGTGGCCCTTTA 3′). The cycling conditions used for the assay were 48°C for 30 min, 95°C for 3 min, and then 45 cycles of 95°C for 15 s, 56°C for 30 s, and 60°C for 1 min. The Drosophila san gene (NCBI Accession # NM_080040) was detected using forward primer (5′ ACCCGAACAATCAGGAACAG 3′) and reverse primer (5′ ACCCGAACAATCAGGAACAG 3′). The cycling conditions used for the assay were 48°C for 30 min, 95°C for 3 min, and then 45 cycles of 95°C for 15 s, 50°C for 30 s, and 60°C for 1 min.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 11412,
+            "relations": [],
+            "sentences": [],
+            "text": "To calculate knockdown efficiency serial 10-fold dilutions of RNA and corresponding Ct values were used to plot standard curves (mean of 3 experiments). Primer efficiency was calculated using the following equation:  "
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "To calculate knockdown efficiency serial 10-fold dilutions of RNA and corresponding Ct values were used to plot standard curves (mean of 3 experiments). Primer efficiency was calculated using the following equation:  ",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 11630,
+            "relations": [],
+            "sentences": [],
+            "text": "Primer efficiency values were used to calculate the relative change in gene expression by the following equation:  "
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "METHODS",
               "type": "paragraph"
             },
-            "text": "Primer efficiency values were used to calculate the relative change in gene expression by the following equation:  ",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 11746,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Parental lines (UAS and GAL4 constructs) and yw flies served as normal controls and were set at 100% expression for the gene of interest. Relative level of gene expression in RNAi flies as compared to controls was calculated to estimate the knockdown efficiency.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Parental lines (UAS and GAL4 constructs) and yw flies served as normal controls and were set at 100% expression for the gene of interest. Relative level of gene expression in RNAi flies as compared to controls was calculated to estimate the knockdown efficiency."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 12009,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Infections",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Infections"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 12020,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Adult flies were used to assess the effect of gene knockdown on E. chaffeensis infections. Male and female flies were anesthetized on a CO2 anesthesia pad (Genesee Scientific, San Diego, CA; model# 59-119). Flies were injected in the thorax with 51 nl of sterile PBS-blue food dye solution or Ehrlichia resuspended in PBS-blue food dye solution. Injections were made in the abdomen of the fly with pulled glass capillary needles using a Nanoject II (Drummond Scientific Company, Broomall, PA). Following injection, flies were maintained in clean bottles with molasses/yeast caps. Survival was monitored daily for 4 days. Twenty flies were injected per treatment group per experiment with 3–4 independent experiments for survival data. Four to five flies were used to determine bacterial infection.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Adult flies were used to assess the effect of gene knockdown on E. chaffeensis infections. Male and female flies were anesthetized on a CO2 anesthesia pad (Genesee Scientific, San Diego, CA; model# 59-119). Flies were injected in the thorax with 51 nl of sterile PBS-blue food dye solution or Ehrlichia resuspended in PBS-blue food dye solution. Injections were made in the abdomen of the fly with pulled glass capillary needles using a Nanoject II (Drummond Scientific Company, Broomall, PA). Following injection, flies were maintained in clean bottles with molasses/yeast caps. Survival was monitored daily for 4 days. Twenty flies were injected per treatment group per experiment with 3–4 independent experiments for survival data. Four to five flies were used to determine bacterial infection."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "title_2"
+            },
             "offset": 12820,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "title_2"
-            },
-            "text": "Statistics",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Statistics"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "METHODS",
+              "type": "paragraph"
+            },
             "offset": 12831,
-            "infons": {
-              "section_type": "METHODS",
-              "type": "paragraph"
-            },
-            "text": "Survival data were analyzed for significance using the log-rank test of Kaplan Meier plots using Prism Graphpad software (La Jolla, CA). Data are presented as the mean ± standard error (SE) of independent experiments unless otherwise stated. P values of <0.05 were considered highly significant. Bacterial numbers were analyzed by Student’s t test (two-tailed, general) by using the StatMost Statistical Package (Data XIOM, Los Angeles, CA, USA). Unless indicated, data are presented as the mean ± standard error (SE) of independent experiments.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Survival data were analyzed for significance using the log-rank test of Kaplan Meier plots using Prism Graphpad software (La Jolla, CA). Data are presented as the mean ± standard error (SE) of independent experiments unless otherwise stated. P values of <0.05 were considered highly significant. Bacterial numbers were analyzed by Student’s t test (two-tailed, general) by using the StatMost Statistical Package (Data XIOM, Los Angeles, CA, USA). Unless indicated, data are presented as the mean ± standard error (SE) of independent experiments."
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_1"
+            },
             "offset": 13381,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_1"
-            },
-            "text": "Results",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Results"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "title_2"
+            },
             "offset": 13389,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "title_2"
-            },
-            "text": "Uck2 and san are required for in vivo E. chaffeensis replication in adult D. melanogaster",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Uck2 and san are required for in vivo E. chaffeensis replication in adult D. melanogaster"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 13479,
+            "relations": [],
+            "sentences": [],
+            "text": "E. chaffeensis is capable of infecting and completing its life cycle in Drosophila S2 cells and adult flies. Recent work by our group found that several host genes control the replication of Ehrlichia in vivo. We found that flies carrying mutations in coding regions of these genes were poorly infected by E. chaffeensis. In particular, 2 genes that are relevant to humans and ticks were chosen for this study, Uck2 and san. Uck2 functions as a uridine-cytidine kinase and is orthologous to the mammalian UCK2 gene and the Ixodes scapularis SCW003812 gene. san is the ortholog to the human NAA50 gene and encodes the N(α)-acetyltransferase 50 protein. It is orthologous to the I. scapularis SCW002560 gene."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "E. chaffeensis is capable of infecting and completing its life cycle in Drosophila S2 cells and adult flies. Recent work by our group found that several host genes control the replication of Ehrlichia in vivo. We found that flies carrying mutations in coding regions of these genes were poorly infected by E. chaffeensis. In particular, 2 genes that are relevant to humans and ticks were chosen for this study, Uck2 and san. Uck2 functions as a uridine-cytidine kinase and is orthologous to the mammalian UCK2 gene and the Ixodes scapularis SCW003812 gene. san is the ortholog to the human NAA50 gene and encodes the N(α)-acetyltransferase 50 protein. It is orthologous to the I. scapularis SCW002560 gene.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 14190,
+            "relations": [],
+            "sentences": [],
+            "text": "In vertebrates, E. chaffeensis exhibits a tropism for monocytes and macrophages. However, no clear requirements for cell or tissue tropism have been defined in ticks or other arthropods. To investigate where E. chaffeensis replicates in arthropods, we employed whole-organism in vivo RNAi in D. melanogaster to do tissue-specific inactivation of Uck2 and san using a fly collection that consists of expressed RNAi transgenes where the inverted repeats produce a dsRNA hairpin that produces the RNAi effect. These tools allowed us to silence Uck2 and san genes in a tissue-specific manner through the binary GAL4-UAS system to determine what tissues must be permissive (via their expression of Uck2 or san) for E. chaffeensis replication."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "In vertebrates, E. chaffeensis exhibits a tropism for monocytes and macrophages. However, no clear requirements for cell or tissue tropism have been defined in ticks or other arthropods. To investigate where E. chaffeensis replicates in arthropods, we employed whole-organism in vivo RNAi in D. melanogaster to do tissue-specific inactivation of Uck2 and san using a fly collection that consists of expressed RNAi transgenes where the inverted repeats produce a dsRNA hairpin that produces the RNAi effect. These tools allowed us to silence Uck2 and san genes in a tissue-specific manner through the binary GAL4-UAS system to determine what tissues must be permissive (via their expression of Uck2 or san) for E. chaffeensis replication.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 14928,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "To determine whether Uck2 and san could be efficiently silenced using the UAS-GAL4 system, we individually crossed transgenic flies carrying inverted repeats of the Uck2 and san genes under the control of UAS to flies carrying armadillo (arm)-GAL4 (ubiquitous GAL4 insertions) to silence Uck2 or san in the F1 progeny. We consistently averaged 78% or better transcript reduction of Uck2 or san in the RNAi flies in comparison to wild-type flies and parental lines using qRT-PCR (Table 1). When wild-type flies, parental line flies, and Uck2- and san-RNAi flies were experimentally challenged with E. chaffeensis in the abdomen, we observed that there was approximately 48% death in wild-type and parental lines after 96 h. This rate of death was significantly increased compared to control flies injected with PBS or flies which had ubiquitous tissue expression of Uck2-or san-RNAi (Fig. 1A and 1B) (P<0.05, log rank test). When we assessed the effect of infection on RNAi flies where Uck2 or san were knocked down ubiquitously, we detected significantly fewer bacteria at 96 hpi (P<0.05, t-test) compared to wild-type or parental fly controls (Fig. 2A and 2B). These experiments confirmed that the UAS-GAL4 technique could be used to efficiently silence Uck2 and san in adult flies and that E. chaffeensis infection in flies was dependent on functional Uck2 and san genes.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "To determine whether Uck2 and san could be efficiently silenced using the UAS-GAL4 system, we individually crossed transgenic flies carrying inverted repeats of the Uck2 and san genes under the control of UAS to flies carrying armadillo (arm)-GAL4 (ubiquitous GAL4 insertions) to silence Uck2 or san in the F1 progeny. We consistently averaged 78% or better transcript reduction of Uck2 or san in the RNAi flies in comparison to wild-type flies and parental lines using qRT-PCR (Table 1). When wild-type flies, parental line flies, and Uck2- and san-RNAi flies were experimentally challenged with E. chaffeensis in the abdomen, we observed that there was approximately 48% death in wild-type and parental lines after 96 h. This rate of death was significantly increased compared to control flies injected with PBS or flies which had ubiquitous tissue expression of Uck2-or san-RNAi (Fig. 1A and 1B) (P<0.05, log rank test). When we assessed the effect of infection on RNAi flies where Uck2 or san were knocked down ubiquitously, we detected significantly fewer bacteria at 96 hpi (P<0.05, t-test) compared to wild-type or parental fly controls (Fig. 2A and 2B). These experiments confirmed that the UAS-GAL4 technique could be used to efficiently silence Uck2 and san in adult flies and that E. chaffeensis infection in flies was dependent on functional Uck2 and san genes."
           },
           {
-            "offset": 16302,
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "title_2"
             },
-            "text": "E. chaffeensis replication in adult D. melanogaster",
+            "offset": 16302,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "E. chaffeensis replication in adult D. melanogaster"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "RESULTS",
+              "type": "paragraph"
+            },
             "offset": 16354,
+            "relations": [],
+            "sentences": [],
+            "text": "Ubiquitous tissue silencing of Uck2 and san impaired E. chaffeensis infection in adult D. melanogaster. Therefore, we screened an array of tissues to determine if Uck2 or san expression were necessary in those tissues for bacterial replication. In vertebrates, E. chaffeensis exhibits a tropism for monocytes and macrophages. Therefore, we hypothesized that E. chaffeensis replicates in hemocytes, the insect equivalent to mammalian macrophages. To test this hypothesis, we silenced Uck2 and san in the eyes, wings, hemocytes, fat body, and salivary glands in a tissue-specific manner in adult flies. We used eye-specific (Gmr-GAL4), wing-specific (MS1096-GAL4), hemocyte-specific (Hml-GAL4), fat body-specific (YP1-Gal), or salivary gland-specific (Fhk-GAL4) GAL4 fly lines to generate F1 flies. To confirm the tissue-specific knockdown of targeted genes, we dissected whole heads and wings from adult flies to assess eye-specific and wing-specific adult knockdown. We observed an average ≥74% reduction in transcript levels of Uck2 and san in whole heads or wings of F1 transgenic flies using eye- or wing-specific GAL4 constructs (Table 2). In comparison, the average knockdown of Uck2 or san in the whole body minus the respective eyes or wings never averaged >15% knockdown (Table 2). These data confirmed the tissue-specific targeting of both Uck2 and san genes."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "Ubiquitous tissue silencing of Uck2 and san impaired E. chaffeensis infection in adult D. melanogaster. Therefore, we screened an array of tissues to determine if Uck2 or san expression were necessary in those tissues for bacterial replication. In vertebrates, E. chaffeensis exhibits a tropism for monocytes and macrophages. Therefore, we hypothesized that E. chaffeensis replicates in hemocytes, the insect equivalent to mammalian macrophages. To test this hypothesis, we silenced Uck2 and san in the eyes, wings, hemocytes, fat body, and salivary glands in a tissue-specific manner in adult flies. We used eye-specific (Gmr-GAL4), wing-specific (MS1096-GAL4), hemocyte-specific (Hml-GAL4), fat body-specific (YP1-Gal), or salivary gland-specific (Fhk-GAL4) GAL4 fly lines to generate F1 flies. To confirm the tissue-specific knockdown of targeted genes, we dissected whole heads and wings from adult flies to assess eye-specific and wing-specific adult knockdown. We observed an average ≥74% reduction in transcript levels of Uck2 and san in whole heads or wings of F1 transgenic flies using eye- or wing-specific GAL4 constructs (Table 2). In comparison, the average knockdown of Uck2 or san in the whole body minus the respective eyes or wings never averaged >15% knockdown (Table 2). These data confirmed the tissue-specific targeting of both Uck2 and san genes.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 17725,
+            "relations": [],
+            "sentences": [],
+            "text": "We used whole adult flies to assess hemocyte-specific knockdown using the hemocyte-specific GAL4 line to express Uck2 and san-RNAi transgenes specifically in hemocytes. We found that RNA levels were reduced by an average of 79±6% and 62±4%, respectively, when compared to experimental controls (Table 1). Because the Hml-Gal4 line is highly specific for expression in the hemocytes, we can reasonably assume that the reduction in RNA levels in these whole flies is due to specific knockdown of the transcript in hemocytes and not other tissues. The fat body and salivary glands are difficult to dissect from adult flies. Since the RNAi effect is applicable at all stages of the Drosophila lifespan, we isolated the fat bodies and salivary glands from 3rd instar larvae to assess the silencing efficiency specifically in the fat body and salivary glands of our RNAi flies. In the dissected fat body from fat body-specific Uck2 and san-RNAi third instar larvae, there was an average of 77±8% and 66±12% reduction in transcript levels, respectively, compared to dissected fat body from 3rd instar control larvae from wild-type or parental flies (Table 1). Similarly, transcript levels in dissected salivary glands from salivary gland-specific Uck2 and san-RNAi 3rd instar larvae showed that RNA levels were reduced >90% in comparison to dissected salivary glands from control larvae from wild-type or parental flies (Table 2). In contrast, there was <29% knockdown of san or Uck2 in RNA samples extracted from non-salivary gland tissue isolated from 3rd instar larvae in comparison to non-salivary gland tissue from control larvae from wild-type or parental flies (Table 2)."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "RESULTS",
               "type": "paragraph"
             },
-            "text": "We used whole adult flies to assess hemocyte-specific knockdown using the hemocyte-specific GAL4 line to express Uck2 and san-RNAi transgenes specifically in hemocytes. We found that RNA levels were reduced by an average of 79±6% and 62±4%, respectively, when compared to experimental controls (Table 1). Because the Hml-Gal4 line is highly specific for expression in the hemocytes, we can reasonably assume that the reduction in RNA levels in these whole flies is due to specific knockdown of the transcript in hemocytes and not other tissues. The fat body and salivary glands are difficult to dissect from adult flies. Since the RNAi effect is applicable at all stages of the Drosophila lifespan, we isolated the fat bodies and salivary glands from 3rd instar larvae to assess the silencing efficiency specifically in the fat body and salivary glands of our RNAi flies. In the dissected fat body from fat body-specific Uck2 and san-RNAi third instar larvae, there was an average of 77±8% and 66±12% reduction in transcript levels, respectively, compared to dissected fat body from 3rd instar control larvae from wild-type or parental flies (Table 1). Similarly, transcript levels in dissected salivary glands from salivary gland-specific Uck2 and san-RNAi 3rd instar larvae showed that RNA levels were reduced >90% in comparison to dissected salivary glands from control larvae from wild-type or parental flies (Table 2). In contrast, there was <29% knockdown of san or Uck2 in RNA samples extracted from non-salivary gland tissue isolated from 3rd instar larvae in comparison to non-salivary gland tissue from control larvae from wild-type or parental flies (Table 2).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 19401,
-            "infons": {
-              "section_type": "RESULTS",
-              "type": "paragraph"
-            },
-            "text": "After confirming tissue-specific RNAi silencing effect of Uck2 and san, control and RNAi flies were experimentally challenged with E. chaffeensis. We observed that eye- (Fig. 3A and 3B), salivary gland- (Fig. 3C and 3D), and wing- (Fig. 3E and 3F) specific knockdown of Uck2 and san did not impact fly survival. These RNAi flies were as susceptible to E. chaffeensis infection as wild-type and parental controls (Fig. 3; P>0.05, log-rank tests). In contrast, hemocyte- and fat body-specific Uck2- (Fig. 4A and 4C)and san- (Fig. 4B and 4D) RNAi flies survived significantly better (P<0.05, log-rank test) than the control flies after infection with Ehrlichia (Fig. 4A–D). Ninety-six hours after infection, >80% of hemocyte-specific Uck2-RNAi and San-RNAi flies survived in comparison to an average of 50% of wild-type and parental control flies. When we assessed F1 RNAi flies for bacteria load, there were no differences in bacteria number in eye-specific (Fig. 5A and 5B), salivary gland-specific (Fig. 5C and 5D), and wing-specific (Fig. 5E and 5F) Uck2 and san F1 RNAi flies compared to control flies (P>0.05, t-test). However, F1 RNAi flies with hemocyte-specific (Fig. 6A and 6B) or fat body-specific (Fig. 6C and 6D) knockdown of Uck2 or san had significantly fewer bacteria (P<0.05, t-test). At the 96-h time point, there were greater than 95% fewer bacteria in hemocyte-specific (Fig. 6A and 6B) or fat body-specific (Fig. 6C and 6D) Uck2- or san-RNAi flies, respectively, compared to controls.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "After confirming tissue-specific RNAi silencing effect of Uck2 and san, control and RNAi flies were experimentally challenged with E. chaffeensis. We observed that eye- (Fig. 3A and 3B), salivary gland- (Fig. 3C and 3D), and wing- (Fig. 3E and 3F) specific knockdown of Uck2 and san did not impact fly survival. These RNAi flies were as susceptible to E. chaffeensis infection as wild-type and parental controls (Fig. 3; P>0.05, log-rank tests). In contrast, hemocyte- and fat body-specific Uck2- (Fig. 4A and 4C)and san- (Fig. 4B and 4D) RNAi flies survived significantly better (P<0.05, log-rank test) than the control flies after infection with Ehrlichia (Fig. 4A–D). Ninety-six hours after infection, >80% of hemocyte-specific Uck2-RNAi and San-RNAi flies survived in comparison to an average of 50% of wild-type and parental control flies. When we assessed F1 RNAi flies for bacteria load, there were no differences in bacteria number in eye-specific (Fig. 5A and 5B), salivary gland-specific (Fig. 5C and 5D), and wing-specific (Fig. 5E and 5F) Uck2 and san F1 RNAi flies compared to control flies (P>0.05, t-test). However, F1 RNAi flies with hemocyte-specific (Fig. 6A and 6B) or fat body-specific (Fig. 6C and 6D) knockdown of Uck2 or san had significantly fewer bacteria (P<0.05, t-test). At the 96-h time point, there were greater than 95% fewer bacteria in hemocyte-specific (Fig. 6A and 6B) or fat body-specific (Fig. 6C and 6D) Uck2- or san-RNAi flies, respectively, compared to controls."
           },
           {
-            "offset": 20906,
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "title_1"
             },
-            "text": "Discussion",
+            "offset": 20906,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Discussion"
           },
           {
+            "annotations": [],
+            "infons": {
+              "section_type": "DISCUSS",
+              "type": "paragraph"
+            },
             "offset": 20917,
+            "relations": [],
+            "sentences": [],
+            "text": "E. chaffeensis is transmitted from ticks to vertebrate hosts when the tick takes a blood meal. One remaining question is where do the bacteria replicate in the tick? Because the genetic tools in ticks have not been developed to the same extent as they have in Drosophila, we addressed a more general question about where the bacteria replicate in dipteran arthropods. Indeed, this study provides insights about E. chaffeensis replication in arthropods. Our data confirm that Uck2 and san are needed for E. chaffeensis replication and support the hypothesis that the bacteria replicate in the hemocytes or the fat body in adult D. melanogaster. Infection was poorer in flies that had hemocyte- or fat body-specific knockdown of Uck2 or san. We concede that fruit flies and ticks have different life cycles, feeding habits, and environments, and this may not allow extrapolation of the results to the tick system. Nevertheless, this is a valuable study because it identifies sites where the bacteria replicate in a model arthropod system using experimental methods which would not have been possible in the tick system."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "E. chaffeensis is transmitted from ticks to vertebrate hosts when the tick takes a blood meal. One remaining question is where do the bacteria replicate in the tick? Because the genetic tools in ticks have not been developed to the same extent as they have in Drosophila, we addressed a more general question about where the bacteria replicate in dipteran arthropods. Indeed, this study provides insights about E. chaffeensis replication in arthropods. Our data confirm that Uck2 and san are needed for E. chaffeensis replication and support the hypothesis that the bacteria replicate in the hemocytes or the fat body in adult D. melanogaster. Infection was poorer in flies that had hemocyte- or fat body-specific knockdown of Uck2 or san. We concede that fruit flies and ticks have different life cycles, feeding habits, and environments, and this may not allow extrapolation of the results to the tick system. Nevertheless, this is a valuable study because it identifies sites where the bacteria replicate in a model arthropod system using experimental methods which would not have been possible in the tick system.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 22035,
+            "relations": [],
+            "sentences": [],
+            "text": "We demonstrated that E. chaffeensis replicated when Uck2 and san were expressed in hemocytes and the fat body, but not when these genes were silenced in those tissues. Silencing of Uck2 and san in the eyes, wings, or the salivary glands of adult D. melanogaster did not affect infection. Because of the tissue-specific knockdown of the genes in these tissues, the data suggest that bacterial replication occurs predominantly in the hemocytes and the fat body. These data are consistent with the vertebrate tropism for macrophages and monocytes. Hemocytes are the arthropod host equivalent of macrophages. The fat body is functionally equivalent to mammalian liver. These data are also consistent with the previous observation that Rickettsia rickettsii invade hemocytes in ixodid ticks. Previously, our group found that E. chaffeensis is capable of replicating in hemocyte-like phagocytic S2 cells. S2 cells have hemocyte-like properties and express a variety of hemocyte markers such as Hemolectin (Hml), Hemese (He), Drosophila scavenger receptor-CI (dSR-CI), and croquemort, a member of the CD36 superfamily. However, because these cells have combined properties of plasmatocytes and crystal cells, we could not conclude that they are hemocytes. We also found that E. chaffeensis labeled with the pH-sensitive dye pHrodo fluoresced red after injection into adult flies, presumably because they were in the low pH environment of the hemocytes. Therefore, these new in vivo data add to the growing evidence that E. chaffeensis is capable of replicating in the hemocytes of adult D. melanogaster. Furthermore, these data are consistent with the behavior of other intracellular pathogens which are capable of avoiding the phagocytic pathway and replicate within Drosophila hemocytes. These pathogens include Salmonella typhimurium, Listeria monocytogenes, Mycobacterium marinum, Legionella pneumophila, and Francisella tularensis."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "We demonstrated that E. chaffeensis replicated when Uck2 and san were expressed in hemocytes and the fat body, but not when these genes were silenced in those tissues. Silencing of Uck2 and san in the eyes, wings, or the salivary glands of adult D. melanogaster did not affect infection. Because of the tissue-specific knockdown of the genes in these tissues, the data suggest that bacterial replication occurs predominantly in the hemocytes and the fat body. These data are consistent with the vertebrate tropism for macrophages and monocytes. Hemocytes are the arthropod host equivalent of macrophages. The fat body is functionally equivalent to mammalian liver. These data are also consistent with the previous observation that Rickettsia rickettsii invade hemocytes in ixodid ticks. Previously, our group found that E. chaffeensis is capable of replicating in hemocyte-like phagocytic S2 cells. S2 cells have hemocyte-like properties and express a variety of hemocyte markers such as Hemolectin (Hml), Hemese (He), Drosophila scavenger receptor-CI (dSR-CI), and croquemort, a member of the CD36 superfamily. However, because these cells have combined properties of plasmatocytes and crystal cells, we could not conclude that they are hemocytes. We also found that E. chaffeensis labeled with the pH-sensitive dye pHrodo fluoresced red after injection into adult flies, presumably because they were in the low pH environment of the hemocytes. Therefore, these new in vivo data add to the growing evidence that E. chaffeensis is capable of replicating in the hemocytes of adult D. melanogaster. Furthermore, these data are consistent with the behavior of other intracellular pathogens which are capable of avoiding the phagocytic pathway and replicate within Drosophila hemocytes. These pathogens include Salmonella typhimurium, Listeria monocytogenes, Mycobacterium marinum, Legionella pneumophila, and Francisella tularensis.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 23965,
+            "relations": [],
+            "sentences": [],
+            "text": "The expression of Uck2 or san in the salivary glands of adult D. melanogaster was not necessary for E. chaffeensis infection. These findings were intriguing since A. phagocytophilum, a bacterium closely related to E. chaffeensis, and E. chaffeensis have been detected in the salivary glands of experimentally infected ticks. In our experiments, Drosophila were infected by needle injection in the abdomen; not the natural route of infection in a tick. Ticks acquire the infection from a vertebrate host during their blood meal. Thus, the dissemination of E. chaffeensis to assorted tissues may vary due to differences in route of infection. Interestingly, in ticks, needle injection does result in bacteria in the salivary glands. However, it is possible that salivary gland and host physiology may vary among arthropods depending on the life cycle. In nature, Drosophila live on yeast growing on decaying fruit and food. This could suggest that their salivary glands are better adapted to fight potential pathogenic microorganisms and extrapolation of the data from Drosophila to ticks needs to be done cautiously."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "The expression of Uck2 or san in the salivary glands of adult D. melanogaster was not necessary for E. chaffeensis infection. These findings were intriguing since A. phagocytophilum, a bacterium closely related to E. chaffeensis, and E. chaffeensis have been detected in the salivary glands of experimentally infected ticks. In our experiments, Drosophila were infected by needle injection in the abdomen; not the natural route of infection in a tick. Ticks acquire the infection from a vertebrate host during their blood meal. Thus, the dissemination of E. chaffeensis to assorted tissues may vary due to differences in route of infection. Interestingly, in ticks, needle injection does result in bacteria in the salivary glands. However, it is possible that salivary gland and host physiology may vary among arthropods depending on the life cycle. In nature, Drosophila live on yeast growing on decaying fruit and food. This could suggest that their salivary glands are better adapted to fight potential pathogenic microorganisms and extrapolation of the data from Drosophila to ticks needs to be done cautiously.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 25081,
+            "relations": [],
+            "sentences": [],
+            "text": "We observed 97% fewer bacteria 96 h post infection in fat body-specific Uck2 or san- F1 RNAi flies compared to wild-type and parental controls. Because there is tissue-specific knockdown in the fat body, some residual bacterial replication should occur in the hemocytes of the flies. Indeed, this might have been the case. In general, when one looks at the bacteria growth kinetics in tissues that are not affected by Uck2 or san knockdown (eyes, wings, salivary glands), bacterial numbers generally increase over time after infection (Fig. 5). In contrast, when Uck2 or san genes were silenced in hemocytes, bacteria failed to grow (Fig. 6A and 6B). However, when Uck2 or san genes were silenced specifically in the fat body, the bacteria growth kinetics showed an initial increase in bacterial numbers for 24 h that paralleled the growth of the bacteria in the parental (non-RNAi control) fly lines (Fig. 6A and 6B). Subsequently, the bacterial numbers were reduced (Fig. 6C and 6D). These data suggest that the bacteria were replicating during the early part of the infection in the hemocytes, but because the bacteria were not replicating in the fat body, the activation of the fly immune system was able to respond more effectively against E. chaffeensis than when the bacteria replicate in both hemocytes and the fat body. We have previously found that hemocytes in adult flies as well as toll and IMD defense pathways are actively involved in host defense against E. chaffeensis. Alternatively, the failure of bacteria to thrive even in the presence of functional Uck2 and san genes in hemocytes might be because there is coordination between the hemocytes and the fat body. Several observations indicate that hemocytes can signal to the fat body to regulate the humoral immune response. Thus, signaling between the hemocytes and other immunocompetent tissue such as the fat body may play a critical role in coordinating the cellular and humoral immune response to ensure efficient defense of the organism."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "We observed 97% fewer bacteria 96 h post infection in fat body-specific Uck2 or san- F1 RNAi flies compared to wild-type and parental controls. Because there is tissue-specific knockdown in the fat body, some residual bacterial replication should occur in the hemocytes of the flies. Indeed, this might have been the case. In general, when one looks at the bacteria growth kinetics in tissues that are not affected by Uck2 or san knockdown (eyes, wings, salivary glands), bacterial numbers generally increase over time after infection (Fig. 5). In contrast, when Uck2 or san genes were silenced in hemocytes, bacteria failed to grow (Fig. 6A and 6B). However, when Uck2 or san genes were silenced specifically in the fat body, the bacteria growth kinetics showed an initial increase in bacterial numbers for 24 h that paralleled the growth of the bacteria in the parental (non-RNAi control) fly lines (Fig. 6A and 6B). Subsequently, the bacterial numbers were reduced (Fig. 6C and 6D). These data suggest that the bacteria were replicating during the early part of the infection in the hemocytes, but because the bacteria were not replicating in the fat body, the activation of the fly immune system was able to respond more effectively against E. chaffeensis than when the bacteria replicate in both hemocytes and the fat body. We have previously found that hemocytes in adult flies as well as toll and IMD defense pathways are actively involved in host defense against E. chaffeensis. Alternatively, the failure of bacteria to thrive even in the presence of functional Uck2 and san genes in hemocytes might be because there is coordination between the hemocytes and the fat body. Several observations indicate that hemocytes can signal to the fat body to regulate the humoral immune response. Thus, signaling between the hemocytes and other immunocompetent tissue such as the fat body may play a critical role in coordinating the cellular and humoral immune response to ensure efficient defense of the organism.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 27095,
+            "relations": [],
+            "sentences": [],
+            "text": "Our results suggest that the tissue tropism of E. chaffeensis for phagocytic cells arose approximately 600 million years ago, since that is when mammals and dipterans last shared a common ancestor. Ticks and dipterans last shared a common ancestor approximately 500 million years ago. Therefore, one would expect the tropism for hemocytes to be similar in ticks. However, genetic drift could have occurred in the Ecdysozoa, Arthropoda, or later in the Chelicerata. There is 59.5% identity between D. melanogaster and I. scapularis Uck2 gene products and 83.6% identity between D. melanogaster and I. scapularis san gene products. Therefore, it is not clear, whether this tropism will also be seen in A. americanum, the vector of E. chaffeensis. Additional experiments are needed to confirm this hypothesis."
+          },
+          {
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "paragraph"
             },
-            "text": "Our results suggest that the tissue tropism of E. chaffeensis for phagocytic cells arose approximately 600 million years ago, since that is when mammals and dipterans last shared a common ancestor. Ticks and dipterans last shared a common ancestor approximately 500 million years ago. Therefore, one would expect the tropism for hemocytes to be similar in ticks. However, genetic drift could have occurred in the Ecdysozoa, Arthropoda, or later in the Chelicerata. There is 59.5% identity between D. melanogaster and I. scapularis Uck2 gene products and 83.6% identity between D. melanogaster and I. scapularis san gene products. Therefore, it is not clear, whether this tropism will also be seen in A. americanum, the vector of E. chaffeensis. Additional experiments are needed to confirm this hypothesis.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 27902,
-            "infons": {
-              "section_type": "DISCUSS",
-              "type": "paragraph"
-            },
-            "text": "In conclusion, we have used UAS-GAL4 RNAi system in D. melanogaster to show that functional Uck2 and san genes are required for in vivo E. chaffeensis replication. Moreover, we have successfully identified intracellular niches where E. chaffeensis replicates in dipteran arthopods; the hemocytes and fat body of adult D. melanogaster. We hope that understanding the tissue targets of E. chaffeensis in arthropods will help in drug design and RNAi therapeutics for HME and other tick- and arthropod-borne diseases.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "In conclusion, we have used UAS-GAL4 RNAi system in D. melanogaster to show that functional Uck2 and san genes are required for in vivo E. chaffeensis replication. Moreover, we have successfully identified intracellular niches where E. chaffeensis replicates in dipteran arthopods; the hemocytes and fat body of adult D. melanogaster. We hope that understanding the tissue targets of E. chaffeensis in arthropods will help in drug design and RNAi therapeutics for HME and other tick- and arthropod-borne diseases."
           },
           {
-            "offset": 28416,
+            "annotations": [],
             "infons": {
               "section_type": "DISCUSS",
               "type": "footnote"
             },
-            "text": "This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.",
+            "offset": 28416,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain."
           },
           {
-            "offset": 28889,
+            "annotations": [],
             "infons": {
               "fpage": "441",
               "lpage": "450",
@@ -482,13 +481,13 @@
               "volume": "5",
               "year": "2003"
             },
-            "text": "Signaling role of hemocytes in Drosophila JAK/STAT-dependent response to septic injury",
+            "offset": 28889,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Signaling role of hemocytes in Drosophila JAK/STAT-dependent response to septic injury"
           },
           {
-            "offset": 28976,
+            "annotations": [],
             "infons": {
               "fpage": "239",
               "lpage": "244",
@@ -506,13 +505,13 @@
               "volume": "49",
               "year": "1993"
             },
-            "text": "Amblyomma americanum: a potential vector of human ehrlichiosis",
+            "offset": 28976,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Amblyomma americanum: a potential vector of human ehrlichiosis"
           },
           {
-            "offset": 29039,
+            "annotations": [],
             "infons": {
               "fpage": "401",
               "lpage": "415",
@@ -525,13 +524,13 @@
               "volume": "118",
               "year": "1993"
             },
-            "text": "Targeted gene expression as a means of altering cell fates and generating dominant phenotypes",
+            "offset": 29039,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Targeted gene expression as a means of altering cell fates and generating dominant phenotypes"
           },
           {
-            "offset": 29133,
+            "annotations": [],
             "infons": {
               "fpage": "e418",
               "name_0": "surname:Brandt;given-names:SM",
@@ -547,13 +546,13 @@
               "volume": "2",
               "year": "2004"
             },
-            "text": "Secreted bacterial effectors and host-produced Eiger/TNF drive death in a Salmonella-infected fruit fly",
+            "offset": 29133,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Secreted bacterial effectors and host-produced Eiger/TNF drive death in a Salmonella-infected fruit fly"
           },
           {
-            "offset": 29237,
+            "annotations": [],
             "infons": {
               "fpage": "67",
               "lpage": "72",
@@ -568,13 +567,13 @@
               "volume": "17",
               "year": "2007"
             },
-            "text": "Psidin is required in Drosophila blood cells for both phagocytic degradation and immune activation of the fat body",
+            "offset": 29237,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Psidin is required in Drosophila blood cells for both phagocytic degradation and immune activation of the fat body"
           },
           {
-            "offset": 29352,
+            "annotations": [],
             "infons": {
               "fpage": "344",
               "lpage": "359",
@@ -587,13 +586,13 @@
               "volume": "158",
               "year": "2008"
             },
-            "text": "Defining the immune response to Ehrlichia species using murine models",
+            "offset": 29352,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Defining the immune response to Ehrlichia species using murine models"
           },
           {
-            "offset": 29422,
+            "annotations": [],
             "infons": {
               "fpage": "9797",
               "lpage": "9802",
@@ -606,13 +605,13 @@
               "volume": "106",
               "year": "2009"
             },
-            "text": "Elimination of plasmatocytes by targeted apoptosis reveals their role in multiple aspects of the Drosophila immune response",
+            "offset": 29422,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Elimination of plasmatocytes by targeted apoptosis reveals their role in multiple aspects of the Drosophila immune response"
           },
           {
-            "offset": 29546,
+            "annotations": [],
             "infons": {
               "fpage": "301",
               "lpage": "314",
@@ -656,13 +655,13 @@
               "volume": "21",
               "year": "2011"
             },
-            "text": "The transcriptional diversity of 25 Drosophila cell lines",
+            "offset": 29546,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The transcriptional diversity of 25 Drosophila cell lines"
           },
           {
-            "offset": 29604,
+            "annotations": [],
             "infons": {
               "fpage": "696",
               "lpage": "702",
@@ -677,13 +676,13 @@
               "volume": "35",
               "year": "1999"
             },
-            "text": "Susceptibility of red and gray foxes to infection by Ehrlichia chaffeensis",
+            "offset": 29604,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Susceptibility of red and gray foxes to infection by Ehrlichia chaffeensis"
           },
           {
-            "offset": 29679,
+            "annotations": [],
             "infons": {
               "fpage": "162",
               "lpage": "168",
@@ -703,13 +702,13 @@
               "volume": "30",
               "year": "1994"
             },
-            "text": "White-tailed deer as a potential reservoir of Ehrlichia spp",
+            "offset": 29679,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "White-tailed deer as a potential reservoir of Ehrlichia spp"
           },
           {
-            "offset": 29739,
+            "annotations": [],
             "infons": {
               "fpage": "151",
               "lpage": "156",
@@ -734,13 +733,13 @@
               "volume": "448",
               "year": "2007"
             },
-            "text": "A genome-wide transgenic RNAi library for conditional gene inactivation in Drosophila",
+            "offset": 29739,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A genome-wide transgenic RNAi library for conditional gene inactivation in Drosophila"
           },
           {
-            "offset": 29825,
+            "annotations": [],
             "infons": {
               "fpage": "2087",
               "lpage": "2093",
@@ -753,13 +752,13 @@
               "volume": "17",
               "year": "2007"
             },
-            "text": "Drosophila calcineurin promotes induction of innate immune responses",
+            "offset": 29825,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Drosophila calcineurin promotes induction of innate immune responses"
           },
           {
-            "offset": 29894,
+            "annotations": [],
             "infons": {
               "fpage": "3540",
               "lpage": "3550",
@@ -773,13 +772,13 @@
               "volume": "71",
               "year": "2003"
             },
-            "text": "Drosophila melanogaster is a genetically tractable model host for Mycobacterium marinum",
+            "offset": 29894,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Drosophila melanogaster is a genetically tractable model host for Mycobacterium marinum"
           },
           {
-            "offset": 29982,
+            "annotations": [],
             "infons": {
               "fpage": "e34",
               "name_0": "surname:Dorer;given-names:MS",
@@ -793,13 +792,13 @@
               "volume": "2",
               "year": "2006"
             },
-            "text": "RNA interference analysis of Legionella in Drosophila cells: exploitation of early secretory apparatus dynamics",
+            "offset": 29982,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "RNA interference analysis of Legionella in Drosophila cells: exploitation of early secretory apparatus dynamics"
           },
           {
-            "offset": 30094,
+            "annotations": [],
             "infons": {
               "fpage": "162",
               "lpage": "171",
@@ -818,13 +817,13 @@
               "volume": "5",
               "year": "2005"
             },
-            "text": "Detection of Ehrlichia spp. in raccoons (Procyon lotor) from Georgia",
+            "offset": 30094,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Detection of Ehrlichia spp. in raccoons (Procyon lotor) from Georgia"
           },
           {
-            "offset": 30163,
+            "annotations": [],
             "infons": {
               "fpage": "448",
               "lpage": "449",
@@ -839,13 +838,13 @@
               "volume": "38",
               "year": "2000"
             },
-            "text": "Natural infection of domestic goats with Ehrlichia chaffeensis",
+            "offset": 30163,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Natural infection of domestic goats with Ehrlichia chaffeensis"
           },
           {
-            "offset": 30226,
+            "annotations": [],
             "infons": {
               "fpage": "368",
               "lpage": "374",
@@ -865,13 +864,13 @@
               "volume": "32",
               "year": "1995"
             },
-            "text": "Experimental transmission of Ehrlichia chaffeensis (Rickettsiales: Ehrlichieae) among white-tailed deer by Amblyomma americanum (Acari: Ixodidae)",
+            "offset": 30226,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Experimental transmission of Ehrlichia chaffeensis (Rickettsiales: Ehrlichieae) among white-tailed deer by Amblyomma americanum (Acari: Ixodidae)"
           },
           {
-            "offset": 30372,
+            "annotations": [],
             "infons": {
               "fpage": "1991",
               "lpage": "1994",
@@ -885,13 +884,13 @@
               "volume": "284",
               "year": "1999"
             },
-            "text": "Requirement for croquemort in phagocytosis of apoptotic cells in Drosophila",
+            "offset": 30372,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Requirement for croquemort in phagocytosis of apoptotic cells in Drosophila"
           },
           {
-            "offset": 30448,
+            "annotations": [],
             "infons": {
               "fpage": "380",
               "lpage": "388",
@@ -907,13 +906,13 @@
               "volume": "70",
               "year": "2002"
             },
-            "text": "Persistent Ehrlichia chaffeensis infection occurs in the absence of functional MHCII genes",
+            "offset": 30448,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Persistent Ehrlichia chaffeensis infection occurs in the absence of functional MHCII genes"
           },
           {
-            "offset": 30539,
+            "annotations": [],
             "infons": {
               "fpage": "1231",
               "lpage": "1232",
@@ -925,13 +924,13 @@
               "volume": "25",
               "year": "2007"
             },
-            "text": "RNAi for insect-proof plants",
+            "offset": 30539,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "RNAi for insect-proof plants"
           },
           {
-            "offset": 30568,
+            "annotations": [],
             "infons": {
               "fpage": "547",
               "lpage": "554",
@@ -946,13 +945,13 @@
               "volume": "49",
               "year": "2012"
             },
-            "text": "Laboratory-infected Ehrlichia chaffeensis female adult Amblyomma americanum salivary glands reveal differential gene expression",
+            "offset": 30568,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Laboratory-infected Ehrlichia chaffeensis female adult Amblyomma americanum salivary glands reveal differential gene expression"
           },
           {
-            "offset": 30696,
+            "annotations": [],
             "infons": {
               "fpage": "477",
               "lpage": "480",
@@ -969,13 +968,13 @@
               "volume": "6",
               "year": "2000"
             },
-            "text": "Naturally occurring Ehrlichia chaffeensis infection in coyotes from Oklahoma",
+            "offset": 30696,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Naturally occurring Ehrlichia chaffeensis infection in coyotes from Oklahoma"
           },
           {
-            "offset": 30773,
+            "annotations": [],
             "infons": {
               "fpage": "D583",
               "lpage": "D587",
@@ -1013,13 +1012,13 @@
               "volume": "37",
               "year": "2009"
             },
-            "text": "VectorBase: a data resource for invertebrate vector genomics",
+            "offset": 30773,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "VectorBase: a data resource for invertebrate vector genomics"
           },
           {
-            "offset": 30834,
+            "annotations": [],
             "infons": {
               "fpage": "146",
               "lpage": "149",
@@ -1034,13 +1033,13 @@
               "volume": "288",
               "year": "2000"
             },
-            "text": "Specification of Drosophila hematopoietic lineage by conserved transcription factors",
+            "offset": 30834,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Specification of Drosophila hematopoietic lineage by conserved transcription factors"
           },
           {
-            "offset": 30919,
+            "annotations": [],
             "infons": {
               "fpage": "697",
               "lpage": "743",
@@ -1053,13 +1052,13 @@
               "volume": "25",
               "year": "2007"
             },
-            "text": "The host defense of Drosophila melanogaster",
+            "offset": 30919,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The host defense of Drosophila melanogaster"
           },
           {
-            "offset": 30963,
+            "annotations": [],
             "infons": {
               "fpage": "1681",
               "lpage": "1686",
@@ -1075,13 +1074,13 @@
               "volume": "35",
               "year": "1997"
             },
-            "text": "Isolation of Ehrlichia chaffeensis from wild white-tailed deer (Odocoileus virginianus) confirms their role as natural reservoir hosts",
+            "offset": 30963,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Isolation of Ehrlichia chaffeensis from wild white-tailed deer (Odocoileus virginianus) confirms their role as natural reservoir hosts"
           },
           {
-            "offset": 31098,
+            "annotations": [],
             "infons": {
               "fpage": "1886",
               "lpage": "1891",
@@ -1096,13 +1095,13 @@
               "volume": "74",
               "year": "2008"
             },
-            "text": "Use of Drosophila S2 cells as a model for studying Ehrlichia chaffeensis infections",
+            "offset": 31098,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Use of Drosophila S2 cells as a model for studying Ehrlichia chaffeensis infections"
           },
           {
-            "offset": 31182,
+            "annotations": [],
             "infons": {
               "fpage": "4815",
               "lpage": "4826",
@@ -1116,13 +1115,13 @@
               "volume": "77",
               "year": "2009"
             },
-            "text": "Ehrlichia chaffeensis infections in Drosophila melanogaster",
+            "offset": 31182,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ehrlichia chaffeensis infections in Drosophila melanogaster"
           },
           {
-            "offset": 31242,
+            "annotations": [],
             "infons": {
               "fpage": "466",
               "lpage": "473",
@@ -1137,13 +1136,13 @@
               "volume": "33",
               "year": "1997"
             },
-            "text": "Antibodies to multiple tick-borne pathogens of babesiosis, ehrlichiosis, and Lyme borreliosis in white-footed mice",
+            "offset": 31242,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Antibodies to multiple tick-borne pathogens of babesiosis, ehrlichiosis, and Lyme borreliosis in white-footed mice"
           },
           {
-            "offset": 31357,
+            "annotations": [],
             "infons": {
               "fpage": "901",
               "lpage": "911",
@@ -1158,13 +1157,13 @@
               "volume": "5",
               "year": "2003"
             },
-            "text": "Exploration of host-pathogen interactions using Listeria monocytogenes and Drosophila melanogaster",
+            "offset": 31357,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Exploration of host-pathogen interactions using Listeria monocytogenes and Drosophila melanogaster"
           },
           {
-            "offset": 31456,
+            "annotations": [],
             "infons": {
               "fpage": "D706",
               "lpage": "714",
@@ -1179,13 +1178,13 @@
               "volume": "40",
               "year": "2012"
             },
-            "text": "FlyBase 101 – the basics of navigating FlyBase",
+            "offset": 31456,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "FlyBase 101 – the basics of navigating FlyBase"
           },
           {
-            "offset": 31505,
+            "annotations": [],
             "infons": {
               "fpage": "37",
               "lpage": "64",
@@ -1198,13 +1197,13 @@
               "volume": "16",
               "year": "2003"
             },
-            "text": "Ehrlichia chaffeensis: a prototypical emerging pathogen",
+            "offset": 31505,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ehrlichia chaffeensis: a prototypical emerging pathogen"
           },
           {
-            "offset": 31561,
+            "annotations": [],
             "infons": {
               "fpage": "1297",
               "lpage": "1305",
@@ -1221,13 +1220,13 @@
               "volume": "37",
               "year": "2007"
             },
-            "text": "Tick genomics: The Ixodes genome project and beyond",
+            "offset": 31561,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tick genomics: The Ixodes genome project and beyond"
           },
           {
-            "offset": 31613,
+            "annotations": [],
             "infons": {
               "fpage": "469",
               "lpage": "492",
@@ -1241,13 +1240,13 @@
               "volume": "36",
               "year": "2005"
             },
-            "text": "Tick- and flea-borne rickettsial emerging zoonoses",
+            "offset": 31613,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tick- and flea-borne rickettsial emerging zoonoses"
           },
           {
-            "offset": 31664,
+            "annotations": [],
             "infons": {
               "fpage": "4056",
               "lpage": "4060",
@@ -1261,13 +1260,13 @@
               "volume": "92",
               "year": "1995"
             },
-            "text": "Expression cloning of dSR-CI, a class C macrophage-specific scavenger receptor from Drosophila melanogaster",
+            "offset": 31664,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Expression cloning of dSR-CI, a class C macrophage-specific scavenger receptor from Drosophila melanogaster"
           },
           {
-            "offset": 31772,
+            "annotations": [],
             "infons": {
               "fpage": "522",
               "lpage": "526",
@@ -1283,13 +1282,13 @@
               "volume": "88",
               "year": "1991"
             },
-            "text": "Glutamine synthetase gene evolution: a good molecular clock",
+            "offset": 31772,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Glutamine synthetase gene evolution: a good molecular clock"
           },
           {
-            "offset": 31832,
+            "annotations": [],
             "infons": {
               "fpage": "e45",
               "name_0": "surname:Pfaffl;given-names:MW",
@@ -1300,13 +1299,13 @@
               "volume": "29",
               "year": "2001"
             },
-            "text": "A new mathematical model for relative quantification in real-time RT-PCR",
+            "offset": 31832,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "A new mathematical model for relative quantification in real-time RT-PCR"
           },
           {
-            "offset": 31905,
+            "annotations": [],
             "infons": {
               "fpage": "469",
               "lpage": "489",
@@ -1318,13 +1317,13 @@
               "volume": "24",
               "year": "2011"
             },
-            "text": "Mechanisms of obligatory intracellular infection with Anaplasma phagocytophilum",
+            "offset": 31905,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Mechanisms of obligatory intracellular infection with Anaplasma phagocytophilum"
           },
           {
-            "offset": 31985,
+            "annotations": [],
             "infons": {
               "fpage": "627",
               "lpage": "630",
@@ -1338,13 +1337,13 @@
               "volume": "383",
               "year": "1996"
             },
-            "text": "Uncoupling cadherin-based adhesion from wingless signalling in Drosophila",
+            "offset": 31985,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Uncoupling cadherin-based adhesion from wingless signalling in Drosophila"
           },
           {
-            "offset": 32059,
+            "annotations": [],
             "infons": {
               "fpage": "4505",
               "lpage": "4515",
@@ -1361,13 +1360,13 @@
               "volume": "122",
               "year": "2009"
             },
-            "text": "Toll-dependent antimicrobial responses in Drosophila larval fat body require Spätzle secreted by haemocytes",
+            "offset": 32059,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Toll-dependent antimicrobial responses in Drosophila larval fat body require Spätzle secreted by haemocytes"
           },
           {
-            "offset": 32168,
+            "annotations": [],
             "infons": {
               "fpage": "308",
               "lpage": "316",
@@ -1380,13 +1379,13 @@
               "volume": "7",
               "year": "2005"
             },
-            "text": "Multiplex detection of Ehrlichia and Anaplasma species pathogens in peripheral blood by real-time reverse transcriptase-polymerase chain reaction",
+            "offset": 32168,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Multiplex detection of Ehrlichia and Anaplasma species pathogens in peripheral blood by real-time reverse transcriptase-polymerase chain reaction"
           },
           {
-            "offset": 32314,
+            "annotations": [],
             "infons": {
               "fpage": "119",
               "lpage": "126",
@@ -1402,13 +1401,13 @@
               "volume": "37",
               "year": "1976"
             },
-            "text": "Development of Ehrlichia canis, causative agent of canine ehrlichiosis, in the tick Rhipicephalus sanguineus and its differentiation from a symbiotic Rickettsia",
+            "offset": 32314,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Development of Ehrlichia canis, causative agent of canine ehrlichiosis, in the tick Rhipicephalus sanguineus and its differentiation from a symbiotic Rickettsia"
           },
           {
-            "offset": 32475,
+            "annotations": [],
             "infons": {
               "fpage": "34",
               "name_0": "surname:Socolovschi;given-names:C",
@@ -1422,13 +1421,13 @@
               "volume": "40",
               "year": "2009"
             },
-            "text": "The relationship between spotted fever group Rickettsiae and ixodid ticks",
+            "offset": 32475,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The relationship between spotted fever group Rickettsiae and ixodid ticks"
           },
           {
-            "offset": 32549,
+            "annotations": [],
             "infons": {
               "fpage": "757",
               "lpage": "769",
@@ -1444,13 +1443,13 @@
               "volume": "158",
               "year": "2001"
             },
-            "text": "Animal model of fatal human monocytotropic ehrlichiosis",
+            "offset": 32549,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Animal model of fatal human monocytotropic ehrlichiosis"
           },
           {
-            "offset": 32605,
+            "annotations": [],
             "infons": {
               "fpage": "217",
               "lpage": "222",
@@ -1466,13 +1465,13 @@
               "volume": "14",
               "year": "2005"
             },
-            "text": "Genome size and organization in the blacklegged tick, Ixodes scapularis and the Southern cattle tick, Boophilus microplus",
+            "offset": 32605,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Genome size and organization in the blacklegged tick, Ixodes scapularis and the Southern cattle tick, Boophilus microplus"
           },
           {
-            "offset": 32727,
+            "annotations": [],
             "infons": {
               "fpage": "376",
               "lpage": "381",
@@ -1484,13 +1483,13 @@
               "volume": "43",
               "year": "2007"
             },
-            "text": "Transmission of Ehrlichia chaffeensis from lone star ticks (Amblyomma americanum) to white-tailed deer (Odocoileus virginianus)",
+            "offset": 32727,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Transmission of Ehrlichia chaffeensis from lone star ticks (Amblyomma americanum) to white-tailed deer (Odocoileus virginianus)"
           },
           {
-            "offset": 32855,
+            "annotations": [],
             "infons": {
               "fpage": "3576",
               "lpage": "3586",
@@ -1506,13 +1505,13 @@
               "volume": "80",
               "year": "2012"
             },
-            "text": "Identification of critical host mitochondrial-associated genes during Ehrlichia chaffeensis infections",
+            "offset": 32855,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Identification of critical host mitochondrial-associated genes during Ehrlichia chaffeensis infections"
           },
           {
-            "offset": 32958,
+            "annotations": [],
             "infons": {
               "fpage": "2735",
               "lpage": "2744",
@@ -1526,13 +1525,13 @@
               "volume": "238",
               "year": "2009"
             },
-            "text": "Ind represses msh expression in the intermediate column of the Drosophila neuroectoderm, through direct interaction with upstream regulatory DNA",
+            "offset": 32958,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ind represses msh expression in the intermediate column of the Drosophila neuroectoderm, through direct interaction with upstream regulatory DNA"
           },
           {
-            "offset": 33103,
+            "annotations": [],
             "infons": {
               "fpage": "1327",
               "lpage": "1338",
@@ -1548,13 +1547,13 @@
               "volume": "10",
               "year": "2008"
             },
-            "text": "Drosophila melanogaster as a model for elucidating the pathogenicity of Francisella tularensis",
+            "offset": 33103,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Drosophila melanogaster as a model for elucidating the pathogenicity of Francisella tularensis"
           },
           {
-            "offset": 33198,
+            "annotations": [],
             "infons": {
               "fpage": "355",
               "lpage": "358",
@@ -1573,104 +1572,104 @@
               "volume": "8",
               "year": "2008"
             },
-            "text": "Ehrlichia chaffeensis infection in dogs in South Korea",
+            "offset": 33198,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Ehrlichia chaffeensis infection in dogs in South Korea"
           },
           {
-            "offset": 33253,
+            "annotations": [],
             "infons": {
               "file": "nihms430600f1.jpg",
               "id": "F1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Impact of ubiquitous expression of Uck2 (A) or san (B) hairpin RNA on E. chaffeensis infection. Ubiquitous knockdown of Uck2 or san was accomplished using UAS and GAL4 constructs as described in ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05).",
+            "offset": 33253,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impact of ubiquitous expression of Uck2 (A) or san (B) hairpin RNA on E. chaffeensis infection. Ubiquitous knockdown of Uck2 or san was accomplished using UAS and GAL4 constructs as described in ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05)."
           },
           {
-            "offset": 33866,
+            "annotations": [],
             "infons": {
               "file": "nihms430600f2.jpg",
               "id": "F2",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Impact of ubiquitous expression of Uck2 (A) or san (B) hairpin RNA on bacterial clearance. Ubiquitous knockdown of Uck2 and san was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s(●) compared to other EC -infected flies is represented by * (P<0.05).",
+            "offset": 33866,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impact of ubiquitous expression of Uck2 (A) or san (B) hairpin RNA on bacterial clearance. Ubiquitous knockdown of Uck2 and san was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s(●) compared to other EC -infected flies is represented by * (P<0.05)."
           },
           {
-            "offset": 34517,
+            "annotations": [],
             "infons": {
               "file": "nihms430600f3.jpg",
               "id": "F3",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Impact of eye-, salivary gland- or wing-specific expression of Uck2 or san hairpin RNA on E. chaffeensis infection. Eye (A and B), salivary gland (C and D), or wing (E and F) -specific knockdown of Uck2 (A, C, and E) or san (B, D, and F) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05).",
+            "offset": 34517,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impact of eye-, salivary gland- or wing-specific expression of Uck2 or san hairpin RNA on E. chaffeensis infection. Eye (A and B), salivary gland (C and D), or wing (E and F) -specific knockdown of Uck2 (A, C, and E) or san (B, D, and F) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05)."
           },
           {
-            "offset": 35240,
+            "annotations": [],
             "infons": {
               "file": "nihms430600f4.jpg",
               "id": "F4",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Impact of hemocyte or fat body expression of Uck2 or san hairpin RNA on E. chaffeensis infection. Hemocyte-specific (A and B) or fat body (C and D) -specific knockdown of Uck2(A and C) or san(B and D) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05).",
+            "offset": 35240,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impact of hemocyte or fat body expression of Uck2 or san hairpin RNA on E. chaffeensis infection. Hemocyte-specific (A and B) or fat body (C and D) -specific knockdown of Uck2(A and C) or san(B and D) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Flies were injected with PBS or cell-free E. chaffeensis (EC). Data presented represent the mean ± SE of 3–4 independent experiments. Twenty flies were injected per treatment group per experiment. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1 + EC (●) compared to other EC-treated flies is represented by * (P<0.05)."
           },
           {
-            "offset": 35926,
+            "annotations": [],
             "infons": {
               "file": "nihms430600f5.jpg",
               "id": "F5",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Impact of eye-, salivary gland-, or wing-specific expression of Uck2 or san hairpin RNA on bacterial clearance. Eye (A and B), salivary gland (C and D), or wing (E and F) -specific knockdown of Uck2 (A, C, and E) or san (B, D, and F) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s(●) compared to other EC -infected flies is represented by * (P<0.05).",
+            "offset": 35926,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impact of eye-, salivary gland-, or wing-specific expression of Uck2 or san hairpin RNA on bacterial clearance. Eye (A and B), salivary gland (C and D), or wing (E and F) -specific knockdown of Uck2 (A, C, and E) or san (B, D, and F) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s(●) compared to other EC -infected flies is represented by * (P<0.05)."
           },
           {
-            "offset": 36683,
+            "annotations": [],
             "infons": {
               "file": "nihms430600f6.jpg",
               "id": "F6",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Impact of hemocyte or fat body expression of Uck2 or san hairpin RNA on bacterial clearance. Hemocyte-specific (A and B) or fat body (C and D)-specific knockdown of Uck2(A and C) or san(B and D) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s (●) compared to other EC-infected flies is represented by * (P<0.05).",
+            "offset": 36683,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Impact of hemocyte or fat body expression of Uck2 or san hairpin RNA on bacterial clearance. Hemocyte-specific (A and B) or fat body (C and D)-specific knockdown of Uck2(A and C) or san(B and D) was accomplished using UAS and GAL4 constructs as described in the ‘Materials and methods’. Bacterial load was estimated by qRT-PCR for ehrlichial 16S rRNA as described in the ‘Materials and methods’. Data presented represent the mean ± SD of 2 independent experiments. Each point represents 4–5 flies per RNA preparation. The absence of error bars indicates an error smaller than the size of the marker. Statistical significance of F1’s (●) compared to other EC-infected flies is represented by * (P<0.05)."
           },
           {
-            "offset": 37401,
+            "annotations": [],
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_caption"
             },
-            "text": "Silencing. Silencing efficiency of target genes that had ubiquitously expressed hairpin RNA or hairpin RNA expressed specifically in hemocytes or the fat bodya.",
+            "offset": 37401,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Silencing. Silencing efficiency of target genes that had ubiquitously expressed hairpin RNA or hairpin RNA expressed specifically in hemocytes or the fat bodya."
           },
           {
-            "offset": 37562,
+            "annotations": [],
             "infons": {
               "file": "T1.xml",
               "id": "T1",
@@ -1678,78 +1677,78 @@
               "type": "table",
               "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"box\" rules=\"all\">\n        <thead>\n          <tr>\n            <th align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Tissues in which the target gene was knocked down</th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Tissue assayed<xref rid=\"TFN2\" ref-type=\"table-fn\">b</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Target Gene</th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">% knockdown efficiency of target gene in F1 progeny compared to wild-type (<italic>yw</italic>) controls<xref rid=\"TFN3\" ref-type=\"table-fn\">c</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">% knockdown efficiency of target gene in F1 progeny compared to <italic>UAS</italic> construct (parental line 1)<xref rid=\"TFN3\" ref-type=\"table-fn\">c</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">% knockdown efficiency of target gene in F1 progeny compared to <italic>GAL4</italic> construct (parental line 2)<xref rid=\"TFN3\" ref-type=\"table-fn\">c</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Average % knockdown efficiency of target gene in F1 progeny compared to control flies<xref rid=\"TFN4\" ref-type=\"table-fn\">d</xref></th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Ubiquitous (<italic>arm-Gal4</italic>)</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Whole adult body</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">86 ± 4</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">90 ± 5</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">89 ± 9</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">88 ± 2</td>\n          </tr>\n          <tr>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Whole adult body</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">86 ± 2</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">86 ±5</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">78 ± 4</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">83 ± 5</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Hemocytes (<italic>Hml-Gal4</italic>)</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Whole adult body</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">76 ± 8</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">85 ± 5</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">73 ± 3</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">79 ± 6</td>\n          </tr>\n          <tr>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Whole adult body</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">61 ± 0</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">59 ± 2</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">66 ± 1</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">62 ± 4</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Fat Body (<italic>YP1-Gal4</italic>)</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Whole adult body</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">55 ± 1</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">26 ± 9</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">23 ± 1</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">35 ±18</td>\n          </tr>\n          <tr>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Whole adult body</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">46 ± 2</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">28 ± 4</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">52 ± 3</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">42 ± 12</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Fat body (<italic>YP1-Gal4</italic>)</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Fat body, 3rd instar larvae</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">75</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">85</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">70</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">77 ± 8</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Fat body (<italic>YP1-Gal4</italic>)</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Fat body, 3rd instar larvae</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">79</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">57</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">62</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">66 ± 12</td>\n          </tr>\n        </tbody>\n      </table>\n"
             },
-            "text": "Tissues in which the target gene was knocked down\tTissue assayedb\tTarget Gene\t% knockdown efficiency of target gene in F1 progeny compared to wild-type (yw) controlsc\t% knockdown efficiency of target gene in F1 progeny compared to UAS construct (parental line 1)c\t% knockdown efficiency of target gene in F1 progeny compared to GAL4 construct (parental line 2)c\tAverage % knockdown efficiency of target gene in F1 progeny compared to control fliesd\t \tUbiquitous (arm-Gal4)\tWhole adult body\tUck2\t86 ± 4\t90 ± 5\t89 ± 9\t88 ± 2\t \tWhole adult body\tsan\t86 ± 2\t86 ±5\t78 ± 4\t83 ± 5\t \tHemocytes (Hml-Gal4)\tWhole adult body\tUck2\t76 ± 8\t85 ± 5\t73 ± 3\t79 ± 6\t \tWhole adult body\tsan\t61 ± 0\t59 ± 2\t66 ± 1\t62 ± 4\t \tFat Body (YP1-Gal4)\tWhole adult body\tUck2\t55 ± 1\t26 ± 9\t23 ± 1\t35 ±18\t \tWhole adult body\tsan\t46 ± 2\t28 ± 4\t52 ± 3\t42 ± 12\t \tFat body (YP1-Gal4)\tFat body, 3rd instar larvae\tUck2\t75\t85\t70\t77 ± 8\t \tFat body (YP1-Gal4)\tFat body, 3rd instar larvae\tsan\t79\t57\t62\t66 ± 12\t \t",
+            "offset": 37562,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tissues in which the target gene was knocked down\tTissue assayedb\tTarget Gene\t% knockdown efficiency of target gene in F1 progeny compared to wild-type (yw) controlsc\t% knockdown efficiency of target gene in F1 progeny compared to UAS construct (parental line 1)c\t% knockdown efficiency of target gene in F1 progeny compared to GAL4 construct (parental line 2)c\tAverage % knockdown efficiency of target gene in F1 progeny compared to control fliesd\t \tUbiquitous (arm-Gal4)\tWhole adult body\tUck2\t86 ± 4\t90 ± 5\t89 ± 9\t88 ± 2\t \tWhole adult body\tsan\t86 ± 2\t86 ±5\t78 ± 4\t83 ± 5\t \tHemocytes (Hml-Gal4)\tWhole adult body\tUck2\t76 ± 8\t85 ± 5\t73 ± 3\t79 ± 6\t \tWhole adult body\tsan\t61 ± 0\t59 ± 2\t66 ± 1\t62 ± 4\t \tFat Body (YP1-Gal4)\tWhole adult body\tUck2\t55 ± 1\t26 ± 9\t23 ± 1\t35 ±18\t \tWhole adult body\tsan\t46 ± 2\t28 ± 4\t52 ± 3\t42 ± 12\t \tFat body (YP1-Gal4)\tFat body, 3rd instar larvae\tUck2\t75\t85\t70\t77 ± 8\t \tFat body (YP1-Gal4)\tFat body, 3rd instar larvae\tsan\t79\t57\t62\t66 ± 12\t \t"
           },
           {
+            "annotations": [],
+            "infons": {
+              "file": "T1.xml",
+              "id": "T1",
+              "section_type": "TABLE",
+              "type": "table_footnote"
+            },
             "offset": 38554,
+            "relations": [],
+            "sentences": [],
+            "text": "Percent (%) knockdown efficiency of target gene in RNAi flies (F1’s) compared to wild type and parental lines (UAS and GAL4 constructs)."
+          },
+          {
+            "annotations": [],
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "Percent (%) knockdown efficiency of target gene in RNAi flies (F1’s) compared to wild type and parental lines (UAS and GAL4 constructs).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 38693,
+            "relations": [],
+            "sentences": [],
+            "text": "RNA was isolated from a pool of 10–12 whole flies or isolated fat bodies. Analysis of transcript level was done using qRT-PCR results as described in the ‘Materials and methods’."
+          },
+          {
+            "annotations": [],
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "RNA was isolated from a pool of 10–12 whole flies or isolated fat bodies. Analysis of transcript level was done using qRT-PCR results as described in the ‘Materials and methods’.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 38878,
+            "relations": [],
+            "sentences": [],
+            "text": "Data presented represent the mean ± SD of one or 3 independent experiments."
+          },
+          {
+            "annotations": [],
             "infons": {
               "file": "T1.xml",
               "id": "T1",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "Data presented represent the mean ± SD of one or 3 independent experiments.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 38955,
-            "infons": {
-              "file": "T1.xml",
-              "id": "T1",
-              "section_type": "TABLE",
-              "type": "table_footnote"
-            },
-            "text": "Numbers presented represent the mean ± SD of yw and parental fly lines 1 and 2 (columns 4–6).",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Numbers presented represent the mean ± SD of yw and parental fly lines 1 and 2 (columns 4–6)."
           },
           {
-            "offset": 39052,
+            "annotations": [],
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_caption"
             },
-            "text": "Determination of off-target silencing in wings, eyes, and bodya,b.",
+            "offset": 39052,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Determination of off-target silencing in wings, eyes, and bodya,b."
           },
           {
-            "offset": 39119,
+            "annotations": [],
             "infons": {
               "file": "T2.xml",
               "id": "T2",
@@ -1757,67 +1756,69 @@
               "type": "table",
               "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"box\" rules=\"all\">\n        <thead>\n          <tr>\n            <th align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Tissues in which the target gene was knocked down</th>\n            <th align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Experiment</th>\n            <th align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Target gene</th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">% knockdown efficiency of target gene in F1 progeny compared to wild-type (<italic>yw</italic>) controls<xref rid=\"TFN7\" ref-type=\"table-fn\">c</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">% knockdown efficiency of target gene in F1 progeny compared to <italic>UAS</italic> construct (parental line 1)<xref rid=\"TFN7\" ref-type=\"table-fn\">c</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">% knockdown efficiency of target gene in F1 progeny compared to <italic>GAL4</italic> construct (parental line 2)<xref rid=\"TFN7\" ref-type=\"table-fn\">c</xref></th>\n            <th align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">Average % knockdown efficiency of target gene in F1 progeny compared to control flies<xref rid=\"TFN8\" ref-type=\"table-fn\">d</xref></th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Wings (<italic>MS1096-GAL4</italic>)</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">1</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">81 ±2</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">66 ± 6</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">81 ± 7</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">76 ± 9</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">1</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">77 ± 7</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">82 ± 22</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">86 ± 14</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">82 ± 5</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Body (<italic>MS1096-GAL4</italic>)</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">1</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">−26 ± 11</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">−8 ± 3</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">11 ± 2</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">−8 ± 19</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">1</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">−41</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">17</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">20</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">−1 ± 34</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Whole heads (<italic>Gmr-GAL4</italic>)</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">86 ± 4</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">88 ± 5</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">89 ± 9</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">88 ± 2</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">57 ± 2</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">85 ±7</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">81 ± 7</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">74 ±15</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Body (<italic>Gmr-GAL4</italic>)</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">23 ± 4</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">12 ± 3</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">8 ± 3</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">14 ± 8</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">2</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">10 ± 0</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">25 ± 6</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">9 ± 3</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">15 ± 10</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Salivary glands (<italic>Fhk-GAL4</italic>)</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">3</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">92</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">97</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">96</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">95 ± 2</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">3</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">93</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">96</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">82</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">90 ± 6</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"2\" colspan=\"1\">Body (<italic>Fhk-GAL4</italic>)</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">3</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>Uck2</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">16</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">32</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">36</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">28 ± 9</td>\n          </tr>\n          <tr>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">3</td>\n            <td align=\"left\" valign=\"top\" rowspan=\"1\" colspan=\"1\">\n              <italic>san</italic>\n            </td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">18</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">22</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">30</td>\n            <td align=\"center\" valign=\"top\" rowspan=\"1\" colspan=\"1\">23 ± 5</td>\n          </tr>\n        </tbody>\n      </table>\n"
             },
-            "text": "Tissues in which the target gene was knocked down\tExperiment\tTarget gene\t% knockdown efficiency of target gene in F1 progeny compared to wild-type (yw) controlsc\t% knockdown efficiency of target gene in F1 progeny compared to UAS construct (parental line 1)c\t% knockdown efficiency of target gene in F1 progeny compared to GAL4 construct (parental line 2)c\tAverage % knockdown efficiency of target gene in F1 progeny compared to control fliesd\t \tWings (MS1096-GAL4)\t1\tUck2\t81 ±2\t66 ± 6\t81 ± 7\t76 ± 9\t \t1\tsan\t77 ± 7\t82 ± 22\t86 ± 14\t82 ± 5\t \tBody (MS1096-GAL4)\t1\tUck2\t−26 ± 11\t−8 ± 3\t11 ± 2\t−8 ± 19\t \t1\tsan\t−41\t17\t20\t−1 ± 34\t \tWhole heads (Gmr-GAL4)\t2\tUck2\t86 ± 4\t88 ± 5\t89 ± 9\t88 ± 2\t \t2\tsan\t57 ± 2\t85 ±7\t81 ± 7\t74 ±15\t \tBody (Gmr-GAL4)\t2\tUck2\t23 ± 4\t12 ± 3\t8 ± 3\t14 ± 8\t \t2\tsan\t10 ± 0\t25 ± 6\t9 ± 3\t15 ± 10\t \tSalivary glands (Fhk-GAL4)\t3\tUck2\t92\t97\t96\t95 ± 2\t \t3\tsan\t93\t96\t82\t90 ± 6\t \tBody (Fhk-GAL4)\t3\tUck2\t16\t32\t36\t28 ± 9\t \t3\tsan\t18\t22\t30\t23 ± 5\t \t",
+            "offset": 39119,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Tissues in which the target gene was knocked down\tExperiment\tTarget gene\t% knockdown efficiency of target gene in F1 progeny compared to wild-type (yw) controlsc\t% knockdown efficiency of target gene in F1 progeny compared to UAS construct (parental line 1)c\t% knockdown efficiency of target gene in F1 progeny compared to GAL4 construct (parental line 2)c\tAverage % knockdown efficiency of target gene in F1 progeny compared to control fliesd\t \tWings (MS1096-GAL4)\t1\tUck2\t81 ±2\t66 ± 6\t81 ± 7\t76 ± 9\t \t1\tsan\t77 ± 7\t82 ± 22\t86 ± 14\t82 ± 5\t \tBody (MS1096-GAL4)\t1\tUck2\t−26 ± 11\t−8 ± 3\t11 ± 2\t−8 ± 19\t \t1\tsan\t−41\t17\t20\t−1 ± 34\t \tWhole heads (Gmr-GAL4)\t2\tUck2\t86 ± 4\t88 ± 5\t89 ± 9\t88 ± 2\t \t2\tsan\t57 ± 2\t85 ±7\t81 ± 7\t74 ±15\t \tBody (Gmr-GAL4)\t2\tUck2\t23 ± 4\t12 ± 3\t8 ± 3\t14 ± 8\t \t2\tsan\t10 ± 0\t25 ± 6\t9 ± 3\t15 ± 10\t \tSalivary glands (Fhk-GAL4)\t3\tUck2\t92\t97\t96\t95 ± 2\t \t3\tsan\t93\t96\t82\t90 ± 6\t \tBody (Fhk-GAL4)\t3\tUck2\t16\t32\t36\t28 ± 9\t \t3\tsan\t18\t22\t30\t23 ± 5\t \t"
           },
           {
+            "annotations": [],
+            "infons": {
+              "file": "T2.xml",
+              "id": "T2",
+              "section_type": "TABLE",
+              "type": "table_footnote"
+            },
             "offset": 40112,
+            "relations": [],
+            "sentences": [],
+            "text": "Comparison of knockdown efficiency of target genes in F1 RNAi flies in wings compared to whole body (without wings) generated using MS1096-GAL4 flies (Experiment 1), whole heads compared to whole-body tissue (abdomen and thorax) generated using Gmr-GAL4 flies (Experiment 2), or salivary glands from 3rd instar larvae compared to whole-body tissue (without salivary glands) generated using Fhk- GAL4 flies (Experiment 2) in comparison to wild type and parental lines (UAS and GAL4 constructs)."
+          },
+          {
+            "annotations": [],
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "Comparison of knockdown efficiency of target genes in F1 RNAi flies in wings compared to whole body (without wings) generated using MS1096-GAL4 flies (Experiment 1), whole heads compared to whole-body tissue (abdomen and thorax) generated using Gmr-GAL4 flies (Experiment 2), or salivary glands from 3rd instar larvae compared to whole-body tissue (without salivary glands) generated using Fhk- GAL4 flies (Experiment 2) in comparison to wild type and parental lines (UAS and GAL4 constructs).",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 40606,
+            "relations": [],
+            "sentences": [],
+            "text": "Analysis of transcript level was done using qRT-PCR as described in the ‘Materials and methods’. Negative numbers indicate higher transcript levels."
+          },
+          {
+            "annotations": [],
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "Analysis of transcript level was done using qRT-PCR as described in the ‘Materials and methods’. Negative numbers indicate higher transcript levels.",
-            "sentences": [],
-            "annotations": [],
-            "relations": []
-          },
-          {
             "offset": 40759,
-            "infons": {
-              "file": "T2.xml",
-              "id": "T2",
-              "section_type": "TABLE",
-              "type": "table_footnote"
-            },
-            "text": "Numbers presented represent the mean ± SD of one or 3 independent experiments.",
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Numbers presented represent the mean ± SD of one or 3 independent experiments."
           },
           {
-            "offset": 40839,
+            "annotations": [],
             "infons": {
               "file": "T2.xml",
               "id": "T2",
               "section_type": "TABLE",
               "type": "table_footnote"
             },
-            "text": "Numbers presented represent the mean ± SD of yw and parental lines 1 and 2 (columns 4–6).",
+            "offset": 40839,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Numbers presented represent the mean ± SD of yw and parental lines 1 and 2 (columns 4–6)."
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC"
   }
 ]

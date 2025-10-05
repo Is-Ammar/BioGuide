@@ -1,22 +1,20 @@
 [
   {
     "bioctype": "BioCCollection",
-    "source": "PMC",
     "date": "20250706",
-    "key": "pmc.key",
-    "version": "1.0",
-    "infons": {},
     "documents": [
       {
+        "annotations": [],
         "bioctype": "BioCDocument",
+        "full_text": "Erratum to: Whole metagenome profiles of particulates collected from the International Space Station\nErratum\nMicrobial gene pathways observed in the whole metagenomes of ISS and SAF samples. Reads matching microbial gene targets above an identity threshold of 0.9 were assigned to KEGG orthologies. KO number was used to assign a gene function category, shown along the vertical axis. Read abundance is graphically represented on a square-root scale. Absolute read counts are shown adjacent to each corresponding circle\n\nFollowing publication of the original article, the authors reported that the X-axis label was missing from Fig. 4. The new Fig. 4 is attached. \nThe online version of the original article can be found under doi:10.1186/s40168-017-0292-4 \nReference\nBe NA, Avila-Herrera A, Allen JE, Singh N, Sielaff AC, Jaing C, Venkateswaran K. Microbiome. 2017;5:81. doi:10.1186/s40168-017-0292-4.",
         "id": "PMC5580210",
         "infons": {
           "license": "CC BY"
         },
         "passages": [
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 0,
             "infons": {
               "article-id_doi": "10.1186/s40168-017-0330-2",
               "article-id_pmc": "PMC5580210",
@@ -36,89 +34,92 @@
               "volume": "5",
               "year": "2017"
             },
-            "text": "Erratum to: Whole metagenome profiles of particulates collected from the International Space Station",
+            "offset": 0,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Erratum to: Whole metagenome profiles of particulates collected from the International Space Station"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 101,
             "infons": {
               "section_type": "INTRO",
               "type": "title_1"
             },
-            "text": "Erratum",
+            "offset": 101,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Erratum"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 109,
             "infons": {
               "file": "40168_2017_330_Fig1_HTML.jpg",
               "id": "Fig1",
               "section_type": "FIG",
               "type": "fig_caption"
             },
-            "text": "Microbial gene pathways observed in the whole metagenomes of ISS and SAF samples. Reads matching microbial gene targets above an identity threshold of 0.9 were assigned to KEGG orthologies. KO number was used to assign a gene function category, shown along the vertical axis. Read abundance is graphically represented on a square-root scale. Absolute read counts are shown adjacent to each corresponding circle\n",
+            "offset": 109,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Microbial gene pathways observed in the whole metagenomes of ISS and SAF samples. Reads matching microbial gene targets above an identity threshold of 0.9 were assigned to KEGG orthologies. KO number was used to assign a gene function category, shown along the vertical axis. Read abundance is graphically represented on a square-root scale. Absolute read counts are shown adjacent to each corresponding circle\n"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 521,
             "infons": {
               "section_type": "INTRO",
               "type": "paragraph"
             },
-            "text": "Following publication of the original article, the authors reported that the X-axis label was missing from Fig. 4. The new Fig. 4 is attached. ",
+            "offset": 521,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Following publication of the original article, the authors reported that the X-axis label was missing from Fig. 4. The new Fig. 4 is attached. "
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 665,
             "infons": {
               "section_type": "INTRO",
               "type": "footnote"
             },
-            "text": "The online version of the original article can be found under doi:10.1186/s40168-017-0292-4 ",
+            "offset": 665,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "The online version of the original article can be found under doi:10.1186/s40168-017-0292-4 "
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 758,
             "infons": {
               "section_type": "REF",
               "type": "title"
             },
-            "text": "Reference",
+            "offset": 758,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Reference"
           },
           {
+            "annotations": [],
             "bioctype": "BioCPassage",
-            "offset": 768,
             "infons": {
               "section_type": "REF",
               "type": "ref"
             },
-            "text": "Be NA, Avila-Herrera A, Allen JE, Singh N, Sielaff AC, Jaing C, Venkateswaran K. Microbiome. 2017;5:81. doi:10.1186/s40168-017-0292-4.",
+            "offset": 768,
+            "relations": [],
             "sentences": [],
-            "annotations": [],
-            "relations": []
+            "text": "Be NA, Avila-Herrera A, Allen JE, Singh N, Sielaff AC, Jaing C, Venkateswaran K. Microbiome. 2017;5:81. doi:10.1186/s40168-017-0292-4."
           }
         ],
-        "annotations": [],
         "relations": []
       }
-    ]
+    ],
+    "infons": {},
+    "key": "pmc.key",
+    "source": "PMC",
+    "version": "1.0"
   }
 ]
