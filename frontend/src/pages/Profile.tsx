@@ -166,9 +166,14 @@ const Profile = () => {
                 <h1 className="text-4xl font-semibold leading-tight mb-2 tracking-tight bg-gradient-to-r from-accent via-accent-alt to-accent bg-clip-text text-transparent dark:from-cosmic-300 dark:via-bio-300 dark:to-cosmic-400">
                   {user.first_name} {user.last_name}
                 </h1>
-                <div className="text-sm leading-normal mt-0 mb-4 font-medium text-semantic-text-secondary uppercase tracking-wide flex items-center justify-center gap-2">
-                  <i className="fas fa-map-marker-alt text-accent" aria-hidden />
-                  <span>{user.country || 'Unknown Location'}</span>
+                <div className="text-sm leading-normal mt-0 mb-4 font-medium text-semantic-text-secondary tracking-wide flex flex-col items-center justify-center gap-1">
+                  <span className="flex items-center gap-2">
+                    <i className="fas fa-user-graduate text-accent" aria-hidden />
+                    {user.profession ? user.profession.charAt(0).toUpperCase() + user.profession.slice(1) : 'Role N/A'}
+                  </span>
+                  {user.age && (
+                    <span className="text-xs text-semantic-text-dim">Age: {user.age}</span>
+                  )}
                 </div>
                 <div className="mb-3 text-semantic-text-secondary flex flex-col sm:flex-row items-center justify-center gap-3">
                   <div className="flex items-center gap-2 text-sm"><i className="fas fa-envelope text-semantic-text-dim" aria-hidden /> {user.email}</div>

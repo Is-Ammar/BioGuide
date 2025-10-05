@@ -27,13 +27,16 @@ const  userSchema = mongoose.Schema({
         },
         minlength: 6
     },
-    phone_number:{
-        type:String,
-        required: false, // Optional for Google OAuth users
+    age: {
+        type: Number,
+        min: 10, // basic sane lower bound
+        max: 120,
+        required: false // keep optional to avoid breaking existing google users
     },
-    country:{
-        type:String,
-        required: false, // Optional for Google OAuth users
+    profession: {
+        type: String,
+        enum: ['student', 'researcher', 'scientist', 'other'],
+        required: false
     },
     googleId: {
         type: String,

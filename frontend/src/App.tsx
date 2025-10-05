@@ -113,21 +113,36 @@ function InnerApp() {
 
     const historyMessages = [...chatMessages, userMessage].filter(m => !(m as any).isLoading);
     const DELIMITER = '<|BIOGUIDE_DIALOG_DELIM|>';
-    
+
+    // Personalization preamble built from authenticated user profile
+    const profileDescription = (() => {
+      if (!user) return 'The user is not authenticated; provide general explanations suitable for a broad audience.';
+      const parts: string[] = [];
+      if (user.age) parts.push(`age ${user.age}`);
+      if (user.profession) parts.push(`${user.profession}`);
+      const readable = parts.length ? parts.join(', ') : 'unspecified background';
+      return `The user profile: ${readable}. Adapt explanations (tone, depth, analogies) to a ${user.profession || 'general'} audience${user.age ? ` and age ${user.age}` : ''}.`;
+    })();
+
     let questionWithHistory = '';
     if (historyMessages.length > 1) {
       const previousMessages = historyMessages.slice(0, -1);
       const historyParts: string[] = [];
-      
+
       for (let i = 0; i < previousMessages.length; i++) {
         const msg = previousMessages[i];
         const rolePrefix = msg.role === 'user' ? 'USER' : 'ASSISTANT';
         historyParts.push(`${rolePrefix}: ${msg.content}`);
       }
-      
-      questionWithHistory = historyParts.join('\n') + `\n${DELIMITER}\n${userMessage.content}`;
+
+      questionWithHistory = [
+        `SYSTEM: You are BioGuide, an assistant for biology research questions. ${profileDescription} Always keep responses factual, cite concepts plainly, and if user requests advanced detail, include brief accessible summary first.`,
+        historyParts.join('\n'),
+        DELIMITER,
+        userMessage.content
+      ].join('\n');
     } else {
-      questionWithHistory = userMessage.content;
+      questionWithHistory = `SYSTEM: You are BioGuide, an assistant for biology research questions. ${profileDescription}\n${DELIMITER}\n${userMessage.content}`;
     }
     
     const timeoutMs = 100000;
@@ -171,7 +186,7 @@ function InnerApp() {
       loadingMessageIdRef.current = null;
       chatRequestControllerRef.current = null;
     }
-  }, [chatInput, isChatLoading, chatMessages, conversationId]);
+  }, [chatInput, isChatLoading, chatMessages, conversationId, user]);
 
   const clearChatHistory = useCallback(() => {
     setChatMessages([{ id: '1', content: "Hello! I'm your BioGuide assistant. I can help you search publications, explain research concepts, and analyze data. What would you like to know?", role: 'assistant', timestamp: new Date() }]);

@@ -75,8 +75,8 @@ export const googleAuthSuccess = (req, res) => {
     first_name: req.user.first_name,
     last_name: req.user.last_name,
     email: req.user.email,
-    country: req.user.country,
-    phone_number: req.user.phone_number,
+    age: req.user.age,
+    profession: req.user.profession,
     createdAt: req.user.createdAt
   };
   

@@ -80,8 +80,8 @@ if (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET) {
               last_name: profile.name.familyName || '',
               email: profile.emails[0].value,
               password: 'google-oauth-' + profile.id, // Placeholder, won't be used for login
-              phone_number: '', // Optional field
-              country: '', // Optional field
+              age: undefined, // User can update later
+              profession: 'other', // default
               googleId: profile.id
             });
             await user.save();

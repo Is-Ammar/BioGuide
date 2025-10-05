@@ -6,8 +6,8 @@ interface SignupData {
   last_name: string;
   email: string;
   password: string;
-  phone_number: string;
-  country: string;
+  age: number;
+  profession: 'student' | 'researcher' | 'scientist' | 'other';
   agreement?: boolean;
 }
 

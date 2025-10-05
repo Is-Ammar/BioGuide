@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Mail, Lock, UserPlus, User, Phone } from 'lucide-react';
-import CountrySelect from './CountrySelect';
+import { X, Mail, Lock, UserPlus, User } from 'lucide-react';
 import { useAuth } from '../lib/auth';
 
 const AuthModal = () => {
@@ -17,8 +16,21 @@ const AuthModal = () => {
   const [lastName, setLastName] = useState('');
   const [regEmail, setRegEmail] = useState('');
   const [regPassword, setRegPassword] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [country, setCountry] = useState('');
+  const [age, setAge] = useState<number | ''>('');
+  const [profession, setProfession] = useState<'student' | 'researcher' | 'scientist' | 'other' | ''>('');
+
+  // Compute allowed professions based on age
+  const allowedProfessions = React.useMemo(() => {
+    if (age !== '' && age < 18) return ['student','other'] as const;
+    return ['student','researcher','scientist','other'] as const;
+  }, [age]);
+
+  // Reset profession if it becomes invalid after age change
+  React.useEffect(() => {
+    if (profession && !allowedProfessions.includes(profession as any)) {
+      setProfession('');
+    }
+  }, [allowedProfessions, profession]);
   
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -38,7 +50,7 @@ const AuthModal = () => {
         }
       } else {
         // Registration
-        if (!firstName || !lastName || !regEmail || !regPassword || !phoneNumber || !country) {
+        if (!firstName || !lastName || !regEmail || !regPassword || age === '' || !profession) {
           setError('Please fill in all required fields.');
           setIsLoading(false);
           return;
@@ -49,8 +61,8 @@ const AuthModal = () => {
           last_name: lastName,
           email: regEmail,
           password: regPassword,
-          phone_number: phoneNumber,
-          country: country
+          age: Number(age),
+          profession: profession
         });
         
         if (!success) {
@@ -71,8 +83,8 @@ const AuthModal = () => {
     setLastName('');
     setRegEmail('');
     setRegPassword('');
-    setPhoneNumber('');
-    setCountry('');
+  setAge('');
+  setProfession('');
     setError('');
     setIsLogin(true);
   };
@@ -249,30 +261,35 @@ const AuthModal = () => {
                     </div>
                   </div>
 
-                  {/* Phone Number */}
+                  {/* Age */}
                   <div>
-                    <label className="block text-sm font-medium text-slate-300 mb-2">
-                      Phone Number
-                    </label>
-                    <div className="relative">
-                      <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
-                      <input
-                        type="tel"
-                        value={phoneNumber}
-                        onChange={(e) => setPhoneNumber(e.target.value)}
-                        className="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-slate-400 focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 transition-colors"
-                        placeholder="+1 (555) 123-4567"
-                        required
-                      />
-                    </div>
+                    <label className="block text-sm font-medium text-slate-300 mb-2">Age</label>
+                    <input
+                      type="number"
+                      value={age}
+                      onChange={(e) => setAge(e.target.value === '' ? '' : Number(e.target.value))}
+                      className="w-full pr-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white placeholder-slate-400 focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 transition-colors px-4"
+                      placeholder="25"
+                      required
+                      min={10}
+                      max={120}
+                    />
                   </div>
 
-                  {/* Country */}
+                  {/* Profession */}
                   <div>
-                    <label className="block text-sm font-medium text-slate-300 mb-2">
-                      Country
-                    </label>
-                    <CountrySelect value={country} onChange={setCountry} />
+                    <label className="block text-sm font-medium text-slate-300 mb-2">Profession</label>
+                    <select
+                      value={profession}
+                      onChange={(e) => setProfession(e.target.value as any)}
+                      className="w-full pr-4 py-3 bg-slate-800/50 border border-slate-600/50 rounded-lg text-white focus:border-cosmic-400 focus:ring-2 focus:ring-cosmic-400/20 transition-colors px-4"
+                      required
+                    >
+                      <option value="" disabled>Select your role</option>
+                      {allowedProfessions.map(p => (
+                        <option key={p} value={p}>{p.charAt(0).toUpperCase()+p.slice(1)}</option>
+                      ))}
+                    </select>
                   </div>
                 </>
               )}

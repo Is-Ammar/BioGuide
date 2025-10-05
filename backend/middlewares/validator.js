@@ -13,9 +13,8 @@ export const signupSchema = Joi.object({
 
     // .pattern(new RegExp('^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,}$'))
     .required(),
-  phone_number: Joi.string()
-    .required(),
-  country: Joi.string().trim().required(),
+  age: Joi.number().integer().min(10).max(120).required(),
+  profession: Joi.string().valid('student','researcher','scientist','other').required(),
   agreement: Joi.boolean().default(true)
 });
 

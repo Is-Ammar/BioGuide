@@ -7,9 +7,9 @@ import jwt from "jsonwebtoken"
 
 export const signup = async (req, res) => {
   try {
-  const {first_name, last_name, email, password, phone_number, country} = req.body;
+  const {first_name, last_name, email, password, age, profession} = req.body;
     const { error, value } = signupSchema.validate({
-    first_name, last_name, email, password, phone_number, country
+    first_name, last_name, email, password, age, profession
     });
     if (error) {
       return res.status(400).json({ success: false, message: error.details[0].message });
@@ -26,8 +26,8 @@ export const signup = async (req, res) => {
       last_name,
       email,
       password: hashedPassword,
-      phone_number,
-      country
+      age,
+      profession
     });
     const result = await newUser.save();
     result.password = undefined; // never return password hash

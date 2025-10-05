@@ -10,11 +10,11 @@ interface TeamMember {
 }
 
 const team: TeamMember[] = [
-  { name: 'El Bouzidi Youssef', handle: '@authyx', country: 'Morocco', role: 'Team Owner' },
-  { name: 'ismail ammar', handle: '@0xjiren', country: 'Morocco' },
-  { name: 'Ayoub diri', handle: '@adiri', country: 'Morocco' },
-  { name: 'AKARKAOU MOHAMMED', handle: '@makarkao', country: 'Morocco' },
-  { name: 'Marouane Brouk', handle: '@marouanebrouk', country: 'Morocco' }
+  { name: 'ismail ammar', handle: '@0xjiren', country: 'Morocco', role: 'front-end developer' },
+  { name: 'Marouane Brouk', handle: '@marouanebrouk', country: 'Morocco', role: 'back-end developer' },
+  { name: 'El Bouzidi Youssef', handle: '@authyx', country: 'Morocco', role: 'back-end developer' },
+  { name: 'Ayoub diri', handle: '@adiri', country: 'Morocco', role: 'ai researcher' },
+  { name: 'AKARKAOU MOHAMMED', handle: '@makarkao', country: 'Morocco', role: 'ui/ux designer' },
 ];
 
 const container = {

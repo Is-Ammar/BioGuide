@@ -8,8 +8,8 @@ export interface User {
   first_name: string;
   last_name: string;
   email: string;
-  phone_number: string;
-  country: string;
+  age?: number;
+  profession?: 'student' | 'researcher' | 'scientist' | 'other';
   createdAt: string;
 }
 
@@ -21,8 +21,8 @@ interface AuthContextType {
     last_name: string;
     email: string;
     password: string;
-    phone_number: string;
-    country: string;
+    age: number;
+    profession: 'student' | 'researcher' | 'scientist' | 'other';
   }) => Promise<boolean>;
   logout: () => Promise<void>;
   openAuthModal: () => void;
@@ -162,8 +162,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     last_name: string;
     email: string;
     password: string;
-    phone_number: string;
-    country: string;
+    age: number;
+    profession: 'student' | 'researcher' | 'scientist' | 'other';
   }): Promise<boolean> => {
     setLoading(true);
     try {
